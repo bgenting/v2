@@ -6,10 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 「㋃ +私 」洛杉矶, server: asian.ljxlyj.xyz, port: 443, type: trojan, password: 9c18b295-b3f9-4262-a378-e0eb8ae8923c, sni: asian.ljxlyj.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +白 」8, server: 103.172.116.6, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: 「㋃ +白 」10, server: 213.183.59.229, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
   - {name: 「㋃ +白 」12, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 「㋃ +㎥ 」_133, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KingS 」韩国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ +KingS 」K++, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: 「㋃ +KingS 」1, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
@@ -25,149 +23,94 @@ proxies:
   - {name: 「㋃ +KingS 」CN79, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ +KingS 」CN82, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
   - {name: 「㋃ +KingS 」CN83, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋃ +KingS 」CN85, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ +KingS 」CN142, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ +KingS 」Sg, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
   - {name: 「㋃ +KingS⒜ 」 4, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 「㋃ +KingS⒜ 」 5, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: 「㋃ +KingS⒜ 」 6, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 「㋃ +KingS⒜ 」 12, server: dajbxsg.naikonode.top, port: 15402, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KingS⒜ 」Jp 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Kr 4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Ru, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KingS⒜ 」Sg 2, server: sgp1.baoziss.top, port: 443, type: trojan, password: dTxax84fYWa7md9R, sni: sgp1.baoziss.top, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KingS⒜ 」Tw 11, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Us 15, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」27, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ 」41, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ 」44, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ 」45, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ 」49, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」53, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」55, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」59, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ 」61, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」64, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」66, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」67, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」69, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」71, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」72, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」73, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」74, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」75, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」76, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」77, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」79, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」80, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」81, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」84, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」85, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」86, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」92, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」93, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」96, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」97, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」98, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」100, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」102, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」103, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」104, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」105, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」108, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ 」109, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」110, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」111, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」113, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」115, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」116, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」120, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」121, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」122, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」124, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」132, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」134, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」137, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」140, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」141, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」143, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」144, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ 」146, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」148, server: sgp1.baoziss.top, port: 443, type: trojan, password: dTxax84fYWa7md9R, sni: sgp1.baoziss.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」149, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」150, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」151, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」152, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」153, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」155, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」159, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」160, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」163, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」165, server: sgp1.baoziss.top, port: 443, type: trojan, password: dTxax84fYWa7md9R, sni: sgp1.baoziss.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」170, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508f72c6-b97e-46e5-b246-3fd377d68ce4, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」173, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」182, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ 」187, server: sgp1.baoziss.top, port: 443, type: trojan, password: dTxax84fYWa7md9R, sni: sgp1.baoziss.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ 」189, server: www.zhangss.xyz, port: 10086, type: vmess, uuid: e6004ea7-8796-4692-a05c-2939b5172906, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.zhangss.xyz}, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」1, server: dajbxjp.naikonode.top, port: 15206, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」4, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」5, server: dajbxus.naikonode.top, port: 15102, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」6, server: dajbxjp.naikonode.top, port: 15203, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」7, server: dajbxus.naikonode.top, port: 15103, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」8, server: cmrelay01.yiyorelay.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: microsoft.co%%�, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」10, server: dajbxus.naikonode.top, port: 15101, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」11, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」12, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」14, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」15, server: dajbxjp.naikonode.top, port: 15202, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」16, server: dajbxus.naikonode.top, port: 15104, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」19, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」20, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」22, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」24, server: dajbxus.naikonode.top, port: 15102, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」25, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」27, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」31, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」32, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」35, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」37, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」39, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」40, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」41, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」3, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」5, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」21, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」23, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」26, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」30, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」32, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」33, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KinG㎥﷼ 」34, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」35, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」36, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」41, server: sgp1.baoziss.top, port: 443, type: trojan, password: dTxax84fYWa7md9R, sni: sgp1.baoziss.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」43, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」45, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」47, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」49, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, sni: misaka1433.tk, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」50, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」52, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」53, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」54, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」55, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」56, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」57, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」58, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」63, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」64, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」69, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」72, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」73, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」74, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」75, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」76, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」77, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」78, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」75, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」78, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」82, server: ggiplc03.jfjfhg.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」86, server: sgiplc01.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」97, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」98, server: iplc01.2333dns.com, port: 3071, type: vmess, uuid: 8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」180, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」216, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 54043c2f-1af7-4ca0-b971-579e5ee828f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」218, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」282, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」1 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」4, server: api-01.malibaba.xyz, port: 31769, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」10 2, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」20, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」21, server: cm.xrayport.one, port: 33559, type: vmess, uuid: b79055de-c1f7-4e9b-8c04-54b4299b78c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」24, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」73, server: api-gzct.malibaba.xyz, port: 17099, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」95, server: api-gzct.malibaba.xyz, port: 37071, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」114, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」1 3, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」2 2, server: api-02.malibaba.xyz, port: 15565, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」4 2, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」29, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」36, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」44, server: api-gzct.malibaba.xyz, port: 18705, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」3, server: free-sh.vmess.top, port: 24715, type: trojan, password: 125668fe-d7ac-43a8-93e8-f06c7ffad327, sni: free-sh.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」10 3, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」16, server: cu.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」18, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」19, server: gtm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」22, server: gtm.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」23, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」27, server: cu.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」28, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」32, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」35, server: gtm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」37, server: ct.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」44 2, server: cu.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」45, server: ct.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」46, server: ct.mj-cn.cyou, port: 16631, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」53, server: cm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」54, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」55, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」57, server: cu.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」59, server: cu.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」60, server: tj-node-3-b.gfwairport.net, port: 50001, type: trojan, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, sni: tj-node-3-b.gfwairport.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」63, server: cu.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」64, server: cm.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」66, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」72, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」74, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」75 2, server: ct.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」77, server: cu.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」78 2, server: cm.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」80, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」81, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」82 2, server: cm.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」84, server: cm.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」85, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」89, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」92, server: 20.24.205.175, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」100, server: 139.162.124.250, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
+  - {name: 「㋃ +KinG㎥ↁ 」101, server: us-a.vmess.top, port: 39123, type: trojan, password: 125668fe-d7ac-43a8-93e8-f06c7ffad327, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -175,10 +118,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -194,159 +135,102 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -362,149 +246,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -512,10 +341,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -531,149 +358,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -693,10 +465,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -712,149 +482,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -866,10 +581,8 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -885,159 +598,102 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -1053,149 +709,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1203,10 +804,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -1222,149 +821,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1381,10 +925,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 「㋃ +私 」洛杉矶
-      - 「㋃ +白 」8
       - 「㋃ +白 」10
       - 「㋃ +白 」12
-      - 「㋃ +㎥ 」_133
       - 「㋃ +KingS 」韩国
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
@@ -1400,149 +942,94 @@ proxy-groups:
       - 「㋃ +KingS 」CN79
       - 「㋃ +KingS 」CN82
       - 「㋃ +KingS 」CN83
-      - 「㋃ +KingS 」CN85
       - 「㋃ +KingS 」CN142
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
       - 「㋃ +KingS⒜ 」 6
-      - 「㋃ +KingS⒜ 」 12
       - 「㋃ +KingS⒜ 」Jp 3
       - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
-      - 「㋃ +KingS⒜ 」Sg 2
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」27
       - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」44
       - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」53
-      - 「㋃ +KinG㎥ 」55
-      - 「㋃ +KinG㎥ 」59
       - 「㋃ +KinG㎥ 」61
-      - 「㋃ +KinG㎥ 」64
-      - 「㋃ +KinG㎥ 」66
-      - 「㋃ +KinG㎥ 」67
-      - 「㋃ +KinG㎥ 」69
-      - 「㋃ +KinG㎥ 」71
-      - 「㋃ +KinG㎥ 」72
-      - 「㋃ +KinG㎥ 」73
-      - 「㋃ +KinG㎥ 」74
-      - 「㋃ +KinG㎥ 」75
-      - 「㋃ +KinG㎥ 」76
-      - 「㋃ +KinG㎥ 」77
-      - 「㋃ +KinG㎥ 」79
-      - 「㋃ +KinG㎥ 」80
-      - 「㋃ +KinG㎥ 」81
-      - 「㋃ +KinG㎥ 」84
-      - 「㋃ +KinG㎥ 」85
-      - 「㋃ +KinG㎥ 」86
-      - 「㋃ +KinG㎥ 」92
-      - 「㋃ +KinG㎥ 」93
-      - 「㋃ +KinG㎥ 」96
-      - 「㋃ +KinG㎥ 」97
-      - 「㋃ +KinG㎥ 」98
-      - 「㋃ +KinG㎥ 」100
-      - 「㋃ +KinG㎥ 」102
-      - 「㋃ +KinG㎥ 」103
-      - 「㋃ +KinG㎥ 」104
-      - 「㋃ +KinG㎥ 」105
-      - 「㋃ +KinG㎥ 」108
-      - 「㋃ +KinG㎥ 」109
-      - 「㋃ +KinG㎥ 」110
-      - 「㋃ +KinG㎥ 」111
-      - 「㋃ +KinG㎥ 」113
-      - 「㋃ +KinG㎥ 」115
-      - 「㋃ +KinG㎥ 」116
-      - 「㋃ +KinG㎥ 」120
-      - 「㋃ +KinG㎥ 」121
-      - 「㋃ +KinG㎥ 」122
-      - 「㋃ +KinG㎥ 」124
-      - 「㋃ +KinG㎥ 」132
-      - 「㋃ +KinG㎥ 」134
-      - 「㋃ +KinG㎥ 」137
-      - 「㋃ +KinG㎥ 」140
-      - 「㋃ +KinG㎥ 」141
-      - 「㋃ +KinG㎥ 」143
-      - 「㋃ +KinG㎥ 」144
-      - 「㋃ +KinG㎥ 」146
-      - 「㋃ +KinG㎥ 」148
-      - 「㋃ +KinG㎥ 」149
-      - 「㋃ +KinG㎥ 」150
-      - 「㋃ +KinG㎥ 」151
-      - 「㋃ +KinG㎥ 」152
-      - 「㋃ +KinG㎥ 」153
-      - 「㋃ +KinG㎥ 」155
-      - 「㋃ +KinG㎥ 」159
-      - 「㋃ +KinG㎥ 」160
-      - 「㋃ +KinG㎥ 」163
-      - 「㋃ +KinG㎥ 」165
-      - 「㋃ +KinG㎥ 」170
-      - 「㋃ +KinG㎥ 」173
-      - 「㋃ +KinG㎥ 」182
-      - 「㋃ +KinG㎥ 」187
-      - 「㋃ +KinG㎥ 」189
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」4
       - 「㋃ +KinG㎥ↁ 」5
       - 「㋃ +KinG㎥ↁ 」6
       - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
       - 「㋃ +KinG㎥ↁ 」10
-      - 「㋃ +KinG㎥ↁ 」11
-      - 「㋃ +KinG㎥ↁ 」12
       - 「㋃ +KinG㎥ↁ 」14
       - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」16
-      - 「㋃ +KinG㎥ↁ 」19
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」22
-      - 「㋃ +KinG㎥ↁ 」24
       - 「㋃ +KinG㎥ↁ 」25
+      - 「㋃ +KinG㎥﷼ 」34
+      - 「㋃ +KinG㎥ↁ 」75
+      - 「㋃ +KinG㎥ↁ 」78
+      - 「㋃ +KinG㎥ↁ 」82
+      - 「㋃ +KinG㎥ↁ 」86
+      - 「㋃ +KinG㎥ↁ 」97
+      - 「㋃ +KinG㎥ↁ 」98
+      - 「㋃ +KinG㎥ↁ 」180
+      - 「㋃ +KinG㎥ↁ 」216
+      - 「㋃ +KinG㎥ↁ 」218
+      - 「㋃ +KinG㎥ↁ 」282
+      - 「㋃ +KinG㎥ↁ 」1 2
+      - 「㋃ +KinG㎥ↁ 」2
+      - 「㋃ +KinG㎥ↁ 」4
+      - 「㋃ +KinG㎥ↁ 」10 2
+      - 「㋃ +KinG㎥ↁ 」20
+      - 「㋃ +KinG㎥ↁ 」21
+      - 「㋃ +KinG㎥ↁ 」24
+      - 「㋃ +KinG㎥ↁ 」73
+      - 「㋃ +KinG㎥ↁ 」95
+      - 「㋃ +KinG㎥ↁ 」114
+      - 「㋃ +KinG㎥ↁ 」1 3
+      - 「㋃ +KinG㎥ↁ 」2 2
+      - 「㋃ +KinG㎥ↁ 」4 2
+      - 「㋃ +KinG㎥ↁ 」29
+      - 「㋃ +KinG㎥ↁ 」36
+      - 「㋃ +KinG㎥ↁ 」44
+      - 「㋃ +KinG㎥ↁ 」3
+      - 「㋃ +KinG㎥ↁ 」10 3
+      - 「㋃ +KinG㎥ↁ 」16
+      - 「㋃ +KinG㎥ↁ 」18
+      - 「㋃ +KinG㎥ↁ 」19
+      - 「㋃ +KinG㎥ↁ 」22
+      - 「㋃ +KinG㎥ↁ 」23
       - 「㋃ +KinG㎥ↁ 」27
-      - 「㋃ +KinG㎥ↁ 」31
+      - 「㋃ +KinG㎥ↁ 」28
       - 「㋃ +KinG㎥ↁ 」32
       - 「㋃ +KinG㎥ↁ 」35
       - 「㋃ +KinG㎥ↁ 」37
-      - 「㋃ +KinG㎥ↁ 」39
-      - 「㋃ +KinG㎥ↁ 」40
-      - 「㋃ +KinG㎥ↁ 」41
-      - 「㋃ +KinG㎥﷼ 」3
-      - 「㋃ +KinG㎥﷼ 」5
-      - 「㋃ +KinG㎥﷼ 」21
-      - 「㋃ +KinG㎥﷼ 」23
-      - 「㋃ +KinG㎥﷼ 」26
-      - 「㋃ +KinG㎥﷼ 」30
-      - 「㋃ +KinG㎥﷼ 」32
-      - 「㋃ +KinG㎥﷼ 」33
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥﷼ 」35
-      - 「㋃ +KinG㎥﷼ 」36
-      - 「㋃ +KinG㎥﷼ 」41
-      - 「㋃ +KinG㎥﷼ 」43
-      - 「㋃ +KinG㎥﷼ 」45
-      - 「㋃ +KinG㎥﷼ 」47
-      - 「㋃ +KinG㎥﷼ 」49
-      - 「㋃ +KinG㎥﷼ 」50
-      - 「㋃ +KinG㎥﷼ 」52
-      - 「㋃ +KinG㎥﷼ 」53
-      - 「㋃ +KinG㎥﷼ 」54
-      - 「㋃ +KinG㎥﷼ 」55
-      - 「㋃ +KinG㎥﷼ 」56
-      - 「㋃ +KinG㎥﷼ 」57
-      - 「㋃ +KinG㎥﷼ 」58
-      - 「㋃ +KinG㎥﷼ 」63
-      - 「㋃ +KinG㎥﷼ 」64
-      - 「㋃ +KinG㎥﷼ 」69
-      - 「㋃ +KinG㎥﷼ 」72
-      - 「㋃ +KinG㎥﷼ 」73
-      - 「㋃ +KinG㎥﷼ 」74
-      - 「㋃ +KinG㎥﷼ 」75
-      - 「㋃ +KinG㎥﷼ 」76
-      - 「㋃ +KinG㎥﷼ 」77
-      - 「㋃ +KinG㎥﷼ 」78
+      - 「㋃ +KinG㎥ↁ 」44 2
+      - 「㋃ +KinG㎥ↁ 」45
+      - 「㋃ +KinG㎥ↁ 」46
+      - 「㋃ +KinG㎥ↁ 」53
+      - 「㋃ +KinG㎥ↁ 」54
+      - 「㋃ +KinG㎥ↁ 」55
+      - 「㋃ +KinG㎥ↁ 」57
+      - 「㋃ +KinG㎥ↁ 」59
+      - 「㋃ +KinG㎥ↁ 」60
+      - 「㋃ +KinG㎥ↁ 」63
+      - 「㋃ +KinG㎥ↁ 」64
+      - 「㋃ +KinG㎥ↁ 」66
+      - 「㋃ +KinG㎥ↁ 」72
+      - 「㋃ +KinG㎥ↁ 」74
+      - 「㋃ +KinG㎥ↁ 」75 2
+      - 「㋃ +KinG㎥ↁ 」77
+      - 「㋃ +KinG㎥ↁ 」78 2
+      - 「㋃ +KinG㎥ↁ 」80
+      - 「㋃ +KinG㎥ↁ 」81
+      - 「㋃ +KinG㎥ↁ 」82 2
+      - 「㋃ +KinG㎥ↁ 」84
+      - 「㋃ +KinG㎥ↁ 」85
+      - 「㋃ +KinG㎥ↁ 」89
+      - 「㋃ +KinG㎥ↁ 」92
+      - 「㋃ +KinG㎥ↁ 」100
+      - 「㋃ +KinG㎥ↁ 」101
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
