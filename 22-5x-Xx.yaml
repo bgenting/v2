@@ -12,7 +12,6 @@ proxies:
   - {name: 「㋃ +KingS 」K++, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: 「㋃ +KingS 」1, server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: 「㋃ +KingS 」2, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 「㋃ +KingS 」GB11, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: 「㋃ +KingS 」GB13, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 「㋃ +KingS 」CN60, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ +KingS 」CN63, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -27,137 +26,40 @@ proxies:
   - {name: 「㋃ +KingS 」Sg, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
   - {name: 「㋃ +KingS⒜ 」 4, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 「㋃ +KingS⒜ 」 5, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 「㋃ +KingS⒜ 」 6, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
   - {name: 「㋃ +KingS⒜ 」Jp 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KingS⒜ 」Kr 4, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Ru, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Tw 11, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
   - {name: 「㋃ +KingS⒜ 」Us 15, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」41, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
-  - {name: 「㋃ +KinG㎥ 」45, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ 」49, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 「㋃ +KinG㎥ 」61, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 4ea642c6-ca67-4025-aed6-f743f13d0e20, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」1, server: dajbxjp.naikonode.top, port: 15206, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」5, server: dajbxus.naikonode.top, port: 15102, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」6, server: dajbxjp.naikonode.top, port: 15203, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」7, server: dajbxus.naikonode.top, port: 15103, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」8, server: cmrelay01.yiyorelay.xyz, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: microsoft.co%%�, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」10, server: dajbxus.naikonode.top, port: 15101, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」14, server: dajbxus.naikonode.top, port: 15105, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」15, server: dajbxjp.naikonode.top, port: 15202, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: 6371f1596.microsoft.com, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」25, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥﷼ 」34, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」75, server: sgiplcv1.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」78, server: gzjpiplc.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」82, server: ggiplc03.jfjfhg.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」86, server: sgiplc01.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」97, server: huaweibgp.hntgxxjc.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」98, server: iplc01.2333dns.com, port: 3071, type: vmess, uuid: 8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋃ +KinG㎥ↁ 」180, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」216, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 54043c2f-1af7-4ca0-b971-579e5ee828f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」218, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」282, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」1 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」2, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」4, server: api-01.malibaba.xyz, port: 31769, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」10 2, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」20, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」21, server: cm.xrayport.one, port: 33559, type: vmess, uuid: b79055de-c1f7-4e9b-8c04-54b4299b78c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」24, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」73, server: api-gzct.malibaba.xyz, port: 17099, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」95, server: api-gzct.malibaba.xyz, port: 37071, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」114, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」1 3, server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」2 2, server: api-02.malibaba.xyz, port: 15565, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」4 2, server: cn.speedabc.xyz, port: 42011, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」29, server: cn.speedabc.xyz, port: 42006, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」36, server: cn.speedabc.xyz, port: 42004, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋃ +KinG㎥ↁ 」44, server: api-gzct.malibaba.xyz, port: 18705, type: trojan, password: 49368720-0518-3857-8aa1-5fc6b7b72021, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」3, server: free-sh.vmess.top, port: 24715, type: trojan, password: 125668fe-d7ac-43a8-93e8-f06c7ffad327, sni: free-sh.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」10, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」16, server: cu.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」18, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」19, server: gtm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」22, server: gtm.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」23, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」27, server: cu.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」28, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」32, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」35, server: gtm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gtm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」37, server: ct.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」44, server: cu.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」45, server: ct.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」46, server: ct.mj-cn.cyou, port: 16631, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」53, server: cm.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」54, server: ct.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」55, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」57, server: cu.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」59, server: cu.mj-cn.cyou, port: 16628, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」60, server: tj-node-3-b.gfwairport.net, port: 50001, type: trojan, password: c6e475e3-31ef-430c-8983-a5fa1854a15f, sni: tj-node-3-b.gfwairport.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」63, server: cu.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」64, server: cm.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」66, server: cm.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」72, server: ct.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」74, server: ct.mj-cn.cyou, port: 16633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」75, server: ct.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」77, server: cu.mj-cn.cyou, port: 26633, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」78, server: cm.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」80, server: cm.mj-cn.cyou, port: 16616, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」81, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」82, server: cm.mj-cn.cyou, port: 23309, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」84, server: cm.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」85, server: ct.mj-cn.cyou, port: 23383, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」89, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ↁ 」92, server: 20.24.205.175, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ↁ 」100, server: 139.162.124.250, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」101, server: us-a.vmess.top, port: 39123, type: trojan, password: 125668fe-d7ac-43a8-93e8-f06c7ffad327, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」7, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: a03140dd-d914-4aed-aa9e-97a4a5988a31, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ↁ 」14, server: awssg.yeem.cc, port: 21210, type: trojan, password: 59c465d4-e3ad-4a30-9067-887786a2ca2d, sni: awssg.yeem.cc, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ↁ 」20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」26, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」47, server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」58, server: uscera.moonfree.top, port: 443, type: vmess, uuid: d80a8c26-c6c4-403a-b2a6-649ee3673707, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」79, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ↁ 」90, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ↁ 」101 2, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」1, server: ct.mj-cn.cyou, port: 26622, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」6, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」9, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」12, server: cu.mj-cn.cyou, port: 26623, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」13, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: aa3e00ef-fc08-44c6-8452-a3b41cbf4b2c, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」14, server: cu.mj-cn.cyou, port: 16625, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」18, server: cu.mj-cn.cyou, port: 16626, type: vmess, uuid: b34bbc16-67ed-43fe-b52c-b94006cb2a4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」22, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: aa3e00ef-fc08-44c6-8452-a3b41cbf4b2c, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」23, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 4535b384-4c5b-4ccc-97d9-9f86905c65f9, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」27, server: x-cu.gotout.work, port: 31511, type: vmess, uuid: 69b55fcc-0218-3242-8c38-80107a37768e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」Sg, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」1 2, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 「㋄ +KinG㎥ↁ 」101, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」1, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」2, server: 152.89.210.105, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」3, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」4, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」5, server: 152.89.210.105, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」6 2, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」7, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」8, server: 152.89.210.105, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」9 2, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」10, server: 152.89.210.105, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」11, server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」12 2, server: 213.183.53.200, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」13 2, server: 213.183.53.200, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」14 2, server: 213.183.53.200, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」9, server: 152.89.210.105, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」12, server: 213.183.53.200, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」13, server: 213.183.53.200, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」14, server: 213.183.53.200, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」15, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」16, server: 213.183.53.200, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」17, server: 213.183.53.200, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」18 2, server: 213.183.53.200, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」18, server: 213.183.53.200, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」19, server: 213.183.53.200, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」20, server: 213.183.53.200, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」21, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」22 2, server: 213.183.53.200, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」23 2, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」22, server: 213.183.53.200, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」23, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」24, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」25, server: 213.183.53.200, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」26, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」27 2, server: 213.183.53.200, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」28, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」29, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」30, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
@@ -172,7 +74,6 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」39, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」40, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」41, server: 213.183.53.200, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」42, server: 213.183.53.200, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」43, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」44, server: 213.183.53.200, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」45, server: 213.183.53.200, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
@@ -188,14 +89,7 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」55, server: 213.183.53.200, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」56, server: 213.183.53.200, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」57, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」58, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」59, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」AU, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.154.54.75}, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」GB, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」JP, server: 146.56.99.245, port: 25135, type: vmess, uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」AU 2, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」AU 103, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」AU, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」CA 216, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」CA 209, server: ca-trojan.bonds.id, port: 443, type: trojan, password: a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」CA 205, server: ca-trojan.bonds.id, port: 443, type: trojan, password: ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
@@ -232,7 +126,6 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」CZ 268, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」FR 487, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」FR 486, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」GB 519, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」GB 517, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」GB 521, server: de-01.fireplay.io, port: 443, type: trojan, password: lo3TmsNaLWUXpuoE, sni: de-01.fireplay.io, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」HK 526, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top, skip-cert-verify: true, udp: true}
@@ -240,12 +133,10 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」HK 528, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」HK 531, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」HK 527, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」HK 525, server: hgc1.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: hgc1.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」HK 532, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」ID 534, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 8d4ab0f0-79be-11eb-be0b-1239d0255272, sni: id2-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」IR 551, server: qwanck.xyz, port: 443, type: trojan, password: 57aa53f3afbd, sni: qwanck.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 586, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」JP 590, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 580, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 584, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 582, server: tky3.ssgnode.ga, port: 443, type: trojan, password: lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
@@ -255,9 +146,7 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」JP 589, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 591, server: 210.152.13.168, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」KR 593, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」JP 582 2, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」NL 782, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 780, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」JP 834, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」RO 823, server: jp.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」SG 957, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
@@ -269,30 +158,21 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」TW 960, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」TW 962, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」TW 961, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」UA 970, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」UA 966, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」UA 967, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」UA 968, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1378, server: a2.centaur.network, port: 8081, type: trojan, password: cdcf03f6-5326-4496-a1d1-03bb098ad56f, sni: a2.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1396, server: los2-cn2.v2ce.com, port: 443, type: trojan, password: 1Qfea1eL3zCALPJm, sni: los2-cn2.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1394, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1397, server: us-02.pickaxe.sh, port: 443, type: trojan, password: Tp1ALMlfUBdkDmkW, sni: us-02.pickaxe.sh, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1398, server: meet-two.defun.us, port: 443, type: trojan, password: U8s25pwKISqVxHNO, sni: meet-two.defun.us, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1375, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1399, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1355, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1400, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1406, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1407, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1408, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1374, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1376, server: s162.s2022.xyz, port: 23802, type: trojan, password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」GB 1409, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1402, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1403, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1412, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1410, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」US 1420, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1421, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1424, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」US 1367, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
@@ -306,9 +186,6 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」05, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」06, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」08, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」36 2, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」46 2, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋄ +KinG㎥ⓝ 」AU 66, server: 185.167.116.253, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」AU 91, server: 185.167.116.253, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」AU 64, server: 185.167.116.253, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」 AU 74, server: 185.167.116.253, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
@@ -411,11 +288,11 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」DE 432, server: 5.183.179.170, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」DE 434, server: 5.183.179.170, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」DE 322, server: 5.183.179.170, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422, server: 5.183.179.170, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427, server: 5.183.179.170, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」DE 437, server: 5.183.179.170, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」DE 438, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」DE 439, server: 5.183.179.170, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」DE 442, server: 5.183.179.170, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」DE 445, server: 5.183.179.170, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」DE 446, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」DE 447, server: 5.183.179.170, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」DE 453, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
@@ -451,6 +328,76 @@ proxies:
   - {name: 「㋄ +KinG㎥ⓝ 」JP 555, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」LT 597, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 「㋄ +KinG㎥ⓝ 」LT 611, server: 213.183.63.218, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」57 2, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」20 2, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 0a4de18d-aba9-4392-9fd8-9f52bdaf1db0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」22 2, server: azhk.f2s.bp2022.top, port: 443, type: trojan, password: d8c36e7c-8fd5-4671-9603-d689784547db, sni: azhk.f2s.bp2022.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」57 3, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」1 2, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」3, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」8, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」22 3, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 45ab7e13-c49b-443a-9df7-696c1b8db7e9, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」30 2, server: gzbgp.gia.wiki, port: 30220, type: trojan, password: a10710ae-f05b-40f3-acd8-85899f3c75b8, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」31 2, server: gzbgp.gia.wiki, port: 30034, type: ss, cipher: chacha20-ietf-poly1305, password: a10710ae-f05b-40f3-acd8-85899f3c75b8, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」34 2, server: sehk.jietiyun.xyz, port: 11100, type: trojan, password: a10710ae-f05b-40f3-acd8-85899f3c75b8, sni: sehk.jietiyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinG㎥ⓝ 」41 2, server: gzbgp.gia.wiki, port: 10032, type: trojan, password: a10710ae-f05b-40f3-acd8-85899f3c75b8, sni: gzbgp.gia.wiki, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 2, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 3, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 「㋄ +KinGⓑ 」加拿大, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 「㋄ +KinGⓑ 」加拿大 2, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」加拿大 3, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」加拿大 4, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 「㋄ +KinGⓑ 」俄罗斯联邦, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 4, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 5, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 6, server: 120.233.10.230, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 「㋄ +KinGⓑ 」俄罗斯联邦 2, server: 45.153.231.57, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HhUG0LZD19Ma, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 7, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 8, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 「㋄ +KinGⓑ 」加拿大 5, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 9, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 10, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 11, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 12, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 13, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」美国 14, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 「㋄ +KinGⓑ 」US 160, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓑ 」US 177, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋄ +KinGⓑ 」US 191, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 「㋄ +KinGⓑ 」213, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 「㋄ +KinGⓑ 」152, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 「㋄ +KinGⓑ 」213 2, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 「㋄ +KinGⓑ 」213 3, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 「㋄ +KinGⓑ 」152 2, server: 152.89.210.105, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 「㋄ +KinGⓑ 」152 3, server: 152.89.210.105, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 「㋄ +KinGⓐ 」0, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓐ 」1, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 「㋄ +KinGⓐ 」2, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 「㋄ +KinGⓐ 」3, server: 213.183.53.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 「㋄ +KinGⓐ 」4, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 「㋄ +KinGⓐ 」5, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 「㋄ +KinGⓐ 」6, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 「㋄ +KinGⓐ 」7, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 「㋄ +KinGⓐ 」11, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 「㋄ +KinGⓐ 」15, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 「㋄ +KinGⓐ 」26, server: 169.197.142.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋄ +KinGⓐ 」3 2, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋄ +KinGⓐ 」6 2, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 「㋄ +KinGⓐ 」7 2, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 「㋄ +KinGⓐ 」14, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓐ 」20, server: 198.57.27.225, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓐ 」21, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 「㋄ +KinGⓐ 」24, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋄ +KinGⓐ 」26 2, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓐ 」28, server: 169.197.142.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋄ +KinGⓐ 」38, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋄ +KinGⓐ 」44, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 「㋄ +KinGⓐ 」70, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓐ 」82, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓐ 」85, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓕ 」日本, server: jp5.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 「㋄ +KinGⓕ 」韩国, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ +KinGⓜ 」0, server: v5.v2.gay, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -464,7 +411,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -479,137 +425,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -624,7 +473,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -640,14 +488,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -684,7 +525,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -692,12 +532,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -707,9 +545,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -721,30 +557,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -758,9 +585,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -863,11 +687,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -903,6 +727,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -915,7 +809,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -930,137 +823,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -1075,7 +871,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -1091,14 +886,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -1135,7 +923,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -1143,12 +930,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -1158,9 +943,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -1172,30 +955,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -1209,9 +983,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -1314,11 +1085,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -1354,6 +1125,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1367,7 +1208,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -1382,137 +1222,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -1527,7 +1270,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -1543,14 +1285,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -1587,7 +1322,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -1595,12 +1329,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -1610,9 +1342,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -1624,30 +1354,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -1661,9 +1382,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -1766,11 +1484,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -1806,6 +1524,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1831,7 +1619,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -1846,137 +1633,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -1991,7 +1681,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -2007,14 +1696,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -2051,7 +1733,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -2059,12 +1740,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -2074,9 +1753,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -2088,30 +1765,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -2125,9 +1793,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -2230,11 +1895,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -2270,6 +1935,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2287,7 +2022,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -2302,137 +2036,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -2447,7 +2084,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -2463,14 +2099,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -2507,7 +2136,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -2515,12 +2143,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -2530,9 +2156,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -2544,30 +2168,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -2581,9 +2196,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -2686,11 +2298,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -2726,6 +2338,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: 📲 电报信息
     type: select
     proxies:
@@ -2738,7 +2420,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -2753,137 +2434,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -2898,7 +2482,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -2914,14 +2497,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -2958,7 +2534,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -2966,12 +2541,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -2981,9 +2554,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -2995,30 +2566,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -3032,9 +2594,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -3137,11 +2696,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -3177,6 +2736,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -3190,7 +2819,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -3205,137 +2833,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -3350,7 +2881,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -3366,14 +2896,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -3410,7 +2933,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -3418,12 +2940,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -3433,9 +2953,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -3447,30 +2965,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -3484,9 +2993,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -3589,11 +3095,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -3629,6 +3135,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3651,7 +3227,6 @@ proxy-groups:
       - 「㋃ +KingS 」K++
       - 「㋃ +KingS 」1
       - 「㋃ +KingS 」2
-      - 「㋃ +KingS 」GB11
       - 「㋃ +KingS 」GB13
       - 「㋃ +KingS 」CN60
       - 「㋃ +KingS 」CN63
@@ -3666,137 +3241,40 @@ proxy-groups:
       - 「㋃ +KingS 」Sg
       - 「㋃ +KingS⒜ 」 4
       - 「㋃ +KingS⒜ 」 5
-      - 「㋃ +KingS⒜ 」 6
       - 「㋃ +KingS⒜ 」Jp 3
-      - 「㋃ +KingS⒜ 」Kr 4
       - 「㋃ +KingS⒜ 」Ru
       - 「㋃ +KingS⒜ 」Tw 11
       - 「㋃ +KingS⒜ 」Us 15
-      - 「㋃ +KinG㎥ 」41
-      - 「㋃ +KinG㎥ 」45
       - 「㋃ +KinG㎥ 」49
-      - 「㋃ +KinG㎥ 」61
       - 「㋃ +KinG㎥ↁ 」1
-      - 「㋃ +KinG㎥ↁ 」5
-      - 「㋃ +KinG㎥ↁ 」6
-      - 「㋃ +KinG㎥ↁ 」7
       - 「㋃ +KinG㎥ↁ 」8
-      - 「㋃ +KinG㎥ↁ 」10
       - 「㋃ +KinG㎥ↁ 」14
-      - 「㋃ +KinG㎥ↁ 」15
-      - 「㋃ +KinG㎥ↁ 」25
-      - 「㋃ +KinG㎥﷼ 」34
-      - 「㋃ +KinG㎥ↁ 」75
-      - 「㋃ +KinG㎥ↁ 」78
-      - 「㋃ +KinG㎥ↁ 」82
-      - 「㋃ +KinG㎥ↁ 」86
-      - 「㋃ +KinG㎥ↁ 」97
-      - 「㋃ +KinG㎥ↁ 」98
       - 「㋃ +KinG㎥ↁ 」180
-      - 「㋃ +KinG㎥ↁ 」216
-      - 「㋃ +KinG㎥ↁ 」218
-      - 「㋃ +KinG㎥ↁ 」282
-      - 「㋃ +KinG㎥ↁ 」1 2
-      - 「㋃ +KinG㎥ↁ 」2
-      - 「㋃ +KinG㎥ↁ 」4
-      - 「㋃ +KinG㎥ↁ 」10 2
-      - 「㋃ +KinG㎥ↁ 」20
-      - 「㋃ +KinG㎥ↁ 」21
-      - 「㋃ +KinG㎥ↁ 」24
-      - 「㋃ +KinG㎥ↁ 」73
-      - 「㋃ +KinG㎥ↁ 」95
-      - 「㋃ +KinG㎥ↁ 」114
-      - 「㋃ +KinG㎥ↁ 」1 3
-      - 「㋃ +KinG㎥ↁ 」2 2
-      - 「㋃ +KinG㎥ↁ 」4 2
-      - 「㋃ +KinG㎥ↁ 」29
-      - 「㋃ +KinG㎥ↁ 」36
-      - 「㋃ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」3
-      - 「㋄ +KinG㎥ↁ 」10
-      - 「㋄ +KinG㎥ↁ 」16
-      - 「㋄ +KinG㎥ↁ 」18
-      - 「㋄ +KinG㎥ↁ 」19
-      - 「㋄ +KinG㎥ↁ 」22
-      - 「㋄ +KinG㎥ↁ 」23
-      - 「㋄ +KinG㎥ↁ 」27
-      - 「㋄ +KinG㎥ↁ 」28
-      - 「㋄ +KinG㎥ↁ 」32
-      - 「㋄ +KinG㎥ↁ 」35
-      - 「㋄ +KinG㎥ↁ 」37
-      - 「㋄ +KinG㎥ↁ 」44
-      - 「㋄ +KinG㎥ↁ 」45
-      - 「㋄ +KinG㎥ↁ 」46
-      - 「㋄ +KinG㎥ↁ 」53
-      - 「㋄ +KinG㎥ↁ 」54
-      - 「㋄ +KinG㎥ↁ 」55
-      - 「㋄ +KinG㎥ↁ 」57
-      - 「㋄ +KinG㎥ↁ 」59
-      - 「㋄ +KinG㎥ↁ 」60
-      - 「㋄ +KinG㎥ↁ 」63
-      - 「㋄ +KinG㎥ↁ 」64
-      - 「㋄ +KinG㎥ↁ 」66
-      - 「㋄ +KinG㎥ↁ 」72
-      - 「㋄ +KinG㎥ↁ 」74
-      - 「㋄ +KinG㎥ↁ 」75
-      - 「㋄ +KinG㎥ↁ 」77
-      - 「㋄ +KinG㎥ↁ 」78
-      - 「㋄ +KinG㎥ↁ 」80
-      - 「㋄ +KinG㎥ↁ 」81
-      - 「㋄ +KinG㎥ↁ 」82
-      - 「㋄ +KinG㎥ↁ 」84
-      - 「㋄ +KinG㎥ↁ 」85
-      - 「㋄ +KinG㎥ↁ 」89
       - 「㋄ +KinG㎥ↁ 」92
       - 「㋄ +KinG㎥ↁ 」100
-      - 「㋄ +KinG㎥ↁ 」101
-      - 「㋄ +KinG㎥ↁ 」7
       - 「㋄ +KinG㎥ↁ 」14
       - 「㋄ +KinG㎥ↁ 」20
-      - 「㋄ +KinG㎥ↁ 」26
-      - 「㋄ +KinG㎥ↁ 」47
-      - 「㋄ +KinG㎥ↁ 」58
-      - 「㋄ +KinG㎥ↁ 」79
       - 「㋄ +KinG㎥ↁ 」90
-      - 「㋄ +KinG㎥ↁ 」101 2
+      - 「㋄ +KinG㎥ↁ 」101
       - 「㋄ +KinG㎥ⓝ 」1
-      - 「㋄ +KinG㎥ⓝ 」6
+      - 「㋄ +KinG㎥ⓝ 」2
+      - 「㋄ +KinG㎥ⓝ 」5
       - 「㋄ +KinG㎥ⓝ 」9
       - 「㋄ +KinG㎥ⓝ 」12
       - 「㋄ +KinG㎥ⓝ 」13
       - 「㋄ +KinG㎥ⓝ 」14
-      - 「㋄ +KinG㎥ⓝ 」18
-      - 「㋄ +KinG㎥ⓝ 」22
-      - 「㋄ +KinG㎥ⓝ 」23
-      - 「㋄ +KinG㎥ⓝ 」27
-      - 「㋄ +KinG㎥ⓝ 」Sg
-      - 「㋄ +KinG㎥ⓝ 」1 2
-      - 「㋄ +KinG㎥ⓝ 」2
-      - 「㋄ +KinG㎥ⓝ 」3
-      - 「㋄ +KinG㎥ⓝ 」4
-      - 「㋄ +KinG㎥ⓝ 」5
-      - 「㋄ +KinG㎥ⓝ 」6 2
-      - 「㋄ +KinG㎥ⓝ 」7
-      - 「㋄ +KinG㎥ⓝ 」8
-      - 「㋄ +KinG㎥ⓝ 」9 2
-      - 「㋄ +KinG㎥ⓝ 」10
-      - 「㋄ +KinG㎥ⓝ 」11
-      - 「㋄ +KinG㎥ⓝ 」12 2
-      - 「㋄ +KinG㎥ⓝ 」13 2
-      - 「㋄ +KinG㎥ⓝ 」14 2
       - 「㋄ +KinG㎥ⓝ 」15
       - 「㋄ +KinG㎥ⓝ 」16
       - 「㋄ +KinG㎥ⓝ 」17
-      - 「㋄ +KinG㎥ⓝ 」18 2
+      - 「㋄ +KinG㎥ⓝ 」18
       - 「㋄ +KinG㎥ⓝ 」19
       - 「㋄ +KinG㎥ⓝ 」20
       - 「㋄ +KinG㎥ⓝ 」21
-      - 「㋄ +KinG㎥ⓝ 」22 2
-      - 「㋄ +KinG㎥ⓝ 」23 2
+      - 「㋄ +KinG㎥ⓝ 」22
+      - 「㋄ +KinG㎥ⓝ 」23
       - 「㋄ +KinG㎥ⓝ 」24
       - 「㋄ +KinG㎥ⓝ 」25
       - 「㋄ +KinG㎥ⓝ 」26
-      - 「㋄ +KinG㎥ⓝ 」27 2
       - 「㋄ +KinG㎥ⓝ 」28
       - 「㋄ +KinG㎥ⓝ 」29
       - 「㋄ +KinG㎥ⓝ 」30
@@ -3811,7 +3289,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」39
       - 「㋄ +KinG㎥ⓝ 」40
       - 「㋄ +KinG㎥ⓝ 」41
-      - 「㋄ +KinG㎥ⓝ 」42
       - 「㋄ +KinG㎥ⓝ 」43
       - 「㋄ +KinG㎥ⓝ 」44
       - 「㋄ +KinG㎥ⓝ 」45
@@ -3827,14 +3304,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」55
       - 「㋄ +KinG㎥ⓝ 」56
       - 「㋄ +KinG㎥ⓝ 」57
-      - 「㋄ +KinG㎥ⓝ 」58
-      - 「㋄ +KinG㎥ⓝ 」59
       - 「㋄ +KinG㎥ⓝ 」AU
-      - 「㋄ +KinG㎥ⓝ 」GB
-      - 「㋄ +KinG㎥ⓝ 」JP
-      - 「㋄ +KinG㎥ⓝ 」US
-      - 「㋄ +KinG㎥ⓝ 」AU 2
-      - 「㋄ +KinG㎥ⓝ 」AU 103
       - 「㋄ +KinG㎥ⓝ 」CA 216
       - 「㋄ +KinG㎥ⓝ 」CA 209
       - 「㋄ +KinG㎥ⓝ 」CA 205
@@ -3871,7 +3341,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」CZ 268
       - 「㋄ +KinG㎥ⓝ 」FR 487
       - 「㋄ +KinG㎥ⓝ 」FR 486
-      - 「㋄ +KinG㎥ⓝ 」GB 519
       - 「㋄ +KinG㎥ⓝ 」GB 517
       - 「㋄ +KinG㎥ⓝ 」GB 521
       - 「㋄ +KinG㎥ⓝ 」HK 526
@@ -3879,12 +3348,10 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」HK 528
       - 「㋄ +KinG㎥ⓝ 」HK 531
       - 「㋄ +KinG㎥ⓝ 」HK 527
-      - 「㋄ +KinG㎥ⓝ 」HK 525
       - 「㋄ +KinG㎥ⓝ 」HK 532
       - 「㋄ +KinG㎥ⓝ 」ID 534
       - 「㋄ +KinG㎥ⓝ 」IR 551
       - 「㋄ +KinG㎥ⓝ 」JP 586
-      - 「㋄ +KinG㎥ⓝ 」JP 590
       - 「㋄ +KinG㎥ⓝ 」JP 580
       - 「㋄ +KinG㎥ⓝ 」JP 584
       - 「㋄ +KinG㎥ⓝ 」JP 582
@@ -3894,9 +3361,7 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 589
       - 「㋄ +KinG㎥ⓝ 」JP 591
       - 「㋄ +KinG㎥ⓝ 」KR 593
-      - 「㋄ +KinG㎥ⓝ 」JP 582 2
       - 「㋄ +KinG㎥ⓝ 」NL 782
-      - 「㋄ +KinG㎥ⓝ 」US 780
       - 「㋄ +KinG㎥ⓝ 」JP 834
       - 「㋄ +KinG㎥ⓝ 」RO 823
       - 「㋄ +KinG㎥ⓝ 」SG 957
@@ -3908,30 +3373,21 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」TW 960
       - 「㋄ +KinG㎥ⓝ 」TW 962
       - 「㋄ +KinG㎥ⓝ 」TW 961
-      - 「㋄ +KinG㎥ⓝ 」UA 970
       - 「㋄ +KinG㎥ⓝ 」UA 966
       - 「㋄ +KinG㎥ⓝ 」UA 967
-      - 「㋄ +KinG㎥ⓝ 」UA 968
       - 「㋄ +KinG㎥ⓝ 」US 1378
-      - 「㋄ +KinG㎥ⓝ 」US 1396
       - 「㋄ +KinG㎥ⓝ 」US 1394
       - 「㋄ +KinG㎥ⓝ 」US 1397
       - 「㋄ +KinG㎥ⓝ 」US 1398
       - 「㋄ +KinG㎥ⓝ 」US 1375
       - 「㋄ +KinG㎥ⓝ 」US 1399
-      - 「㋄ +KinG㎥ⓝ 」US 1355
       - 「㋄ +KinG㎥ⓝ 」US 1400
-      - 「㋄ +KinG㎥ⓝ 」US 1406
-      - 「㋄ +KinG㎥ⓝ 」US 1407
       - 「㋄ +KinG㎥ⓝ 」US 1408
       - 「㋄ +KinG㎥ⓝ 」US 1374
       - 「㋄ +KinG㎥ⓝ 」US 1376
-      - 「㋄ +KinG㎥ⓝ 」GB 1409
       - 「㋄ +KinG㎥ⓝ 」US 1402
       - 「㋄ +KinG㎥ⓝ 」US 1403
       - 「㋄ +KinG㎥ⓝ 」US 1412
-      - 「㋄ +KinG㎥ⓝ 」US 1410
-      - 「㋄ +KinG㎥ⓝ 」US 1420
       - 「㋄ +KinG㎥ⓝ 」US 1421
       - 「㋄ +KinG㎥ⓝ 」US 1424
       - 「㋄ +KinG㎥ⓝ 」US 1367
@@ -3945,9 +3401,6 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」05
       - 「㋄ +KinG㎥ⓝ 」06
       - 「㋄ +KinG㎥ⓝ 」08
-      - 「㋄ +KinG㎥ⓝ 」36 2
-      - 「㋄ +KinG㎥ⓝ 」46 2
-      - 「㋄ +KinG㎥ⓝ 」AU 66
       - 「㋄ +KinG㎥ⓝ 」AU 91
       - 「㋄ +KinG㎥ⓝ 」AU 64
       - 「㋄ +KinG㎥ⓝ 」 AU 74
@@ -4050,11 +3503,11 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」DE 432
       - 「㋄ +KinG㎥ⓝ 」DE 434
       - 「㋄ +KinG㎥ⓝ 」DE 322
-      - DE_437🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_325_281_368_422
-      - DE_438🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_327_280_373_423
-      - DE_439🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_328_276_374_424
-      - DE_442🇩🇪DE🇩🇪DE🇩🇪DE🇩🇪DE_347_270_379_426
-      - DE_445🇩🇪DE🇩🇪DE🇩🇪DE_352_397_427
+      - 「㋄ +KinG㎥ⓝ 」DE 437
+      - 「㋄ +KinG㎥ⓝ 」DE 438
+      - 「㋄ +KinG㎥ⓝ 」DE 439
+      - 「㋄ +KinG㎥ⓝ 」DE 442
+      - 「㋄ +KinG㎥ⓝ 」DE 445
       - 「㋄ +KinG㎥ⓝ 」DE 446
       - 「㋄ +KinG㎥ⓝ 」DE 447
       - 「㋄ +KinG㎥ⓝ 」DE 453
@@ -4090,6 +3543,76 @@ proxy-groups:
       - 「㋄ +KinG㎥ⓝ 」JP 555
       - 「㋄ +KinG㎥ⓝ 」LT 597
       - 「㋄ +KinG㎥ⓝ 」LT 611
+      - 「㋄ +KinG㎥ⓝ 」57 2
+      - 「㋄ +KinG㎥ⓝ 」20 2
+      - 「㋄ +KinG㎥ⓝ 」22 2
+      - 「㋄ +KinG㎥ⓝ 」57 3
+      - 「㋄ +KinG㎥ⓝ 」1 2
+      - 「㋄ +KinG㎥ⓝ 」3
+      - 「㋄ +KinG㎥ⓝ 」8
+      - 「㋄ +KinG㎥ⓝ 」22 3
+      - 「㋄ +KinG㎥ⓝ 」30 2
+      - 「㋄ +KinG㎥ⓝ 」31 2
+      - 「㋄ +KinG㎥ⓝ 」34 2
+      - 「㋄ +KinG㎥ⓝ 」41 2
+      - 「㋄ +KinGⓑ 」美国
+      - 「㋄ +KinGⓑ 」美国 2
+      - 「㋄ +KinGⓑ 」美国 3
+      - 「㋄ +KinGⓑ 」加拿大
+      - 「㋄ +KinGⓑ 」加拿大 2
+      - 「㋄ +KinGⓑ 」加拿大 3
+      - 「㋄ +KinGⓑ 」加拿大 4
+      - 「㋄ +KinGⓑ 」俄罗斯联邦
+      - 「㋄ +KinGⓑ 」美国 4
+      - 「㋄ +KinGⓑ 」美国 5
+      - 「㋄ +KinGⓑ 」美国 6
+      - 「㋄ +KinGⓑ 」俄罗斯联邦 2
+      - 「㋄ +KinGⓑ 」美国 7
+      - 「㋄ +KinGⓑ 」美国 8
+      - 「㋄ +KinGⓑ 」加拿大 5
+      - 「㋄ +KinGⓑ 」美国 9
+      - 「㋄ +KinGⓑ 」美国 10
+      - 「㋄ +KinGⓑ 」美国 11
+      - 「㋄ +KinGⓑ 」美国 12
+      - 「㋄ +KinGⓑ 」美国 13
+      - 「㋄ +KinGⓑ 」美国 14
+      - 「㋄ +KinGⓑ 」US 160
+      - 「㋄ +KinGⓑ 」US 177
+      - 「㋄ +KinGⓑ 」US 191
+      - 「㋄ +KinGⓑ 」213
+      - 「㋄ +KinGⓑ 」152
+      - 「㋄ +KinGⓑ 」213 2
+      - 「㋄ +KinGⓑ 」213 3
+      - 「㋄ +KinGⓑ 」152 2
+      - 「㋄ +KinGⓑ 」152 3
+      - 「㋄ +KinGⓐ 」0
+      - 「㋄ +KinGⓐ 」1
+      - 「㋄ +KinGⓐ 」2
+      - 「㋄ +KinGⓐ 」3
+      - 「㋄ +KinGⓐ 」4
+      - 「㋄ +KinGⓐ 」5
+      - 「㋄ +KinGⓐ 」6
+      - 「㋄ +KinGⓐ 」7
+      - 「㋄ +KinGⓐ 」11
+      - 「㋄ +KinGⓐ 」15
+      - 「㋄ +KinGⓐ 」26
+      - 「㋄ +KinGⓐ 」3 2
+      - 「㋄ +KinGⓐ 」6 2
+      - 「㋄ +KinGⓐ 」7 2
+      - 「㋄ +KinGⓐ 」14
+      - 「㋄ +KinGⓐ 」20
+      - 「㋄ +KinGⓐ 」21
+      - 「㋄ +KinGⓐ 」24
+      - 「㋄ +KinGⓐ 」26 2
+      - 「㋄ +KinGⓐ 」28
+      - 「㋄ +KinGⓐ 」38
+      - 「㋄ +KinGⓐ 」44
+      - 「㋄ +KinGⓐ 」70
+      - 「㋄ +KinGⓐ 」82
+      - 「㋄ +KinGⓐ 」85
+      - 「㋄ +KinGⓕ 」日本
+      - 「㋄ +KinGⓕ 」韩国
+      - 「㋄ +KinGⓜ 」0
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
