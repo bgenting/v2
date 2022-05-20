@@ -87,10 +87,10 @@ proxies:
     tls: true
     skip-cert-verify: true
 proxy-groups:
-  - name: 🚀「㋄ KinGs♭¹²³ 」
+  - name: 🚀 热心「㋄ KinGs♭¹²³ 」
     type: select
     proxies:
-      -   自动选择
+      - ♻️ 自动选择
       - DIRECT
       - 🇺🇸 「㋄ KinGs♭¹²³ 」美国01
       - 🇺🇸 「㋄ KinGs♭¹²³ 」美国02
@@ -103,7 +103,7 @@ proxy-groups:
       - "台湾01"
       - "「㋄ KinGs♭¹²³ 」-2"
       - "「㋄ KinGs♭¹²³ 」-3"
-  - name:  自动选择
+  - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
