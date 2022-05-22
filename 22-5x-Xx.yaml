@@ -8,7 +8,6 @@ proxies:
   - {name: 「㋃ KingS 」CN63, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ KingS 」CN64, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ KingS 」CN75, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋃ KingS 」CN79, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋃ KingS 」CN83, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinG㎥ⓝ 」CN+231, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinG㎥ⓝ 」CN+235, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -16,25 +15,11 @@ proxies:
   - {name: 「㋄ KinG㎥ⓝ 」CN+218, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinG㎥ⓝ 」CN+225, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGs㏚ 」14, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚, server: 185.167.116.250, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 3, server: 185.167.116.250, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 4, server: 185.167.116.250, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 5, server: 185.167.116.250, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 6, server: 185.167.116.250, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 7, server: 185.167.116.250, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 9, server: 185.167.116.250, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 16, server: 185.167.116.250, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 21, server: 185.167.116.250, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 26, server: 185.167.116.250, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 27, server: 185.167.116.250, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 29, server: 185.167.116.250, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 「㋄ KinGsⓇ 」澳大利亚 30, server: 185.167.116.250, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
   - {name: 「㋄ KinGsⓇ 」美国 17, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」美国 22, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」美国 23, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlot.tk, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」日本 10, server: jp.useanlo.cf, port: 6523, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」日本 11, server: jp.useanlo.cf, port: 10203, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs♭¹²³」﹫ 103, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGs♭¹²³ 」﹫法国, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs♭¹²³ 」中国, server: 211.91.243.240, port: 31204, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs♭¹²³ 」日本, server: 211.91.243.240, port: 31206, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -45,88 +30,74 @@ proxies:
   - {name: 「㋄ KinGs♭¹²³ 」法国, server: 211.91.243.240, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs♭¹²³ 」加拿大, server: 211.91.243.240, port: 31203, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs♭¹²³ 」美国, server: 211.91.243.240, port: 31201, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国, server: 14.29.124.168, port: 24019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 2, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 3, server: 14.29.124.168, port: 24095, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 4, server: 14.29.124.168, port: 24023, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 5, server: 14.29.124.168, port: 24074, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ 」13, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ 」中国, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ 」中国 2, server: 14.29.124.168, port: 24023, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ 」35, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」1, server: 5.183.179.139, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 「㋄ KinGsⓇ 」4, server: 5.183.179.139, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
   - {name: 「㋄ KinGsⓇ 」5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGsⓇ 」台湾 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」罗马尼亚, server: jp.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ 」日本 3, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」日本 10 2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」香港 8, server: api.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」香港 12, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」香港 13, server: game.tcpbbr.net, port: 5228, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: game.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」德国, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 6, server: 14.29.124.168, port: 24069, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 7, server: 14.29.124.168, port: 24011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 8, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ 」中国 9, server: 14.29.124.168, port: 24093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ 」中国 3, server: 14.29.124.168, port: 24069, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ 」中国 4, server: 14.29.124.168, port: 24090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ 」121, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ 」273, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」NL_512, server: 213.183.59.190, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」NL_500, server: 213.183.59.190, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」CN 2320, server: 14.29.124.168, port: 24033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」543, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」616, server: 213.183.59.229, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」613, server: 213.183.59.229, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」1192, server: 5.183.179.139, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」美国, server: trojan33.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」11, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」33, server: us.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-us, ws-headers: {Host: us.sserver.top}, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」48, server: jp.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-jp, ws-headers: {Host: jp.sserver.top}, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」15, server: bb01.nfeng6.pp.ua, port: 16020, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」46, server: bb01.nfeng6.pp.ua, port: 26220, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」65, server: bb01.nfeng6.pp.ua, port: 26210, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」100, server: bb01.nfeng6.pp.ua, port: 26250, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」101, server: bb01.nfeng6.pp.ua, port: 26230, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」31, server: sg.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-sg, ws-headers: {Host: sg.sserver.top}, udp: true}
-  - {name: 「㋄ KinGs◎¹²³ 」日本, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: 「㋄ KinGs◎¹²³ 」台湾, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: 「㋄ KinGs◎¹²³ 」台湾 2, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: 「㋄ KinGs◎¹²³ 」台湾 3, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs◎¹²³ 」台湾 4, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: b6040656-96c5-4748-a73c-5a8f15ed7531, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」4, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 8c8578b9-3d56-425d-8bcc-880c4da3600a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」6, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 8c8578b9-3d56-425d-8bcc-880c4da3600a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」34, server: hy.hsichu.xyz, port: 443, type: trojan, password: HsCOkje2HH2PuRFb, sni: hy.hsichu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs◎¹²³ 」台湾, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」36, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」11 2, server: cm-jm.okvpn.xyz, port: 20009, type: trojan, password: 8c8578b9-3d56-425d-8bcc-880c4da3600a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」香港, server: hkt.node.qchwnd.moe, port: 44609, type: trojan, password: 304202c3-75b2-49ce-b7d9-0a1f36a45f22, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」韩国, server: 20.214.207.15, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」韩国 2, server: kr1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡, server: 43.128.66.36, port: 8080, type: vmess, uuid: 5bb4d785-4933-44cb-a162-d9a74625d2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡 2, server: basic-sg1.starscloud.in, port: 20008, type: trojan, password: 485ab718-e91d-36ac-8b85-b2a9e9abecbd, sni: basic-sg1.starscloud.in, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 2, server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 3, server: 125.94.37.107, port: 50603, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 4, server: 20.239.177.88, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 5, server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」澳洲, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, sni: neteasy.cf, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」瑞士, server: 51.103.172.68, port: 120, type: vmess, uuid: 4d358310-efdf-4622-9d7e-c067935e7ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」韩国, server: kr1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」台湾, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」英国, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」希腊, server: ssr112.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」NL 392, server: 213.183.59.190, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」CN 1, server: momuz.sulink.cn, port: 19016, type: ss, cipher: aes-256-cfb, password: z20010608, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」免B, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」免B 2, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」免B, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」荷兰 2, server: 213.183.59.190, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 10, server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 11, server: 125.94.37.107, port: 50603, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 6, server: 125.94.37.107, port: 13413, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」瑞士 2, server: 51.103.172.68, port: 120, type: vmess, uuid: 4d358310-efdf-4622-9d7e-c067935e7ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」中国, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」中国 2, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」中国 3, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」中国香港, server: 112.65.95.60, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: "", udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」3, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」5, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」19, server: la1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: la1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」25, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: e5cf7069-e269-4926-bdb0-fbb39cde6a3a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」泰国, server: gz2.52168.org, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」荷兰, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」欧洲, server: ssr3.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」欧亚, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」欧亚 2, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」荷兰 3, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」日本, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」日本 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」荷兰 4, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」台湾 2, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」美国 2, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」美国 3, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」美国 4, server: sunhaoduo.tk, port: 443, type: trojan, password: b61d3b3c, sni: sunhaoduo.tk, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」TW ssr, server: 14.29.124.168, port: 24057, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」TW ssr 2, server: 14.29.124.168, port: 24052, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」日本 3, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」荷兰 5, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡 3, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」台湾 3, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」美国 5, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」美国 6, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」亚洲, server: 103.172.116.9, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」TW, server: 14.29.124.168, port: 24079, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」46, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs♭¹²³ 」印度 2, server: 159.65.157.70, port: 61548, type: ss, cipher: chacha20-ietf-poly1305, password: 1c0e4a18-4d7a-4231-a55d-1dee0fe6732a, udp: true}
+  - {name: 「㋄ KinGs♭¹²³ 」英国, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs♭¹²³ 」印度 3, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -136,7 +107,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -144,25 +114,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -175,86 +131,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -263,7 +205,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -271,25 +212,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -302,86 +229,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -391,7 +304,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -399,25 +311,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -430,86 +328,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -531,7 +415,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -539,25 +422,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -570,86 +439,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -659,12 +514,9 @@ proxy-groups:
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」台湾
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -674,7 +526,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -682,25 +533,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -713,86 +550,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -801,7 +624,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -809,25 +631,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -840,86 +648,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -929,7 +723,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -937,25 +730,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -968,86 +747,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1066,7 +831,6 @@ proxy-groups:
       - 「㋃ KingS 」CN63
       - 「㋃ KingS 」CN64
       - 「㋃ KingS 」CN75
-      - 「㋃ KingS 」CN79
       - 「㋃ KingS 」CN83
       - 「㋄ KinG㎥ⓝ 」CN+231
       - 「㋄ KinG㎥ⓝ 」CN+235
@@ -1074,25 +838,11 @@ proxy-groups:
       - 「㋄ KinG㎥ⓝ 」CN+218
       - 「㋄ KinG㎥ⓝ 」CN+225
       - 「㋄ KinGs㏚ 」14
-      - 「㋄ KinGsⓇ 」澳大利亚
-      - 「㋄ KinGsⓇ 」澳大利亚 3
-      - 「㋄ KinGsⓇ 」澳大利亚 4
-      - 「㋄ KinGsⓇ 」澳大利亚 5
-      - 「㋄ KinGsⓇ 」澳大利亚 6
-      - 「㋄ KinGsⓇ 」澳大利亚 7
-      - 「㋄ KinGsⓇ 」澳大利亚 9
-      - 「㋄ KinGsⓇ 」澳大利亚 16
-      - 「㋄ KinGsⓇ 」澳大利亚 21
-      - 「㋄ KinGsⓇ 」澳大利亚 26
-      - 「㋄ KinGsⓇ 」澳大利亚 27
-      - 「㋄ KinGsⓇ 」澳大利亚 29
-      - 「㋄ KinGsⓇ 」澳大利亚 30
       - 「㋄ KinGsⓇ 」美国 17
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
       - 「㋄ KinGsⓇ 」日本 11
-      - 「㋄ KinGs♭¹²³」﹫ 103
       - 「㋄ KinGs♭¹²³ 」﹫法国
       - 「㋄ KinGs♭¹²³ 」中国
       - 「㋄ KinGs♭¹²³ 」日本
@@ -1105,86 +855,72 @@ proxy-groups:
       - 「㋄ KinGs♭¹²³ 」美国
       - 「㋄ KinGsⓇ 」中国
       - 「㋄ KinGsⓇ 」中国 2
-      - 「㋄ KinGsⓇ 」中国 3
-      - 「㋄ KinGsⓇ 」中国 4
-      - 「㋄ KinGsⓇ 」中国 5
-      - 「㋄ KinGs㎥ⓝ 」13
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」1
-      - 「㋄ KinGsⓇ 」4
       - 「㋄ KinGsⓇ 」5
       - 「㋄ KinGsⓇ 」台湾 2
       - 「㋄ KinGsⓇ 」罗马尼亚
-      - 「㋄ KinGsⓇ 」日本 3
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGsⓇ 」香港 13
       - 「㋄ KinGsⓇ 」德国
-      - 「㋄ KinGsⓇ 」中国 6
-      - 「㋄ KinGsⓇ 」中国 7
-      - 「㋄ KinGsⓇ 」中国 8
-      - 「㋄ KinGsⓇ 」中国 9
+      - 「㋄ KinGsⓇ 」中国 3
+      - 「㋄ KinGsⓇ 」中国 4
       - 「㋄ KinGs㎥ⓝ 」121
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」CN 2320
-      - 「㋄ KinGsⓇ¹²³ 」543
       - 「㋄ KinGsⓇ¹²³ 」616
-      - 「㋄ KinGsⓇ¹²³ 」613
-      - 「㋄ KinGsⓇ¹²³ 」1192
       - 「㋄ KinGsⓇ¹²³ 」美国
       - 「㋄ KinGs㎥ⓝ¹²³ 」11
       - 「㋄ KinGs㎥ⓝ¹²³ 」33
       - 「㋄ KinGs㎥ⓝ¹²³ 」48
-      - 「㋄ KinGs㎥ⓝ¹²³ 」15
-      - 「㋄ KinGs㎥ⓝ¹²³ 」46
       - 「㋄ KinGs㎥ⓝ¹²³ 」65
       - 「㋄ KinGs㎥ⓝ¹²³ 」100
-      - 「㋄ KinGs㎥ⓝ¹²³ 」101
       - 「㋄ KinGs㎥ⓝ¹²³ 」31
-      - 「㋄ KinGs◎¹²³ 」日本
       - 「㋄ KinGs◎¹²³ 」台湾
-      - 「㋄ KinGs◎¹²³ 」台湾 2
-      - 「㋄ KinGs◎¹²³ 」台湾 3
-      - 「㋄ KinGs◎¹²³ 」台湾 4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」4
-      - 「㋄ KinGs㎥ⓝ¹²³ 」6
-      - 「㋄ KinGs㎥ⓝ¹²³ 」34
       - 「㋄ KinGs㎥ⓝ¹²³ 」36
-      - 「㋄ KinGs㎥ⓝ¹²³ 」11 2
-      - 「㋄ KinGsⓇ¹²³ 」香港
       - 「㋄ KinGsⓇ¹²³ 」韩国
-      - 「㋄ KinGsⓇ¹²³ 」韩国 2
-      - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 4
-      - 「㋄ KinGsⓇ¹²³ 」美国 5
-      - 「㋄ KinGsⓇ¹²³ 」澳洲
-      - 「㋄ KinGsⓇ¹²³ 」瑞士
       - 「㋄ KinGsⓇ¹²³ 」台湾
       - 「㋄ KinGsⓇ¹²³ 」英国
       - 「㋄ KinGsⓇ¹²³ 」希腊
-      - 「㋄ KinGsⓇ¹²³ 」NL 392
       - 「㋄ KinGsⓇ¹²³ 」CN 1
       - 「㋄ KinGsⓇ¹²³ 」免B
-      - 「㋄ KinGsⓇ¹²³ 」免B 2
       - 「㋄ KinGsⓇ¹²³ 」荷兰 2
-      - 「㋄ KinGsⓇ¹²³ 」美国 10
-      - 「㋄ KinGsⓇ¹²³ 」美国 11
-      - 「㋄ KinGsⓇ¹²³ 」美国 6
-      - 「㋄ KinGsⓇ¹²³ 」瑞士 2
       - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGsⓇ¹²³ 」中国 2
       - 「㋄ KinGsⓇ¹²³ 」中国 3
-      - 「㋄ KinGsⓇ¹²³ 」中国香港
-      - 「㋄ KinGs㎥ⓝ¹²³ 」3
-      - 「㋄ KinGs㎥ⓝ¹²³ 」5
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
-      - 「㋄ KinGs㎥ⓝ¹²³ 」25
+      - 「㋄ KinGsⓇ¹²³ 」泰国
+      - 「㋄ KinGsⓇ¹²³ 」荷兰
+      - 「㋄ KinGsⓇ¹²³ 」欧洲
+      - 「㋄ KinGsⓇ¹²³ 」欧亚
+      - 「㋄ KinGsⓇ¹²³ 」欧亚 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 3
+      - 「㋄ KinGsⓇ¹²³ 」日本
+      - 「㋄ KinGsⓇ¹²³ 」日本 2
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 4
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
+      - 「㋄ KinGsⓇ¹²³ 」台湾 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 2
+      - 「㋄ KinGsⓇ¹²³ 」美国 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 4
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr
+      - 「㋄ KinGsⓇ¹²³ 」TW ssr 2
+      - 「㋄ KinGsⓇ¹²³ 」日本 3
+      - 「㋄ KinGsⓇ¹²³ 」荷兰 5
+      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
+      - 「㋄ KinGsⓇ¹²³ 」台湾 3
+      - 「㋄ KinGsⓇ¹²³ 」美国 5
+      - 「㋄ KinGsⓇ¹²³ 」美国 6
+      - 「㋄ KinGsⓇ¹²³ 」亚洲
+      - 「㋄ KinGsⓇ¹²³ 」TW
+      - 「㋄ KinGs㎥ⓝ¹²³ 」46
+      - 「㋄ KinGs♭¹²³ 」印度 2
+      - 「㋄ KinGs♭¹²³ 」英国
+      - 「㋄ KinGs♭¹²³ 」印度 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
