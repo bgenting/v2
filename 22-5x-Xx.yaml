@@ -5,14 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋄ KinGsↁ¹ 」丑国¹, server: ssrfree3.free4444.xyz, port: 20022, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「㋄ KinGsⓇ 」美国 22, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」美国 23, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlot.tk, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」日本 10, server: jp.useanlo.cf, port: 6523, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ 」日本 11, server: jp.useanlo.cf, port: 10203, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ 」35, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」台湾 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ 」罗马尼亚, server: jp.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」日本 10 2, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」香港 8, server: api.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ 」香港 12, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
@@ -21,15 +18,10 @@ proxies:
   - {name: 「㋄ KinGs㎥ⓝ 」273, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」NL_512, server: 213.183.59.190, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」NL_500, server: 213.183.59.190, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」中国, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ¹²³ 」19, server: la1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: la1.api-aws.com, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」日本, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」日本 2, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」新加坡, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹²³ 」美国, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡 3, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ¹²³ 」美国 3, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」欧洲, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」美国, server: charge.starspace.link, port: 443, type: trojan, password: 8UnS7eSMi8OFKfje, sni: charge.starspace.link, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」荷兰, server: 213.183.59.190, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
@@ -37,8 +29,6 @@ proxies:
   - {name: 「㋄ KinGsⓇ¹ 」荷兰 3, server: 213.183.59.190, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」荷兰 4, server: 213.183.59.214, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ² 」30, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 「㋄+KinGs㏚¹」欧洲, server: 213.183.59.190, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 「㋄+KinGs㏚¹」欧洲 2, server: 213.183.59.190, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: 「㋄ KinGs㏚³ 」亚欧美, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲 2, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -48,17 +38,11 @@ proxies:
   - {name: 「㋄ KinGs㏚³ 」法国, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲 4, server: 213.183.59.214, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: 「㋄ KinGsⓇ³ 」欧洲, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ³ 」香港, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ³ 」日本, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ³ 」新加坡, server: sg3.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg3.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ KinGsⓇ³ 」新加坡 3, server: sg1.v2yyds.cc, port: 32110, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: sg1.v2yyds.cc, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGsⓇ³ 」韩国 2, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 「㋄ KinGsⓇ³ 」俄罗斯, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 「㋄ KinGsⓇ³ 」8, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ³ 」136, server: gy.zfnode.xyz, port: 22201, type: ss, cipher: chacha20-ietf-poly1305, password: 02e60e67-96e7-44b7-9f0f-4ea0d7009514, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 3, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 4, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 5, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 6, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 7, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -70,24 +54,80 @@ proxies:
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 15, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 16, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ +KinGsℝ¹ 」经典复刻 17, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 20, server: 213.183.59.190, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 21, server: 213.183.59.190, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 24, server: 213.183.59.190, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 25, server: 213.183.59.190, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: SSRTOOL.COM, server: zf1.qimengsdf.ml, port: 65231, type: vmess, uuid: 96b5a34b-55e8-40a4-85ba-1f7ba208d43e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」3, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」4, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」6, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」49, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」66, server: vpn.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 96bab8f0-5707-49fa-b124-2f83496e96aa, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」71, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, sni: neteasy.ga, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」2, server: gy.zfnode.xyz, port: 22200, type: ss, cipher: chacha20-ietf-poly1305, password: 02e60e67-96e7-44b7-9f0f-4ea0d7009514, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」58, server: cscu.01.211129.xyz, port: 16991, type: trojan, password: c9db0aad-e6a9-4a7e-9285-b88302c35346, sni: cscu.01.211129.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」86, server: vpn.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」96, server: vpn.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」139, server: zxsg.jietiyun.xyz, port: 11101, type: trojan, password: c9db0aad-e6a9-4a7e-9285-b88302c35346, sni: zxsg.jietiyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」1, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 88a6138d-1449-4ff4-8203-82239723a46a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」6 2, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 88a6138d-1449-4ff4-8203-82239723a46a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」18, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr01.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」27, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」50, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」7, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 0, server: 155.248.172.87, port: 28000, type: trojan, password: 5650562e-1e9e-45bf-a50b-8446c815e60b, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 1, server: 155.248.172.87, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 2, server: 192.9.180.187, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 6, server: 193.123.66.22, port: 28000, type: trojan, password: 5650562e-1e9e-45bf-a50b-8446c815e60b, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 3, server: 193.123.86.165, port: 28000, type: trojan, password: 5650562e-1e9e-45bf-a50b-8446c815e60b, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 4, server: 80.78.132.177, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 5, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」GB网络, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 8, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 9, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 10, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 13, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 16, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2, server: hinet.xxcv.cc, port: 38443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, sni: hinet.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1, server: ppy-cmcc.0098dns02in.work, port: 26059, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2, server: ppy-cmcc.0098dns02in.work, port: 26060, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3, server: ppy-cmcc.0098dns02in.work, port: 26061, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4, server: ppy-cmcc.0098dns02in.work, port: 26062, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5, server: ppy-cmcc.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本, server: jp.dsaver.site, port: 443, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2, server: jp.dsaver.site, port: 80, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3, server: 3.112.198.249, port: 46794, type: vmess, uuid: 7ea0f0d4-2f7d-405e-acd6-8bfffa528194, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 挪威, server: 51.120.8.182, port: 399, type: vmess, uuid: b0bb0b31-5938-44de-a865-4dcf4e14df62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4, server: ppy-giacn2.0098dns02in.work, port: 26004, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2, server: 51.120.8.182, port: 399, type: vmess, uuid: b0bb0b31-5938-44de-a865-4dcf4e14df62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 30, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 31, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 32, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 34, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 SG, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 US, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 GB, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -96,15 +136,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -112,8 +147,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -123,17 +156,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -145,23 +172,79 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -170,15 +253,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -186,8 +264,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -197,17 +273,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -219,24 +289,80 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -245,15 +371,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -261,8 +382,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -272,17 +391,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -294,10 +407,69 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -316,14 +488,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -332,15 +501,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -348,8 +512,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -359,17 +521,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -381,10 +537,69 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -393,21 +608,22 @@ proxy-groups:
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
       - 「㋄ KinGs㏚³ 」台湾
-      - 「㋄ KinGsⓇ³ 」香港
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -416,15 +632,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -432,8 +643,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -443,17 +652,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -465,23 +668,79 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -490,15 +749,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -506,8 +760,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -517,17 +769,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -539,24 +785,80 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -565,15 +867,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -581,8 +878,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -592,17 +887,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -614,10 +903,69 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -633,14 +981,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋄ KinGsↁ¹ 」丑国¹
       - 「㋄ KinGsⓇ 」美国 22
       - 「㋄ KinGsⓇ 」美国 23
       - 「㋄ KinGsⓇ 」日本 10
-      - 「㋄ KinGsⓇ 」日本 11
       - 「㋄ KinGs㎥ⓝ 」35
       - 「㋄ KinGsⓇ 」台湾 2
-      - 「㋄ KinGsⓇ 」罗马尼亚
       - 「㋄ KinGsⓇ 」日本 10 2
       - 「㋄ KinGsⓇ 」香港 8
       - 「㋄ KinGsⓇ 」香港 12
@@ -649,15 +994,10 @@ proxy-groups:
       - 「㋄ KinGs㎥ⓝ 」273
       - 「㋄ KinGsⓇ¹²³ 」NL_512
       - 「㋄ KinGsⓇ¹²³ 」NL_500
-      - 「㋄ KinGsⓇ¹²³ 」中国
       - 「㋄ KinGs㎥ⓝ¹²³ 」19
       - 「㋄ KinGsⓇ¹²³ 」日本
-      - 「㋄ KinGsⓇ¹²³ 」日本 2
       - 「㋄ KinGsⓇ¹²³ 」新加坡
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 2
       - 「㋄ KinGsⓇ¹²³ 」美国
-      - 「㋄ KinGsⓇ¹²³ 」新加坡 3
-      - 「㋄ KinGsⓇ¹²³ 」美国 3
       - 「㋄ KinGsⓇ¹ 」欧洲
       - 「㋄ KinGsⓇ¹ 」美国
       - 「㋄ KinGsⓇ¹ 」荷兰
@@ -665,8 +1005,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
       - 「㋄ KinGs㎥ⓝ² 」30
-      - 「㋄+KinGs㏚¹」欧洲
-      - 「㋄+KinGs㏚¹」欧洲 2
       - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
@@ -676,17 +1014,11 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」欧洲
-      - 「㋄ KinGsⓇ³ 」香港
-      - 「㋄ KinGsⓇ³ 」日本
-      - 「㋄ KinGsⓇ³ 」新加坡
-      - 「㋄ KinGsⓇ³ 」新加坡 3
       - 「㋄ KinGsⓇ³ 」韩国 2
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ KinGsⓇ³ 」8
       - 「㋄ KinGs㎥ⓝ³ 」136
       - 「㋄ +KinGsℝ¹ 」经典复刻 3
       - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 5
       - 「㋄ +KinGsℝ¹ 」经典复刻 6
       - 「㋄ +KinGsℝ¹ 」经典复刻 7
       - 「㋄ +KinGsℝ¹ 」经典复刻 8
@@ -698,10 +1030,69 @@ proxy-groups:
       - 「㋄ +KinGsℝ¹ 」经典复刻 15
       - 「㋄ +KinGsℝ¹ 」经典复刻 16
       - 「㋄ +KinGsℝ¹ 」经典复刻 17
-      - 「㋄ +KinGsℝ¹ 」经典复刻 20
-      - 「㋄ +KinGsℝ¹ 」经典复刻 21
-      - 「㋄ +KinGsℝ¹ 」经典复刻 24
-      - 「㋄ +KinGsℝ¹ 」经典复刻 25
+      - SSRTOOL.COM
+      - 「㋄ KinGs㎥ⓝ¹¹ 」3
+      - 「㋄ KinGs㎥ⓝ¹¹ 」4
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6
+      - 「㋄ KinGs㎥ⓝ¹¹ 」49
+      - 「㋄ KinGs㎥ⓝ¹¹ 」66
+      - 「㋄ KinGs㎥ⓝ¹¹ 」71
+      - 「㋄ KinGs㎥ⓝ¹¹ 」2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」58
+      - 「㋄ KinGs㎥ⓝ¹¹ 」86
+      - 「㋄ KinGs㎥ⓝ¹¹ 」96
+      - 「㋄ KinGs㎥ⓝ¹¹ 」139
+      - 「㋄ KinGs㎥ⓝ¹¹ 」1
+      - 「㋄ KinGs㎥ⓝ¹¹ 」6 2
+      - 「㋄ KinGs㎥ⓝ¹¹ 」18
+      - 「㋄ KinGs㎥ⓝ¹¹ 」27
+      - 「㋄ KinGs㎥ⓝ¹¹ 」50
+      - 「㋄ KinGs㎥ⓝ¹¹ 」7
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 6
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 5
+      - 「㋄ ◎KinGs㎹¹ 」GB网络
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 8
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 9
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 10
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 台湾 5
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 2 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 3 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 日本 4解锁
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 3
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 新加坡 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 美国 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 挪威 2
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 30
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 31
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 32
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 34
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 SG
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 US
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 GB
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
