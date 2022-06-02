@@ -20,7 +20,6 @@ proxies:
   - {name: 「㋄ KinGsⓇ¹ 」荷兰 2, server: 213.183.59.214, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」荷兰 3, server: 213.183.59.190, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: 「㋄ KinGsⓇ¹ 」荷兰 4, server: 213.183.59.214, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 「㋄ KinGs㏚³ 」亚欧美, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲 2, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲 3, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -28,12 +27,6 @@ proxies:
   - {name: 「㋄ KinGs㏚³ 」法国, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ KinGs㏚³ 」欧洲 4, server: 213.183.59.214, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: 「㋄ KinGsⓇ³ 」俄罗斯, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 4, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 7, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 13, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ +KinGsℝ¹ 」经典复刻 14, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋄ KinGs㎥ⓝ¹¹ 」6, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 0, server: 155.248.172.87, port: 28000, type: trojan, password: 5650562e-1e9e-45bf-a50b-8446c815e60b, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 1, server: 155.248.172.87, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 2, server: 192.9.180.187, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
@@ -44,7 +37,6 @@ proxies:
   - {name: 「㋄ ◎KinGs㎹¹ 」GB网络, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 8, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 10, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 13, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 16, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2, server: hinet.xxcv.cc, port: 38443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, sni: hinet.xxcv.cc, skip-cert-verify: true, udp: true}
   - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -61,7 +53,6 @@ proxies:
   - {name: 「㋄ ◎KinGs㎹² 」荷兰 2, server: 213.183.59.214, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
   - {name: 「㋄ ◎KinGs㎹² 」荷兰 3, server: 213.183.59.214, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: 「㋄ ◎KinGs㎹² 」荷兰 4, server: 213.183.59.214, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 「㋄ ◎KinGs㎹² 」荷兰 5, server: 213.183.59.214, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ²² 」199, server: b5d28a9.sd.gladns.com, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ²² 」209, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: 「㋄ KinGs㎥ⓝ²² 」211, server: 198.57.27.61, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
@@ -72,198 +63,74 @@ proxies:
   - {name: 「㋅ KinGs♭¹¹ 」¹ 5, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹ 6, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹ 7, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹ 8, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹ 9, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2, sni: jp1.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹新加坡, server: 129.226.217.168, port: 15322, type: vmess, uuid: 7676a524-3603-473e-de41-2bc6273d52fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹7, server: 13.112.89.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹8, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹9, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹12, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.71.225}, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹14, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹19, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹20, server: 38.68.135.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹22, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹23, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹24, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹29, server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹30, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹33, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹36, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹37, server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹38, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹40, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹41, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹42, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹49, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.69.62}, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹50, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹51, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹52, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹53, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹64, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹67, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹68, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹70, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹72, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹75, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹81, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹83, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹87, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹98, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹104, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹105, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹115, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹117, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹122, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹125, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹130, server: 185.126.116.117, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹131, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹136, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹139, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹147, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹2, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹3, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹4, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹6, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹8 2, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 「㋅ KinGs♭¹¹ 」¹11, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹12 2, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹13, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」亚洲, server: gz1.52168.org, port: 11106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:yip9bp7numd, obfs-param: 45d99149.baidu.com, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹2, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹10, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹2 2, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹11, server: rackedgeuk510.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rackedgeuk510.moonfree.top}, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹12, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹13, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹4, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹15, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹17, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹18, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹19, server: ocrb1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb1.moonfree.top}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹20, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.222.106.239}, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹21, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb1.moonfree.top}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹24, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹28, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹33, server: 129.226.215.95, port: 43613, type: vmess, uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹35, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹37, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹39, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹40, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹42, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹52, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹54, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹55, server: 38.68.134.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹63, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹64, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹68, server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹71, server: 167.88.63.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹72, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹73, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹76, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹78, server: 38.68.134.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹80, server: 38.68.135.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹81, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹82, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹86, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹89, server: 38.68.135.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹91, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹93, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹94, server: 38.68.135.19, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹95, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹96, server: 38.114.114.69, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹97, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹100, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹101, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹110, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹111, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹113, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹114, server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹115, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹119, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹120, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹124, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹128, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹132, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹133, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹134, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹137, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹138, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹139, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹141, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹147, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹148, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹149, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹151, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹155, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹157, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹158, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹160, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹161, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹162, server: 38.68.134.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹163, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹166, server: 169.197.142.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹172, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹174, server: 38.68.135.18, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹175, server: 38.68.135.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹176, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹177, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹178, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹179, server: 38.68.134.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹181, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹182, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹188, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹189, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹190, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹191, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹192, server: 38.114.114.69, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹194, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹195, server: 38.68.135.19, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹196, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹197, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹198, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹199, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹200, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹202, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹204, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹205, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹206, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹208, server: 38.68.134.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹213, server: 38.68.135.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹214, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹221, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹222, server: 38.114.114.69, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹228, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹233, server: 213.183.59.190, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹234, server: 198.57.27.225, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹235, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹236, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹237, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹244, server: s256.s2022.xyz, port: 38209, type: trojan, password: c8054dfc-513e-3558-9d2a-bccd10494898, sni: s256.s2022.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹251, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹253, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹255, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹258, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹268, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, sni: rooms.starspace.link, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹271, server: s256.s2022.xyz, port: 38209, type: trojan, password: 95548a85-e567-364b-8fbe-e845e6ec8371, sni: s256.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹274, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹ 275, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹276, server: taiwan13-1g.4cloud.click, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: taiwan13-1g.4cloud.click, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹279, server: taiwan05.ddnsgeek.com, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: taiwan05.ddnsgeek.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹282, server: dongtai-09.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: dongtai-09.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹284, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹289, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, sni: storage.starspace.link, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹290, server: 152.69.224.21, port: 18443, type: trojan, password: b654e76e-08e2-4911-bd21-ce251104b963, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹291, server: us12.hknode2700.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: us12.hknode2700.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹292, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹298, server: usdnode08.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: usdnode08.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹304, server: 523hk2.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591, sni: 523hk2.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹306, server: zq-tw12.4cloud.click, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: zq-tw12.4cloud.click, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹308, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹319, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹327, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹331, server: 138.2.9.59, port: 18443, type: trojan, password: b654e76e-08e2-4911-bd21-ce251104b963, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs＠㉿¹¹ 」¹332, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs＠㉿¹¹ 」¹334, server: 5cy-hkys08.vipnode501.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: 5cy-hkys08.vipnode501.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs＠㉿¹¹ 」亚洲, server: gz1.52168.org, port: 11106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:yip9bp7numd, obfs-param: 45d99149.baidu.com, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 2, server: rk59.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rk59.moonfree.top}, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 3, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 4, server: 129.226.216.121, port: 49381, type: vmess, uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 5, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 6, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 7, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 9, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 10, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 11, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 12, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 13, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 14, server: 213.183.59.214, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 15, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 16, server: 14.29.124.168, port: 24026, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 17, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 18, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 19, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 20, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 21, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 22, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: bfaf0f2b-c727-32ea-ab28-25e438fda91f, sni: sxdx-nf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 23, server: us12.hknode2700.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: us12.hknode2700.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 24, server: usdnode08.xyz, port: 443, type: trojan, password: P9azqCxQMAaZcT7F, sni: usdnode08.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」共享 25, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -285,7 +152,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -293,12 +159,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -309,7 +169,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -326,7 +185,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -337,198 +195,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -549,7 +283,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -557,12 +290,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -573,7 +300,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -590,7 +316,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -601,198 +326,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -814,7 +415,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -822,12 +422,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -838,7 +432,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -855,7 +448,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -866,198 +458,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1091,7 +559,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -1099,12 +566,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -1115,7 +576,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -1132,7 +592,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -1143,198 +602,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1362,7 +697,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -1370,12 +704,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -1386,7 +714,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -1403,7 +730,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -1414,198 +740,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1626,7 +828,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -1634,12 +835,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -1650,7 +845,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -1667,7 +861,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -1678,198 +871,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1891,7 +960,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -1899,12 +967,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -1915,7 +977,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -1932,7 +993,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -1943,198 +1003,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2165,7 +1101,6 @@ proxy-groups:
       - 「㋄ KinGsⓇ¹ 」荷兰 2
       - 「㋄ KinGsⓇ¹ 」荷兰 3
       - 「㋄ KinGsⓇ¹ 」荷兰 4
-      - 「㋄ KinGs㏚³ 」亚欧美
       - 「㋄ KinGs㏚³ 」欧洲
       - 「㋄ KinGs㏚³ 」欧洲 2
       - 「㋄ KinGs㏚³ 」欧洲 3
@@ -2173,12 +1108,6 @@ proxy-groups:
       - 「㋄ KinGs㏚³ 」法国
       - 「㋄ KinGs㏚³ 」欧洲 4
       - 「㋄ KinGsⓇ³ 」俄罗斯
-      - 「㋄ +KinGsℝ¹ 」经典复刻 4
-      - 「㋄ +KinGsℝ¹ 」经典复刻 7
-      - 「㋄ +KinGsℝ¹ 」经典复刻 8
-      - 「㋄ +KinGsℝ¹ 」经典复刻 13
-      - 「㋄ +KinGsℝ¹ 」经典复刻 14
-      - 「㋄ KinGs㎥ⓝ¹¹ 」6
       - 「㋄ ◎KinGs㎹¹ 」全球网络 0
       - 「㋄ ◎KinGs㎹¹ 」全球网络 1
       - 「㋄ ◎KinGs㎹¹ 」全球网络 2
@@ -2189,7 +1118,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹¹ 」GB网络
       - 「㋄ ◎KinGs㎹¹ 」全球网络 8
       - 「㋄ ◎KinGs㎹¹ 」全球网络 10
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 13
       - 「㋄ ◎KinGs㎹¹ 」全球网络 16
       - 「㋄ ◎KinGs㎹¹ 」全球网络 中国 2
       - 「㋄ ◎KinGs㎹¹ 」全球网络 英国 2
@@ -2206,7 +1134,6 @@ proxy-groups:
       - 「㋄ ◎KinGs㎹² 」荷兰 2
       - 「㋄ ◎KinGs㎹² 」荷兰 3
       - 「㋄ ◎KinGs㎹² 」荷兰 4
-      - 「㋄ ◎KinGs㎹² 」荷兰 5
       - 「㋄ KinGs㎥ⓝ²² 」199
       - 「㋄ KinGs㎥ⓝ²² 」209
       - 「㋄ KinGs㎥ⓝ²² 」211
@@ -2217,198 +1144,74 @@ proxy-groups:
       - 「㋅ KinGs♭¹¹ 」¹ 5
       - 「㋅ KinGs♭¹¹ 」¹ 6
       - 「㋅ KinGs♭¹¹ 」¹ 7
-      - 「㋅ KinGs♭¹¹ 」¹ 8
-      - 「㋅ KinGs♭¹¹ 」¹ 9
-      - 「㋅ KinGs♭¹¹ 」¹新加坡
-      - 「㋅ KinGs♭¹¹ 」¹7
       - 「㋅ KinGs♭¹¹ 」¹8
       - 「㋅ KinGs♭¹¹ 」¹9
-      - 「㋅ KinGs♭¹¹ 」¹12
-      - 「㋅ KinGs♭¹¹ 」¹14
-      - 「㋅ KinGs♭¹¹ 」¹19
-      - 「㋅ KinGs♭¹¹ 」¹20
       - 「㋅ KinGs♭¹¹ 」¹22
-      - 「㋅ KinGs♭¹¹ 」¹23
-      - 「㋅ KinGs♭¹¹ 」¹24
-      - 「㋅ KinGs♭¹¹ 」¹29
-      - 「㋅ KinGs♭¹¹ 」¹30
-      - 「㋅ KinGs♭¹¹ 」¹33
-      - 「㋅ KinGs♭¹¹ 」¹36
-      - 「㋅ KinGs♭¹¹ 」¹37
-      - 「㋅ KinGs♭¹¹ 」¹38
-      - 「㋅ KinGs♭¹¹ 」¹40
-      - 「㋅ KinGs♭¹¹ 」¹41
-      - 「㋅ KinGs♭¹¹ 」¹42
-      - 「㋅ KinGs♭¹¹ 」¹49
-      - 「㋅ KinGs♭¹¹ 」¹50
-      - 「㋅ KinGs♭¹¹ 」¹51
-      - 「㋅ KinGs♭¹¹ 」¹52
-      - 「㋅ KinGs♭¹¹ 」¹53
-      - 「㋅ KinGs♭¹¹ 」¹64
-      - 「㋅ KinGs♭¹¹ 」¹67
-      - 「㋅ KinGs♭¹¹ 」¹68
-      - 「㋅ KinGs♭¹¹ 」¹70
       - 「㋅ KinGs♭¹¹ 」¹72
-      - 「㋅ KinGs♭¹¹ 」¹75
       - 「㋅ KinGs♭¹¹ 」¹81
-      - 「㋅ KinGs♭¹¹ 」¹83
-      - 「㋅ KinGs♭¹¹ 」¹87
-      - 「㋅ KinGs♭¹¹ 」¹98
-      - 「㋅ KinGs♭¹¹ 」¹104
-      - 「㋅ KinGs♭¹¹ 」¹105
       - 「㋅ KinGs♭¹¹ 」¹115
       - 「㋅ KinGs♭¹¹ 」¹117
       - 「㋅ KinGs♭¹¹ 」¹122
-      - 「㋅ KinGs♭¹¹ 」¹125
-      - 「㋅ KinGs♭¹¹ 」¹130
       - 「㋅ KinGs♭¹¹ 」¹131
       - 「㋅ KinGs♭¹¹ 」¹136
       - 「㋅ KinGs♭¹¹ 」¹139
       - 「㋅ KinGs♭¹¹ 」¹147
       - 「㋅ KinGs♭¹¹ 」¹2
       - 「㋅ KinGs♭¹¹ 」¹3
-      - 「㋅ KinGs♭¹¹ 」¹4
       - 「㋅ KinGs♭¹¹ 」¹6
-      - 「㋅ KinGs♭¹¹ 」¹8 2
       - 「㋅ KinGs♭¹¹ 」¹11
-      - 「㋅ KinGs♭¹¹ 」¹12 2
-      - 「㋅ KinGs♭¹¹ 」¹13
-      - 「㋅ KinGs＠㉿¹¹ 」亚洲
-      - 「㋅ KinGs＠㉿¹¹ 」¹
-      - 「㋅ KinGs＠㉿¹¹ 」¹2
-      - 「㋅ KinGs＠㉿¹¹ 」¹10
-      - 「㋅ KinGs＠㉿¹¹ 」¹2 2
-      - 「㋅ KinGs＠㉿¹¹ 」¹11
+      - 「㋅ KinGs♭¹¹ 」¹12
       - 「㋅ KinGs＠㉿¹¹ 」¹13
       - 「㋅ KinGs＠㉿¹¹ 」¹4
       - 「㋅ KinGs＠㉿¹¹ 」¹15
-      - 「㋅ KinGs＠㉿¹¹ 」¹17
       - 「㋅ KinGs＠㉿¹¹ 」¹18
       - 「㋅ KinGs＠㉿¹¹ 」¹19
-      - 「㋅ KinGs＠㉿¹¹ 」¹20
       - 「㋅ KinGs＠㉿¹¹ 」¹21
-      - 「㋅ KinGs＠㉿¹¹ 」¹24
-      - 「㋅ KinGs＠㉿¹¹ 」¹28
       - 「㋅ KinGs＠㉿¹¹ 」¹33
       - 「㋅ KinGs＠㉿¹¹ 」¹35
-      - 「㋅ KinGs＠㉿¹¹ 」¹37
       - 「㋅ KinGs＠㉿¹¹ 」¹39
       - 「㋅ KinGs＠㉿¹¹ 」¹40
       - 「㋅ KinGs＠㉿¹¹ 」¹42
-      - 「㋅ KinGs＠㉿¹¹ 」¹52
       - 「㋅ KinGs＠㉿¹¹ 」¹54
-      - 「㋅ KinGs＠㉿¹¹ 」¹55
-      - 「㋅ KinGs＠㉿¹¹ 」¹63
-      - 「㋅ KinGs＠㉿¹¹ 」¹64
-      - 「㋅ KinGs＠㉿¹¹ 」¹68
-      - 「㋅ KinGs＠㉿¹¹ 」¹71
-      - 「㋅ KinGs＠㉿¹¹ 」¹72
-      - 「㋅ KinGs＠㉿¹¹ 」¹73
-      - 「㋅ KinGs＠㉿¹¹ 」¹76
-      - 「㋅ KinGs＠㉿¹¹ 」¹78
-      - 「㋅ KinGs＠㉿¹¹ 」¹80
-      - 「㋅ KinGs＠㉿¹¹ 」¹81
-      - 「㋅ KinGs＠㉿¹¹ 」¹82
-      - 「㋅ KinGs＠㉿¹¹ 」¹86
-      - 「㋅ KinGs＠㉿¹¹ 」¹89
-      - 「㋅ KinGs＠㉿¹¹ 」¹91
-      - 「㋅ KinGs＠㉿¹¹ 」¹93
-      - 「㋅ KinGs＠㉿¹¹ 」¹94
-      - 「㋅ KinGs＠㉿¹¹ 」¹95
-      - 「㋅ KinGs＠㉿¹¹ 」¹96
-      - 「㋅ KinGs＠㉿¹¹ 」¹97
-      - 「㋅ KinGs＠㉿¹¹ 」¹100
-      - 「㋅ KinGs＠㉿¹¹ 」¹101
-      - 「㋅ KinGs＠㉿¹¹ 」¹110
-      - 「㋅ KinGs＠㉿¹¹ 」¹111
-      - 「㋅ KinGs＠㉿¹¹ 」¹113
-      - 「㋅ KinGs＠㉿¹¹ 」¹114
-      - 「㋅ KinGs＠㉿¹¹ 」¹115
-      - 「㋅ KinGs＠㉿¹¹ 」¹119
-      - 「㋅ KinGs＠㉿¹¹ 」¹120
-      - 「㋅ KinGs＠㉿¹¹ 」¹124
-      - 「㋅ KinGs＠㉿¹¹ 」¹128
-      - 「㋅ KinGs＠㉿¹¹ 」¹132
-      - 「㋅ KinGs＠㉿¹¹ 」¹133
-      - 「㋅ KinGs＠㉿¹¹ 」¹134
-      - 「㋅ KinGs＠㉿¹¹ 」¹137
-      - 「㋅ KinGs＠㉿¹¹ 」¹138
-      - 「㋅ KinGs＠㉿¹¹ 」¹139
-      - 「㋅ KinGs＠㉿¹¹ 」¹141
-      - 「㋅ KinGs＠㉿¹¹ 」¹147
-      - 「㋅ KinGs＠㉿¹¹ 」¹148
-      - 「㋅ KinGs＠㉿¹¹ 」¹149
-      - 「㋅ KinGs＠㉿¹¹ 」¹151
-      - 「㋅ KinGs＠㉿¹¹ 」¹155
-      - 「㋅ KinGs＠㉿¹¹ 」¹157
-      - 「㋅ KinGs＠㉿¹¹ 」¹158
-      - 「㋅ KinGs＠㉿¹¹ 」¹160
-      - 「㋅ KinGs＠㉿¹¹ 」¹161
-      - 「㋅ KinGs＠㉿¹¹ 」¹162
-      - 「㋅ KinGs＠㉿¹¹ 」¹163
-      - 「㋅ KinGs＠㉿¹¹ 」¹166
-      - 「㋅ KinGs＠㉿¹¹ 」¹172
-      - 「㋅ KinGs＠㉿¹¹ 」¹174
-      - 「㋅ KinGs＠㉿¹¹ 」¹175
-      - 「㋅ KinGs＠㉿¹¹ 」¹176
-      - 「㋅ KinGs＠㉿¹¹ 」¹177
-      - 「㋅ KinGs＠㉿¹¹ 」¹178
-      - 「㋅ KinGs＠㉿¹¹ 」¹179
-      - 「㋅ KinGs＠㉿¹¹ 」¹181
-      - 「㋅ KinGs＠㉿¹¹ 」¹182
-      - 「㋅ KinGs＠㉿¹¹ 」¹188
-      - 「㋅ KinGs＠㉿¹¹ 」¹189
-      - 「㋅ KinGs＠㉿¹¹ 」¹190
-      - 「㋅ KinGs＠㉿¹¹ 」¹191
-      - 「㋅ KinGs＠㉿¹¹ 」¹192
-      - 「㋅ KinGs＠㉿¹¹ 」¹194
-      - 「㋅ KinGs＠㉿¹¹ 」¹195
-      - 「㋅ KinGs＠㉿¹¹ 」¹196
-      - 「㋅ KinGs＠㉿¹¹ 」¹197
-      - 「㋅ KinGs＠㉿¹¹ 」¹198
-      - 「㋅ KinGs＠㉿¹¹ 」¹199
-      - 「㋅ KinGs＠㉿¹¹ 」¹200
-      - 「㋅ KinGs＠㉿¹¹ 」¹202
-      - 「㋅ KinGs＠㉿¹¹ 」¹204
-      - 「㋅ KinGs＠㉿¹¹ 」¹205
-      - 「㋅ KinGs＠㉿¹¹ 」¹206
-      - 「㋅ KinGs＠㉿¹¹ 」¹208
-      - 「㋅ KinGs＠㉿¹¹ 」¹213
-      - 「㋅ KinGs＠㉿¹¹ 」¹214
-      - 「㋅ KinGs＠㉿¹¹ 」¹221
-      - 「㋅ KinGs＠㉿¹¹ 」¹222
-      - 「㋅ KinGs＠㉿¹¹ 」¹228
       - 「㋅ KinGs＠㉿¹¹ 」¹233
-      - 「㋅ KinGs＠㉿¹¹ 」¹234
-      - 「㋅ KinGs＠㉿¹¹ 」¹235
       - 「㋅ KinGs＠㉿¹¹ 」¹236
-      - 「㋅ KinGs＠㉿¹¹ 」¹237
       - 「㋅ KinGs＠㉿¹¹ 」¹244
       - 「㋅ KinGs＠㉿¹¹ 」¹251
-      - 「㋅ KinGs＠㉿¹¹ 」¹253
       - 「㋅ KinGs＠㉿¹¹ 」¹255
-      - 「㋅ KinGs＠㉿¹¹ 」¹258
-      - 「㋅ KinGs＠㉿¹¹ 」¹268
       - 「㋅ KinGs＠㉿¹¹ 」¹271
-      - 「㋅ KinGs＠㉿¹¹ 」¹274
-      - 「㋅ KinGs＠㉿¹¹ 」¹ 275
       - 「㋅ KinGs＠㉿¹¹ 」¹276
       - 「㋅ KinGs＠㉿¹¹ 」¹279
       - 「㋅ KinGs＠㉿¹¹ 」¹282
-      - 「㋅ KinGs＠㉿¹¹ 」¹284
-      - 「㋅ KinGs＠㉿¹¹ 」¹289
-      - 「㋅ KinGs＠㉿¹¹ 」¹290
-      - 「㋅ KinGs＠㉿¹¹ 」¹291
-      - 「㋅ KinGs＠㉿¹¹ 」¹292
-      - 「㋅ KinGs＠㉿¹¹ 」¹298
-      - 「㋅ KinGs＠㉿¹¹ 」¹304
       - 「㋅ KinGs＠㉿¹¹ 」¹306
       - 「㋅ KinGs＠㉿¹¹ 」¹308
       - 「㋅ KinGs＠㉿¹¹ 」¹319
-      - 「㋅ KinGs＠㉿¹¹ 」¹327
-      - 「㋅ KinGs＠㉿¹¹ 」¹331
-      - 「㋅ KinGs＠㉿¹¹ 」¹332
       - 「㋅ KinGs＠㉿¹¹ 」¹334
+      - 「㋅ KinGs＠㉿¹¹ 」亚洲
+      - 「㋅ KinGs㉿¹¹ 」共享
+      - 「㋅ KinGs㉿¹¹ 」共享 2
+      - 「㋅ KinGs㉿¹¹ 」共享 3
+      - 「㋅ KinGs㉿¹¹ 」共享 4
+      - 「㋅ KinGs㉿¹¹ 」共享 5
+      - 「㋅ KinGs㉿¹¹ 」共享 6
+      - 「㋅ KinGs㉿¹¹ 」共享 7
+      - 「㋅ KinGs㉿¹¹ 」共享 8
+      - 「㋅ KinGs㉿¹¹ 」共享 9
+      - 「㋅ KinGs㉿¹¹ 」共享 10
+      - 「㋅ KinGs㉿¹¹ 」共享 11
+      - 「㋅ KinGs㉿¹¹ 」共享 12
+      - 「㋅ KinGs㉿¹¹ 」共享 13
+      - 「㋅ KinGs㉿¹¹ 」共享 14
+      - 「㋅ KinGs㉿¹¹ 」共享 15
+      - 「㋅ KinGs㉿¹¹ 」共享 16
+      - 「㋅ KinGs㉿¹¹ 」共享 17
+      - 「㋅ KinGs㉿¹¹ 」共享 18
+      - 「㋅ KinGs㉿¹¹ 」共享 19
+      - 「㋅ KinGs㉿¹¹ 」共享 20
+      - 「㋅ KinGs㉿¹¹ 」共享 21
+      - 「㋅ KinGs㉿¹¹ 」共享 22
+      - 「㋅ KinGs㉿¹¹ 」共享 23
+      - 「㋅ KinGs㉿¹¹ 」共享 24
+      - 「㋅ KinGs㉿¹¹ 」共享 25
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
