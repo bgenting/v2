@@ -87,7 +87,6 @@ proxies:
   - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹ 」丑国, server: 104.149.154.154, port: 40679, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -176,7 +175,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -264,7 +262,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -353,7 +350,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -454,7 +450,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -548,7 +543,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -636,7 +630,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -725,7 +718,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -823,7 +815,6 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 11
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 12
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 13
-      - 「㋅ KinGs㉿¹ 」丑国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
