@@ -5,142 +5,118 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 「㋅ ㉿inGs¹ 」丑国, server: ssrfree3.free4444.xyz, port: 20022, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 2, server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
+  - {name: 「㋄ KinGsⓇ 」美国 22, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ 」日本 10, server: jp.useanlo.cf, port: 6523, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ 」台湾 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㎥ⓝ¹²³ 」19, server: la1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: la1.api-aws.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹²³ 」新加坡, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGsⓇ¹ 」欧洲, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ KinGs㏚³ 」法国, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 0, server: 155.248.172.87, port: 28000, type: trojan, password: 5650562e-1e9e-45bf-a50b-8446c815e60b, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 1, server: 155.248.172.87, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 4, server: 80.78.132.177, port: 28443, type: trojan, password: c94c922d-c833-48c1-b9d1-81c8b7b826f9, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 16, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹ 2, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹131, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹139, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs♭¹¹ 」¹147, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs＠¹ 」¹39, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs＠¹ 」¹40, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs＠¹ 」¹244, server: s256.s2022.xyz, port: 38209, type: trojan, password: c8054dfc-513e-3558-9d2a-bccd10494898, sni: s256.s2022.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs＠¹ 」¹271, server: s256.s2022.xyz, port: 38209, type: trojan, password: 95548a85-e567-364b-8fbe-e845e6ec8371, sni: s256.s2022.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5, server: 139.9.88.116, port: 5800, type: vmess, uuid: 63c04e85-c6a0-4503-b2f7-ebf733e55db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3, server: 139.9.88.116, port: 5800, type: vmess, uuid: 63c04e85-c6a0-4503-b2f7-ebf733e55db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ KinGs㉿㎥ⓝ 」153, server: us-trojan.bonds.id, port: 443, type: trojan, password: b2ba3d60-e40a-11ec-9e83-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs 」中国, server: 139.9.88.116, port: 5800, type: vmess, uuid: 63c04e85-c6a0-4503-b2f7-ebf733e55db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP00, server: 185.160.24.147, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP01, server: 185.160.24.147, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP02, server: 185.160.24.147, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP03, server: 185.160.24.147, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP04, server: 185.160.24.147, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP05, server: 185.160.24.147, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP06, server: 185.160.24.147, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP07, server: 185.160.24.147, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP08, server: 185.160.24.147, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP09, server: 185.160.24.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP10, server: 185.160.24.147, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP11, server: 185.160.24.147, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP12, server: 185.160.24.147, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP00 2, server: 185.160.26.22, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP01 2, server: 185.160.26.22, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP02 2, server: 185.160.26.22, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP03 2, server: 185.160.26.22, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP04 2, server: 185.160.26.22, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP05 2, server: 185.160.26.22, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP06 2, server: 185.160.26.22, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP07 2, server: 185.160.26.22, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP08 2, server: 185.160.26.22, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP09 2, server: 185.160.26.22, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP10 2, server: 185.160.26.22, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP11 2, server: 185.160.26.22, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP12 2, server: 185.160.26.22, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP00 3, server: 185.160.26.142, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP01 3, server: 185.160.26.142, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP02 3, server: 185.160.26.142, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP03 3, server: 185.160.26.142, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP04 3, server: 185.160.26.142, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP05 3, server: 185.160.26.142, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP06 3, server: 185.160.26.142, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP07 3, server: 185.160.26.142, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP08 3, server: 185.160.26.142, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP09 3, server: 185.160.26.142, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP10 3, server: 185.160.26.142, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP11 3, server: 185.160.26.142, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP12 3, server: 185.160.26.142, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP00 4, server: 185.160.26.159, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP01 4, server: 185.160.26.159, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP02 4, server: 185.160.26.159, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP03 4, server: 185.160.26.159, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP04 4, server: 185.160.26.159, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP05 4, server: 185.160.26.159, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP06 4, server: 185.160.26.159, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP07 4, server: 185.160.26.159, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP08 4, server: 185.160.26.159, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP09 4, server: 185.160.26.159, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP10 4, server: 185.160.26.159, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP11 4, server: 185.160.26.159, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP12 4, server: 185.160.26.159, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP00 5, server: 185.160.26.176, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP01 5, server: 185.160.26.176, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP02 5, server: 185.160.26.176, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP03 5, server: 185.160.26.176, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP04 5, server: 185.160.26.176, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP05 5, server: 185.160.26.176, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP06 5, server: 185.160.26.176, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP07 5, server: 185.160.26.176, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP08 5, server: 185.160.26.176, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP09 5, server: 185.160.26.176, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP10 5, server: 185.160.26.176, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP11 5, server: 185.160.26.176, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」JP12 5, server: 185.160.26.176, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 2, server: 223.166.129.29, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 223.166.129.29}, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 3, server: gg01.nfeng6.pp.ua, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 4, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 5, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 6, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 7, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 8, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 9, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 10, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 11, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 12, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 13, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 14, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 15, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 16, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 17, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 18, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 19, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 20, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 21, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 22, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 23, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 24, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 25, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 26, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 27, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 28, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 29, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 30, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国 31, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 2, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 3, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 4, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 5, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 6, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 7, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 8, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」19, server: gy.ziqiyun.xyz, port: 57762, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
+  - {name: 「㋅+㉿inGs+」中国, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 2, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 3, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 4, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 5, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 6, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 7, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 8, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 9, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 10, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 11, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 12, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 13, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 14, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 15, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 16, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅+㉿inGs+」中国 17, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 3, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 4, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 5, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅+㉿inGs㎥ⓝ+」19, server: gy.ziqiyun.xyz, port: 57762, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」20, server: hkt.xn--y8jhmm6gn.com, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, sni: hkt.xn--y8jhmm6gn.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」53, server: gy.ziqiyun.xyz, port: 44041, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」79, server: 210.0.158.220, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」80, server: 45.88.148.234, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」85, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」101, server: 20.24.66.29, port: 21866, type: trojan, password: 69c6230c-342b-3eb1-ad06-506729dc25c0, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」102, server: 20.89.93.230, port: 80, type: trojan, password: 69c6230c-342b-3eb1-ad06-506729dc25c0, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」103, server: 194.195.121.99, port: 38888, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」104, server: 165.154.243.157, port: 48004, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」105, server: 165.154.243.157, port: 48001, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」106, server: 165.154.243.157, port: 48003, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」108, server: 20.24.230.104, port: 13516, type: trojan, password: 69c6230c-342b-3eb1-ad06-506729dc25c0, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」112, server: 165.154.243.157, port: 48002, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」114, server: 31.222.226.103, port: 20000, type: trojan, password: 69c6230c-342b-3eb1-ad06-506729dc25c0, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ 」133, server: 20.24.227.126, port: 10083, type: trojan, password: 69c6230c-342b-3eb1-ad06-506729dc25c0, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」新加坡, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, sni: trojan1.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 3, server: 107.148.23.159, port: 26969, type: trojan, password: 1f316deb-02e7-4050-acd9-abcb3942fd37, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 4, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 527hk5.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」澳洲, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 5, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 2, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 3, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 4, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 5, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 6, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 7, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.onebox6.org}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 8, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 9, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」台湾, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 10, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」贩毒集团, server: uk1.lolvps.xyz, port: 60021, type: vmess, uuid: 9b30eff8-927b-4a57-b172-589cbb095ae4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Z5XJBUDL, ws-headers: {Host: uk1.lolvps.xyz}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 11, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 12, server: hk003.369boy.com, port: 32502, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: hk003.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」宇宙第一, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan-02.aikala.shop}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 13, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 14, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」宇宙第一 2, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan-01.aikala.shop}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -148,134 +124,88 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -283,135 +213,89 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -419,129 +303,61 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -560,6 +376,28 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -567,139 +405,109 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -707,134 +515,88 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -842,135 +604,89 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -978,129 +694,61 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1116,6 +764,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋅ ㉿inGs¹ 」丑国
+      - 「㋅ ㉿inGs¹ 」丑国 2
+      - 「㋄ KinGsⓇ 」美国 22
+      - 「㋄ KinGsⓇ 」日本 10
+      - 「㋄ KinGsⓇ 」台湾 2
+      - 「㋄ KinGs㎥ⓝ¹²³ 」19
+      - 「㋄ KinGsⓇ¹²³ 」新加坡
+      - 「㋄ KinGsⓇ¹ 」欧洲
+      - 「㋄ KinGs㏚³ 」法国
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 0
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 1
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 4
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 俄罗斯
+      - 「㋄ ◎KinGs㎹¹ 」全球网络 欧洲
+      - 「㋅ KinGs♭¹¹ 」¹
+      - 「㋅ KinGs♭¹¹ 」¹ 2
+      - 「㋅ KinGs♭¹¹ 」¹131
+      - 「㋅ KinGs♭¹¹ 」¹139
+      - 「㋅ KinGs♭¹¹ 」¹147
+      - 「㋅ ㉿inGs＠¹ 」¹39
+      - 「㋅ ㉿inGs＠¹ 」¹40
       - 「㋅ ㉿inGs＠¹ 」¹244
       - 「㋅ ㉿inGs＠¹ 」¹271
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
@@ -1123,129 +793,61 @@ proxy-groups:
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 3
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 4
       - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 5
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 6
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 7
       - 「㋅ KinGs㉿㎥ⓝ 」153
       - 「㋅ ㉿inGs 」中国
-      - 「㋅ ㉿inGs 」JP00
-      - 「㋅ ㉿inGs 」JP01
-      - 「㋅ ㉿inGs 」JP02
-      - 「㋅ ㉿inGs 」JP03
-      - 「㋅ ㉿inGs 」JP04
-      - 「㋅ ㉿inGs 」JP05
-      - 「㋅ ㉿inGs 」JP06
-      - 「㋅ ㉿inGs 」JP07
-      - 「㋅ ㉿inGs 」JP08
-      - 「㋅ ㉿inGs 」JP09
-      - 「㋅ ㉿inGs 」JP10
-      - 「㋅ ㉿inGs 」JP11
-      - 「㋅ ㉿inGs 」JP12
-      - 「㋅ ㉿inGs 」JP00 2
-      - 「㋅ ㉿inGs 」JP01 2
-      - 「㋅ ㉿inGs 」JP02 2
-      - 「㋅ ㉿inGs 」JP03 2
-      - 「㋅ ㉿inGs 」JP04 2
-      - 「㋅ ㉿inGs 」JP05 2
-      - 「㋅ ㉿inGs 」JP06 2
-      - 「㋅ ㉿inGs 」JP07 2
-      - 「㋅ ㉿inGs 」JP08 2
-      - 「㋅ ㉿inGs 」JP09 2
-      - 「㋅ ㉿inGs 」JP10 2
-      - 「㋅ ㉿inGs 」JP11 2
-      - 「㋅ ㉿inGs 」JP12 2
-      - 「㋅ ㉿inGs 」JP00 3
-      - 「㋅ ㉿inGs 」JP01 3
-      - 「㋅ ㉿inGs 」JP02 3
-      - 「㋅ ㉿inGs 」JP03 3
-      - 「㋅ ㉿inGs 」JP04 3
-      - 「㋅ ㉿inGs 」JP05 3
-      - 「㋅ ㉿inGs 」JP06 3
-      - 「㋅ ㉿inGs 」JP07 3
-      - 「㋅ ㉿inGs 」JP08 3
-      - 「㋅ ㉿inGs 」JP09 3
-      - 「㋅ ㉿inGs 」JP10 3
-      - 「㋅ ㉿inGs 」JP11 3
-      - 「㋅ ㉿inGs 」JP12 3
-      - 「㋅ ㉿inGs 」JP00 4
-      - 「㋅ ㉿inGs 」JP01 4
-      - 「㋅ ㉿inGs 」JP02 4
-      - 「㋅ ㉿inGs 」JP03 4
-      - 「㋅ ㉿inGs 」JP04 4
-      - 「㋅ ㉿inGs 」JP05 4
-      - 「㋅ ㉿inGs 」JP06 4
-      - 「㋅ ㉿inGs 」JP07 4
-      - 「㋅ ㉿inGs 」JP08 4
-      - 「㋅ ㉿inGs 」JP09 4
-      - 「㋅ ㉿inGs 」JP10 4
-      - 「㋅ ㉿inGs 」JP11 4
-      - 「㋅ ㉿inGs 」JP12 4
-      - 「㋅ ㉿inGs 」JP00 5
-      - 「㋅ ㉿inGs 」JP01 5
-      - 「㋅ ㉿inGs 」JP02 5
-      - 「㋅ ㉿inGs 」JP03 5
-      - 「㋅ ㉿inGs 」JP04 5
-      - 「㋅ ㉿inGs 」JP05 5
-      - 「㋅ ㉿inGs 」JP06 5
-      - 「㋅ ㉿inGs 」JP07 5
-      - 「㋅ ㉿inGs 」JP08 5
-      - 「㋅ ㉿inGs 」JP09 5
-      - 「㋅ ㉿inGs 」JP10 5
-      - 「㋅ ㉿inGs 」JP11 5
-      - 「㋅ ㉿inGs 」JP12 5
-      - 「㋅ ㉿inGs 」中国 2
-      - 「㋅ ㉿inGs 」中国 3
-      - 「㋅ ㉿inGs 」中国 4
-      - 「㋅ ㉿inGs 」中国 5
-      - 「㋅ ㉿inGs 」中国 6
-      - 「㋅ ㉿inGs 」中国 7
-      - 「㋅ ㉿inGs 」中国 8
-      - 「㋅ ㉿inGs 」中国 9
-      - 「㋅ ㉿inGs 」中国 10
-      - 「㋅ ㉿inGs 」中国 11
-      - 「㋅ ㉿inGs 」中国 12
-      - 「㋅ ㉿inGs 」中国 13
-      - 「㋅ ㉿inGs 」中国 14
-      - 「㋅ ㉿inGs 」中国 15
-      - 「㋅ ㉿inGs 」中国 16
-      - 「㋅ ㉿inGs 」中国 17
-      - 「㋅ ㉿inGs 」中国 18
-      - 「㋅ ㉿inGs 」中国 19
-      - 「㋅ ㉿inGs 」中国 20
-      - 「㋅ ㉿inGs 」中国 21
-      - 「㋅ ㉿inGs 」中国 22
-      - 「㋅ ㉿inGs 」中国 23
-      - 「㋅ ㉿inGs 」中国 24
-      - 「㋅ ㉿inGs 」中国 25
-      - 「㋅ ㉿inGs 」中国 26
-      - 「㋅ ㉿inGs 」中国 27
-      - 「㋅ ㉿inGs 」中国 28
-      - 「㋅ ㉿inGs 」中国 29
-      - 「㋅ ㉿inGs 」中国 30
-      - 「㋅ ㉿inGs 」中国 31
+      - 「㋅+㉿inGs+」中国
+      - 「㋅+㉿inGs+」中国 2
+      - 「㋅+㉿inGs+」中国 3
+      - 「㋅+㉿inGs+」中国 4
+      - 「㋅+㉿inGs+」中国 5
+      - 「㋅+㉿inGs+」中国 6
+      - 「㋅+㉿inGs+」中国 7
+      - 「㋅+㉿inGs+」中国 8
+      - 「㋅+㉿inGs+」中国 9
+      - 「㋅+㉿inGs+」中国 10
+      - 「㋅+㉿inGs+」中国 11
+      - 「㋅+㉿inGs+」中国 12
+      - 「㋅+㉿inGs+」中国 13
+      - 「㋅+㉿inGs+」中国 14
+      - 「㋅+㉿inGs+」中国 15
+      - 「㋅+㉿inGs+」中国 16
+      - 「㋅+㉿inGs+」中国 17
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
       - 「㋅ ㉿inGs 」亚洲 5
-      - 「㋅ ㉿inGs 」亚洲 6
-      - 「㋅ ㉿inGs 」亚洲 7
-      - 「㋅ ㉿inGs 」亚洲 8
-      - 「㋅ ㉿inGs㎥ⓝ 」19
+      - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
-      - 「㋅ ㉿inGs㎥ⓝ 」53
       - 「㋅ ㉿inGs㎥ⓝ 」79
-      - 「㋅ ㉿inGs㎥ⓝ 」80
-      - 「㋅ ㉿inGs㎥ⓝ 」85
-      - 「㋅ ㉿inGs㎥ⓝ 」101
-      - 「㋅ ㉿inGs㎥ⓝ 」102
       - 「㋅ ㉿inGs㎥ⓝ 」103
       - 「㋅ ㉿inGs㎥ⓝ 」104
       - 「㋅ ㉿inGs㎥ⓝ 」105
       - 「㋅ ㉿inGs㎥ⓝ 」106
-      - 「㋅ ㉿inGs㎥ⓝ 」108
       - 「㋅ ㉿inGs㎥ⓝ 」112
-      - 「㋅ ㉿inGs㎥ⓝ 」114
-      - 「㋅ ㉿inGs㎥ⓝ 」133
+      - 「㋅ ㉿inGs¹ 」新加坡
+      - 「㋅ ㉿inGs¹ 」丑国 3
+      - 「㋅ ㉿inGs¹ 」丑国 4
+      - 「㋅ ㉿inGs¹ 」香港
+      - 「㋅ ㉿inGs¹ 」澳洲
+      - 「㋅ ㉿inGs¹ 」丑国 5
+      - 「㋅ ㉿inGs¹ 」香港 2
+      - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」香港 4
+      - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」香港 6
+      - 「㋅ ㉿inGs¹ 」香港 7
+      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 9
+      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 10
+      - 「㋅ ㉿inGs¹ 」贩毒集团
+      - 「㋅ ㉿inGs¹ 」香港 11
+      - 「㋅ ㉿inGs¹ 」香港 12
+      - 「㋅ ㉿inGs¹ 」宇宙第一
+      - 「㋅ ㉿inGs¹ 」香港 13
+      - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
