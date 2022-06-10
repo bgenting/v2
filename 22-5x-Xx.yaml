@@ -56,8 +56,7 @@ proxies:
   - {name: 「㋅ ㉿inGs 」亚洲, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs 」亚洲 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs 」亚洲 3, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 4, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 5, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 4, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅+㉿inGs㎥ⓝ+」19, server: gy.ziqiyun.xyz, port: 57762, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」20, server: hkt.xn--y8jhmm6gn.com, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, sni: hkt.xn--y8jhmm6gn.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ 」79, server: 210.0.158.220, port: 38443, type: trojan, password: 8e4f0531-7a90-4429-b048-67a19c010c40, skip-cert-verify: true, udp: true}
@@ -72,23 +71,38 @@ proxies:
   - {name: 「㋅ ㉿inGs¹ 」香港, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 527hk5.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」澳洲, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」丑国 5, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 2, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 3, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 4, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 5, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 6, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 7, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.onebox6.org}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 8, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 9, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 2, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 3, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」台湾, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 10, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」贩毒集团, server: uk1.lolvps.xyz, port: 60021, type: vmess, uuid: 9b30eff8-927b-4a57-b172-589cbb095ae4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Z5XJBUDL, ws-headers: {Host: uk1.lolvps.xyz}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 11, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 12, server: hk003.369boy.com, port: 32502, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: hk003.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 4, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 5, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」宇宙第一, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan-02.aikala.shop}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 13, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 14, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 6, server: yd1000-c.zsclouddns.club, port: 13008, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 7, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」宇宙第一 2, server: chunchuan-01.aikala.shop, port: 80, type: vmess, uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan-01.aikala.shop}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 2 2, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 9, server: 14.29.124.174, port: 11040, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 8, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 10, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 11, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 12, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 13, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 14, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 15, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 16, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 17, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 18, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 19, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 20, server: 116.129.254.65, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.65}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」美国, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港 21, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港5, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港12, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港13, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港15, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港17, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港26, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」美国1, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -147,7 +161,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -164,21 +177,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -236,7 +264,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -253,21 +280,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -326,7 +368,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -343,21 +384,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -428,7 +484,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -445,21 +500,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -468,18 +538,32 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -538,7 +622,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -555,21 +638,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -627,7 +725,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -644,21 +741,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -717,7 +829,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -734,21 +845,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -816,7 +942,6 @@ proxy-groups:
       - 「㋅ ㉿inGs 」亚洲 2
       - 「㋅ ㉿inGs 」亚洲 3
       - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs 」亚洲 5
       - 「㋅+㉿inGs㎥ⓝ+」19
       - 「㋅ ㉿inGs㎥ⓝ 」20
       - 「㋅ ㉿inGs㎥ⓝ 」79
@@ -833,21 +958,36 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」丑国 5
       - 「㋅ ㉿inGs¹ 」香港 2
       - 「㋅ ㉿inGs¹ 」香港 3
+      - 「㋅ ㉿inGs¹ 」台湾
       - 「㋅ ㉿inGs¹ 」香港 4
       - 「㋅ ㉿inGs¹ 」香港 5
+      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 6
       - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
+      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 2 2
       - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」台湾
+      - 「㋅ ㉿inGs¹ 」香港 8
       - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」贩毒集团
       - 「㋅ ㉿inGs¹ 」香港 11
       - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」宇宙第一
       - 「㋅ ㉿inGs¹ 」香港 13
       - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs¹ 」宇宙第一 2
+      - 「㋅ ㉿inGs¹ 」香港 15
+      - 「㋅ ㉿inGs¹ 」香港 16
+      - 「㋅ ㉿inGs¹ 」香港 17
+      - 「㋅ ㉿inGs¹ 」香港 18
+      - 「㋅ ㉿inGs¹ 」香港 19
+      - 「㋅ ㉿inGs¹ 」香港 20
+      - 「㋅ ㉿inGs¹ 」美国
+      - 「㋅ ㉿inGs¹ 」香港 21
+      - 「㋅ ㉿inGs¹ 」香港5
+      - 「㋅ ㉿inGs¹ 」香港12
+      - 「㋅ ㉿inGs¹ 」香港13
+      - 「㋅ ㉿inGs¹ 」香港15
+      - 「㋅ ㉿inGs¹ 」香港17
+      - 「㋅ ㉿inGs¹ 」香港26
+      - 「㋅ ㉿inGs¹ 」美国1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
