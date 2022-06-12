@@ -49,19 +49,23 @@ proxies:
   - {name: 「㋅ ㉿inGs¹ 」香港13, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」香港17, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」香港26, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」丑利坚1, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港1, server: hk6702.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: hk6702.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」狮城, server: 172.104.48.151, port: 80, type: vmess, uuid: 66d1cbd4-c152-49df-c621-cc03821a7432, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」狮城2, server: 172.104.48.151, port: 8080, type: vmess, uuid: c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.104.48.151}, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」绿脑怪, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」狮城1, server: hk64.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」倭国, server: 20.222.33.91, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 8, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」绿脑怪 2, server: 116.129.254.212, port: 48611, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」倭国 2, server: 116.129.254.212, port: 48608, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」大寒冥果, server: 20.214.142.71, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」丑利坚, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港3, server: shcm.pdjc.cc, port: 42000, type: trojan, password: b7dcc148-c8a3-4173-931f-8ecf9413eb58, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑利坚¹, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港¹, server: hk6702.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: hk6702.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」狮城¹, server: 172.104.48.151, port: 80, type: vmess, uuid: 66d1cbd4-c152-49df-c621-cc03821a7432, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」狮城¹2, server: 172.104.48.151, port: 8080, type: vmess, uuid: c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.104.48.151}, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」绿脑怪¹, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」狮诚¹1, server: hk64.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」倭国¹, server: 20.222.33.91, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港¹ 2, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」绿脑怪¹ 2, server: 116.129.254.212, port: 48611, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」倭国¹ 2, server: 116.129.254.212, port: 48608, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」大寒冥果¹, server: 20.214.142.71, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑利坚¹ 2, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港¹3, server: shcm.pdjc.cc, port: 42000, type: trojan, password: b7dcc148-c8a3-4173-931f-8ecf9413eb58, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」绿脑怪¹ 3, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 0e90d359-1733-4994-a195-4df768a18e99, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港专线¹, server: 120.232.174.38, port: 16005, type: ss, cipher: chacha20-ietf-poly1305, password: 398c2a8a-f055-4833-9825-457af1473278, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」香港¹Bgp, server: gz.syhwdz.top, port: 35663, type: ss, cipher: chacha20-ietf-poly1305, password: 4298ec29-9a37-4f2d-9c8a-5dc466893eb1, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」狮诚¹4, server: 67sg01.fans8.xyz, port: 443, type: trojan, password: 0e90d359-1733-4994-a195-4df768a18e99, sni: 67sg01.fans8.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -112,19 +116,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -174,19 +182,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -237,19 +249,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,19 +328,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -341,9 +361,11 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -394,19 +416,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -456,19 +482,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -519,19 +549,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -591,19 +625,23 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」香港13
       - 「㋅ ㉿inGs¹ 」香港17
       - 「㋅ ㉿inGs¹ 」香港26
-      - 「㋅ ㉿inGs¹ 」丑利坚1
-      - 「㋅ ㉿inGs¹ 」香港1
-      - 「㋅ ㉿inGs¹ 」狮城
-      - 「㋅ ㉿inGs¹ 」狮城2
-      - 「㋅ ㉿inGs¹ 」绿脑怪
-      - 「㋅ ㉿inGs¹ 」狮城1
-      - 「㋅ ㉿inGs¹ 」倭国
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」绿脑怪 2
-      - 「㋅ ㉿inGs¹ 」倭国 2
-      - 「㋅ ㉿inGs¹ 」大寒冥果
-      - 「㋅ ㉿inGs¹ 」丑利坚
-      - 「㋅ ㉿inGs¹ 」香港3
+      - 「㋅ ㉿inGs¹ 」丑利坚¹
+      - 「㋅ ㉿inGs¹ 」香港¹
+      - 「㋅ ㉿inGs¹ 」狮城¹
+      - 「㋅ ㉿inGs¹ 」狮城¹2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹
+      - 「㋅ ㉿inGs¹ 」狮诚¹1
+      - 「㋅ ㉿inGs¹ 」倭国¹
+      - 「㋅ ㉿inGs¹ 」香港¹ 2
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 2
+      - 「㋅ ㉿inGs¹ 」倭国¹ 2
+      - 「㋅ ㉿inGs¹ 」大寒冥果¹
+      - 「㋅ ㉿inGs¹ 」丑利坚¹ 2
+      - 「㋅ ㉿inGs¹ 」香港¹3
+      - 「㋅ ㉿inGs¹ 」绿脑怪¹ 3
+      - 「㋅ ㉿inGs¹ 」香港专线¹
+      - 「㋅ ㉿inGs¹ 」香港¹Bgp
+      - 「㋅ ㉿inGs¹ 」狮诚¹4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
