@@ -5,383 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋄ KinGs㏚³ 」法国, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋄ ◎KinGs㎹¹ 」全球网络 16, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹131, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs♭¹¹ 」¹139, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs＠¹ 」¹39, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs＠¹ 」¹40, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」中国, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 3, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs 」亚洲 4, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 2, server: 14.29.124.174, port: 11032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 3, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs 」亚洲 2, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」谁便用, server: 185.167.116.250, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」谁便用 2, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 4, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 6, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 7, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 8, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 9, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 10, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 11, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 12, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」三割, server: 37.235.49.158, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 13, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」红叶子, server: t03.ssrsub.com, port: 18443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: t03.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」香港 14, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」88, server: xx.azzhuangaping.tw, port: 80, type: vmess, uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xx.azzhuangaping.tw}, udp: true}
   - {name: 「㋅ ㉿inGs² 」狮城, server: www.anloao.cf, port: 9053, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」倭国, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」倭国 2, server: jp.useanlo.cf, port: 10203, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」香港, server: www.anlocl.gq, port: 20521, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs² 」香港 2, server: www.anlocl.gq, port: 30521, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」大寒冥果, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速1, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速2, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速3, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速4, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速5, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速6, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」高速7, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 99109e49-a3ed-4d9b-ace5-3898d517d0ff, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 1, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 2, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 3, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 4, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 5, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 6, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 7, server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 8, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 9, server: 85.208.108.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 10, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 11, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 12, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 13, server: 85.208.108.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 14, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 15, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 16, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 17, server: 85.208.108.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 18, server: 85.208.108.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 19, server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 20, server: 85.208.108.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 21, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 22, server: 85.208.108.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 23, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 24, server: 85.208.108.20, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 25, server: 85.208.108.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 26, server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 27, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 28, server: 85.208.108.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 29, server: 85.208.108.20, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 30, server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 31, server: 85.208.108.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 32, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 33, server: 85.208.108.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 34, server: 85.208.108.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 35, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 36, server: 85.208.108.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 37, server: 85.208.108.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 38, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 39, server: 85.208.108.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 40, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 41, server: 185.167.116.250, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 42, server: 85.208.108.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 「㋅ ㉿inGs² 」高速 43, server: 185.167.116.250, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 44, server: sghe.tjvpn.org, port: 443, type: trojan, password: 363b95c0-e9ec-11ec-b631-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 92, server: 185.167.116.250, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 94, server: 185.167.116.250, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 95, server: 185.167.116.250, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 97, server: 185.167.116.250, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 98, server: 185.167.116.250, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 102, server: 185.167.116.250, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 「㋅ ㉿inGs² 」高速 104, server: 185.167.116.250, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」8, server: shyd.ddnsguru.com, port: 58777, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shyd.ddnsguru.com}, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」9, server: shyd.ddnsguru.com, port: 31817, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shyd.ddnsguru.com}, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」27, server: 3.39.255.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」39, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」48, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」香港, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」丑国, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」香港 2, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」丑国 2, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」台湾, server: cu-cs.okvpn.xyz, port: 20003, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」马来西亚, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」大不列颠, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f200b90b-4598-4e3f-99ad-4ec2d127172d, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 UA, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 UA 2, server: us-03.licom.ml, port: 8443, type: trojan, password: a45be70d-abf2-4069-804e-e79ef87ad610, sni: us-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」丑国 UA 3, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -400,403 +168,159 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」香港 14
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -812,96 +336,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋄ KinGs㏚³ 」法国
-      - 「㋄ ◎KinGs㎹¹ 」全球网络 16
-      - 「㋅ KinGs♭¹¹ 」¹
-      - 「㋅ KinGs♭¹¹ 」¹131
-      - 「㋅ KinGs♭¹¹ 」¹139
-      - 「㋅ ㉿inGs＠¹ 」¹39
-      - 「㋅ ㉿inGs＠¹ 」¹40
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN
-      - 「㋅ KinGs㉿¹¹ 」☆共享☆ CN 2
-      - 「㋅ ㉿inGs 」中国
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs 」亚洲 3
-      - 「㋅ ㉿inGs 」亚洲 4
-      - 「㋅ ㉿inGs¹ 」香港 2
-      - 「㋅ ㉿inGs¹ 」香港
-      - 「㋅ ㉿inGs¹ 」香港 3
       - 「㋅ ㉿inGs¹ 」谁便用
-      - 「㋅ ㉿inGs¹ 」谁便用 2
-      - 「㋅ ㉿inGs¹ 」香港 4
-      - 「㋅ ㉿inGs¹ 」香港 5
-      - 「㋅ ㉿inGs¹ 」香港 6
-      - 「㋅ ㉿inGs¹ 」香港 7
-      - 「㋅ ㉿inGs¹ 」香港 8
-      - 「㋅ ㉿inGs¹ 」香港 9
-      - 「㋅ ㉿inGs¹ 」香港 10
-      - 「㋅ ㉿inGs¹ 」香港 11
-      - 「㋅ ㉿inGs¹ 」香港 12
-      - 「㋅ ㉿inGs¹ 」三割
-      - 「㋅ ㉿inGs¹ 」香港 13
-      - 「㋅ ㉿inGs¹ 」红叶子
-      - 「㋅ ㉿inGs¹ 」香港 14
-      - 「㋅ ㉿inGs㎥ⓝ² 」88
       - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」香港
-      - 「㋅ ㉿inGs² 」香港 2
       - 「㋅ ㉿inGs² 」大寒冥果
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速1
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速2
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速3
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速4
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速5
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速6
-      - 「㋅ ㉿inGs㎥ⓝ² 」高速7
-      - 「㋅ ㉿inGs² 」高速 1
-      - 「㋅ ㉿inGs² 」高速 2
-      - 「㋅ ㉿inGs² 」高速 3
-      - 「㋅ ㉿inGs² 」高速 4
-      - 「㋅ ㉿inGs² 」高速 5
-      - 「㋅ ㉿inGs² 」高速 6
-      - 「㋅ ㉿inGs² 」高速 7
-      - 「㋅ ㉿inGs² 」高速 8
-      - 「㋅ ㉿inGs² 」高速 9
-      - 「㋅ ㉿inGs² 」高速 10
-      - 「㋅ ㉿inGs² 」高速 11
-      - 「㋅ ㉿inGs² 」高速 12
-      - 「㋅ ㉿inGs² 」高速 13
-      - 「㋅ ㉿inGs² 」高速 14
-      - 「㋅ ㉿inGs² 」高速 15
-      - 「㋅ ㉿inGs² 」高速 16
-      - 「㋅ ㉿inGs² 」高速 17
-      - 「㋅ ㉿inGs² 」高速 18
-      - 「㋅ ㉿inGs² 」高速 19
-      - 「㋅ ㉿inGs² 」高速 20
-      - 「㋅ ㉿inGs² 」高速 21
-      - 「㋅ ㉿inGs² 」高速 22
-      - 「㋅ ㉿inGs² 」高速 23
-      - 「㋅ ㉿inGs² 」高速 24
-      - 「㋅ ㉿inGs² 」高速 25
-      - 「㋅ ㉿inGs² 」高速 26
-      - 「㋅ ㉿inGs² 」高速 27
-      - 「㋅ ㉿inGs² 」高速 28
-      - 「㋅ ㉿inGs² 」高速 29
-      - 「㋅ ㉿inGs² 」高速 30
-      - 「㋅ ㉿inGs² 」高速 31
-      - 「㋅ ㉿inGs² 」高速 32
-      - 「㋅ ㉿inGs² 」高速 33
-      - 「㋅ ㉿inGs² 」高速 34
-      - 「㋅ ㉿inGs² 」高速 35
-      - 「㋅ ㉿inGs² 」高速 36
-      - 「㋅ ㉿inGs² 」高速 37
-      - 「㋅ ㉿inGs² 」高速 38
-      - 「㋅ ㉿inGs² 」高速 39
-      - 「㋅ ㉿inGs² 」高速 40
-      - 「㋅ ㉿inGs² 」高速 41
-      - 「㋅ ㉿inGs² 」高速 42
       - 「㋅ ㉿inGs² 」高速 43
-      - 「㋅ ㉿inGs² 」高速 44
+      - 「㋅ ㉿inGs² 」高速 92
+      - 「㋅ ㉿inGs² 」高速 94
+      - 「㋅ ㉿inGs² 」高速 95
+      - 「㋅ ㉿inGs² 」高速 97
+      - 「㋅ ㉿inGs² 」高速 98
+      - 「㋅ ㉿inGs² 」高速 102
+      - 「㋅ ㉿inGs² 」高速 104
+      - 「㋅ ㉿inGs㎥ⓝ² 」8
+      - 「㋅ ㉿inGs㎥ⓝ² 」9
+      - 「㋅ ㉿inGs㎥ⓝ² 」27
+      - 「㋅ ㉿inGs㎥ⓝ² 」39
+      - 「㋅ ㉿inGs㎥ⓝ² 」48
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国
+      - 「㋅ ㉿inGs㎥ⓝ² 」香港 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」丑国 2
+      - 「㋅ ㉿inGs㎥ⓝ² 」台湾
+      - 「㋅ ㉿inGs㎥ⓝ² 」马来西亚
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠
+      - 「㋅ ㉿inGs㎥ⓝ² 」大不列颠 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA
+      - 「㋅ ㉿inGs¹ 」丑国 UA 2
+      - 「㋅ ㉿inGs¹ 」丑国 UA 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
