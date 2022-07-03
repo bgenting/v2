@@ -15,9 +15,6 @@ proxies:
   - {name: 「㋅ ㉿inGs² 」高速 94, server: 185.167.116.250, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」48, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」丑国 UA, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」6, server: hnyd.52147.top, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」20, server: hnyd.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」22, server: gzyd2.52147.top, port: 30170, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」39, server: gzyd1.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」41, server: gzyd2.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」61, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
@@ -30,7 +27,23 @@ proxies:
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」163, server: hinet.52147.top, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」165, server: 164.70.68.67, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」115, server: jp01.xiaoqi99.cf, port: 10122, type: vmess, uuid: 65077979-2f40-4c42-a03d-d67da3d2e5d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp01.xiaoqi99.cf}, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」142, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 375e1e34-8f6f-39be-bdb9-52080f546d4d, sni: ma-zf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」HK 2, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」RW 1, server: 134.195.101.32, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」SG 1, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, sni: trojan2.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 4, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 13, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 15, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 20, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 24, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 25, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 26, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 27, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 28, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 29, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 30, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 31, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 32, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋅ ㉿inGs¹ 」US 33, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -47,9 +60,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -62,7 +72,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -78,9 +104,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -93,7 +116,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -110,9 +149,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -125,7 +161,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -154,9 +206,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -169,7 +218,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -190,9 +255,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -205,7 +267,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: 📲 电报信息
     type: select
     proxies:
@@ -221,9 +299,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -236,7 +311,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -253,9 +344,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -268,7 +356,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,9 +398,6 @@ proxy-groups:
       - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
       - 「㋅ ㉿inGs¹ 」丑国 UA
-      - 「㋅ ㉿inGs㎥ⓝ² 」6
-      - 「㋅ ㉿inGs㎥ⓝ² 」20
-      - 「㋅ ㉿inGs㎥ⓝ² 」22
       - 「㋅ ㉿inGs㎥ⓝ² 」39
       - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
@@ -309,7 +410,23 @@ proxy-groups:
       - 「㋅ ㉿inGs㎥ⓝ² 」163
       - 「㋅ ㉿inGs㎥ⓝ² 」165
       - 「㋅ ㉿inGs㎥ⓝ² 」115
-      - 「㋅ ㉿inGs㎥ⓝ² 」142
+      - 「㋅ ㉿inGs¹ 」HK 2
+      - 「㋅ ㉿inGs¹ 」RW 1
+      - 「㋅ ㉿inGs¹ 」SG 1
+      - 「㋅ ㉿inGs¹ 」US 4
+      - 「㋅ ㉿inGs¹ 」US 13
+      - 「㋅ ㉿inGs¹ 」US 15
+      - 「㋅ ㉿inGs¹ 」US 20
+      - 「㋅ ㉿inGs¹ 」US 24
+      - 「㋅ ㉿inGs¹ 」US 25
+      - 「㋅ ㉿inGs¹ 」US 26
+      - 「㋅ ㉿inGs¹ 」US 27
+      - 「㋅ ㉿inGs¹ 」US 28
+      - 「㋅ ㉿inGs¹ 」US 29
+      - 「㋅ ㉿inGs¹ 」US 30
+      - 「㋅ ㉿inGs¹ 」US 31
+      - 「㋅ ㉿inGs¹ 」US 32
+      - 「㋅ ㉿inGs¹ 」US 33
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
