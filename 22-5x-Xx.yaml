@@ -7,18 +7,13 @@ external-controller: :9090
 proxies:
   - {name: 「㋅ ㉿inGs 」亚洲, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs 」亚洲 2, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs² 」狮城, server: www.anloao.cf, port: 9053, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」倭国, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」倭国 2, server: jp.useanlo.cf, port: 10203, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」大寒冥果, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs² 」高速 92, server: 185.167.116.250, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 「㋅ ㉿inGs² 」高速 94, server: 185.167.116.250, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」48, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 「㋅ ㉿inGs¹ 」丑国 UA, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」39, server: gzyd1.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」41, server: gzyd2.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」61, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋅ ㉿inGs㎥ⓝ² 」63, server: gzyd2.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」79, server: gzyd1.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」138, server: 103.173.255.234, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs㎥ⓝ² 」143, server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
@@ -30,213 +25,98 @@ proxies:
   - {name: 「㋅ ㉿inGs¹ 」US 4, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」US 13, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
   - {name: 「㋅ ㉿inGs¹ 」US 20, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港, server: 73hk01.ok365.cyou, port: 443, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 73hk01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 2, server: 73hk03.ok365.cyou, port: 443, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 73hk03.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」狮城, server: 626sg.ok365.cyou, port: 80, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 626sg.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 3, server: 629hk.ok365.cyou, port: 443, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 629hk.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国, server: 194.156.231.126, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」蛙岛, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 2, server: 20.210.127.128, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」狮城 2, server: ftp.cn.debian.cdnet.in, port: 8050, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 3, server: 5.183.176.92, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港中转, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」大寒冥国, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国, server: 625us.ok365.cyou, port: 443, type: trojan, password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」19, server: in03.govrun.work, port: 7051, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」32, server: in02.govrun.work, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」33, server: in01.govrun.work, port: 7021, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」49, server: in02.govrun.work, port: 7011, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」57, server: iepl03.pglmamle.xyz, port: 7083, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」60, server: iepl03.pglmamle.xyz, port: 7085, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」74, server: iepl01.pglmamle.xyz, port: 7022, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」92, server: iepl03.pglmamle.xyz, port: 7081, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: ZDM4YTAxMjAxMC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」80, server: ss.2046.gq, port: 4443, type: trojan, password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a, sni: ss.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」93, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」95, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」96, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」97, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」99, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」103, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」104, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」108, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」109, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」113, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」117, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs㎥ⓝ² 」121, server: 51.38.118.42, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」123, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」124, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」125, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」126, server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」128, server: 5.183.176.92, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」129, server: 194.156.231.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」135, server: ss2.2046.gq, port: 4443, type: trojan, password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」1, server: v203.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v203.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」2, server: v222.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v222.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」3, server: v215.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v215.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」4, server: v205.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v205.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」5, server: v202.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v202.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」6, server: v225.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v225.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」7, server: v229.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v229.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」8, server: v230.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v230.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」9, server: v224.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v224.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」10, server: v217.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v217.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」11, server: v221.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v221.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」12, server: v228.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v228.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」13, server: v214.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v214.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」14, server: v204.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v204.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」15, server: v216.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v216.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」16, server: v223.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v223.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」17, server: v227.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v227.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」18, server: v226.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v226.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」19 2, server: v210.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v210.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」20, server: v212.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v212.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」21, server: v235.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v235.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」22, server: v233.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v233.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」23, server: v218.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v218.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」24, server: v232.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v232.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」25, server: v234.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v234.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」26, server: v231.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v231.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」27, server: v219.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v219.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」28, server: v208.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v208.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」29, server: v213.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v213.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」30, server: v206.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v206.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」31, server: v209.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v209.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」32 2, server: v220.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v220.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」33 2, server: v211.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v211.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」34, server: v207.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v207.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ² 」35, server: v201.swty.buzz, port: 12155, type: vmess, uuid: f5d643a0-2566-4568-b67f-03b5f077fa70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v201.swty.buzz}, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 4, server: svip01.03download.xyz, port: 22001, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 5, server: svip01.03download.xyz, port: 22003, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 6, server: svip02.03download.xyz, port: 21004, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 7, server: svip02.03download.xyz, port: 22002, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 8, server: 42.157.196.183, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 9, server: svip01.03download.xyz, port: 21003, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 10, server: svip01.03download.xyz, port: 21001, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 11, server: zx.ctz.ink, port: 40022, type: vmess, uuid: 8d9b57a5-86a9-3f76-803e-8b18fddb1706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 12, server: cn202.03download.xyz, port: 22004, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 13, server: 42.157.196.211, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 14, server: zx.ctz.ink, port: 40021, type: vmess, uuid: 8d9b57a5-86a9-3f76-803e-8b18fddb1706, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 15, server: svip02.03download.xyz, port: 21009, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 16, server: unicom01.03download.xyz, port: 22008, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: unicom01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 17, server: svip01.03download.xyz, port: 21009, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 18, server: 42.157.196.212, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 19, server: cn202.03download.xyz, port: 21004, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 20, server: svip02.03download.xyz, port: 21014, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 21, server: svip02.03download.xyz, port: 22014, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 22, server: svip02.03download.xyz, port: 21006, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 23, server: svip02.03download.xyz, port: 22009, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 24, server: cn201.03download.xyz, port: 22006, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn201.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 25, server: svip01.03download.xyz, port: 22007, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 26, server: moble01.03download.xyz, port: 22007, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: moble01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 27, server: unicom02.03download.xyz, port: 21008, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 28, server: cn202.03download.xyz, port: 21008, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 29, server: svip02.03download.xyz, port: 21008, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 30, server: moble01.03download.xyz, port: 21007, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 31, server: svip01.03download.xyz, port: 21005, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 32, server: 116.163.14.37, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 33, server: svip01.03download.xyz, port: 22005, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 34, server: moble01.03download.xyz, port: 21001, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 35, server: moble02.03download.xyz, port: 22001, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: moble02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 36, server: 116.163.14.126, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 37, server: cn202.03download.xyz, port: 22008, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 38, server: svip02.03download.xyz, port: 21002, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 39, server: 116.163.14.125, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 40, server: cn201.03download.xyz, port: 21006, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 41, server: svip02.03download.xyz, port: 22006, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 42, server: 116.163.14.17, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 43, server: unicom02.03download.xyz, port: 22003, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: unicom02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 44, server: svip01.03download.xyz, port: 21007, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 45, server: 116.163.14.89, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 46, server: 116.192.161.242, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 47, server: 47.243.31.8, port: 51657, type: vmess, uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.31.8]}}, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 48, server: cn202.03download.xyz, port: 21014, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 49, server: 116.163.14.90, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 50, server: svip02.03download.xyz, port: 22008, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 2, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 3, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 4, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 5, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 6, server: 32.yongmi.net, port: 80, type: vmess, uuid: c752ad85-40ea-42c3-a342-ce1204141afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 7, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 8, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 9, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 10, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 11, server: hj001.xiba1.xyz, port: 20770, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 12, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 13, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 51, server: cn201.03download.xyz, port: 21012, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 14, server: hj001.xiba1.xyz, port: 20767, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 15, server: hj001.xiba1.xyz, port: 20769, type: trojan, password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 52, server: cn202.03download.xyz, port: 21013, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 53, server: cn201.03download.xyz, port: 22012, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn201.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 54, server: cn202.03download.xyz, port: 22011, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 55, server: unicom02.03download.xyz, port: 21009, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 56, server: svip02.03download.xyz, port: 21011, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 57, server: svip02.03download.xyz, port: 21013, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 16, server: sgg.2046.gq, port: 4443, type: trojan, password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a, sni: sgg.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 58, server: svip01.03download.xyz, port: 21010, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 59, server: cn202.03download.xyz, port: 21011, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 60, server: svip01.03download.xyz, port: 22010, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 61, server: svip01.03download.xyz, port: 22012, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip01.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 4, server: 5.183.176.80, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 5, server: 5.183.176.84, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 62, server: cn202.03download.xyz, port: 22013, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 63, server: cn201.03download.xyz, port: 21010, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 64, server: svip02.03download.xyz, port: 22011, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: svip02.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 6, server: 5.183.176.80, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 65, server: svip01.03download.xyz, port: 21012, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 17, server: 33.yongmi.net, port: 80, type: vmess, uuid: c752ad85-40ea-42c3-a342-ce1204141afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 7, server: 5.183.176.80, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国 18, server: 43.yongmi.net, port: 80, type: vmess, uuid: c752ad85-40ea-42c3-a342-ce1204141afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 66, server: cn201.03download.xyz, port: 22009, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn201.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 67, server: 183.232.197.243, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 68, server: cn201.03download.xyz, port: 22014, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn201.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 69, server: cn201.03download.xyz, port: 21009, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 8, server: 5.183.176.80, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 9, server: 5.183.176.80, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 10, server: 5.183.176.84, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 11, server: 5.183.176.84, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 12, server: 5.183.176.84, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 70, server: cn201.03download.xyz, port: 22010, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn201.03download.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 71, server: 116.163.14.93, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 13, server: 5.183.176.80, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 14, server: 5.183.176.81, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 15, server: 5.183.176.84, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 16, server: 5.183.176.81, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 17, server: 5.183.176.81, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 18, server: 5.183.176.84, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 19, server: 5.183.176.80, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 72, server: 42.157.196.182, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 73, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 20, server: 5.183.176.80, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 74, server: 116.192.170.56, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 21, server: 5.183.176.84, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 75, server: 116.163.14.50, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 22, server: 5.183.176.81, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 23, server: 5.183.176.81, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 24, server: 5.183.176.81, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 25, server: 5.183.176.84, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 26, server: 5.183.176.84, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 76, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 77, server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」袋鼠国, server: kk.2046.gq, port: 4443, type: trojan, password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 78, server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 79, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 80, server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 81, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」大阴贩毒集团, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 82, server: 183.232.197.244, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 27, server: 5.183.176.81, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 28, server: 5.183.176.80, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 83, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 29, server: 5.183.176.81, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 30, server: 5.183.176.80, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 84, server: 116.163.14.91, port: 8033, type: ss, cipher: rc4-md5, password: wwgsvc3guc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 31, server: 5.183.176.80, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 32, server: 5.183.176.84, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 33, server: 5.183.176.80, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 85, server: iepl03.pglmamle.xyz, port: 7081, type: ssr, cipher: chacha20-ietf, password: lbNVOz, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 12010:vgELJC, obfs-param: RGFuSHVhbmcuSmlhbmc, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 34, server: 5.183.176.81, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国, server: 5.183.176.80, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 2, server: 5.183.176.84, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 3, server: 5.183.176.80, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 4, server: 5.183.176.80, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 5, server: 5.183.176.80, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 6, server: 5.183.176.84, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 7, server: 5.183.176.84, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 8, server: 5.183.176.84, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 9, server: 5.183.176.80, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 10, server: 5.183.176.84, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 11, server: 5.183.176.81, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 12, server: 5.183.176.84, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 13, server: 5.183.176.80, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 14, server: 5.183.176.80, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 15, server: 5.183.176.84, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 16, server: 5.183.176.81, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 17, server: 5.183.176.81, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 18, server: 5.183.176.81, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 19, server: 5.183.176.84, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 20, server: 5.183.176.84, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 21, server: 5.183.176.81, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 22, server: 5.183.176.80, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 23, server: 5.183.176.81, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 24, server: 5.183.176.80, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 25, server: 5.183.176.80, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 26, server: 5.183.176.84, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 27, server: 5.183.176.80, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 28, server: 5.183.176.81, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」6, server: 52.80.151.97, port: 50024, type: ss, cipher: aes-128-gcm, password: 9df1c2dc-59d7-4fa9-a273-2fb5b887d932, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」15, server: 52.80.151.97, port: 50026, type: ss, cipher: aes-128-gcm, password: 99f9ab2d-08db-4de5-b803-c2bed8b2f366, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」17, server: 52.80.151.97, port: 50026, type: ss, cipher: aes-128-gcm, password: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」41, server: 52.80.151.97, port: 50026, type: ss, cipher: aes-128-gcm, password: 7a010436-7b4a-4e65-ade4-844ba074ad58, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」55, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 065804dc-ed8a-4dd7-8e6e-3a57c88f9aa7, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」59, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 7a010436-7b4a-4e65-ade4-844ba074ad58, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」68, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 2afed3b1-0f8c-44fd-842b-8b3dbea7cae3, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」70, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 9df1c2dc-59d7-4fa9-a273-2fb5b887d932, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」35, server: 146.56.110.129, port: 26396, type: vmess, uuid: f4baed1c-ab86-4b70-caa3-df853467e1bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」39, server: 161.129.60.17, port: 25634, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」59 2, server: 146.56.110.129, port: 15417, type: vmess, uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」60, server: 5.181.5.12, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」66, server: 45.78.78.62, port: 38212, type: vmess, uuid: 5349d03e-7ef8-4aa1-e8a3-87d6f0fcd9c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」72, server: 185.160.26.189, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」76, server: 5.181.5.12, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」77, server: 152.67.223.187, port: 13774, type: vmess, uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」79, server: 5.181.5.12, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」81, server: 5.181.5.139, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」83, server: 5.181.5.139, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」86, server: 5.181.5.12, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」87, server: 5.181.5.12, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」88, server: 185.160.26.143, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」90, server: 185.160.26.189, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」91, server: 185.160.26.189, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」93, server: 5.181.5.12, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」95, server: 194.156.231.202, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」96, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」97, server: 185.160.26.143, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」98, server: 194.156.231.219, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」102, server: 89.31.126.31, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」103, server: 185.160.26.143, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」105, server: 5.181.5.12, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」106, server: 194.156.231.248, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」108, server: 5.181.5.139, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」111, server: 185.160.26.189, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」112, server: 5.181.5.12, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」113, server: 5.181.5.139, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」118, server: 194.156.231.221, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」119, server: 185.160.26.160, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」120, server: 5.181.5.139, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」125, server: 185.160.26.160, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」126, server: 185.160.26.160, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」127, server: 194.156.231.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」132, server: 185.160.26.143, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」134, server: 194.156.231.202, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」136, server: 194.156.231.248, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」137, server: 194.156.231.219, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」138, server: 185.160.26.160, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」139, server: 194.156.231.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」31, server: 194.156.231.223, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」5, server: gzyd1.52147.top, port: 20140, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」8, server: 103.186.187.52, port: 28443, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」14, server: gzyd1.52147.top, port: 20110, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」19, server: gzyd1.52147.top, port: 20120, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」21, server: gzyd1.52147.top, port: 20060, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」32, server: 164.70.68.67, port: 28443, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」37, server: gzyd1.52147.top, port: 20020, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」40, server: hinet.52147.top, port: 28443, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」45, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」48, server: 203.138.98.199, port: 28443, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」49, server: 5.183.176.92, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」53, server: 5.183.176.92, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋆ ㉿inGs㎥ⓝ² 」56, server: 103.173.255.234, port: 28443, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -245,18 +125,13 @@ proxy-groups:
       - 🎯 全球直连
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -268,175 +143,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -444,37 +163,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -482,18 +242,13 @@ proxy-groups:
     proxies:
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -505,175 +260,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -681,37 +280,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -720,18 +360,13 @@ proxy-groups:
       - 🎯 全球直连
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -743,175 +378,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -919,37 +398,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -970,18 +490,13 @@ proxy-groups:
       - 🎯 全球直连
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -993,175 +508,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -1169,127 +528,82 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
-      - 「㋆ ㉿inGs¹ 」香港 74
-      - 「㋆ ㉿inGs¹ 」香港 75
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」香港 82
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」香港 85
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1298,18 +612,13 @@ proxy-groups:
       - 🔰 节点选择
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -1321,175 +630,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -1497,37 +650,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1535,18 +729,13 @@ proxy-groups:
       - 🎯 全球直连
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -1558,175 +747,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -1734,37 +767,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1773,18 +847,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -1796,175 +865,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -1972,37 +885,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2020,18 +974,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 「㋅ ㉿inGs 」亚洲
       - 「㋅ ㉿inGs 」亚洲 2
-      - 「㋅ ㉿inGs² 」狮城
       - 「㋅ ㉿inGs² 」倭国
       - 「㋅ ㉿inGs² 」倭国 2
       - 「㋅ ㉿inGs² 」大寒冥果
       - 「㋅ ㉿inGs² 」高速 92
-      - 「㋅ ㉿inGs² 」高速 94
       - 「㋅ ㉿inGs㎥ⓝ² 」48
-      - 「㋅ ㉿inGs¹ 」丑国 UA
       - 「㋅ ㉿inGs㎥ⓝ² 」39
-      - 「㋅ ㉿inGs㎥ⓝ² 」41
       - 「㋅ ㉿inGs㎥ⓝ² 」61
-      - 「㋅ ㉿inGs㎥ⓝ² 」63
       - 「㋅ ㉿inGs㎥ⓝ² 」79
       - 「㋅ ㉿inGs㎥ⓝ² 」138
       - 「㋅ ㉿inGs㎥ⓝ² 」143
@@ -2043,175 +992,19 @@ proxy-groups:
       - 「㋅ ㉿inGs¹ 」US 4
       - 「㋅ ㉿inGs¹ 」US 13
       - 「㋅ ㉿inGs¹ 」US 20
-      - 「㋆ ㉿inGs¹ 」香港
-      - 「㋆ ㉿inGs¹ 」香港 2
-      - 「㋆ ㉿inGs¹ 」狮城
-      - 「㋆ ㉿inGs¹ 」香港 3
-      - 「㋆ ㉿inGs¹ 」倭国
-      - 「㋆ ㉿inGs¹ 」蛙岛
-      - 「㋆ ㉿inGs¹ 」倭国 2
-      - 「㋆ ㉿inGs¹ 」狮城 2
-      - 「㋆ ㉿inGs¹ 」倭国 3
-      - 「㋆ ㉿inGs¹ 」香港中转
-      - 「㋆ ㉿inGs¹ 」大寒冥国
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs㎥ⓝ² 」19
-      - 「㋆ ㉿inGs㎥ⓝ² 」32
-      - 「㋆ ㉿inGs㎥ⓝ² 」33
-      - 「㋆ ㉿inGs㎥ⓝ² 」49
-      - 「㋆ ㉿inGs㎥ⓝ² 」57
-      - 「㋆ ㉿inGs㎥ⓝ² 」60
-      - 「㋆ ㉿inGs㎥ⓝ² 」74
-      - 「㋆ ㉿inGs㎥ⓝ² 」92
-      - 「㋆ ㉿inGs㎥ⓝ² 」80
-      - 「㋆ ㉿inGs㎥ⓝ² 」93
-      - 「㋆ ㉿inGs㎥ⓝ² 」95
-      - 「㋆ ㉿inGs㎥ⓝ² 」96
-      - 「㋆ ㉿inGs㎥ⓝ² 」97
-      - 「㋆ ㉿inGs㎥ⓝ² 」99
-      - 「㋆ ㉿inGs㎥ⓝ² 」103
-      - 「㋆ ㉿inGs㎥ⓝ² 」104
-      - 「㋆ ㉿inGs㎥ⓝ² 」108
-      - 「㋆ ㉿inGs㎥ⓝ² 」109
-      - 「㋆ ㉿inGs㎥ⓝ² 」113
-      - 「㋆ ㉿inGs㎥ⓝ² 」117
       - 「㋆ ㉿inGs㎥ⓝ² 」121
-      - 「㋆ ㉿inGs㎥ⓝ² 」123
-      - 「㋆ ㉿inGs㎥ⓝ² 」124
-      - 「㋆ ㉿inGs㎥ⓝ² 」125
-      - 「㋆ ㉿inGs㎥ⓝ² 」126
-      - 「㋆ ㉿inGs㎥ⓝ² 」128
-      - 「㋆ ㉿inGs㎥ⓝ² 」129
-      - 「㋆ ㉿inGs㎥ⓝ² 」135
-      - 「㋆ ㉿inGs㎥ⓝ² 」1
-      - 「㋆ ㉿inGs㎥ⓝ² 」2
-      - 「㋆ ㉿inGs㎥ⓝ² 」3
-      - 「㋆ ㉿inGs㎥ⓝ² 」4
-      - 「㋆ ㉿inGs㎥ⓝ² 」5
-      - 「㋆ ㉿inGs㎥ⓝ² 」6
-      - 「㋆ ㉿inGs㎥ⓝ² 」7
-      - 「㋆ ㉿inGs㎥ⓝ² 」8
-      - 「㋆ ㉿inGs㎥ⓝ² 」9
-      - 「㋆ ㉿inGs㎥ⓝ² 」10
-      - 「㋆ ㉿inGs㎥ⓝ² 」11
-      - 「㋆ ㉿inGs㎥ⓝ² 」12
-      - 「㋆ ㉿inGs㎥ⓝ² 」13
-      - 「㋆ ㉿inGs㎥ⓝ² 」14
-      - 「㋆ ㉿inGs㎥ⓝ² 」15
-      - 「㋆ ㉿inGs㎥ⓝ² 」16
-      - 「㋆ ㉿inGs㎥ⓝ² 」17
-      - 「㋆ ㉿inGs㎥ⓝ² 」18
-      - 「㋆ ㉿inGs㎥ⓝ² 」19 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」20
-      - 「㋆ ㉿inGs㎥ⓝ² 」21
-      - 「㋆ ㉿inGs㎥ⓝ² 」22
-      - 「㋆ ㉿inGs㎥ⓝ² 」23
-      - 「㋆ ㉿inGs㎥ⓝ² 」24
-      - 「㋆ ㉿inGs㎥ⓝ² 」25
-      - 「㋆ ㉿inGs㎥ⓝ² 」26
-      - 「㋆ ㉿inGs㎥ⓝ² 」27
-      - 「㋆ ㉿inGs㎥ⓝ² 」28
-      - 「㋆ ㉿inGs㎥ⓝ² 」29
-      - 「㋆ ㉿inGs㎥ⓝ² 」30
-      - 「㋆ ㉿inGs㎥ⓝ² 」31
-      - 「㋆ ㉿inGs㎥ⓝ² 」32 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」33 2
-      - 「㋆ ㉿inGs㎥ⓝ² 」34
-      - 「㋆ ㉿inGs㎥ⓝ² 」35
-      - 「㋆ ㉿inGs¹ 」香港 4
-      - 「㋆ ㉿inGs¹ 」香港 5
-      - 「㋆ ㉿inGs¹ 」香港 6
-      - 「㋆ ㉿inGs¹ 」香港 7
-      - 「㋆ ㉿inGs¹ 」香港 8
-      - 「㋆ ㉿inGs¹ 」香港 9
-      - 「㋆ ㉿inGs¹ 」香港 10
-      - 「㋆ ㉿inGs¹ 」香港 11
-      - 「㋆ ㉿inGs¹ 」香港 12
-      - 「㋆ ㉿inGs¹ 」香港 13
-      - 「㋆ ㉿inGs¹ 」香港 14
-      - 「㋆ ㉿inGs¹ 」香港 15
-      - 「㋆ ㉿inGs¹ 」香港 16
-      - 「㋆ ㉿inGs¹ 」香港 17
-      - 「㋆ ㉿inGs¹ 」香港 18
-      - 「㋆ ㉿inGs¹ 」香港 19
-      - 「㋆ ㉿inGs¹ 」香港 20
-      - 「㋆ ㉿inGs¹ 」香港 21
-      - 「㋆ ㉿inGs¹ 」香港 22
-      - 「㋆ ㉿inGs¹ 」香港 23
-      - 「㋆ ㉿inGs¹ 」香港 24
-      - 「㋆ ㉿inGs¹ 」香港 25
-      - 「㋆ ㉿inGs¹ 」香港 26
-      - 「㋆ ㉿inGs¹ 」香港 27
-      - 「㋆ ㉿inGs¹ 」香港 28
-      - 「㋆ ㉿inGs¹ 」香港 29
-      - 「㋆ ㉿inGs¹ 」香港 30
-      - 「㋆ ㉿inGs¹ 」香港 31
-      - 「㋆ ㉿inGs¹ 」香港 32
-      - 「㋆ ㉿inGs¹ 」香港 33
-      - 「㋆ ㉿inGs¹ 」香港 34
-      - 「㋆ ㉿inGs¹ 」香港 35
-      - 「㋆ ㉿inGs¹ 」香港 36
-      - 「㋆ ㉿inGs¹ 」香港 37
-      - 「㋆ ㉿inGs¹ 」香港 38
-      - 「㋆ ㉿inGs¹ 」香港 39
-      - 「㋆ ㉿inGs¹ 」香港 40
-      - 「㋆ ㉿inGs¹ 」香港 41
-      - 「㋆ ㉿inGs¹ 」香港 42
-      - 「㋆ ㉿inGs¹ 」香港 43
-      - 「㋆ ㉿inGs¹ 」香港 44
-      - 「㋆ ㉿inGs¹ 」香港 45
-      - 「㋆ ㉿inGs¹ 」香港 46
-      - 「㋆ ㉿inGs¹ 」香港 47
-      - 「㋆ ㉿inGs¹ 」香港 48
-      - 「㋆ ㉿inGs¹ 」香港 49
-      - 「㋆ ㉿inGs¹ 」香港 50
-      - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆ ㉿inGs¹ 」丑国 3
-      - 「㋆ ㉿inGs¹ 」丑国 4
-      - 「㋆ ㉿inGs¹ 」丑国 5
-      - 「㋆ ㉿inGs¹ 」丑国 6
-      - 「㋆ ㉿inGs¹ 」丑国 7
-      - 「㋆ ㉿inGs¹ 」丑国 8
-      - 「㋆ ㉿inGs¹ 」丑国 9
-      - 「㋆ ㉿inGs¹ 」丑国 10
-      - 「㋆ ㉿inGs¹ 」丑国 11
-      - 「㋆ ㉿inGs¹ 」丑国 12
-      - 「㋆ ㉿inGs¹ 」丑国 13
-      - 「㋆ ㉿inGs¹ 」香港 51
-      - 「㋆ ㉿inGs¹ 」丑国 14
-      - 「㋆ ㉿inGs¹ 」丑国 15
-      - 「㋆ ㉿inGs¹ 」香港 52
-      - 「㋆ ㉿inGs¹ 」香港 53
-      - 「㋆ ㉿inGs¹ 」香港 54
-      - 「㋆ ㉿inGs¹ 」香港 55
-      - 「㋆ ㉿inGs¹ 」香港 56
-      - 「㋆ ㉿inGs¹ 」香港 57
-      - 「㋆ ㉿inGs¹ 」丑国 16
-      - 「㋆ ㉿inGs¹ 」香港 58
-      - 「㋆ ㉿inGs¹ 」香港 59
-      - 「㋆ ㉿inGs¹ 」香港 60
-      - 「㋆ ㉿inGs¹ 」香港 61
+      - 「㋆ ㉿inGs¹ 」倭国
+      - 「㋆ ㉿inGs¹ 」倭国 2
+      - 「㋆ ㉿inGs¹ 」倭国 3
       - 「㋆ ㉿inGs¹ 」倭国 4
       - 「㋆ ㉿inGs¹ 」倭国 5
-      - 「㋆ ㉿inGs¹ 」香港 62
-      - 「㋆ ㉿inGs¹ 」香港 63
-      - 「㋆ ㉿inGs¹ 」香港 64
       - 「㋆ ㉿inGs¹ 」倭国 6
-      - 「㋆ ㉿inGs¹ 」香港 65
-      - 「㋆ ㉿inGs¹ 」丑国 17
       - 「㋆ ㉿inGs¹ 」倭国 7
-      - 「㋆ ㉿inGs¹ 」丑国 18
-      - 「㋆ ㉿inGs¹ 」香港 66
-      - 「㋆ ㉿inGs¹ 」香港 67
-      - 「㋆ ㉿inGs¹ 」香港 68
-      - 「㋆ ㉿inGs¹ 」香港 69
       - 「㋆ ㉿inGs¹ 」倭国 8
       - 「㋆ ㉿inGs¹ 」倭国 9
       - 「㋆ ㉿inGs¹ 」倭国 10
       - 「㋆ ㉿inGs¹ 」倭国 11
       - 「㋆ ㉿inGs¹ 」倭国 12
-      - 「㋆ ㉿inGs¹ 」香港 70
-      - 「㋆ ㉿inGs¹ 」香港 71
       - 「㋆ ㉿inGs¹ 」倭国 13
       - 「㋆ ㉿inGs¹ 」倭国 14
       - 「㋆ ㉿inGs¹ 」倭国 15
@@ -2219,37 +1012,78 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 17
       - 「㋆ ㉿inGs¹ 」倭国 18
       - 「㋆ ㉿inGs¹ 」倭国 19
-      - 「㋆ ㉿inGs¹ 」香港 72
-      - 「㋆ ㉿inGs¹ 」香港 73
       - 「㋆ ㉿inGs¹ 」倭国 20
-      - 「㋆ ㉿inGs¹ 」香港 74
       - 「㋆ ㉿inGs¹ 」倭国 21
-      - 「㋆ ㉿inGs¹ 」香港 75
       - 「㋆ ㉿inGs¹ 」倭国 22
       - 「㋆ ㉿inGs¹ 」倭国 23
       - 「㋆ ㉿inGs¹ 」倭国 24
       - 「㋆ ㉿inGs¹ 」倭国 25
       - 「㋆ ㉿inGs¹ 」倭国 26
-      - 「㋆ ㉿inGs¹ 」香港 76
-      - 「㋆ ㉿inGs¹ 」香港 77
-      - 「㋆ ㉿inGs¹ 」袋鼠国
-      - 「㋆ ㉿inGs¹ 」香港 78
-      - 「㋆ ㉿inGs¹ 」香港 79
-      - 「㋆ ㉿inGs¹ 」香港 80
-      - 「㋆ ㉿inGs¹ 」香港 81
-      - 「㋆ ㉿inGs¹ 」大阴贩毒集团
-      - 「㋆ ㉿inGs¹ 」香港 82
       - 「㋆ ㉿inGs¹ 」倭国 27
       - 「㋆ ㉿inGs¹ 」倭国 28
-      - 「㋆ ㉿inGs¹ 」香港 83
-      - 「㋆ ㉿inGs¹ 」倭国 29
-      - 「㋆ ㉿inGs¹ 」倭国 30
-      - 「㋆ ㉿inGs¹ 」香港 84
-      - 「㋆ ㉿inGs¹ 」倭国 31
-      - 「㋆ ㉿inGs¹ 」倭国 32
-      - 「㋆ ㉿inGs¹ 」倭国 33
-      - 「㋆ ㉿inGs¹ 」香港 85
-      - 「㋆ ㉿inGs¹ 」倭国 34
+      - 「㋆ ㉿inGs㎥ⓝ² 」6
+      - 「㋆ ㉿inGs㎥ⓝ² 」15
+      - 「㋆ ㉿inGs㎥ⓝ² 」17
+      - 「㋆ ㉿inGs㎥ⓝ² 」41
+      - 「㋆ ㉿inGs㎥ⓝ² 」55
+      - 「㋆ ㉿inGs㎥ⓝ² 」59
+      - 「㋆ ㉿inGs㎥ⓝ² 」68
+      - 「㋆ ㉿inGs㎥ⓝ² 」70
+      - 「㋆ ㉿inGs㎥ⓝ² 」35
+      - 「㋆ ㉿inGs㎥ⓝ² 」39
+      - 「㋆ ㉿inGs㎥ⓝ² 」59 2
+      - 「㋆ ㉿inGs㎥ⓝ² 」60
+      - 「㋆ ㉿inGs㎥ⓝ² 」66
+      - 「㋆ ㉿inGs㎥ⓝ² 」72
+      - 「㋆ ㉿inGs㎥ⓝ² 」76
+      - 「㋆ ㉿inGs㎥ⓝ² 」77
+      - 「㋆ ㉿inGs㎥ⓝ² 」79
+      - 「㋆ ㉿inGs㎥ⓝ² 」81
+      - 「㋆ ㉿inGs㎥ⓝ² 」83
+      - 「㋆ ㉿inGs㎥ⓝ² 」86
+      - 「㋆ ㉿inGs㎥ⓝ² 」87
+      - 「㋆ ㉿inGs㎥ⓝ² 」88
+      - 「㋆ ㉿inGs㎥ⓝ² 」90
+      - 「㋆ ㉿inGs㎥ⓝ² 」91
+      - 「㋆ ㉿inGs㎥ⓝ² 」93
+      - 「㋆ ㉿inGs㎥ⓝ² 」95
+      - 「㋆ ㉿inGs㎥ⓝ² 」96
+      - 「㋆ ㉿inGs㎥ⓝ² 」97
+      - 「㋆ ㉿inGs㎥ⓝ² 」98
+      - 「㋆ ㉿inGs㎥ⓝ² 」102
+      - 「㋆ ㉿inGs㎥ⓝ² 」103
+      - 「㋆ ㉿inGs㎥ⓝ² 」105
+      - 「㋆ ㉿inGs㎥ⓝ² 」106
+      - 「㋆ ㉿inGs㎥ⓝ² 」108
+      - 「㋆ ㉿inGs㎥ⓝ² 」111
+      - 「㋆ ㉿inGs㎥ⓝ² 」112
+      - 「㋆ ㉿inGs㎥ⓝ² 」113
+      - 「㋆ ㉿inGs㎥ⓝ² 」118
+      - 「㋆ ㉿inGs㎥ⓝ² 」119
+      - 「㋆ ㉿inGs㎥ⓝ² 」120
+      - 「㋆ ㉿inGs㎥ⓝ² 」125
+      - 「㋆ ㉿inGs㎥ⓝ² 」126
+      - 「㋆ ㉿inGs㎥ⓝ² 」127
+      - 「㋆ ㉿inGs㎥ⓝ² 」132
+      - 「㋆ ㉿inGs㎥ⓝ² 」134
+      - 「㋆ ㉿inGs㎥ⓝ² 」136
+      - 「㋆ ㉿inGs㎥ⓝ² 」137
+      - 「㋆ ㉿inGs㎥ⓝ² 」138
+      - 「㋆ ㉿inGs㎥ⓝ² 」139
+      - 「㋆ ㉿inGs㎥ⓝ² 」31
+      - 「㋆ ㉿inGs㎥ⓝ² 」5
+      - 「㋆ ㉿inGs㎥ⓝ² 」8
+      - 「㋆ ㉿inGs㎥ⓝ² 」14
+      - 「㋆ ㉿inGs㎥ⓝ² 」19
+      - 「㋆ ㉿inGs㎥ⓝ² 」21
+      - 「㋆ ㉿inGs㎥ⓝ² 」32
+      - 「㋆ ㉿inGs㎥ⓝ² 」37
+      - 「㋆ ㉿inGs㎥ⓝ² 」40
+      - 「㋆ ㉿inGs㎥ⓝ² 」45
+      - 「㋆ ㉿inGs㎥ⓝ² 」48
+      - 「㋆ ㉿inGs㎥ⓝ² 」49
+      - 「㋆ ㉿inGs㎥ⓝ² 」53
+      - 「㋆ ㉿inGs㎥ⓝ² 」56
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
