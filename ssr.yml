@@ -14,7 +14,6 @@ proxies:
   - {name: 「㋆ ㉿inGs¹ 」狮城 SG, server: cmrelay01.downsite.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: "", udp: true}
   - {name: 「㋆ ㉿inGs¹ 」丑国, server: ssrfree3.free4444.xyz, port: 11222, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「㋆ ㉿inGs¹ 」丑国 2, server: 104.21.232.35, port: 443, type: vmess, uuid: 39275c8f-4a8a-4b8d-9651-da681445a277, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: m2.v2rayfree1.xyz}, udp: true}
-  - {name: 「㋆+㉿inGs¹+」丑国, server: 107.167.12.135, port: 22100, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,7 +29,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,7 +43,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -61,7 +58,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -89,7 +85,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -112,7 +107,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -127,7 +121,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -143,7 +136,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,7 +160,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
       - 「㋆ ㉿inGs¹ 」丑国 2
-      - 「㋆+㉿inGs¹+」丑国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
