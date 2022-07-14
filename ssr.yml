@@ -1,25 +1,15 @@
-﻿mixed-port: 7890
+mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"「㋆㉿inGs¹」香港HK_1","server":"cmrelay02.downsite.xyz","port":2701,"protocol":"authaes128sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","obfs-param":"ZEM1dFpTOTJjRzVvWVhR","protocol-param":"62611:fx2iOd"}
-  - {"type":"ssr","name":"「㋆㉿inGs¹」香港HK_2","server":"cmrelay02.downsite.xyz","port":2704,"protocol":"authaes128sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","protocol-param":"62611:fx2iOd"}
-  - {"type":"ssr","name":"「㋆㉿inGs¹」香港HK_3","server":"cmrelay02.downsite.xyz","port":2707,"protocol":"authaes128sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","obfs-param":"ZEM1dFpTOTJjRzVvWVhR","protocol-param":"62611:fx2iOd"}
-  - {"type":"ssr","name":"「㋆㉿inGs¹」倭国JP_1","server":"cmrelay01.downsite.xyz","port":3702,"protocol":"authaes128sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","obfs-param":"ZEM1dFpTOTJjRzVvWVhR","protocol-param":"62611:fx2iOd"}
-  - {"type":"ssr","name":"「㋆㉿inGs¹」倭国JP_2","server":"cmrelay01.downsite.xyz","port":3703,"protocol":"authaes128sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","protocol-param":"62611:fx2iOd"}
   - {"type":"ssr","name":"「㋆㉿inGs﹡」欧洲","server":"ssrfree10.free4444.xyz","port":443,"protocol":"authchaina","cipher":"dummy","obfs":"tls1.2ticketauth","password":"dongtaiwang.com"}
 proxy-groups:
   - name: 🚀 中国代理
     type: select
     proxies:
       - DIRECT
-      - 「㋆㉿inGs¹」香港HK_1
-      - 「㋆㉿inGs¹」香港HK_2
-      - 「㋆㉿inGs¹」香港HK_3
-      - 「㋆㉿inGs¹」倭国JP_1
-      - 「㋆㉿inGs¹」倭国JP_2
       - 「㋆㉿inGs﹡」欧洲
   - name: 🎯 全球直连
     type: select
@@ -41,11 +31,6 @@ proxy-groups:
     proxies:
       - 🚀 中国代理
       - 🎯 全球直连
-      - 「㋆㉿inGs¹」香港HK_1
-      - 「㋆㉿inGs¹」香港HK_2
-      - 「㋆㉿inGs¹」香港HK_3
-      - 「㋆㉿inGs¹」倭国JP_1
-      - 「㋆㉿inGs¹」倭国JP_2
       - 「㋆㉿inGs﹡」欧洲
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
