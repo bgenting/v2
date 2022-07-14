@@ -94,7 +94,6 @@ proxies:
   - {name: 「㋆ ㉿inGs¹」罗马 3, server: 5.188.0.151, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 「㋆ ㉿inGs¹」瑞典, server: gb.v2yyds.com, port: 32912, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs¹」瑞典 2, server: gb.v2yyds.com, port: 32911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹」新加坡 5, server: shared.sev7en.cc, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: authaes128sha1, obfs: httpsimple, protocol-param: 4576:Y0G6hg, obfs-param: fc9ba4576.download.microsoft.com, udp: true}
   - {name: 「㋆ ㉿inGs㎥ⓝ²」115, server: c71s5.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs㎥ⓝ²」138, server: c71s4.jamjams3.net, port: 10922, type: vmess, uuid: 633aa237-6edc-4f81-861c-e0667d97f45d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -192,7 +191,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: ♻️ 自动选择
@@ -289,7 +287,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: 🎥 NETFLIX
@@ -387,7 +384,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: ⛔️ 广告拦截
@@ -497,7 +493,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: 🌏 国内媒体
@@ -599,7 +594,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: 📲 电报信息
@@ -696,7 +690,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: 🍎 苹果服务
@@ -794,7 +787,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
   - name: 🎯 全球直连
@@ -901,7 +893,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹」罗马 3
       - 「㋆ ㉿inGs¹」瑞典
       - 「㋆ ㉿inGs¹」瑞典 2
-      - 「㋆ ㉿inGs¹」新加坡 5
       - 「㋆ ㉿inGs㎥ⓝ²」115
       - 「㋆ ㉿inGs㎥ⓝ²」138
 rules:
