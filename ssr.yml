@@ -82,10 +82,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」香港 HK
       - 「㋆ ㉿inGs¹ 」香港 HK 2
       - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -146,7 +142,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
-    rules:
+rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
