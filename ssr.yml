@@ -11,7 +11,6 @@ proxies:
   - {name: 「㋆ ㉿inGs¹ 」倭国 JP, server: cmrelay01.downsite.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」倭国 JP 2, server: cmrelay01.downsite.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
   - {name: 「㋆ ㉿inGs¹ 」倭国 JP 3, server: cmrelay01.downsite.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: "", udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」狮城 SG, server: cmrelay01.downsite.xyz, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: "", udp: true}
   - {name: 「㋆ ㉿inGs¹ 」丑国, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -25,7 +24,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: ♻️ 自动选择
     type: url-test
@@ -38,7 +36,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: 🎥 NETFLIX
     type: select
@@ -52,7 +49,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: ⛔️ 广告拦截
     type: select
@@ -78,7 +74,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: 🌏 国内媒体
     type: select
@@ -87,6 +82,10 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」香港 HK
       - 「㋆ ㉿inGs¹ 」香港 HK 2
       - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」倭国 JP 3
+      - 「㋆ ㉿inGs¹ 」丑国
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -99,7 +98,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: 📲 电报信息
     type: select
@@ -112,7 +110,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: 🍎 苹果服务
     type: select
@@ -126,7 +123,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
   - name: 🎯 全球直连
     type: select
@@ -149,7 +145,6 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」狮城 SG
       - 「㋆ ㉿inGs¹ 」丑国
     rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
