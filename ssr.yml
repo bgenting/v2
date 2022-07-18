@@ -26,6 +26,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,6 +39,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -51,6 +53,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,6 +79,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -96,6 +100,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: 📲 电报信息
     type: select
     proxies:
@@ -108,6 +113,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -121,6 +127,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,6 +150,7 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」倭国 JP 2
       - 「㋆ ㉿inGs¹ 」倭国 JP 3
       - 「㋆ ㉿inGs¹ 」丑国
+      - 「㋆ ㉿inGs¹ 」大漂亮
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
