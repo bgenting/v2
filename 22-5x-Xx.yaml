@@ -5,102 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋆ ㉿inGs¹」荷兰, server: 92.38.184.228, port: 2097, type: ss, cipher: chacha20-ietf-poly1305, password: jRKkoWqkrw2f, udp: true}
-  - {name: 「㋆ ㉿inGs¹」罗马, server: 5.188.0.151, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹」罗马 2, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs¹」罗马 3, server: 5.188.0.151, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ²」67, server: 195.154.200.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ²」76, server: 195.154.200.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ²」116, server: 195.154.200.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 「㋆ ㉿inGs¹」CN 5 →, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹」TH 1 →, server: 119.59.116.248, port: 17159, type: trojan, password: PHnvNV7HGp, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹」US 3 →, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ²」138, server: 5.188.0.151, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋆ ㉿inGs㎥ⓝ²」196, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs²」281, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGsm³ⓝ¹」34, server: 195.154.200.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」1, server: 120.233.7.221, port: 32002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 4, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 6, server: 120.233.7.221, port: 32005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 28, server: 120.233.7.221, port: 18003, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 29, server: 36.139.115.52, port: 11207, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 34, server: 120.233.7.221, port: 18002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 38, server: 120.233.7.221, port: 32004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 45, server: 120.197.130.126, port: 13006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 47, server: 120.233.7.221, port: 18006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 51, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 72, server: 120.197.130.126, port: 13009, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 73, server: 36.139.115.52, port: 11402, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 74, server: 36.139.115.52, port: 11206, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 79, server: 120.197.130.126, port: 13007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 82, server: 120.233.7.221, port: 18004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 85, server: 120.233.7.221, port: 18005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 87, server: 36.139.115.52, port: 11401, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 13, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 18, server: supernortheast.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 19, server: supernortheast.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 20, server: supernortheast.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 21, server: supernortheast.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 23, server: supersouth.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 24, server: supersouth.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 25, server: supersouth.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 26, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」KR 34, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」KR 36, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 51, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 317, server: dtbr1.bitznet.cloud, port: 33016, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtbr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 318, server: dtua1.bitznet.cloud, port: 33019, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtua1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 319, server: dtar1.bitznet.cloud, port: 33015, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtar1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 322, server: dtau1.bitznet.cloud, port: 33012, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtau1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 324, server: dtuk1.bitznet.cloud, port: 33010, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtuk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 325, server: dtfr1.bitznet.cloud, port: 33009, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtfr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 328, server: dtus1.bitznet.cloud, port: 33001, type: trojan, password: f1d271c7-b447-4109-9792-0ca11694c793, sni: dtus1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CZ 400, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 420, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 422, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 427, server: 14.29.124.174, port: 11041, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 445, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 446, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 447, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 448, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 449, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 450, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 451, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 452, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 453, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 454, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」ID 461, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」RU 466, server: 141.98.168.251, port: 443, type: trojan, password: LiX1tV, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 553, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 687, server: 14.29.124.174, port: 11018, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 694, server: 14.29.124.168, port: 24004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 695, server: 14.29.124.174, port: 11036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 696, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」TW 873, server: 625tw.ok365.cyou, port: 443, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」US 879, server: 625us.ok365.cyou, port: 443, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 938, server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 955, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 965, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, sni: musashino.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 969, server: a.t.n1.gfwairport.xyz, port: 50001, type: trojan, password: acc98c7c-fb7c-4918-a2c7-5a90b74dc705, sni: a.t.n1.gfwairport.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 988, server: 73hk01.ok365.cyou, port: 80, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 73hk01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 989, server: 73hk02.ok365.cyou, port: 80, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 73hk02.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 991, server: 715hk01.ok365.cyou, port: 80, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 715hk01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 992, server: supersouth.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」SG 993, server: simpang.freetrade.link, port: 443, type: trojan, password: XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D, sni: simpang.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」US 1021, server: assets.freetrade.link, port: 443, type: trojan, password: T3YSRnD2AuS9xRF36F834y3DaIwNCZzgAeC7CeS8aBcxKjEYp0qXDpOllOayZ5, sni: assets.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」HK 1043, server: 716sg.ok365.cyou, port: 80, type: trojan, password: d87217b7-d374-4f96-be8f-de960cb8e5d4, sni: 716sg.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 1102, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」JP 1148, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1208, server: 14.29.124.174, port: 11004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1211, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1217, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1221, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」IN 1350, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」US 1365, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1557, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」US 1623, server: v5.tgfaka.com, port: 48443, type: trojan, password: 00b19c02-bc00-440a-a397-faf70ac3f44e, sni: v5.tgfaka.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」US 1625, server: v5.tgfaka.com, port: 48443, type: trojan, password: 6938c10f-c1a0-43e3-8321-099055f79853, sni: v5.tgfaka.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1939, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」CN 2001, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」CN 2002, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」CN 2003, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
@@ -120,108 +24,34 @@ proxies:
   - {name: 「㋆ ㉿inGs¹ 」CN 2071, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」CN 2074, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
   - {name: 「㋆ ㉿inGs¹ 」CN 2075, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 HK, server: cmrelay02.downsite.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 HK 2, server: cmrelay02.downsite.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 HK 3, server: cmrelay02.downsite.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 JP, server: cmrelay01.downsite.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 JP 2, server: cmrelay01.downsite.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」漂亮爹, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮, server: clash11.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮 2, server: clash-ssr0.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮 3, server: clash24.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮 4, server: clash26.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国, server: hk14.bp777.buzz, port: 21665, type: vmess, uuid: 88ffe128-dfbf-4c1a-85c9-3c543ed48bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk14.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 2, server: hk20.bp777.buzz, port: 21665, type: vmess, uuid: 88ffe128-dfbf-4c1a-85c9-3c543ed48bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk20.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 3, server: hk09.bp777.buzz, port: 21665, type: vmess, uuid: 67444975-6a2d-45ea-a725-e1f19d5d5c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk09.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 4, server: hk11.bp777.buzz, port: 21665, type: vmess, uuid: 67444975-6a2d-45ea-a725-e1f19d5d5c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk11.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 5, server: hk12.bp777.buzz, port: 21665, type: vmess, uuid: 67444975-6a2d-45ea-a725-e1f19d5d5c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 6, server: hk14.bp777.buzz, port: 21665, type: vmess, uuid: 67444975-6a2d-45ea-a725-e1f19d5d5c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk14.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 7, server: hk20.bp777.buzz, port: 21665, type: vmess, uuid: 67444975-6a2d-45ea-a725-e1f19d5d5c18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk20.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 8, server: hk09.bp777.buzz, port: 21665, type: vmess, uuid: 73c954c8-cc9e-4a8c-8c61-ddd3d3f99d81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk09.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 9, server: hk11.bp777.buzz, port: 21665, type: vmess, uuid: 73c954c8-cc9e-4a8c-8c61-ddd3d3f99d81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk11.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 10, server: hk12.bp777.buzz, port: 21665, type: vmess, uuid: 73c954c8-cc9e-4a8c-8c61-ddd3d3f99d81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 11, server: hk14.bp777.buzz, port: 21665, type: vmess, uuid: 73c954c8-cc9e-4a8c-8c61-ddd3d3f99d81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk14.bp777.buzz}, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」韩国 12, server: hk20.bp777.buzz, port: 21665, type: vmess, uuid: 73c954c8-cc9e-4a8c-8c61-ddd3d3f99d81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk20.bp777.buzz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -241,107 +71,33 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -361,108 +117,34 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -482,6 +164,28 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -500,102 +204,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -615,112 +223,41 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -740,107 +277,33 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -860,108 +323,34 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -981,6 +370,28 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -996,102 +407,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹」荷兰
-      - 「㋆ ㉿inGs¹」罗马
-      - 「㋆ ㉿inGs¹」罗马 2
-      - 「㋆ ㉿inGs¹」罗马 3
-      - 「㋆ ㉿inGs㎥ⓝ²」67
-      - 「㋆ ㉿inGs㎥ⓝ²」76
-      - 「㋆ ㉿inGs㎥ⓝ²」116
-      - 「㋆ ㉿inGs¹」CN 5 →
-      - 「㋆ ㉿inGs¹」TH 1 →
-      - 「㋆ ㉿inGs¹」US 3 →
-      - 「㋆ ㉿inGs㎥ⓝ²」138
-      - 「㋆ ㉿inGs㎥ⓝ²」196
-      - 「㋆ ㉿inGs²」281
-      - 「㋆ ㉿inGsm³ⓝ¹」34
-      - 「㋆ ㉿inGs¹ 」1
-      - 「㋆ ㉿inGs¹ 」 4
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 28
-      - 「㋆ ㉿inGs¹ 」 29
-      - 「㋆ ㉿inGs¹ 」 34
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 45
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 51
-      - 「㋆ ㉿inGs¹ 」 72
-      - 「㋆ ㉿inGs¹ 」 73
-      - 「㋆ ㉿inGs¹ 」 74
-      - 「㋆ ㉿inGs¹ 」 79
-      - 「㋆ ㉿inGs¹ 」 82
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」 87
-      - 「㋆ ㉿inGs¹ 」HK 13
-      - 「㋆ ㉿inGs¹ 」JP 18
-      - 「㋆ ㉿inGs¹ 」JP 19
-      - 「㋆ ㉿inGs¹ 」JP 20
-      - 「㋆ ㉿inGs¹ 」JP 21
-      - 「㋆ ㉿inGs¹ 」SG 23
-      - 「㋆ ㉿inGs¹ 」SG 24
-      - 「㋆ ㉿inGs¹ 」SG 25
-      - 「㋆ ㉿inGs¹ 」SG 26
-      - 「㋆ ㉿inGs¹ 」KR 34
-      - 「㋆ ㉿inGs¹ 」KR 36
-      - 「㋆ ㉿inGs¹ 」CN 51
-      - 「㋆ ㉿inGs¹ 」CN 317
-      - 「㋆ ㉿inGs¹ 」CN 318
-      - 「㋆ ㉿inGs¹ 」CN 319
-      - 「㋆ ㉿inGs¹ 」CN 322
-      - 「㋆ ㉿inGs¹ 」CN 324
-      - 「㋆ ㉿inGs¹ 」CN 325
-      - 「㋆ ㉿inGs¹ 」CN 328
-      - 「㋆ ㉿inGs¹ 」CZ 400
-      - 「㋆ ㉿inGs¹ 」SG 420
-      - 「㋆ ㉿inGs¹ 」SG 422
-      - 「㋆ ㉿inGs¹ 」CN 427
-      - 「㋆ ㉿inGs¹ 」CN 445
-      - 「㋆ ㉿inGs¹ 」CN 446
-      - 「㋆ ㉿inGs¹ 」CN 447
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 453
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」ID 461
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」HK 553
-      - 「㋆ ㉿inGs¹ 」CN 687
-      - 「㋆ ㉿inGs¹ 」CN 694
-      - 「㋆ ㉿inGs¹ 」CN 695
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」TW 873
-      - 「㋆ ㉿inGs¹ 」US 879
-      - 「㋆ ㉿inGs¹ 」CN 938
-      - 「㋆ ㉿inGs¹ 」HK 955
-      - 「㋆ ㉿inGs¹ 」JP 965
-      - 「㋆ ㉿inGs¹ 」JP 969
-      - 「㋆ ㉿inGs¹ 」HK 988
-      - 「㋆ ㉿inGs¹ 」HK 989
-      - 「㋆ ㉿inGs¹ 」HK 991
-      - 「㋆ ㉿inGs¹ 」SG 992
-      - 「㋆ ㉿inGs¹ 」SG 993
-      - 「㋆ ㉿inGs¹ 」US 1021
-      - 「㋆ ㉿inGs¹ 」HK 1043
-      - 「㋆ ㉿inGs¹ 」JP 1102
-      - 「㋆ ㉿inGs¹ 」JP 1148
-      - 「㋆ ㉿inGs¹ 」CN 1208
-      - 「㋆ ㉿inGs¹ 」CN 1211
-      - 「㋆ ㉿inGs¹ 」CN 1217
-      - 「㋆ ㉿inGs¹ 」CN 1221
-      - 「㋆ ㉿inGs¹ 」IN 1350
-      - 「㋆ ㉿inGs¹ 」US 1365
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」US 1623
-      - 「㋆ ㉿inGs¹ 」US 1625
-      - 「㋆ ㉿inGs¹ 」CN 1939
       - 「㋆ ㉿inGs¹ 」CN 2001
       - 「㋆ ㉿inGs¹ 」CN 2002
       - 「㋆ ㉿inGs¹ 」CN 2003
@@ -1111,6 +426,28 @@ proxy-groups:
       - 「㋆ ㉿inGs¹ 」CN 2071
       - 「㋆ ㉿inGs¹ 」CN 2074
       - 「㋆ ㉿inGs¹ 」CN 2075
+      - 「㋆ ㉿inGs¹ 」香港 HK
+      - 「㋆ ㉿inGs¹ 」香港 HK 2
+      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」倭国 JP
+      - 「㋆ ㉿inGs¹ 」倭国 JP 2
+      - 「㋆ ㉿inGs¹ 」漂亮爹
+      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」大漂亮 2
+      - 「㋆ ㉿inGs¹ 」大漂亮 3
+      - 「㋆ ㉿inGs¹ 」大漂亮 4
+      - 「㋆ ㉿inGs¹ 」韩国
+      - 「㋆ ㉿inGs¹ 」韩国 2
+      - 「㋆ ㉿inGs¹ 」韩国 3
+      - 「㋆ ㉿inGs¹ 」韩国 4
+      - 「㋆ ㉿inGs¹ 」韩国 5
+      - 「㋆ ㉿inGs¹ 」韩国 6
+      - 「㋆ ㉿inGs¹ 」韩国 7
+      - 「㋆ ㉿inGs¹ 」韩国 8
+      - 「㋆ ㉿inGs¹ 」韩国 9
+      - 「㋆ ㉿inGs¹ 」韩国 10
+      - 「㋆ ㉿inGs¹ 」韩国 11
+      - 「㋆ ㉿inGs¹ 」韩国 12
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
