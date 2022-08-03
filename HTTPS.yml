@@ -341,343 +341,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 1
-    server: h192837.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 2
-    server: h192837.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 3
-    server: h192837.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 4
-    server: h517439.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 5
-    server: h517439.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 6
-    server: h517439.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 7
-    server: h63956.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 8
-    server: h63956.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 9
-    server: h63956.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 10
-    server: h738106.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 11
-    server: h738106.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 12
-    server: h738106.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 13
-    server: h890361.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 14
-    server: h890361.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 15
-    server: h890361.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 16
-    server: h961359.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 17
-    server: h961359.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 18
-    server: h961359.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 19
-    server: h961684.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 20
-    server: h961684.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸  「㋇ ㉿inGs¹ 」美国 21
-    server: h961684.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 1
-    server: h192837.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 2
-    server: h192837.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 3
-    server: h192837.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 4
-    server: h517439.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 5
-    server: h517439.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 6
-    server: h517439.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 7
-    server: h63956.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 8
-    server: h63956.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 9
-    server: h63956.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 10
-    server: h738106.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 11
-    server: h738106.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 12
-    server: h738106.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 13
-    server: h890361.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 14
-    server: h890361.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 15
-    server: h890361.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 16
-    server: h961359.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 17
-    server: h961359.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 18
-    server: h961359.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 19
-    server: h961684.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 20
-    server: h961684.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪  「㋇ ㉿inGs¹ 」德国 21
-    server: h961684.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 1
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 1
     server: h3816Tw.strongpipe.live
     port: 20443
     type: http
@@ -685,7 +349,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 2
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 2
     server: h3816Tw.strongpipe.live
     port: 20444
     type: http
@@ -693,7 +357,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 3
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 3
     server: h3816Tw.strongpipe.live
     port: 20445
     type: http
@@ -701,7 +365,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 4
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 4
     server: h3816Tw.strongpipe.live
     port: 20446
     type: http
@@ -709,7 +373,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 5
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 5
     server: h3816Tw.strongpipe.live
     port: 20447
     type: http
@@ -717,7 +381,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 6
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 6
     server: h3816Tw.strongpipe.live
     port: 20448
     type: http
@@ -725,7 +389,7 @@ proxies:
     password: 26bae9b023
     tls: true
     skip-cert-verify: true
-  - name: 🇨🇳  「㋇ ㉿inGs¹ 」台湾 7
+  - name: 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 7
     server: h3816Tw.strongpipe.live
     port: 20449
     type: http
@@ -950,55 +614,13 @@ proxy-groups:
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 19
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 20
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 21
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 1
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 2
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 3
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 4
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 5
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 6
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 7
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 8
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 9
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 10
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 11
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 12
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 13
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 14
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 15
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 16
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 17
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 18
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 19
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 20
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 21
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 1
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 2
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 3
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 4
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 5
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 6
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 7
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 8
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 9
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 10
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 11
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 12
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 13
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 14
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 15
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 16
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 17
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 18
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 19
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 20
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 21
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 1
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 2
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 3
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 4
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 5
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 6
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 7
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 1
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 2
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 3
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 4
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 5
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 6
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 7
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 1
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 2
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 3
@@ -1078,55 +700,13 @@ proxy-groups:
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 19
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 20
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 21
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 1
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 2
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 3
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 4
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 5
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 6
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 7
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 8
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 9
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 10
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 11
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 12
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 13
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 14
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 15
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 16
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 17
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 18
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 19
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 20
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 21
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 1
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 2
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 3
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 4
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 5
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 6
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 7
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 8
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 9
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 10
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 11
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 12
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 13
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 14
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 15
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 16
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 17
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 18
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 19
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 20
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 21
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 1
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 2
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 3
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 4
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 5
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 6
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 7
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 1
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 2
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 3
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 4
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 5
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 6
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 7
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 1
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 2
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 3
@@ -1196,55 +776,13 @@ proxy-groups:
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 19
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 20
       - 🇯🇵  「㋇ ㉿inGs¹ 」日本 21
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 1
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 2
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 3
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 4
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 5
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 6
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 7
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 8
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 9
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 10
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 11
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 12
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 13
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 14
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 15
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 16
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 17
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 18
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 19
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 20
-      - 🇺🇸  「㋇ ㉿inGs¹ 」美国 21
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 1
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 2
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 3
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 4
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 5
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 6
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 7
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 8
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 9
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 10
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 11
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 12
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 13
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 14
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 15
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 16
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 17
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 18
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 19
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 20
-      - 🇩🇪  「㋇ ㉿inGs¹ 」德国 21
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 1
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 2
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 3
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 4
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 5
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 6
-      - 🇨🇳  「㋇ ㉿inGs¹ 」台湾 7
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 1
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 2
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 3
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 4
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 5
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 6
+      - 🇨🇳  「㋇ ㉿inGs¹ 」臺灣 7
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 1
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 2
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 3
@@ -1266,12 +804,6 @@ proxy-groups:
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 19
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 20
       - 🇨🇳  「㋇ ㉿inGs¹ 」台灣 21
-  - name: 🔰 SSR节点选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
       - REJECT
 rules:
   - DOMAIN-SUFFIX,digicert.com,❤️  「㋇ ㉿inGs¹ 」
