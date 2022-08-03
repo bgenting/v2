@@ -571,7 +571,7 @@ proxy-groups:
     proxies:
       - 🎈 Failover
       - 💡 Auto
-      - 🔰 HTTP节点选择
+      - 🔰 SSR节点选择
       -🇭🇰「㋇ ㉿inGs¹ 」香港 1
       -🇭🇰「㋇ ㉿inGs¹ 」香港 2
       -🇭🇰「㋇ ㉿inGs¹ 」香港 3
@@ -654,6 +654,82 @@ proxy-groups:
       - DIRECT
   - name: 💡 Auto
     type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 1
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 2
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 3
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 4
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 5
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 6
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 7
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 8
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 9
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 10
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 11
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 12
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 13
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 14
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 15
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 16
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 17
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 18
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 19
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 20
+      -🇭🇰「㋇ ㉿inGs¹ 」香港 21
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 1
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 2
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 3
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 4
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 5
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 6
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 7
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 8
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 9
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 10
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 11
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 12
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 13
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 14
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 15
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 16
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 17
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 18
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 19
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 20
+      -🇯🇵「㋇ ㉿inGs¹ 」日本 21
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 1
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 2
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 3
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 4
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 5
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 6
+      -🇨🇳「㋇ ㉿inGs¹ 」臺灣 7
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 1
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 2
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 3
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 4
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 5
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 6
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 7
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 8
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 9
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 10
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 11
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 12
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 13
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 14
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 15
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 16
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 17
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 18
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 19
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 20
+      -🇨🇳「㋇ ㉿inGs¹ 」台灣 21
+  - name: 🎈 Failover
+    type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
