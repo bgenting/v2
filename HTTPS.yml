@@ -806,382 +806,382 @@ proxy-groups:
       -🇨🇳「㋇ ㉿inGs¹ 」台灣 21
       - REJECT
 rules:
-  - DOMAIN-SUFFIX,digicert.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN,ocsp.comodoca.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN,ocsp.usertrust.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN,ocsp.sectigo.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN,ocsp.verisign.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,linkedin,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,1password.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,adguard.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bit.no.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,btlibrary.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,cccat.io,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,cloudcone.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dubox.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gameloft.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,garena.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,hoyolab.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,inoreader.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ip138.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,myteamspeak.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,notion.so,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ping.pe,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,reddit.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,teddysun.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tumbex.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Twdvd.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,unsplash.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,eu,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Hk,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,jp,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kr,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,sg,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Tw,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,uk,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,us,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,1e100,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,abema,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,appledaily,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,avtb,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,beetalk,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,blogspot,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,dropbox,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,facebook,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,fbcdn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,github,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,gmail,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,google,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,instagram,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,porn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,sci-hub,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,spotify,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,telegram,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,Twitter,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,whatsapp,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,youtube,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,4sqi.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,a248.e.akamai.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,adobedtm.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ampproject.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,android.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,aolcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,apkmirror.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,apkpure.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,app-measurement.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,appspot.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,archive.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,armorgames.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,aspnetcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,awsstatic.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,azureedge.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,azurewebsites.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bandwagonhost.com\,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bkrtx.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogger.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogsmithmedia.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogspot.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogspot.Hk,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,blogspot.jp,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bloomberg.cn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bloomberg.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,box.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,cachefly.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,cdnst.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,cloudfront.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,daum.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,demdex.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,deskconnect.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,disqus.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,disquscdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dropbox.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dropboxapi.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dropboxstatic.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dropboxusercontent.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,duckduckgo.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,edgecastcdn.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,edgekey.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,edgesuite.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,eurekavpt.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fastmail.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,firebaseio.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,flickr.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,flipboard.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gfx.ms,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gongm.in,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,hulu.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,id.heroku.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,io.io,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,issuu.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ixquick.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,jtvnw.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kat.cr,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kik.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kobo.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kobobooks.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,livefilestore.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,llnwd.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,macrumors.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,medium.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,mega.nz,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,megaupload.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,messenger.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,netdna-cdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,nintendo.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,nsstatic.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,nytstyle.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,overcast.fm,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,periscope.tv,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pinimg.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pinterest.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,potato.im,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,prfct.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pscp.tv,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,quora.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,resilio.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,sfx.ms,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,slack-edge.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,smartdnsproxy.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,sndcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,soundcloud.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,startpage.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,staticflickr.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,symauth.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,symcb.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,symcd.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,textnow.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,textnow.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,thefacebook.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,thepiratebay.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,torproject.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,trustasiassl.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tumblr.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tumblr.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tvb.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,txmblr.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,v2ex.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,vimeo.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,vine.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,vox-cdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,amazon.co.jp,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,amazon.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,amazonaws.com,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,13.32.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,13.35.0.0/17,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,18.184.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,18.194.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,18.208.0.0/13,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,18.232.0.0/14,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,52.58.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,52.74.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,52.77.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,52.84.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,52.200.0.0/13,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,54.93.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,54.156.0.0/14,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,54.226.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,54.230.156.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-KEYWORD,uk-live,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bbc.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bbc.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discord.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discord.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discord.gg,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discord.media,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discordapp.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,discordapp.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,facebook.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fb.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fb.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fbcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fbcdn.net,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,31.13.24.0/21,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,31.13.64.0/18,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,45.64.40.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,66.220.144.0/20,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,69.63.176.0/20,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,69.171.224.0/19,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,74.119.76.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,103.4.96.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,129.134.0.0/17,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,157.240.0.0/17,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,173.252.64.0/18,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,179.60.192.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,185.60.216.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,204.15.20.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-SUFFIX,github.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,github.io,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,githubapp.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,githubassets.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,githubusercontent.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,1e100.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,2mdn.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,app-measurement.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,g.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ggpht.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,goo.gl,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,googleapis.cn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,googleapis.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gstatic.cn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gstatic.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gvt0.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gvt1.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gvt2.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,gvt3.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,youtu.be,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,youtube-nocookie.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,youtube.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,yt.be,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ytimg.com,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,74.125.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,173.194.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.232.181.162/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.241.147.226/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.253.253.226/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.253.255.162/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.253.255.34/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,120.253.255.98/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,180.163.150.162/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,180.163.150.34/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,180.163.151.162/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,180.163.151.34/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.208.39.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.208.40.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.208.41.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.208.43.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.208.50.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,220.181.174.162/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,220.181.174.226/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,220.181.174.34/32,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-SUFFIX,cdninstagram.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,instagram.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,instagr.am,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kakao.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kakao.co.kr,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,kakaocdn.net,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,1.201.0.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,27.0.236.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,103.27.148.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,103.246.56.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,110.76.140.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,113.61.104.0/22,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-SUFFIX,lin.ee,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,line-apps.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,line-cdn.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,line-scdn.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,line.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,line.naver.jp,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,nhncorp.jp,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,103.2.28.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,103.2.30.0/23,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,119.235.224.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,119.235.232.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,119.235.235.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,119.235.236.0/23,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,147.92.128.0/17,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,203.104.128.0/19,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-KEYWORD,1drv,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,onedrive,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,skydrive,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,livefilestore.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,oneclient.sfx.ms,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,onedrive.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,onedrive.live.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,photos.live.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,storage.live.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,storage.msn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,porn,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,8teenxxx.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ahcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bcvcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,bongacams.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,chaturbate.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,dditscdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,livejasmin.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,phncdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,phprcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pornhub.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pornhubpremium.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,rdtcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,redtube.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,sb-cd.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,spankbang.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,t66y.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xhamster.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xnxx-cdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xnxx.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xvideos-cdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,xvideos.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ypncdn.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pixiv.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,pximg.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,amplitude.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,firebaseio.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,hockeyapp.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,readdle.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,smartmailcloud.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,fanatical.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,humblebundle.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,steamcommunity.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tap.io,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,taptap.Tw,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Twitch.tv,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ttvnw.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,jtvnw.net,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-KEYWORD,ttvnw,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,t.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Twimg.co,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Twimg.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,Twimg.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,t.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,tdesktop.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,telegra.ph,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,telegram.me,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,telegram.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,telesco.pe,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,91.108.0.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,109.239.140.0/24,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,149.154.160.0/20,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-SUFFIX,terabox.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,teraboxcdn.com,❤️「㋇ ㉿inGs¹ 」
-  - IP-CIDR,18.194.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,34.224.0.0/12,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,54.242.0.0/15,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,50.22.198.204/30,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,208.43.122.128/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,108.168.174.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,173.192.231.32/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,158.85.5.192/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,174.37.243.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,158.85.46.128/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,173.192.222.160/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,184.173.128.0/17,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,158.85.224.160/27,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,75.126.150.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - IP-CIDR,69.171.235.0/16,❤️「㋇ ㉿inGs¹ 」,no-resolve
-  - DOMAIN-SUFFIX,mediawiki.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikibooks.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikidata.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikileaks.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikimedia.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikinews.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikipedia.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikiquote.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikisource.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikiversity.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wikivoyage.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,wiktionary.org,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,neulion.com,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,icntv.xyz,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,flzbcdn.xyz,❤️「㋇ ㉿inGs¹ 」
-  - DOMAIN-SUFFIX,ocnttv.com,❤️「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,digicert.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN,ocsp.comodoca.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN,ocsp.usertrust.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN,ocsp.sectigo.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN,ocsp.verisign.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,linkedin,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,1password.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,adguard.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bit.no.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,btlibrary.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,cccat.io,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,cloudcone.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dubox.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gameloft.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,garena.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,hoyolab.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,inoreader.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ip138.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,myteamspeak.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,notion.so,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ping.pe,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,reddit.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,teddysun.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tumbex.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,twdvd.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,unsplash.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,eu,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,hk,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,jp,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kr,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,sg,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tw,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,uk,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,us,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,1e100,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,abema,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,appledaily,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,avtb,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,beetalk,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,blogspot,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,dropbox,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,facebook,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,fbcdn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,github,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,gmail,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,google,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,instagram,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,porn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,sci-hub,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,spotify,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,telegram,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,twitter,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,whatsapp,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,youtube,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,4sqi.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,a248.e.akamai.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,adobedtm.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ampproject.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,android.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,aolcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,apkmirror.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,apkpure.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,app-measurement.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,appspot.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,archive.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,armorgames.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,aspnetcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,awsstatic.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,azureedge.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,azurewebsites.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bandwagonhost.com\,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bkrtx.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogger.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogsmithmedia.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogspot.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogspot.hk,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,blogspot.jp,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bloomberg.cn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bloomberg.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,box.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,cachefly.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,cdnst.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,cloudfront.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,daum.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,demdex.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,deskconnect.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,disqus.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,disquscdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dropbox.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dropboxapi.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dropboxstatic.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dropboxusercontent.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,duckduckgo.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,edgecastcdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,edgekey.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,edgesuite.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,eurekavpt.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fastmail.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,firebaseio.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,flickr.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,flipboard.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gfx.ms,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gongm.in,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,hulu.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,id.heroku.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,io.io,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,issuu.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ixquick.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,jtvnw.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kat.cr,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kik.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kobo.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kobobooks.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,livefilestore.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,llnwd.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,macrumors.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,medium.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,mega.nz,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,megaupload.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,messenger.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,netdna-cdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,nintendo.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,nsstatic.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,nytstyle.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,overcast.fm,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,periscope.tv,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pinimg.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pinterest.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,potato.im,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,prfct.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pscp.tv,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,quora.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,resilio.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,sfx.ms,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,slack-edge.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,smartdnsproxy.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,sndcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,soundcloud.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,startpage.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,staticflickr.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,symauth.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,symcb.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,symcd.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,textnow.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,textnow.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,thefacebook.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,thepiratebay.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,torproject.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,trustasiassl.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tumblr.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tumblr.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tvb.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,txmblr.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,v2ex.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,vimeo.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,vine.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,vox-cdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,amazon.co.jp,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,amazon.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,amazonaws.com,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,13.32.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,13.35.0.0/17,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,18.184.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,18.194.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,18.208.0.0/13,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,18.232.0.0/14,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,52.58.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,52.74.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,52.77.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,52.84.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,52.200.0.0/13,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,54.93.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,54.156.0.0/14,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,54.226.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,54.230.156.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-KEYWORD,uk-live,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bbc.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bbc.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discord.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discord.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discord.gg,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discord.media,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discordapp.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,discordapp.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,facebook.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fb.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fb.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fbcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fbcdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,31.13.24.0/21,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,31.13.64.0/18,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,45.64.40.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,66.220.144.0/20,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,69.63.176.0/20,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,69.171.224.0/19,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,74.119.76.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,103.4.96.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,129.134.0.0/17,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,157.240.0.0/17,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,173.252.64.0/18,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,179.60.192.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,185.60.216.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,204.15.20.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-SUFFIX,github.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,github.io,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,githubapp.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,githubassets.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,githubusercontent.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,1e100.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,2mdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,app-measurement.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,g.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ggpht.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,goo.gl,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,googleapis.cn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,googleapis.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gstatic.cn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gstatic.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gvt0.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gvt1.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gvt2.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,gvt3.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,youtu.be,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,youtube-nocookie.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,youtube.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,yt.be,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ytimg.com,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,74.125.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,173.194.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.232.181.162/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.241.147.226/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.253.253.226/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.253.255.162/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.253.255.34/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,120.253.255.98/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,180.163.150.162/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,180.163.150.34/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,180.163.151.162/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,180.163.151.34/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.208.39.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.208.40.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.208.41.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.208.43.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.208.50.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,220.181.174.162/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,220.181.174.226/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,220.181.174.34/32,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-SUFFIX,cdninstagram.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,instagram.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,instagr.am,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kakao.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kakao.co.kr,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,kakaocdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,1.201.0.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,27.0.236.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,103.27.148.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,103.246.56.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,110.76.140.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,113.61.104.0/22,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-SUFFIX,lin.ee,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,line-apps.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,line-cdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,line-scdn.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,line.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,line.naver.jp,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,nhncorp.jp,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,103.2.28.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,103.2.30.0/23,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,119.235.224.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,119.235.232.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,119.235.235.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,119.235.236.0/23,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,147.92.128.0/17,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,203.104.128.0/19,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-KEYWORD,1drv,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,onedrive,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,skydrive,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,livefilestore.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,oneclient.sfx.ms,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,onedrive.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,onedrive.live.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,photos.live.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,storage.live.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,storage.msn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,porn,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,8teenxxx.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ahcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bcvcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,bongacams.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,chaturbate.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,dditscdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,livejasmin.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,phncdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,phprcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pornhub.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pornhubpremium.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,rdtcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,redtube.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,sb-cd.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,spankbang.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,t66y.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xhamster.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xnxx-cdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xnxx.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xvideos-cdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,xvideos.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ypncdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pixiv.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,pximg.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,amplitude.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,firebaseio.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,hockeyapp.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,readdle.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,smartmailcloud.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,fanatical.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,humblebundle.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,steamcommunity.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tap.io,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,taptap.tw,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,twitch.tv,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ttvnw.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,jtvnw.net,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-KEYWORD,ttvnw,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,t.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,twimg.co,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,twimg.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,twimg.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,t.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,tdesktop.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,telegra.ph,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,telegram.me,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,telegram.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,telesco.pe,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,91.108.0.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,109.239.140.0/24,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,149.154.160.0/20,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-SUFFIX,terabox.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,teraboxcdn.com,❤️ 「㋇ ㉿inGs¹ 」
+  - IP-CIDR,18.194.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,34.224.0.0/12,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,54.242.0.0/15,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,50.22.198.204/30,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,208.43.122.128/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,108.168.174.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,173.192.231.32/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,158.85.5.192/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,174.37.243.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,158.85.46.128/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,173.192.222.160/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,184.173.128.0/17,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,158.85.224.160/27,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,75.126.150.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - IP-CIDR,69.171.235.0/16,❤️ 「㋇ ㉿inGs¹ 」,no-resolve
+  - DOMAIN-SUFFIX,mediawiki.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikibooks.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikidata.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikileaks.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikimedia.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikinews.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikipedia.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikiquote.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikisource.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikiversity.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wikivoyage.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,wiktionary.org,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,neulion.com,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,icntv.xyz,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,flzbcdn.xyz,❤️ 「㋇ ㉿inGs¹ 」
+  - DOMAIN-SUFFIX,ocnttv.com,❤️ 「㋇ ㉿inGs¹ 」
   - DOMAIN-SUFFIX,sub.221515.xyz,☁️ Domestic
   - DOMAIN-SUFFIX,221515.xyz,☁️ Domestic
   - DOMAIN-SUFFIX,hi.221616.xyz,☁️ Domestic
@@ -1293,7 +1293,7 @@ rules:
   - DOMAIN-SUFFIX,cmbchina.com,☁️ Domestic
   - DOMAIN-SUFFIX,cmbimg.com,☁️ Domestic
   - DOMAIN-SUFFIX,cn,☁️ Domestic
-  - DOMAIN-SUFFIX,com-hs-Hkdy.com,☁️ Domestic
+  - DOMAIN-SUFFIX,com-hs-hkdy.com,☁️ Domestic
   - DOMAIN-SUFFIX,ctrip.com,☁️ Domestic
   - DOMAIN-SUFFIX,czybjz.com,☁️ Domestic
   - DOMAIN-SUFFIX,dandanzan.com,☁️ Domestic
@@ -1356,10 +1356,10 @@ rules:
   - DOMAIN-SUFFIX,iqiyi.com,☁️ Domestic
   - DOMAIN-SUFFIX,iqiyipic.com,☁️ Domestic
   - DOMAIN-SUFFIX,ithome.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jamaneTwork.com,☁️ Domestic
+  - DOMAIN-SUFFIX,jamanetwork.com,☁️ Domestic
   - DOMAIN-SUFFIX,java.com,☁️ Domestic
   - DOMAIN-SUFFIX,jd.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jd.Hk,☁️ Domestic
+  - DOMAIN-SUFFIX,jd.hk,☁️ Domestic
   - DOMAIN-SUFFIX,jdpay.com,☁️ Domestic
   - DOMAIN-SUFFIX,jhu.edu,☁️ Domestic
   - DOMAIN-SUFFIX,jidian.im,☁️ Domestic
@@ -1495,7 +1495,7 @@ rules:
   - DOMAIN-SUFFIX,tianyancha.com,☁️ Domestic
   - DOMAIN-SUFFIX,tjupt.org,☁️ Domestic
   - DOMAIN-SUFFIX,tmall.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tmall.Hk,☁️ Domestic
+  - DOMAIN-SUFFIX,tmall.hk,☁️ Domestic
   - DOMAIN-SUFFIX,totheglory.im,☁️ Domestic
   - DOMAIN-SUFFIX,toutiao.com,☁️ Domestic
   - DOMAIN-SUFFIX,udache.com,☁️ Domestic
@@ -1601,6 +1601,6 @@ rules:
   - DOMAIN-KEYWORD,wlmonitor,🛡 Shield
   - DOMAIN-KEYWORD,zjtoolbar,🛡 Shield
   - GEOIP,CN,☁️ Domestic
-  - MATCH,❤️「㋇ ㉿inGs¹ 」
+  - MATCH,❤️ 「㋇ ㉿inGs¹ 」
 proxy-providers: {}
 rule-providers: {}
