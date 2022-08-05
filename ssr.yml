@@ -5,55 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋆ ㉿inGs¹ 」香港 HK, server: cmrelay02.downsite.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 HK 2, server: cmrelay02.downsite.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」香港 HK 3, server: cmrelay02.downsite.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 JP, server: cmrelay01.downsite.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 JP 2, server: cmrelay01.downsite.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」倭国 JP 3, server: cmrelay01.downsite.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: "", udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」丑国, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」大漂亮, server: clash11.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 ➊, server: cmrelay02.downsite.xyz, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 ➋, server: cmrelay02.downsite.xyz, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」香港 ➌, server: cmrelay02.downsite.xyz, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 ➊, server: cmrelay01.downsite.xyz, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」倭国 ➋, server: cmrelay01.downsite.xyz, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」漂亮爹➊, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➋, server: clash11.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➌, server: clash-ssr0.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➍, server: clash24.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➎, server: clash26.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➏, server: clash-ssr4.free4444.xyz, port: 34567, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➐, server: clash-ssr5.free4444.xyz, port: 45678, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➑, server: ssr5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆ ㉿inGs¹ 」大漂亮➀, server: v2ray38.free4444.xyz, port: 443, type: vmess, uuid: 5f72494e-9a95-4294-829d-b71e7ef9765e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: v2ray38.free4444.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,62 +96,86 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,14 +191,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹ 」香港 HK
-      - 「㋆ ㉿inGs¹ 」香港 HK 2
-      - 「㋆ ㉿inGs¹ 」香港 HK 3
-      - 「㋆ ㉿inGs¹ 」倭国 JP
-      - 「㋆ ㉿inGs¹ 」倭国 JP 2
-      - 「㋆ ㉿inGs¹ 」倭国 JP 3
-      - 「㋆ ㉿inGs¹ 」丑国
-      - 「㋆ ㉿inGs¹ 」大漂亮
+      - 「㋆ ㉿inGs¹ 」香港 ➊
+      - 「㋆ ㉿inGs¹ 」香港 ➋
+      - 「㋆ ㉿inGs¹ 」香港 ➌
+      - 「㋆ ㉿inGs¹ 」倭国 ➊
+      - 「㋆ ㉿inGs¹ 」倭国 ➋
+      - 「㋆ ㉿inGs¹ 」漂亮爹➊
+      - 「㋆ ㉿inGs¹ 」大漂亮➋
+      - 「㋆ ㉿inGs¹ 」大漂亮➌
+      - 「㋆ ㉿inGs¹ 」大漂亮➍
+      - 「㋆ ㉿inGs¹ 」大漂亮➎
+      - 「㋆ ㉿inGs¹ 」大漂亮➏
+      - 「㋆ ㉿inGs¹ 」大漂亮➐
+      - 「㋆ ㉿inGs¹ 」大漂亮➑
+      - 「㋆ ㉿inGs¹ 」大漂亮➀
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
