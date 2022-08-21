@@ -15,117 +15,117 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: "🇭🇰 香港01", server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: "🇭🇰 香港02", server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: "🇭🇰 香港03", server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: "🇭🇰 香港04", server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: "🇭🇰 香港05", server: debian10.updatensv3.com, port: 8015, type: ss, cipher: chacha20-ietf-poly1305, password: d6fa3a869c3a4a3edb8416e36a59e4aa, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
-  - {name: "🇸🇬 新加坡", server: ersgdf.passwordv2.com, port: 7402, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089}
-  - {name: "🇯🇵 日本01", server: sdfwh.guaranteev2.com, port: 7410, type: ss, cipher: aes-128-gcm, password: 5478031491c1d1373c959397435f2a35, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
-  - {name: "🇯🇵 日本02", server: sdfwh.guaranteev2.com, port: 7413, type: ss, cipher: aes-128-gcm, password: 1197b38cb1e8a1a07b93e9269126bccd, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
-  - {name: "🇯🇵 日本03", server: oadht.guaranteev2.com, port: 7414, type: ss, cipher: aes-128-gcm, password: 9d7dbacfbd2d308e4ded7c6434770bc3, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
+  - {name: "🇭🇰 「㋇ ㉿inGs¹ 」香港01", server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
+  - {name: "🇭🇰 「㋇ ㉿inGs¹ 」香港02", server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
+  - {name: "🇭🇰 「㋇ ㉿inGs¹ 」香港03", server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
+  - {name: "🇭🇰 「㋇ ㉿inGs¹ 」香港04", server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
+  - {name: "🇭🇰 「㋇ ㉿inGs¹ 」香港05", server: debian10.updatensv3.com, port: 8015, type: ss, cipher: chacha20-ietf-poly1305, password: d6fa3a869c3a4a3edb8416e36a59e4aa, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}}
+  - {name: "🇸🇬 「㋇ ㉿inGs¹ 」新加坡", server: ersgdf.passwordv2.com, port: 7402, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089}
+  - {name: "🇯🇵 「㋇ ㉿inGs¹ 」日本01", server: sdfwh.guaranteev2.com, port: 7410, type: ss, cipher: aes-128-gcm, password: 5478031491c1d1373c959397435f2a35, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
+  - {name: "🇯🇵 「㋇ ㉿inGs¹ 」日本02", server: sdfwh.guaranteev2.com, port: 7413, type: ss, cipher: aes-128-gcm, password: 1197b38cb1e8a1a07b93e9269126bccd, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
+  - {name: "🇯🇵 「㋇ ㉿inGs¹ 」日本03", server: oadht.guaranteev2.com, port: 7414, type: ss, cipher: aes-128-gcm, password: 9d7dbacfbd2d308e4ded7c6434770bc3, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +148,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港04
-      - 🇭🇰 香港05
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港01
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港02
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港03
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港04
+      - 🇭🇰 「㋇ ㉿inGs¹ 」香港05
+      - 🇸🇬 「㋇ ㉿inGs¹ 」新加坡
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本01
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本02
+      - 🇯🇵 「㋇ ㉿inGs¹ 」日本03
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
