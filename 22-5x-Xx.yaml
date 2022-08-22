@@ -5,343 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋆ ㉿inGs¹ 」 6, server: 120.233.7.221, port: 32005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 38, server: 120.233.7.221, port: 32004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 47, server: 120.233.7.221, port: 18006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」 85, server: 120.233.7.221, port: 18005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 448, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 449, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 450, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 451, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 452, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 454, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」RU 466, server: 141.98.168.251, port: 443, type: trojan, password: LiX1tV, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 696, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1557, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 1939, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2001, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2002, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2003, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2006, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2009, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2021, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2031, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2035, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2036, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2037, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2043, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2062, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋆ ㉿inGs¹ 」CN 2066, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」1, server: iplchk1.bitznet.cloud, port: 32443, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplchk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」2, server: iplchk3.bitznet.cloud, port: 34000, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplchk3.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」3, server: trahk1.bitznet.cloud, port: 32443, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trahk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」4, server: iplcsg1.bitznet.cloud, port: 34006, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsg1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」5, server: iplchk1.bitznet.cloud, port: 34443, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplchk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」7, server: trasg1.bitznet.cloud, port: 32007, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trasg1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」8, server: iplcjp1.bitznet.cloud, port: 34004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcjp1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」9, server: trahk5.bitznet.cloud, port: 32000, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trahk5.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」10, server: iplcsg1.bitznet.cloud, port: 34006, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsg1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」11, server: trajp1.bitznet.cloud, port: 32004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trajp1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」12, server: trajp1.bitznet.cloud, port: 32004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trajp1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」13, server: iplcjp1.bitznet.cloud, port: 34004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcjp1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」16, server: trasg1.bitznet.cloud, port: 32007, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trasg1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」18, server: dtin1.bitznet.cloud, port: 33017, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtin1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」19, server: dttw1.bitznet.cloud, port: 33003, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dttw1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」21, server: iplcsk1.bitznet.cloud, port: 32005, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」23, server: iplctw1.bitznet.cloud, port: 32003, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplctw1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」25, server: trask1.bitznet.cloud, port: 32005, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trask1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」26, server: train1.bitznet.cloud, port: 32017, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: train1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」30, server: iplcsk1.bitznet.cloud, port: 34005, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsk1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」31, server: iplctw1.bitznet.cloud, port: 34003, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplctw1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」32, server: tratw1.bitznet.cloud, port: 32003, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: tratw1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」36, server: traau1.bitznet.cloud, port: 32012, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traau1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」47, server: dtau1.bitznet.cloud, port: 33012, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtau1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」48, server: dtus1.bitznet.cloud, port: 33001, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtus1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」53, server: dtus1.bitznet.cloud, port: 33001, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtus1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」56, server: iplcfr1.bitznet.cloud, port: 34009, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcfr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」57, server: dtfr1.bitznet.cloud, port: 33009, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtfr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」58, server: trafr1.bitznet.cloud, port: 32009, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trafr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」68, server: trade1.bitznet.cloud, port: 32011, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trade1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」74, server: dtph1.bitznet.cloud, port: 33013, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtph1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」75, server: dtde1.bitznet.cloud, port: 33011, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtde1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」80, server: 195.154.200.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」84, server: traph1.bitznet.cloud, port: 32013, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traph1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」89, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」93, server: dtar1.bitznet.cloud, port: 33015, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtar1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」94, server: traar1.bitznet.cloud, port: 32015, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traar1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」99, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」100, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」124, server: dtru1.bitznet.cloud, port: 33008, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtru1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」128, server: traru1.bitznet.cloud, port: 32008, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traru1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」138, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」151, server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」158, server: 134.195.196.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」160, server: 146.56.103.73, port: 28481, type: vmess, uuid: 2e717d95-38be-4b44-dbca-ddfaea76d7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」162, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」169, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」175, server: iplcau1.bitznet.cloud, port: 34012, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcau1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」183, server: iplcfr1.bitznet.cloud, port: 34009, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcfr1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」7 2, server: 146.56.161.42, port: 27926, type: vmess, uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」19 2, server: 146.56.161.42, port: 27926, type: vmess, uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」2 2, server: iplcsg1.bitznet.cloud, port: 34006, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsg1.bitznet.cloud, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ KinGs㎥ⓝ 」8 2, server: iplcjp1.bitznet.cloud, port: 34004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcjp1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本 1, server: v31.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: e3a78543-8ecd-4b10-a896-69333e99d492, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本 2, server: jp821.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: jp821.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本 3, server: ftq-unicom.02download.xyz, port: 13013, type: vmess, uuid: f33f4a7f-31c7-31f9-8625-f08bc4fd2e50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本 4, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 1, server: 821hk06.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: 821hk06.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 2, server: 821hk05.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: 821hk05.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 3, server: moble01.00download.xyz, port: 60116, type: ss, cipher: chacha20-ietf-poly1305, password: 4e7d4518-54e1-46a3-9bd2-b8d29b70345f, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 4, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 5, server: v21.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: 51cfd677-fed5-4e66-9098-fedbf4f1df91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 6, server: hk32.swty.club, port: 10885, type: vmess, uuid: b5a6fd26-a422-4b31-9439-ef61b99c0881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk32.swty.club}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾 1, server: tw01.henet.cyou, port: 30000, type: trojan, password: 9ab79a65-53d6-415c-8599-cc74aa5a1b10, sni: tw01.henet.cyou, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾 2, server: tw82102.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: tw82102.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾 3, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾 4, server: tw821.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: tw821.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡 1, server: 821sg.tfzhc.top, port: 443, type: trojan, password: 31f12d66-7e9b-426d-96aa-914a77644f43, sni: 821sg.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡 2, server: singaporeb.cnabc.eu.org, port: 443, type: vmess, uuid: b0c0e87d-438b-496d-b2bf-235f5d37b0a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: singaporeb.cnabc.eu.org}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡 3, server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY, sni: sg-sin-krn-tr.node.inforun.work, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」韩国 1, server: 146.56.147.165, port: 80, type: vmess, uuid: c2cc2aab-503d-4282-b97f-60594a862aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」韩国 2, server: 146.56.147.165, port: 80, type: vmess, uuid: c2cc2aab-503d-4282-b97f-60594a862aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国 1, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan1.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国 2, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」俄罗斯 1, server: 193.201.126.225, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: raltens3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -360,347 +128,125 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -716,86 +262,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋆ ㉿inGs¹ 」 6
-      - 「㋆ ㉿inGs¹ 」 38
-      - 「㋆ ㉿inGs¹ 」 47
-      - 「㋆ ㉿inGs¹ 」 85
-      - 「㋆ ㉿inGs¹ 」CN 448
-      - 「㋆ ㉿inGs¹ 」CN 449
-      - 「㋆ ㉿inGs¹ 」CN 450
-      - 「㋆ ㉿inGs¹ 」CN 451
-      - 「㋆ ㉿inGs¹ 」CN 452
-      - 「㋆ ㉿inGs¹ 」CN 454
-      - 「㋆ ㉿inGs¹ 」RU 466
-      - 「㋆ ㉿inGs¹ 」CN 696
-      - 「㋆ ㉿inGs¹ 」CN 1557
-      - 「㋆ ㉿inGs¹ 」CN 1939
-      - 「㋆ ㉿inGs¹ 」CN 2001
-      - 「㋆ ㉿inGs¹ 」CN 2002
-      - 「㋆ ㉿inGs¹ 」CN 2003
-      - 「㋆ ㉿inGs¹ 」CN 2006
-      - 「㋆ ㉿inGs¹ 」CN 2009
-      - 「㋆ ㉿inGs¹ 」CN 2021
-      - 「㋆ ㉿inGs¹ 」CN 2031
-      - 「㋆ ㉿inGs¹ 」CN 2035
-      - 「㋆ ㉿inGs¹ 」CN 2036
-      - 「㋆ ㉿inGs¹ 」CN 2037
-      - 「㋆ ㉿inGs¹ 」CN 2043
-      - 「㋆ ㉿inGs¹ 」CN 2062
-      - 「㋆ ㉿inGs¹ 」CN 2066
-      - 「㋇ KinGs㎥ⓝ 」1
-      - 「㋇ KinGs㎥ⓝ 」2
-      - 「㋇ KinGs㎥ⓝ 」3
-      - 「㋇ KinGs㎥ⓝ 」4
-      - 「㋇ KinGs㎥ⓝ 」5
-      - 「㋇ KinGs㎥ⓝ 」7
-      - 「㋇ KinGs㎥ⓝ 」8
-      - 「㋇ KinGs㎥ⓝ 」9
-      - 「㋇ KinGs㎥ⓝ 」10
-      - 「㋇ KinGs㎥ⓝ 」11
-      - 「㋇ KinGs㎥ⓝ 」12
-      - 「㋇ KinGs㎥ⓝ 」13
-      - 「㋇ KinGs㎥ⓝ 」16
-      - 「㋇ KinGs㎥ⓝ 」18
-      - 「㋇ KinGs㎥ⓝ 」19
-      - 「㋇ KinGs㎥ⓝ 」21
-      - 「㋇ KinGs㎥ⓝ 」23
-      - 「㋇ KinGs㎥ⓝ 」25
-      - 「㋇ KinGs㎥ⓝ 」26
-      - 「㋇ KinGs㎥ⓝ 」30
-      - 「㋇ KinGs㎥ⓝ 」31
-      - 「㋇ KinGs㎥ⓝ 」32
-      - 「㋇ KinGs㎥ⓝ 」36
-      - 「㋇ KinGs㎥ⓝ 」47
-      - 「㋇ KinGs㎥ⓝ 」48
-      - 「㋇ KinGs㎥ⓝ 」53
-      - 「㋇ KinGs㎥ⓝ 」56
-      - 「㋇ KinGs㎥ⓝ 」57
-      - 「㋇ KinGs㎥ⓝ 」58
-      - 「㋇ KinGs㎥ⓝ 」68
-      - 「㋇ KinGs㎥ⓝ 」74
-      - 「㋇ KinGs㎥ⓝ 」75
-      - 「㋇ KinGs㎥ⓝ 」80
-      - 「㋇ KinGs㎥ⓝ 」84
-      - 「㋇ KinGs㎥ⓝ 」89
-      - 「㋇ KinGs㎥ⓝ 」93
-      - 「㋇ KinGs㎥ⓝ 」94
-      - 「㋇ KinGs㎥ⓝ 」99
-      - 「㋇ KinGs㎥ⓝ 」100
-      - 「㋇ KinGs㎥ⓝ 」124
-      - 「㋇ KinGs㎥ⓝ 」128
-      - 「㋇ KinGs㎥ⓝ 」138
-      - 「㋇ KinGs㎥ⓝ 」151
-      - 「㋇ KinGs㎥ⓝ 」158
-      - 「㋇ KinGs㎥ⓝ 」160
-      - 「㋇ KinGs㎥ⓝ 」162
-      - 「㋇ KinGs㎥ⓝ 」169
-      - 「㋇ KinGs㎥ⓝ 」175
-      - 「㋇ KinGs㎥ⓝ 」183
-      - 「㋇ KinGs㎥ⓝ 」7 2
-      - 「㋇ KinGs㎥ⓝ 」19 2
-      - 「㋇ KinGs㎥ⓝ 」2 2
-      - 「㋇ KinGs㎥ⓝ 」8 2
+      - 「㋇ ㉿inGs¹ 」日本 1
+      - 「㋇ ㉿inGs¹ 」日本 2
+      - 「㋇ ㉿inGs¹ 」日本 3
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 1
+      - 「㋇ ㉿inGs¹ 」香港 2
+      - 「㋇ ㉿inGs¹ 」香港 3
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」香港 5
+      - 「㋇ ㉿inGs¹ 」香港 6
+      - 「㋇ ㉿inGs¹ 」台湾 1
+      - 「㋇ ㉿inGs¹ 」台湾 2
+      - 「㋇ ㉿inGs¹ 」台湾 3
+      - 「㋇ ㉿inGs¹ 」台湾 4
+      - 「㋇ ㉿inGs¹ 」新加坡 1
+      - 「㋇ ㉿inGs¹ 」新加坡 2
+      - 「㋇ ㉿inGs¹ 」新加坡 3
+      - 「㋇ ㉿inGs¹ 」韩国 1
+      - 「㋇ ㉿inGs¹ 」韩国 2
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国 2
+      - 「㋇ ㉿inGs¹ 」俄罗斯 1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
