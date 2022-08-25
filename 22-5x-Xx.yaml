@@ -5,239 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋇ ㉿inGs¹ 」印度, server: 150.230.133.129, port: 8888, type: vmess, uuid: 8e26e83e-ca4c-4a0d-a184-06f8992e55f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」韩国, server: 152.67.210.14, port: 8888, type: vmess, uuid: 6a75c420-4d52-4460-bf52-75c7a156d89e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港, server: hk01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 2, server: hk02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本, server: jp01.00000000-0000-0000-000000-000000000000.00000000-0000-0000-0000-0000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 2, server: jp02.00000000-0000-0000-000000-000000000000.00000000-0000-0000-0000-0000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」韩国 2, server: kr01.000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」韩国 3, server: kr02.000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡, server: sg01.000000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 2, server: sg02.000000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」印度 2, server: in01.000000000-00000000-0000-000000-000000000000.0000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」印度 3, server: in02.000000000-00000000-0000-000000-000000000000.0000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」美国, server: us01.00000000-000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」美国 2, server: us02.00000000-000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」巴西, server: br01.000000-000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」巴西 2, server: br02.000000-000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」加拿大, server: ca01.000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」加拿大 2, server: ca02.000000-00000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」法国, server: fr01.000000-0000000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」法国 2, server: fr02.000000-0000000000-0000-000000-000000000000.00000000-0000-0000-0000-000000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」英国, server: gb01.00000-000000-0000-0000-000000000000.00000000-0000-0000-0000-000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」英国 2, server: gb02.00000-000000-0000-0000-000000000000.00000000-0000-0000-0000-000000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」德国, server: de01.00000-000000-0000-0000-000000000000.00000000-0000-000000-000000-000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」德国 2, server: de02.00000-000000-0000-0000-000000000000.00000000-0000-000000-000000-000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」爱尔兰, server: ie01.0000-00000-00000-0000-000000000000.00000000-0000-000000-000000-000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」爱尔兰 2, server: ie02.0000-00000-00000-0000-000000000000.00000000-0000-000000-000000-000000.rspeed.xyz, port: 8000, type: vmess, uuid: ee28e902-00d1-4955-b32f-0991554f70de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾, server: 36.139.166.76, port: 15824, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 3, server: 36.139.166.76, port: 15809, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 4, server: 36.139.166.76, port: 15822, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 5, server: 36.139.166.76, port: 15827, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 6, server: 36.139.166.76, port: 15805, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 3, server: 36.139.166.76, port: 15808, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 4, server: 36.139.166.76, port: 15815, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 5, server: 36.139.166.76, port: 15816, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 6, server: 36.139.166.76, port: 15826, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 3, server: 36.139.166.76, port: 15806, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 4, server: 36.139.166.76, port: 15825, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 5, server: 36.139.166.76, port: 15829, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 2, server: gtx20.ppy-moble.downloadmovie.cn, port: 26044, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 3, server: gtx20.ppy-moble.downloadmovie.cn, port: 26045, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 4, server: gtx20.ppy-moble.downloadmovie.cn, port: 26059, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 6, server: 821hk03.tfzhc.top, port: 443, type: trojan, password: c9db5351-b0ab-4ba0-bbe3-c02ff8eda6ec, sni: 821hk03.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 5, server: 823tw.tfzhc.top, port: 443, type: trojan, password: c9db5351-b0ab-4ba0-bbe3-c02ff8eda6ec, sni: 823tw.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 6, server: tw821.tfzhc.top, port: 443, type: trojan, password: c9db5351-b0ab-4ba0-bbe3-c02ff8eda6ec, sni: tw821.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 7, server: 821sg.tfzhc.top, port: 443, type: trojan, password: c9db5351-b0ab-4ba0-bbe3-c02ff8eda6ec, sni: 821sg.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 7, server: 4.mxyun1.top, port: 41204, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港 8, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 7, server: 823jp.tfzhc.top, port: 443, type: trojan, password: c9db5351-b0ab-4ba0-bbe3-c02ff8eda6ec, sni: 823jp.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾 7, server: 3.mxyun1.top, port: 41203, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」印度 4, server: 65.1.143.72, port: 50498, type: vmess, uuid: 5a0e8b3d-96cb-47f5-abd4-a652a37144e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本 8, server: 42.mxyun2.top, port: 42242, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡 8, server: 50.mxyun2.top, port: 43350, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」韩国 4, server: 31.mxyun2.top, port: 41131, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」美国 3, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: us.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本 4, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 4, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国 1, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan1.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国➊, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国➋, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国➌, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: us.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」欧洲➊, server: 199.247.8.5, port: 18441, type: trojan, password: My4jSNT2Zh, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港➊, server: 36.139.166.76, port: 15806, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港➋, server: 36.139.166.76, port: 15825, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港➌, server: 36.139.166.76, port: 15829, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港➍, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾➊, server: tw821.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: tw821.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾➋, server: 823tw.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 823tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」台湾➌, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡➊, server: 36.139.166.76, port: 15809, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡➋, server: 36.139.166.76, port: 15827, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡➌, server: 821hk05.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 821hk05.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」新加坡➍, server: 120.197.129.50, port: 41530, type: ss, cipher: aes-128-gcm, password: af364f1a-4476-43e8-8586-f29bad73b037, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」韩国➊, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➊, server: 36.139.166.76, port: 15815, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➋, server: 36.139.166.76, port: 15816, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➌, server: 36.139.166.76, port: 15826, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➍, server: jp01.wol1.ml, port: 10001, type: ss, cipher: aes-128-gcm, password: af364f1a-4476-43e8-8586-f29bad73b037, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➎, server: 823jp.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 823jp.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」日本➏, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,258 +140,135 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」台湾 7
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -523,60 +284,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋇ ㉿inGs¹ 」印度
-      - 「㋇ ㉿inGs¹ 」韩国
-      - 「㋇ ㉿inGs¹ 」香港
-      - 「㋇ ㉿inGs¹ 」香港 2
-      - 「㋇ ㉿inGs¹ 」日本
-      - 「㋇ ㉿inGs¹ 」日本 2
-      - 「㋇ ㉿inGs¹ 」韩国 2
-      - 「㋇ ㉿inGs¹ 」韩国 3
-      - 「㋇ ㉿inGs¹ 」新加坡
-      - 「㋇ ㉿inGs¹ 」新加坡 2
-      - 「㋇ ㉿inGs¹ 」印度 2
-      - 「㋇ ㉿inGs¹ 」印度 3
-      - 「㋇ ㉿inGs¹ 」美国
-      - 「㋇ ㉿inGs¹ 」美国 2
-      - 「㋇ ㉿inGs¹ 」巴西
-      - 「㋇ ㉿inGs¹ 」巴西 2
-      - 「㋇ ㉿inGs¹ 」加拿大
-      - 「㋇ ㉿inGs¹ 」加拿大 2
-      - 「㋇ ㉿inGs¹ 」法国
-      - 「㋇ ㉿inGs¹ 」法国 2
-      - 「㋇ ㉿inGs¹ 」英国
-      - 「㋇ ㉿inGs¹ 」英国 2
-      - 「㋇ ㉿inGs¹ 」德国
-      - 「㋇ ㉿inGs¹ 」德国 2
-      - 「㋇ ㉿inGs¹ 」爱尔兰
-      - 「㋇ ㉿inGs¹ 」爱尔兰 2
-      - 「㋇ ㉿inGs¹ 」台湾
-      - 「㋇ ㉿inGs¹ 」新加坡 3
-      - 「㋇ ㉿inGs¹ 」新加坡 4
-      - 「㋇ ㉿inGs¹ 」新加坡 5
-      - 「㋇ ㉿inGs¹ 」新加坡 6
-      - 「㋇ ㉿inGs¹ 」日本 3
       - 「㋇ ㉿inGs¹ 」日本 4
-      - 「㋇ ㉿inGs¹ 」日本 5
-      - 「㋇ ㉿inGs¹ 」日本 6
-      - 「㋇ ㉿inGs¹ 」香港 3
       - 「㋇ ㉿inGs¹ 」香港 4
-      - 「㋇ ㉿inGs¹ 」香港 5
-      - 「㋇ ㉿inGs¹ 」台湾 2
-      - 「㋇ ㉿inGs¹ 」台湾 3
-      - 「㋇ ㉿inGs¹ 」台湾 4
-      - 「㋇ ㉿inGs¹ 」香港 6
-      - 「㋇ ㉿inGs¹ 」台湾 5
-      - 「㋇ ㉿inGs¹ 」台湾 6
-      - 「㋇ ㉿inGs¹ 」新加坡 7
-      - 「㋇ ㉿inGs¹ 」香港 7
-      - 「㋇ ㉿inGs¹ 」香港 8
-      - 「㋇ ㉿inGs¹ 」日本 7
-      - 「㋇ ㉿inGs¹ 」台湾 7
-      - 「㋇ ㉿inGs¹ 」印度 4
-      - 「㋇ ㉿inGs¹ 」日本 8
-      - 「㋇ ㉿inGs¹ 」新加坡 8
-      - 「㋇ ㉿inGs¹ 」韩国 4
-      - 「㋇ ㉿inGs¹ 」美国 3
+      - 「㋇ ㉿inGs¹ 」美国 1
+      - 「㋇ ㉿inGs¹ 」美国➊
+      - 「㋇ ㉿inGs¹ 」美国➋
+      - 「㋇ ㉿inGs¹ 」美国➌
+      - 「㋇ ㉿inGs¹ 」欧洲➊
+      - 「㋇ ㉿inGs¹ 」香港➊
+      - 「㋇ ㉿inGs¹ 」香港➋
+      - 「㋇ ㉿inGs¹ 」香港➌
+      - 「㋇ ㉿inGs¹ 」香港➍
+      - 「㋇ ㉿inGs¹ 」台湾➊
+      - 「㋇ ㉿inGs¹ 」台湾➋
+      - 「㋇ ㉿inGs¹ 」台湾➌
+      - 「㋇ ㉿inGs¹ 」新加坡➊
+      - 「㋇ ㉿inGs¹ 」新加坡➋
+      - 「㋇ ㉿inGs¹ 」新加坡➌
+      - 「㋇ ㉿inGs¹ 」新加坡➍
+      - 「㋇ ㉿inGs¹ 」韩国➊
+      - 「㋇ ㉿inGs¹ 」日本➊
+      - 「㋇ ㉿inGs¹ 」日本➋
+      - 「㋇ ㉿inGs¹ 」日本➌
+      - 「㋇ ㉿inGs¹ 」日本➍
+      - 「㋇ ㉿inGs¹ 」日本➎
+      - 「㋇ ㉿inGs¹ 」日本➏
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
