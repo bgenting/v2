@@ -1,0 +1,57 @@
+@echo off
+echo.
+echo =======================================
+echo 正在为批处理文件提升超级管理员权限。。。
+echo =======================================
+cd /d %~dp0
+%1 start "" mshta vbscript:createobject("shell.Application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
+
+
+@echo off
+color 3E
+echo %username% 已获取超级管理员权限
+echo.
+
+title Wegame禁用广告工具（2022.01.16）
+echo.
+echo 首次运行本脚本，请把本脚本放在---[WeGame]---根目录下
+echo 本批处理脚本无毒，使用的命令都是系统指令
+echo 如安全软件有阻止，请打钩不再提醒并允许继续执行
+echo.
+
+
+taskkill /im net_daemon /T /F
+taskkill /im tgp_daemon.exe /T /F
+taskkill /im TPHelper.exe /T /F
+taskkill /im GameLoader.exe /T /F
+
+
+:on
+cd /d %~dp0
+choice /c 123 /m "禁用全家桶(1)；恢复全家桶(2)；退出(3)；"
+if %errorlevel%==3 goto end
+if %errorlevel%==2 goto restore
+if %errorlevel%==1 goto disable
+
+:disable
+echo.
+echo 禁用全家桶
+icacls tips_mgr.dll /deny Everyone:F
+rem icacls Apps\Rail\TenProtect\tp_helper\ACE-Helper.exe /deny Everyone:F
+echo.
+goto on
+
+:restore
+echo.
+echo 恢复全家桶
+icacls tips_mgr.dll /reset
+rem icacls QBBlink\tgp_minibrowser.exe /reset
+rem icacls Apps\Rail\TenProtect\tp_helper\ACE-Helper.exe /reset
+echo.
+goto on
+
+:end
+echo.
+echo 退出脚本
+exit
+
