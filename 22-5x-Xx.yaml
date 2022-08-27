@@ -5,6 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 「㋇ ㉿inGs¹ 」日本 4, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」香港 4, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ 」美国 1, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan1.ripwallllc.com, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」美国➊, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」美国➋, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」美国➌, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: us.tcpbbr.net, skip-cert-verify: true, udp: true}
@@ -28,45 +31,21 @@ proxies:
   - {name: 「㋇ ㉿inGs¹ 」日本➎, server: 823jp.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 823jp.tfzhc.top, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」日本➏, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」香港, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」香港 2, server: gdcm.subnebula.live, port: 49501, type: trojan, password: 91121a75-7327-33e0-ae86-fbc9a76044e9, sni: gdcm.subnebula.live, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」香港 3, server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.167.20.169}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」法国, server: fr0810.moonfree.top, port: 443, type: vmess, uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr0810.moonfree.top}, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」英国, server: stallings.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: stallings.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」印尼, server: yytok.wvs22.buzz, port: 31848, type: vmess, uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2, server: yytok.wvs22.buzz, port: 31848, type: vmess, uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」日本, server: metapod.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: metapod.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」韩国, server: 146.56.155.70, port: 33449, type: vmess, uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国, server: uiug.expirationv3.com, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 2, server: rbobosz.tk, port: 23868, type: trojan, password: gMVN7PbEX2, sni: rbobosz.tk, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 3, server: nusa.kencang.my.id, port: 443, type: trojan, password: 45bf0328-871b-462e-b07b-c5e2b9ce2e2c, sni: nusa.kencang.my.id, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 4, server: hawaii.missionsec.us, port: 18331, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: hawaii.missionsec.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 5, server: gifts.missionsec.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: gifts.missionsec.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 6, server: cne.cloudorg.uk, port: 2096, type: trojan, password: 0f88c09d-0fd9-4e34-b3ad-8719e908d5d8, sni: cne.cloudorg.uk, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 7, server: 120.233.151.122, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国, server: hawaii.missionsec.us, port: 18331, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: hawaii.missionsec.us, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 2, server: gifts.missionsec.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: gifts.missionsec.us, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰, server: aliyun.install02.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7, server: 146.56.147.165, port: 80, type: vmess, uuid: c2cc2aab-503d-4282-b97f-60594a862aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [YouTube-aweikeji]}}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」1, server: zjg2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」2, server: sss7.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」4, server: ssr5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」6, server: 173.82.245.228, port: 50005, type: ssr, cipher: dummy, password: IOSwgAYTREask(&1UHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」7, server: sss10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」10, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」12, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」13, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」14, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」15, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness019.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」16, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」17, server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」18, server: fn600mlines023.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a386af7970a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines023.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」19, server: fn600mliness015.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 696744f948f3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness015.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」7 2, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: bmV3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -90,44 +69,20 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -151,45 +106,21 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -213,39 +144,12 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,6 +168,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -287,43 +194,17 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
       - 「㋇ ㉿inGs¹ 」香港➌
@@ -332,8 +213,6 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」台湾➋
       - 「㋇ ㉿inGs¹ 」台湾➌
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -341,6 +220,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -364,44 +246,20 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -425,45 +283,21 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -487,39 +321,12 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -535,6 +342,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 「㋇ ㉿inGs¹ 」日本 4
+      - 「㋇ ㉿inGs¹ 」香港 4
+      - 「㋇ ㉿inGs¹ 」美国 1
       - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
       - 「㋇ ㉿inGs¹ 」美国➌
@@ -558,39 +368,12 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
       - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」法国
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼
-      - 「㋇ ㉿inGs¹ⒶⓌ 」印尼 2
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 3
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 5
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」美国 7
       - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
       - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
-      - 「㋇ ㉿inGs¹ⒶⓌ 」韩国 7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」1
-      - 「㋇ ㉿inGs¹ⒶⓌ 」2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」4
-      - 「㋇ ㉿inGs¹ⒶⓌ 」6
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7
-      - 「㋇ ㉿inGs¹ⒶⓌ 」10
-      - 「㋇ ㉿inGs¹ⒶⓌ 」12
-      - 「㋇ ㉿inGs¹ⒶⓌ 」13
-      - 「㋇ ㉿inGs¹ⒶⓌ 」14
-      - 「㋇ ㉿inGs¹ⒶⓌ 」15
-      - 「㋇ ㉿inGs¹ⒶⓌ 」16
-      - 「㋇ ㉿inGs¹ⒶⓌ 」17
-      - 「㋇ ㉿inGs¹ⒶⓌ 」18
-      - 「㋇ ㉿inGs¹ⒶⓌ 」19
-      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
