@@ -8,35 +8,124 @@ proxies:
   - {name: 「㋇ ㉿inGs¹ 」日本 4, server: trojannmfan5.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan5.ripwallllc.com, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」香港 4, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」美国 1, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan1.ripwallllc.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」美国➊, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」美国➋, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」美国➌, server: us.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: us.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」欧洲➊, server: 199.247.8.5, port: 18441, type: trojan, password: My4jSNT2Zh, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」香港➊, server: 36.139.166.76, port: 15806, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」香港➋, server: 36.139.166.76, port: 15825, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港➌, server: 36.139.166.76, port: 15829, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」香港➍, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾➊, server: tw821.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: tw821.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾➋, server: 823tw.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 823tw.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」台湾➌, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡➊, server: 36.139.166.76, port: 15809, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡➋, server: 36.139.166.76, port: 15827, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡➌, server: 821hk05.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 821hk05.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」新加坡➍, server: 120.197.129.50, port: 41530, type: ss, cipher: aes-128-gcm, password: af364f1a-4476-43e8-8586-f29bad73b037, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」韩国➊, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」日本➊, server: 36.139.166.76, port: 15815, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」日本➋, server: 36.139.166.76, port: 15816, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本➌, server: 36.139.166.76, port: 15826, type: trojan, password: 867cbd9f-6a65-324a-b1a8-5f9b03d9882c, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本➍, server: jp01.wol1.ml, port: 10001, type: ss, cipher: aes-128-gcm, password: af364f1a-4476-43e8-8586-f29bad73b037, udp: true}
-  - {name: 「㋇ ㉿inGs¹ 」日本➎, server: 823jp.tfzhc.top, port: 443, type: trojan, password: e9ea8749-b54c-47d9-8274-c26253332149, sni: 823jp.tfzhc.top, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ 」日本➏, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」香港, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」英国, server: stallings.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: stallings.defun.us, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」日本, server: metapod.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: metapod.defun.us, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国, server: hawaii.missionsec.us, port: 18331, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: hawaii.missionsec.us, skip-cert-verify: true, udp: true}
   - {name: 「㋇ ㉿inGs¹ⒶⓌ 」美国 2, server: gifts.missionsec.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: gifts.missionsec.us, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰, server: aliyun.install02.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」1, server: zjg2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」2, server: sss7.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」7, server: sss10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」10, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」12, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」13, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」14, server: fnhk1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 35b13f9dd755, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」15, server: fn600mliness019.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 61f301daaf4e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness019.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」16, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」17, server: fn600mlines020.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5dac918f6134, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines020.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」18, server: fn600mlines023.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a386af7970a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines023.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋇ ㉿inGs¹ⒶⓌ 」7 2, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: bmV3, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」1, server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」2, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」3, server: yd-02.paofunlink.com, port: 1094, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」11, server: yd-02.paofunlink.com, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」16, server: yd-02.paofunlink.com, port: 1083, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」18, server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 73944:YNAID3, obfs-param: YTQ5Njc3Mzk0NC5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」1 2, server: fnhk1glines002re.fnline.club, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: edbe138e9e7d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1glines002re.fnline.club, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」2 2, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」4, server: fndxshk1000mline006.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: db83a372671f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline006.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」6, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」7, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」9, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」10, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」13, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」14, server: fn600mlines022.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a57a10279872, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines022.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」16 2, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」17, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」18 2, server: fn600mliness016.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd04a7b470fb, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness016.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」19, server: fndxus1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 563b1dc7d669, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxus1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」20, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」21, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」22, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」31, server: hl.jiashumao.net, port: 45519, type: trojan, password: 9d846d39-2f5e-3fae-8ad7-239cedc56048, sni: hl.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」46, server: 169.197.143.232, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」48, server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」53, server: 169.197.143.232, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」55, server: 169.197.143.232, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」57, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」58, server: 103.173.155.72, port: 28443, type: trojan, password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」59, server: 38.91.107.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」60, server: 169.197.143.232, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」63, server: 169.197.143.232, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」66, server: 169.197.143.232, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」69, server: 139.180.140.20, port: 42424, type: vmess, uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」72, server: 38.75.136.34, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」74, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」75, server: 38.91.106.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」76, server: 169.197.143.232, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」85, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」38, server: 38.75.136.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」43, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」48 2, server: i1.go001.buzz, port: 32201, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」5, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 146.56.40.117}, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」11 2, server: ion.755657.xyz, port: 443, type: trojan, password: 690397bf-64fc-4e18-8810-4f95979a21d3, sni: ion.755657.xyz, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」52, server: 92.223.30.4, port: 60565, type: ss, cipher: chacha20-ietf-poly1305, password: gnPQtKxjLuWJ, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」54, server: 169.197.143.232, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」63 2, server: i1.go001.buzz, port: 31901, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」23, server: 169.197.143.232, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」77, server: 217.197.160.229, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」150, server: gyjp3.333003.xyz, port: 16914, type: ss, cipher: chacha20-ietf-poly1305, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」157, server: 183.240.196.147, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」158, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」163, server: 45.136.70.19, port: 24298, type: vmess, uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」198, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs㎎ⓝ²」232, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」TR, server: i1.go001.buzz, port: 31901, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」US, server: 38.91.106.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」英国, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」US 2, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Alien, server: yd-node.mark84.eu.org, port: 31805, type: vmess, uuid: c6effafd-6046-7a84-376e-b0429751c304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Alien 2, server: yd-node.mark84.eu.org, port: 31803, type: vmess, uuid: c6effafd-6046-7a84-376e-b0429751c304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Alien 3, server: yd-node.mark84.eu.org, port: 31809, type: vmess, uuid: c6effafd-6046-7a84-376e-b0429751c304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」英国 2, server: 183.240.196.147, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」日本, server: yd-node.mark84.eu.org, port: 31804, type: vmess, uuid: c6effafd-6046-7a84-376e-b0429751c304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」日本 2, server: 193.38.139.204, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」日本 6, server: v31.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: 5c1e2f75-7b9d-43c9-b7c4-b29c878f7dd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」日本 7, server: 5.180.76.172, port: 28443, type: trojan, password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」韩国 2, server: 193.123.229.95, port: 80, type: vmess, uuid: d5d64edd-7206-4c25-a346-6670caf7ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [193.123.229.95]}}, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」韩国 3, server: v41.xn--6nq44r2uh9rhj7f.com, port: 80, type: vmess, uuid: 5c1e2f75-7b9d-43c9-b7c4-b29c878f7dd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」美国, server: yd-node.mark84.eu.org, port: 31807, type: vmess, uuid: c6effafd-6046-7a84-376e-b0429751c304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」美国 7, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw, server: a.kr.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw2, server: a.tw.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw3, server: a.sp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw6, server: a.br.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw8, server: a.es.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw10, server: a.il.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Us11, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw12, server: a.il.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」sG14, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw15, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw17, server: a.de.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw18, server: c.usa.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw22, server: a.aus.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw23, server: c.usa.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw24, server: a.ca.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Us29, server: sss10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw31, server: a.hk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw32, server: a.in.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw34, server: a.th.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw36, server: a.uk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Tw39, server: a.za.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Sg44, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Sg45, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: Vm0weE5HRXdNVWhTV0doVVYwZDRWMWxyWkZOV2JHeFZVMnBTV0ZKdGVIcFhhMk0xWVd4S2RHVkljRmhoTVZVeFZrZDRZV014V25GV2JGWlhZbGRvVVZkV1ZtRlRiVkY1Vkd0V1VtSkhhRmxWYWtGM1RWWmFWbGRyV2xGVlVR, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」智利, server: tt2.tjvpn.top, port: 520, type: trojan, password: 51927c2a-3603-4797-8b34-62e3adf7bb46, sni: tt2.tjvpn.top, skip-cert-verify: true, udp: true}
+  - {name: 「㋈ ㉿inGs⒜⒲¹」Ch, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -46,35 +135,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -83,35 +261,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -121,35 +388,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -171,35 +527,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -207,13 +652,6 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -223,35 +661,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: 📲 电报信息
     type: select
     proxies:
@@ -260,35 +787,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -298,35 +914,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -345,35 +1050,124 @@ proxy-groups:
       - 「㋇ ㉿inGs¹ 」日本 4
       - 「㋇ ㉿inGs¹ 」香港 4
       - 「㋇ ㉿inGs¹ 」美国 1
-      - 「㋇ ㉿inGs¹ 」美国➊
       - 「㋇ ㉿inGs¹ 」美国➋
-      - 「㋇ ㉿inGs¹ 」美国➌
-      - 「㋇ ㉿inGs¹ 」欧洲➊
       - 「㋇ ㉿inGs¹ 」香港➊
       - 「㋇ ㉿inGs¹ 」香港➋
-      - 「㋇ ㉿inGs¹ 」香港➌
-      - 「㋇ ㉿inGs¹ 」香港➍
-      - 「㋇ ㉿inGs¹ 」台湾➊
-      - 「㋇ ㉿inGs¹ 」台湾➋
-      - 「㋇ ㉿inGs¹ 」台湾➌
-      - 「㋇ ㉿inGs¹ 」新加坡➊
-      - 「㋇ ㉿inGs¹ 」新加坡➋
-      - 「㋇ ㉿inGs¹ 」新加坡➌
-      - 「㋇ ㉿inGs¹ 」新加坡➍
-      - 「㋇ ㉿inGs¹ 」韩国➊
       - 「㋇ ㉿inGs¹ 」日本➊
       - 「㋇ ㉿inGs¹ 」日本➋
-      - 「㋇ ㉿inGs¹ 」日本➌
-      - 「㋇ ㉿inGs¹ 」日本➍
-      - 「㋇ ㉿inGs¹ 」日本➎
       - 「㋇ ㉿inGs¹ 」日本➏
-      - 「㋇ ㉿inGs¹ⒶⓌ 」香港
       - 「㋇ ㉿inGs¹ⒶⓌ 」英国
       - 「㋇ ㉿inGs¹ⒶⓌ 」日本
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国
       - 「㋇ ㉿inGs¹ⒶⓌ 」美国 2
-      - 「㋇ ㉿inGs¹ⒶⓌ 」乌克兰
-      - 「㋇ ㉿inGs¹ⒶⓌ 」台湾 8
+      - 「㋇ ㉿inGs¹ⒶⓌ 」1
+      - 「㋇ ㉿inGs¹ⒶⓌ 」2
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7
+      - 「㋇ ㉿inGs¹ⒶⓌ 」10
+      - 「㋇ ㉿inGs¹ⒶⓌ 」12
+      - 「㋇ ㉿inGs¹ⒶⓌ 」13
+      - 「㋇ ㉿inGs¹ⒶⓌ 」14
+      - 「㋇ ㉿inGs¹ⒶⓌ 」15
+      - 「㋇ ㉿inGs¹ⒶⓌ 」16
+      - 「㋇ ㉿inGs¹ⒶⓌ 」17
+      - 「㋇ ㉿inGs¹ⒶⓌ 」18
+      - 「㋇ ㉿inGs¹ⒶⓌ 」7 2
+      - 「㋈ ㉿inGs㎎ⓝ²」1
+      - 「㋈ ㉿inGs㎎ⓝ²」2
+      - 「㋈ ㉿inGs㎎ⓝ²」3
+      - 「㋈ ㉿inGs㎎ⓝ²」11
+      - 「㋈ ㉿inGs㎎ⓝ²」16
+      - 「㋈ ㉿inGs㎎ⓝ²」18
+      - 「㋈ ㉿inGs㎎ⓝ²」1 2
+      - 「㋈ ㉿inGs㎎ⓝ²」2 2
+      - 「㋈ ㉿inGs㎎ⓝ²」4
+      - 「㋈ ㉿inGs㎎ⓝ²」6
+      - 「㋈ ㉿inGs㎎ⓝ²」7
+      - 「㋈ ㉿inGs㎎ⓝ²」9
+      - 「㋈ ㉿inGs㎎ⓝ²」10
+      - 「㋈ ㉿inGs㎎ⓝ²」13
+      - 「㋈ ㉿inGs㎎ⓝ²」14
+      - 「㋈ ㉿inGs㎎ⓝ²」16 2
+      - 「㋈ ㉿inGs㎎ⓝ²」17
+      - 「㋈ ㉿inGs㎎ⓝ²」18 2
+      - 「㋈ ㉿inGs㎎ⓝ²」19
+      - 「㋈ ㉿inGs㎎ⓝ²」20
+      - 「㋈ ㉿inGs㎎ⓝ²」21
+      - 「㋈ ㉿inGs㎎ⓝ²」22
+      - 「㋈ ㉿inGs㎎ⓝ²」31
+      - 「㋈ ㉿inGs㎎ⓝ²」46
+      - 「㋈ ㉿inGs㎎ⓝ²」48
+      - 「㋈ ㉿inGs㎎ⓝ²」53
+      - 「㋈ ㉿inGs㎎ⓝ²」55
+      - 「㋈ ㉿inGs㎎ⓝ²」57
+      - 「㋈ ㉿inGs㎎ⓝ²」58
+      - 「㋈ ㉿inGs㎎ⓝ²」59
+      - 「㋈ ㉿inGs㎎ⓝ²」60
+      - 「㋈ ㉿inGs㎎ⓝ²」63
+      - 「㋈ ㉿inGs㎎ⓝ²」66
+      - 「㋈ ㉿inGs㎎ⓝ²」69
+      - 「㋈ ㉿inGs㎎ⓝ²」72
+      - 「㋈ ㉿inGs㎎ⓝ²」74
+      - 「㋈ ㉿inGs㎎ⓝ²」75
+      - 「㋈ ㉿inGs㎎ⓝ²」76
+      - 「㋈ ㉿inGs㎎ⓝ²」85
+      - 「㋈ ㉿inGs㎎ⓝ²」38
+      - 「㋈ ㉿inGs㎎ⓝ²」43
+      - 「㋈ ㉿inGs㎎ⓝ²」48 2
+      - 「㋈ ㉿inGs㎎ⓝ²」5
+      - 「㋈ ㉿inGs㎎ⓝ²」11 2
+      - 「㋈ ㉿inGs㎎ⓝ²」52
+      - 「㋈ ㉿inGs㎎ⓝ²」54
+      - 「㋈ ㉿inGs㎎ⓝ²」63 2
+      - 「㋈ ㉿inGs㎎ⓝ²」23
+      - 「㋈ ㉿inGs㎎ⓝ²」77
+      - 「㋈ ㉿inGs㎎ⓝ²」150
+      - 「㋈ ㉿inGs㎎ⓝ²」157
+      - 「㋈ ㉿inGs㎎ⓝ²」158
+      - 「㋈ ㉿inGs㎎ⓝ²」163
+      - 「㋈ ㉿inGs㎎ⓝ²」198
+      - 「㋈ ㉿inGs㎎ⓝ²」232
+      - 「㋈ ㉿inGs⒜⒲¹」TR
+      - 「㋈ ㉿inGs⒜⒲¹」US
+      - 「㋈ ㉿inGs⒜⒲¹」英国
+      - 「㋈ ㉿inGs⒜⒲¹」US 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 2
+      - 「㋈ ㉿inGs⒜⒲¹」Alien 3
+      - 「㋈ ㉿inGs⒜⒲¹」英国 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本
+      - 「㋈ ㉿inGs⒜⒲¹」日本 2
+      - 「㋈ ㉿inGs⒜⒲¹」日本 6
+      - 「㋈ ㉿inGs⒜⒲¹」日本 7
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 2
+      - 「㋈ ㉿inGs⒜⒲¹」韩国 3
+      - 「㋈ ㉿inGs⒜⒲¹」美国
+      - 「㋈ ㉿inGs⒜⒲¹」美国 7
+      - 「㋈ ㉿inGs⒜⒲¹」Tw
+      - 「㋈ ㉿inGs⒜⒲¹」Tw2
+      - 「㋈ ㉿inGs⒜⒲¹」Tw3
+      - 「㋈ ㉿inGs⒜⒲¹」Tw6
+      - 「㋈ ㉿inGs⒜⒲¹」Tw8
+      - 「㋈ ㉿inGs⒜⒲¹」Tw10
+      - 「㋈ ㉿inGs⒜⒲¹」Us11
+      - 「㋈ ㉿inGs⒜⒲¹」Tw12
+      - 「㋈ ㉿inGs⒜⒲¹」sG14
+      - 「㋈ ㉿inGs⒜⒲¹」Tw15
+      - 「㋈ ㉿inGs⒜⒲¹」Tw17
+      - 「㋈ ㉿inGs⒜⒲¹」Tw18
+      - 「㋈ ㉿inGs⒜⒲¹」Tw22
+      - 「㋈ ㉿inGs⒜⒲¹」Tw23
+      - 「㋈ ㉿inGs⒜⒲¹」Tw24
+      - 「㋈ ㉿inGs⒜⒲¹」Us29
+      - 「㋈ ㉿inGs⒜⒲¹」Tw31
+      - 「㋈ ㉿inGs⒜⒲¹」Tw32
+      - 「㋈ ㉿inGs⒜⒲¹」Tw34
+      - 「㋈ ㉿inGs⒜⒲¹」Tw36
+      - 「㋈ ㉿inGs⒜⒲¹」Tw39
+      - 「㋈ ㉿inGs⒜⒲¹」Sg44
+      - 「㋈ ㉿inGs⒜⒲¹」Sg45
+      - 「㋈ ㉿inGs⒜⒲¹」智利
+      - 「㋈ ㉿inGs⒜⒲¹」Ch
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
