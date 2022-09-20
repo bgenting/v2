@@ -5,135 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋈ ㉿ingS¹」俄罗斯, server: iepl01.nnooddee.click, port: 8092, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」澳大利亚, server: iepl03.nnooddee.click, port: 8094, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 01, server: iepl1.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 02, server: iepl2.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 03, server: iepl3.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 01, server: iepl1.nnooddee.click, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 02, server: iepl2.nnooddee.click, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 01, server: iepl1.nnooddee.click, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 02, server: iepl2.nnooddee.click, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」美国 01, server: iepl1.nnooddee.click, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」美国 02, server: iepl2.nnooddee.click, port: 8031, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」韩国 01, server: iepl1.nnooddee.click, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」韩国 02, server: iepl2.nnooddee.click, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」韩国 03, server: iepl3.nnooddee.click, port: 8061, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 01, server: iepl1.nnooddee.click, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 02, server: iepl2.nnooddee.click, port: 8011, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 03, server: iepl3.nnooddee.click, port: 8012, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 01 2, server: in01.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 02 2, server: in02.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」台湾 03 2, server: in03.nnooddee.click, port: 8051, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 01 2, server: in01.nnooddee.click, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 02 2, server: in02.nnooddee.click, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 03, server: in03.nnooddee.click, port: 8041, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 01 2, server: in01.nnooddee.click, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 03, server: in03.nnooddee.click, port: 8021, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 01 2, server: in01.nnooddee.click, port: 8012, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 02 2, server: in02.nnooddee.click, port: 8012, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 03 2, server: in03.nnooddee.click, port: 8012, type: ssr, cipher: aes-256-cfb, password: LjtFzy, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 199663:CsGhgM, obfs-param: 4f003199663.microsoft.com, udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➊, server: ss1.ssweb1.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➋, server: ss1.ssweb2.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➊¹, server: clash1.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➋¹, server: clash1-2.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➌¹, server: clash1-3.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➍¹, server: clash6.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➎¹, server: sv.ssrfree3.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➏¹, server: sv.ssrfree7.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➐¹, server: zjg1.ssrfree2.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➑¹, server: clash4.ssrfree4.xyz, port: 22333, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国➒¹, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国¹➊, server: clash6-1.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国¹➋, server: clash6-2.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国¹➌, server: clash6-3.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋈ ㉿ingS¹」美国¹➍, server: clash6.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,151 +100,87 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -312,34 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」俄罗斯
-      - 「㋈ ㉿ingS¹」澳大利亚
-      - 「㋈ ㉿ingS¹」台湾 01
-      - 「㋈ ㉿ingS¹」台湾 02
-      - 「㋈ ㉿ingS¹」台湾 03
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」美国 01
-      - 「㋈ ㉿ingS¹」美国 02
-      - 「㋈ ㉿ingS¹」韩国 01
-      - 「㋈ ㉿ingS¹」韩国 02
-      - 「㋈ ㉿ingS¹」韩国 03
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」台湾 01 2
-      - 「㋈ ㉿ingS¹」台湾 02 2
-      - 「㋈ ㉿ingS¹」台湾 03 2
-      - 「㋈ ㉿ingS¹」新加坡 01 2
-      - 「㋈ ㉿ingS¹」新加坡 02 2
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」日本 01 2
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」香港 01 2
-      - 「㋈ ㉿ingS¹」香港 02 2
-      - 「㋈ ㉿ingS¹」香港 03 2
+      - 「㋈ ㉿ingS¹」美国➊
+      - 「㋈ ㉿ingS¹」美国➋
+      - 「㋈ ㉿ingS¹」美国➊¹
+      - 「㋈ ㉿ingS¹」美国➋¹
+      - 「㋈ ㉿ingS¹」美国➌¹
+      - 「㋈ ㉿ingS¹」美国➍¹
+      - 「㋈ ㉿ingS¹」美国➎¹
+      - 「㋈ ㉿ingS¹」美国➏¹
+      - 「㋈ ㉿ingS¹」美国➐¹
+      - 「㋈ ㉿ingS¹」美国➑¹
+      - 「㋈ ㉿ingS¹」美国➒¹
+      - 「㋈ ㉿ingS¹」美国¹➊
+      - 「㋈ ㉿ingS¹」美国¹➋
+      - 「㋈ ㉿ingS¹」美国¹➌
+      - 「㋈ ㉿ingS¹」美国¹➍
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
