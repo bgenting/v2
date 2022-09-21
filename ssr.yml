@@ -5,8 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋈ ㉿ingS¹」美国➊, server: ss1.ssweb1.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋈ ㉿ingS¹」美国➋, server: ss1.ssweb2.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 「㋈ ㉿ingS¹」美国➊¹, server: clash1.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「㋈ ㉿ingS¹」美国➋¹, server: clash1-2.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 「㋈ ㉿ingS¹」美国➌¹, server: clash1-3.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
@@ -26,8 +24,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -46,8 +42,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -67,8 +61,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -100,8 +92,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -125,8 +115,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -145,8 +133,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -166,8 +152,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
@@ -196,8 +180,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」美国➊
-      - 「㋈ ㉿ingS¹」美国➋
       - 「㋈ ㉿ingS¹」美国➊¹
       - 「㋈ ㉿ingS¹」美国➋¹
       - 「㋈ ㉿ingS¹」美国➌¹
