@@ -5,123 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「㋈ ㉿ingS¹」小本子, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」小本子 2, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」小本子 3, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 01, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 02, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 03, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 04, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 05, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 59256, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 06, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 07, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 08, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 09, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本 10, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 01, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 02, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 03, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 04, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」新加坡 05, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 01, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 33366, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 02, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 33366, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 03, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 33366, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 04, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 33366, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」香港 05, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 33366, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」美国, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 35973, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
-  - {name: 「㋈ ㉿ingS¹」日本, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 58913, type: ss, cipher: chacha20-ietf-poly1305, password: 88e949fd-2755-4c21-945d-ccde068f238e, udp: true}
+  - {name: 『㋈ ㉿ingS¹』香港【稳】, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾3, server: 124.71.16.99, port: 12351, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾1, server: 120.195.181.51, port: 12354, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾2, server: 120.195.181.72, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾B, server: 99tw03.tfzhc.top, port: 443, type: trojan, password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be, sni: 99tw03.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾C, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be, sni: 99tw02.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』台湾A, server: 921tw.tfzhc.top, port: 443, type: trojan, password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be, sni: 921tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 『㋈ ㉿ingS¹』英国【稳】, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: d6c38de7-ef74-4e93-88c7-837a53127e5d, udp: true}
+  - {name: 『㋈ ㉿ingS¹』香港, server: zfd-moblev2.gatknqh.cn, port: 16116, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,132 +76,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -281,31 +156,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「㋈ ㉿ingS¹」小本子
-      - 「㋈ ㉿ingS¹」小本子 2
-      - 「㋈ ㉿ingS¹」小本子 3
-      - 「㋈ ㉿ingS¹」日本 01
-      - 「㋈ ㉿ingS¹」日本 02
-      - 「㋈ ㉿ingS¹」日本 03
-      - 「㋈ ㉿ingS¹」日本 04
-      - 「㋈ ㉿ingS¹」日本 05
-      - 「㋈ ㉿ingS¹」日本 06
-      - 「㋈ ㉿ingS¹」日本 07
-      - 「㋈ ㉿ingS¹」日本 08
-      - 「㋈ ㉿ingS¹」日本 09
-      - 「㋈ ㉿ingS¹」日本 10
-      - 「㋈ ㉿ingS¹」新加坡 01
-      - 「㋈ ㉿ingS¹」新加坡 02
-      - 「㋈ ㉿ingS¹」新加坡 03
-      - 「㋈ ㉿ingS¹」新加坡 04
-      - 「㋈ ㉿ingS¹」新加坡 05
-      - 「㋈ ㉿ingS¹」香港 01
-      - 「㋈ ㉿ingS¹」香港 02
-      - 「㋈ ㉿ingS¹」香港 03
-      - 「㋈ ㉿ingS¹」香港 04
-      - 「㋈ ㉿ingS¹」香港 05
-      - 「㋈ ㉿ingS¹」美国
-      - 「㋈ ㉿ingS¹」日本
+      - 『㋈ ㉿ingS¹』香港【稳】
+      - 『㋈ ㉿ingS¹』台湾3
+      - 『㋈ ㉿ingS¹』台湾1
+      - 『㋈ ㉿ingS¹』台湾2
+      - 『㋈ ㉿ingS¹』台湾B
+      - 『㋈ ㉿ingS¹』台湾C
+      - 『㋈ ㉿ingS¹』台湾A
+      - 『㋈ ㉿ingS¹』英国【稳】
+      - 『㋈ ㉿ingS¹』香港
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
