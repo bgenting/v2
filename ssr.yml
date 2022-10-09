@@ -7,27 +7,10 @@ external-controller: :9090
 proxies:
   - {name: 〖㋈ ㉿ingS¹〗香港, server: 45.136.197.134, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
   - {name: 〖㋈ ㉿ingS¹〗香港 2, server: 45.136.197.134, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗香港 3, server: 47.242.67.216, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗香港 4, server: 47.242.67.216, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗香港 5, server: 154.38.91.147, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗香港 6, server: 154.38.91.147, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国, server: clash1.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 2, server: clash1-2.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 3, server: clash1-3.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 4, server: clash6.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 5, server: sv.ssrfree3.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 6, server: sv.ssrfree7.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 7, server: zjg1.ssrfree2.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 8, server: clash4.ssrfree4.xyz, port: 22333, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 9, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 10, server: clash6-1.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 11, server: clash6-2.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 12, server: clash6-3.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 13, server: clash6.ssrfree6.xyz, port: 44004, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 14, server: 172.247.14.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗美国 15, server: 172.247.14.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗俄罗斯, server: 185.143.220.45, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 〖㋈ ㉿ingS¹〗俄罗斯 2, server: 185.143.220.45, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 〖㋈ ㉿ingS¹〗香港 3, server: 154.38.91.147, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 〖㋈ ㉿ingS¹〗香港 4, server: 154.38.91.147, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 〖㋈ ㉿ingS¹〗美国, server: 172.247.14.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22143:eqKr4MgZDE3Qoeqr, obfs-param: YmE0OGIyMjE0My5taWNyb3NvZnQuY29t, udp: true}
+  - {name: 〖㋈ ㉿ingS¹〗美国 2, server: 172.247.14.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22142:yxmUdkYpgggvzIi5, obfs-param: NWE5NGMyMjE0Mi5taWNyb3NvZnQuY29t, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -38,25 +21,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -66,25 +32,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -95,25 +44,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,25 +68,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -163,8 +78,6 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -175,25 +88,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -203,25 +99,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -232,25 +111,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,25 +132,8 @@ proxy-groups:
       - 〖㋈ ㉿ingS¹〗香港 2
       - 〖㋈ ㉿ingS¹〗香港 3
       - 〖㋈ ㉿ingS¹〗香港 4
-      - 〖㋈ ㉿ingS¹〗香港 5
-      - 〖㋈ ㉿ingS¹〗香港 6
       - 〖㋈ ㉿ingS¹〗美国
       - 〖㋈ ㉿ingS¹〗美国 2
-      - 〖㋈ ㉿ingS¹〗美国 3
-      - 〖㋈ ㉿ingS¹〗美国 4
-      - 〖㋈ ㉿ingS¹〗美国 5
-      - 〖㋈ ㉿ingS¹〗美国 6
-      - 〖㋈ ㉿ingS¹〗美国 7
-      - 〖㋈ ㉿ingS¹〗美国 8
-      - 〖㋈ ㉿ingS¹〗美国 9
-      - 〖㋈ ㉿ingS¹〗美国 10
-      - 〖㋈ ㉿ingS¹〗美国 11
-      - 〖㋈ ㉿ingS¹〗美国 12
-      - 〖㋈ ㉿ingS¹〗美国 13
-      - 〖㋈ ㉿ingS¹〗美国 14
-      - 〖㋈ ㉿ingS¹〗美国 15
-      - 〖㋈ ㉿ingS¹〗俄罗斯
-      - 〖㋈ ㉿ingS¹〗俄罗斯 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
