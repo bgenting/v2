@@ -5,10 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 『㋉ ㉿ingS¹』香港, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』日本, server: jp.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: jp.iamnotagoodman.com, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』新加坡, server: sg.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: sg.iamnotagoodman.com, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港, server: hkt.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: hkt.iamnotagoodman.com, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港 2, server: hgc.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: hgc.iamnotagoodman.com, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』香港 2, server: hkt.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: hkt.iamnotagoodman.com, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』香港 2 2, server: hgc.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: hgc.iamnotagoodman.com, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』柬埔寨, server: kh.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: kh.iamnotagoodman.com, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』美国, server: usla.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: usla.iamnotagoodman.com, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』德国, server: de.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, sni: de.iamnotagoodman.com, skip-cert-verify: true, udp: true}
@@ -74,16 +75,32 @@ proxies:
   - {name: 『㋉ ㉿ingS¹』墨西哥 3, server: t.cccao.cyou, port: 16636, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.cccao.cyou}, udp: true}
   - {name: 『㋉ ㉿ingS¹』尼日利亚, server: yes.iamagoodman.net, port: 16639, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yes.iamagoodman.net}, udp: true}
   - {name: 『㋉ ㉿ingS¹』南非, server: yes.iamagoodman.net, port: 16640, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yes.iamagoodman.net}, udp: true}
+  - {name: 『㋉ ㉿ingS¹』日本 5, server: xg2.leifengkeji.live, port: 7777, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, sni: xg2.leifengkeji.live, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』香港 9, server: 221.181.185.153, port: 11910, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』香港 10, server: 221.181.185.153, port: 11928, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』香港 11, server: 221.181.185.171, port: 11910, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』台湾省花莲, server: azt01.kctr2038.icu, port: 10778, type: vmess, uuid: 88939272-790a-441f-b12b-8ce531aca810, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azt01.kctr2038.icu}, udp: true}
+  - {name: 『㋉ ㉿ingS¹』新加坡 5, server: sg-6.wumaojichang.ml, port: 35789, type: vmess, uuid: d3978bd0-dade-4181-81de-bae3091339f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-6.wumaojichang.ml}, udp: true}
+  - {name: 『㋉ ㉿ingS¹』法国 2, server: 221.181.185.153, port: 11902, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 10, server: 221.181.185.171, port: 9007, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 11, server: 221.181.185.153, port: 11926, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』加拿大 4, server: 165.154.243.161, port: 443, type: vmess, uuid: a144de38-a881-4d45-852b-59eb5c38f7a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』阿根廷 2, server: 221.181.185.153, port: 11921, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』阿根廷 3, server: 221.181.185.171, port: 11921, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』哥伦比亚, server: 221.181.185.171, port: 11922, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』俄罗斯 2, server: 221.181.185.171, port: 11911, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』乌克兰 3, server: 221.181.185.153, port: 11919, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -149,15 +166,31 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -223,16 +256,32 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -298,6 +347,21 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -316,10 +380,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -385,12 +450,28 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』香港 3
       - 『㋉ ㉿ingS¹』香港 4
       - 『㋉ ㉿ingS¹』香港 5
@@ -400,16 +481,21 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』台湾 2
       - 『㋉ ㉿ingS¹』台湾 3
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -475,15 +561,31 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -549,16 +651,32 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -624,6 +742,21 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -639,10 +772,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』香港
       - 『㋉ ㉿ingS¹』香港 2
+      - 『㋉ ㉿ingS¹』香港 2 2
       - 『㋉ ㉿ingS¹』柬埔寨
       - 『㋉ ㉿ingS¹』美国
       - 『㋉ ㉿ingS¹』德国
@@ -708,6 +842,21 @@ proxy-groups:
       - 『㋉ ㉿ingS¹』墨西哥 3
       - 『㋉ ㉿ingS¹』尼日利亚
       - 『㋉ ㉿ingS¹』南非
+      - 『㋉ ㉿ingS¹』日本 5
+      - 『㋉ ㉿ingS¹』香港 9
+      - 『㋉ ㉿ingS¹』香港 10
+      - 『㋉ ㉿ingS¹』香港 11
+      - 『㋉ ㉿ingS¹』台湾省花莲
+      - 『㋉ ㉿ingS¹』新加坡 5
+      - 『㋉ ㉿ingS¹』法国 2
+      - 『㋉ ㉿ingS¹』美国 10
+      - 『㋉ ㉿ingS¹』美国 11
+      - 『㋉ ㉿ingS¹』加拿大 4
+      - 『㋉ ㉿ingS¹』阿根廷 2
+      - 『㋉ ㉿ingS¹』阿根廷 3
+      - 『㋉ ㉿ingS¹』哥伦比亚
+      - 『㋉ ㉿ingS¹』俄罗斯 2
+      - 『㋉ ㉿ingS¹』乌克兰 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
