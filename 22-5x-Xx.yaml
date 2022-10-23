@@ -5,179 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 『㋉ ㉿ingS¹』日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 『㋉ ㉿ingS¹』台湾, server: 165.154.253.63, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』香港, server: 165.154.244.29, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』台湾 2, server: 165.154.253.63, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港 2, server: 165.154.244.29, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国, server: 5.161.131.122, port: 45113, type: vmess, uuid: 157fffd5-5db2-4dbc-d55b-c350bc64bc16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.161.131.122}, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港 3, server: 165.154.244.29, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡, server: 183.232.229.132, port: 9042, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 2, server: 116.129.254.184, port: 9029, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 3, server: 116.129.254.184, port: 9037, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 4, server: 183.232.229.132, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 5, server: 116.129.254.184, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 6, server: 183.232.229.132, port: 9025, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 7, server: 116.129.254.184, port: 9034, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 8, server: 183.232.229.134, port: 9033, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 9, server: 111.45.22.136, port: 9032, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 10, server: 111.45.22.136, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 11, server: 111.45.22.136, port: 9045, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 12, server: 111.45.22.136, port: 9039, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 2, server: 116.129.254.184, port: 9041, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 3, server: 183.232.229.134, port: 9045, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 13, server: 116.129.254.184, port: 9027, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国, server: 116.129.254.184, port: 9029, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 2, server: 183.232.229.132, port: 9025, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 3, server: 116.129.254.184, port: 9027, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』彰化, server: 116.129.254.184, port: 9016, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 14, server: 111.45.22.246, port: 9022, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 4, server: 111.45.22.136, port: 9043, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 5, server: 183.232.229.134, port: 9042, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 6, server: 111.45.22.246, port: 9043, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 4, server: 111.45.22.246, port: 9022, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』彰化 2, server: 183.232.229.134, port: 9015, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 15, server: 116.129.254.184, port: 9031, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 16, server: 111.45.22.246, port: 9033, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 17, server: 111.45.22.136, port: 9033, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 『㋉ ㉿ingS¹』彰化 3, server: 111.45.22.136, port: 9013, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 7, server: 111.45.22.246, port: 9044, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 8, server: 111.45.22.136, port: 9041, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 9, server: 183.232.229.134, port: 9038, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 10, server: 183.232.229.132, port: 9044, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』台北, server: 165.154.253.63, port: 443, type: vmess, uuid: f8c3fbfe-9f65-4861-b824-f0049aa55810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』台北 2, server: 111.45.22.246, port: 9003, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』台北 3, server: 183.232.229.132, port: 9004, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋉ ㉿ingS¹』美国 18, server: 183.232.229.134, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』台北, server: 183.232.229.132, port: 9004, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』台湾 2, server: 103.137.22.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋉ ㉿ingS¹』日本 2, server: 139.162.74.122, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』日本 3, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』日本 4, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』日本 5, server: 172.105.238.12, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 5, server: 143.198.237.122, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 『㋉ ㉿ingS¹』美国 6, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -196,194 +112,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』彰化 2
       - 『㋉ ㉿ingS¹』彰化 3
       - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
+      - 『㋉ ㉿ingS¹』台湾 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -399,45 +227,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 『㋉ ㉿ingS¹』日本
       - 『㋉ ㉿ingS¹』台湾
       - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』台湾 2
-      - 『㋉ ㉿ingS¹』香港 2
       - 『㋉ ㉿ingS¹』美国
-      - 『㋉ ㉿ingS¹』香港 3
-      - 『㋉ ㉿ingS¹』新加坡
       - 『㋉ ㉿ingS¹』美国 2
       - 『㋉ ㉿ingS¹』美国 3
+      - 『㋉ ㉿ingS¹』彰化
       - 『㋉ ㉿ingS¹』美国 4
+      - 『㋉ ㉿ingS¹』彰化 2
+      - 『㋉ ㉿ingS¹』彰化 3
+      - 『㋉ ㉿ingS¹』台北
+      - 『㋉ ㉿ingS¹』台湾 2
+      - 『㋉ ㉿ingS¹』日本 2
+      - 『㋉ ㉿ingS¹』日本 3
+      - 『㋉ ㉿ingS¹』日本 4
+      - 『㋉ ㉿ingS¹』日本 5
       - 『㋉ ㉿ingS¹』美国 5
       - 『㋉ ㉿ingS¹』美国 6
-      - 『㋉ ㉿ingS¹』美国 7
-      - 『㋉ ㉿ingS¹』美国 8
-      - 『㋉ ㉿ingS¹』美国 9
-      - 『㋉ ㉿ingS¹』美国 10
-      - 『㋉ ㉿ingS¹』美国 11
-      - 『㋉ ㉿ingS¹』美国 12
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』美国 13
-      - 『㋉ ㉿ingS¹』彰化
-      - 『㋉ ㉿ingS¹』美国 14
-      - 『㋉ ㉿ingS¹』新加坡 4
-      - 『㋉ ㉿ingS¹』新加坡 5
-      - 『㋉ ㉿ingS¹』新加坡 6
-      - 『㋉ ㉿ingS¹』彰化 2
-      - 『㋉ ㉿ingS¹』美国 15
-      - 『㋉ ㉿ingS¹』美国 16
-      - 『㋉ ㉿ingS¹』美国 17
-      - 『㋉ ㉿ingS¹』彰化 3
-      - 『㋉ ㉿ingS¹』新加坡 7
-      - 『㋉ ㉿ingS¹』新加坡 8
-      - 『㋉ ㉿ingS¹』新加坡 9
-      - 『㋉ ㉿ingS¹』新加坡 10
-      - 『㋉ ㉿ingS¹』台北
-      - 『㋉ ㉿ingS¹』台北 2
-      - 『㋉ ㉿ingS¹』台北 3
-      - 『㋉ ㉿ingS¹』美国 18
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
