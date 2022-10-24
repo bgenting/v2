@@ -5,58 +5,122 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: 美国, server: usw.theepicbrowser.com, port: 8888, type: http, tls: true}
-  - {name: 新加坡, server: sg.epicbrowser.net, port: 8888, type: http, tls: true}
-  - {name: 加拿大, server: ca3.epicbrowser.net, port: 8888, type: http, tls: true}
+  - {name: RU, server: ru2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: SG, server: sg2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: DE, server: de.ghelper.net, port: 443, type: http, tls: true}
+  - {name: HKT, server: hkt6.ghelper.net, port: 3389, type: http, tls: true}
+  - {name: HKBN, server: hkbn2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: JP, server: jp4.ghelper.net, port: 443, type: http, tls: true}
+  - {name: HKCM, server: hkcm.ghelper.net, port: 443, type: http, tls: true}
+  - {name: TW, server: tw3.ghelper.net, port: 443, type: http, tls: true}
+  - {name: CA1, server: ca.epicbrowser.net, port: 8888, type: http, tls: true}
+  - {name: CA2, server: ca2.epicbrowser.net, port: 8888, type: http, tls: true}
+  - {name: CA3, server: ca3.epicbrowser.net, port: 8888, type: http, tls: true}
+  - {name: 延时超时属正常现象，请自行测试节点可用性, server: abd1.hk-hkt.dataport.xyz, port: 21443, type: http, tls: true}
+  - {name: 节点整理by George Xie, server: tfn1.tpe-kcd.tradewind.link, port: 20443, type: http, tls: true}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - HKBN
+      - JP
+      - HKCM
+      - CA1
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 🇭🇰 NKG-HKG ABD HGC 1(https)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
       - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
@@ -64,9 +128,19 @@ Proxy Group:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +156,19 @@ Proxy Group:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国
-      - 新加坡
-      - 加拿大
+      - RU
+      - SG
+      - DE
+      - HKT
+      - HKBN
+      - JP
+      - HKCM
+      - TW
+      - CA1
+      - CA2
+      - CA3
+      - 延时超时属正常现象，请自行测试节点可用性
+      - 节点整理by George Xie
 Rule:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
