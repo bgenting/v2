@@ -5,37 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋉ ㉿ingS¹』新加坡, server: 103.172.116.6, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 2, server: 103.172.116.6, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 『㋉ ㉿ingS¹』新加坡 3, server: 103.172.116.6, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港 2, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
-  - {name: 『㋉ ㉿ingS¹』香港 3, server: 14.29.124.174, port: 11050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼, server: 103.172.116.6, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 2, server: 103.172.116.6, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 3, server: 103.172.116.6, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 4, server: 103.172.116.6, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 5, server: 103.172.116.6, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 6, server: 103.172.116.5, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 7, server: 103.172.116.6, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 8, server: 103.172.116.6, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 9, server: 103.172.116.6, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 10, server: 103.172.116.6, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 11, server: 103.172.116.6, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 12, server: 103.172.116.6, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 『㋉+㉿ingS¹』印尼 13, server: 103.172.116.6, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼, server: 103.172.116.6, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 2, server: 103.172.116.6, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 3, server: 103.172.116.6, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 4, server: 103.172.116.6, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 5, server: 103.172.116.6, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 6, server: 103.172.116.6, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 7, server: 103.172.116.5, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 『㋉+㉿ingS¹』印尼 8, server: 103.172.116.6, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -44,22 +27,11 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -68,23 +40,12 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -93,11 +54,6 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,12 +72,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -130,30 +80,16 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -162,22 +98,11 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -186,23 +111,12 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -211,11 +125,6 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -231,12 +140,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋉ ㉿ingS¹』新加坡
-      - 『㋉ ㉿ingS¹』新加坡 2
-      - 『㋉ ㉿ingS¹』新加坡 3
-      - 『㋉ ㉿ingS¹』香港
-      - 『㋉ ㉿ingS¹』香港 2
-      - 『㋉ ㉿ingS¹』香港 3
       - 『㋉+㉿ingS¹』印尼
       - 『㋉+㉿ingS¹』印尼 2
       - 『㋉+㉿ingS¹』印尼 3
@@ -245,11 +148,6 @@ proxy-groups:
       - 『㋉+㉿ingS¹』印尼 6
       - 『㋉+㉿ingS¹』印尼 7
       - 『㋉+㉿ingS¹』印尼 8
-      - 『㋉+㉿ingS¹』印尼 9
-      - 『㋉+㉿ingS¹』印尼 10
-      - 『㋉+㉿ingS¹』印尼 11
-      - 『㋉+㉿ingS¹』印尼 12
-      - 『㋉+㉿ingS¹』印尼 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
