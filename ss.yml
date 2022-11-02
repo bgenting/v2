@@ -5,35 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋉+㉿ingS¹』加拿大, server: 14.18.122.138, port: 6712, type: ss, cipher: rc4-md5, password: 2vzho5, plugin: obfs, plugin-opts: {mode: http, host: abe0f71540.microsoft.com}, udp: true}
-  - {name: 『㋉+㉿ingS¹』加拿大 2, server: 14.18.122.138, port: 6713, type: ss, cipher: rc4-md5, password: 2vzho5, plugin: obfs, plugin-opts: {mode: http, host: abe0f71540.microsoft.com}, udp: true}
-  - {name: 『㋉+㉿ingS¹』加拿大 3, server: 14.18.122.138, port: 6714, type: ss, cipher: rc4-md5, password: 2vzho5, plugin: obfs, plugin-opts: {mode: http, host: abe0f71540.microsoft.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』美国, server: ss1.ssweb1.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋉+㉿ingS¹』日本, server: ss1.ssweb2.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋉+㉿ingS¹』日本 2, server: ss2.ssweb1.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋉+㉿ingS¹』日本 3, server: ss3.ssweb2.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /q6ORI, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋉+㉿ingS¹』香港, server: cn-shtele.lfk5s2.ccddn4.icu, port: 65002, type: ss, cipher: chacha20-ietf-poly1305, password: 4EyS3nbpwetIJvPQ, plugin: obfs, plugin-opts: {mode: http, host: 3d8bf9409.dm.files.1drv.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』香港 2, server: cn-shtele.lfk5s2.ccddn4.icu, port: 65001, type: ss, cipher: chacha20-ietf-poly1305, password: 4EyS3nbpwetIJvPQ, plugin: obfs, plugin-opts: {mode: http, host: 3d8bf9409.dm.files.1drv.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』新加坡, server: 116.129.253.193, port: 13160, type: ss, cipher: chacha20-ietf, password: RsCPwQxXgSFsoGWq, plugin: obfs, plugin-opts: {mode: http, host: windowsupdate.windows.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』新加坡 2, server: 116.129.254.114, port: 13160, type: ss, cipher: chacha20-ietf, password: RsCPwQxXgSFsoGWq, plugin: obfs, plugin-opts: {mode: http, host: windowsupdate.windows.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』英国, server: 116.129.254.5, port: 4564, type: ss, cipher: chacha20-ietf-poly1305, password: 4EyS3nbpwetIJvPQ, plugin: obfs, plugin-opts: {mode: http, host: 3d8bf9409.dm.files.1drv.com}, udp: true}
+  - {name: 『㋉+㉿ingS¹』英国 2, server: 116.129.254.34, port: 13160, type: ss, cipher: chacha20-ietf, password: RsCPwQxXgSFsoGWq, plugin: obfs, plugin-opts: {mode: http, host: windowsupdate.windows.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -52,39 +80,69 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,9 +158,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋉+㉿ingS¹』加拿大
-      - 『㋉+㉿ingS¹』加拿大 2
-      - 『㋉+㉿ingS¹』加拿大 3
+      - 『㋉+㉿ingS¹』美国
+      - 『㋉+㉿ingS¹』日本
+      - 『㋉+㉿ingS¹』日本 2
+      - 『㋉+㉿ingS¹』日本 3
+      - 『㋉+㉿ingS¹』香港
+      - 『㋉+㉿ingS¹』香港 2
+      - 『㋉+㉿ingS¹』新加坡
+      - 『㋉+㉿ingS¹』新加坡 2
+      - 『㋉+㉿ingS¹』英国
+      - 『㋉+㉿ingS¹』英国 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
