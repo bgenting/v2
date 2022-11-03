@@ -12,7 +12,7 @@ proxies:
   - {name: 『㋊ ㉿ingS¹』日本 5, server: 124.225.24.140, port: 23127, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
   - {name: 『㋊ ㉿ingS¹』日本 6, server: 111.6.86.32, port: 23141, type: trojan, password: 02e54387-d58d-4afa-96be-506a64f72e47, skip-cert-verify: true, udp: true}
   - {name: 『㋊ ㉿ingS¹』香港, server: 121.14.201.242, port: 23122, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
-  - {name: 『㋊+㉿ingS¹』香港, server: hnct.zzuu.tk, port: 23124, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
+  - {name: 『㋊ ㉿ingS¹』香港 2, server: hnct.zzuu.tk, port: 23124, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
   - {name: 『㋊ ㉿ingS¹』新加坡, server: cu.kapoknode.com, port: 25895, type: vmess, uuid: 25667daa-aef2-4723-8a7d-0ece9a9601ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.kapoknode.com}, udp: true}
   - {name: 『㋊ ㉿ingS¹』美国, server: fly2.fastestcloud.xyz, port: 40005, type: vmess, uuid: c75c0398-f1fd-456a-b250-6097f0b09231, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fly2.fastestcloud.xyz}, udp: true}
   - {name: 『㋊ ㉿ingS¹』美国 2, server: cu.kapoknode.com, port: 25887, type: vmess, uuid: 710bc98c-9f4b-45bd-8ced-f1d3fd118252, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.kapoknode.com}, udp: true}
@@ -29,7 +29,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -45,7 +45,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -62,7 +62,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -91,7 +91,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -100,7 +100,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -114,7 +114,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -130,7 +130,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -147,7 +147,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
@@ -173,7 +173,7 @@ proxy-groups:
       - 『㋊ ㉿ingS¹』日本 5
       - 『㋊ ㉿ingS¹』日本 6
       - 『㋊ ㉿ingS¹』香港
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊ ㉿ingS¹』香港 2
       - 『㋊ ㉿ingS¹』新加坡
       - 『㋊ ㉿ingS¹』美国
       - 『㋊ ㉿ingS¹』美国 2
