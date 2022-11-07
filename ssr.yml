@@ -5,16 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋊ ㉿ingS¹』美国★稳定, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: TmpNM01XWXhOVGsyTG0xcFkzSnZjMjltZEM1amIyMA, udp: true}
-  - {name: 『㋊ ㉿ingS¹』香港★稳定, server: cucshk4.debugex.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 41755:q13433801326, obfs-param: "", udp: true}
-  - {name: 『㋊ ㉿ingS¹』香港★稳定 2, server: cucshk4.debugex.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 41755:q13433801326, obfs-param: "", udp: true}
+  - {name: 『㋊ ㉿ingS¹』香港★稳定, server: pr1.jymzffbquawl.com, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 201817:qr7kq3wbfe, obfs-param: VGxSUk5VNUhWWGxOUkVVMFRWUmpkV0pYYkdwamJUbDZZakphTUV4dFRuWmlVUQ==, udp: true}
+  - {name: 『㋊ ㉿ingS¹』香港★稳定 2, server: bs1.jymzffbquawl.com, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 201817:qr7kq3wbfe, obfs-param: VGxSUk5VNUhWWGxOUkVVMFRWUmpkV0pYYkdwamJUbDZZakphTUV4dFRuWmlVUQ==, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: ♻️ 自动选择
@@ -22,7 +20,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: 🎥 NETFLIX
@@ -31,7 +28,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: ⛔️ 广告拦截
@@ -52,7 +48,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: 🌏 国内媒体
@@ -67,7 +62,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: 📲 电报信息
@@ -75,7 +69,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: 🍎 苹果服务
@@ -84,7 +77,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
   - name: 🎯 全球直连
@@ -102,7 +94,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊ ㉿ingS¹』美国★稳定
       - 『㋊ ㉿ingS¹』香港★稳定
       - 『㋊ ㉿ingS¹』香港★稳定 2
 rules:
