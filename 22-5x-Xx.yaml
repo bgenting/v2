@@ -5,11 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋊ ㉿ingS¹』台湾, server: 47.88.16.225, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
-  - {name: 『㋊ ㉿ingS¹』台湾 2, server: 198.11.180.118, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
-  - {name: 『㋊ ㉿ingS¹』台湾 3, server: 47.91.78.144, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
-  - {name: 『㋊ ㉿ingS¹』台湾 4, server: 8.212.22.18, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
-  - {name: 『㋊ ㉿ingS¹』台湾 5, server: 219.76.13.175, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
+  - {name: 『㋊ ㉿ingS¹』台湾, server: 8.212.22.18, port: 443, type: vmess, uuid: 275d9aa8-b271-43d1-b1cf-1f3e6e881047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.guolicheng.cyou}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -17,20 +13,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,10 +26,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -61,19 +45,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -81,20 +57,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -102,10 +70,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,10 +86,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 『㋊ ㉿ingS¹』台湾
-      - 『㋊ ㉿ingS¹』台湾 2
-      - 『㋊ ㉿ingS¹』台湾 3
-      - 『㋊ ㉿ingS¹』台湾 4
-      - 『㋊ ㉿ingS¹』台湾 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
