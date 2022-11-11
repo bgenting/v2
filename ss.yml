@@ -5,39 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋊ ㉿ingS¹』香港, server: gzct.daodecloud.com, port: 20269, type: ss, cipher: chacha20-ietf-poly1305, password: cfed45d3-083a-4680-ad8f-db997aeddaf1, udp: true}
-  - {name: 『㋊ ㉿ingS¹』香港 2, server: hnct.zzuu.tk, port: 23124, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
-  - {name: 『㋊ ㉿ingS¹』日本, server: hnct.zzuu.tk, port: 23127, type: ss, cipher: chacha20-ietf-poly1305, password: aad768a4-a8a6-41fc-a067-c9995e671345, udp: true}
-  - {name: 『㋊ ㉿ingS¹』韩国, server: 20.214.176.55, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 『㋊+㉿ingS¹』台灣, server: 103.177.33.202, port: 443, type: ss, cipher: aes-256-gcm, password: 784895a5fc0a, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mktw1glines001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋊+㉿ingS¹』台灣 2, server: 103.177.33.203, port: 443, type: ss, cipher: aes-256-gcm, password: 784895a5fc0a, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mktw1glines001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋊+㉿ingS¹』台灣 3, server: 103.177.33.204, port: 443, type: ss, cipher: aes-256-gcm, password: 784895a5fc0a, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mktw1glines001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋊+㉿ingS¹』台灣 4, server: 103.177.33.206, port: 443, type: ss, cipher: aes-256-gcm, password: 784895a5fc0a, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mktw1glines001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 『㋊+㉿ingS¹』香港, server: 134.122.200.132, port: 443, type: ss, cipher: aes-256-gcm, password: 32ac0edbc0c5, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mk1ghk001.fengchiline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+  - {name: 『㋊+㉿ingS¹』香港 2, server: 134.122.200.131, port: 443, type: ss, cipher: aes-256-gcm, password: 32ac0edbc0c5, plugin: v2ray-plugin, plugin-opts: {mode: "", host: mk1ghk001.fengchiline.xyz, path: "", tls: true, mux: false, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,45 +64,57 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -110,10 +130,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊ ㉿ingS¹』香港
-      - 『㋊ ㉿ingS¹』香港 2
-      - 『㋊ ㉿ingS¹』日本
-      - 『㋊ ㉿ingS¹』韩国
+      - 『㋊+㉿ingS¹』台灣
+      - 『㋊+㉿ingS¹』台灣 2
+      - 『㋊+㉿ingS¹』台灣 3
+      - 『㋊+㉿ingS¹』台灣 4
+      - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』香港 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
