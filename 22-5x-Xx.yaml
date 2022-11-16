@@ -14,53 +14,102 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"trojan","name":"『㋊㉿ingS¹』新加坡","server":"sg.iamnotagoodman.com","port":443,"password":"f8d19ba5-8684-45f2-8523-77dbea588955","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"『㋊㉿ingS¹』柬埔寨","server":"kh.iamnotagoodman.com","port":443,"password":"f8d19ba5-8684-45f2-8523-77dbea588955","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_1","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"141.101.114.200","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』法国","ws-opts":{"path":"/ray","headers":{"host":"fr2.cfcdn4.xyz"}},"server":"172.64.148.111","port":"443","uuid":"f33957e8-372e-4fba-99ed-f4db32cce9e5","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"128.14.140.254","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"198.41.212.100","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』日本","ws-opts":{"path":"/dsadvcxvcx","headers":{"host":"jp4.mayaa.cf"}},"server":"jp4.mayaa.cf","port":"443","uuid":"1d3d73f3-243c-4b48-b0b9-b699314a590c","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_5","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_6","server":"zfd-unicomv2.gatknqh.cn","port":"16106","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_7","ws-opts":{"path":"/","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"40005","uuid":"31ac36c7-bea4-4b52-898b-f051e4e79b66","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,8 +132,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊㉿ingS¹』新加坡
-      - 『㋊㉿ingS¹』柬埔寨
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』法国
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』日本
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
