@@ -14,16 +14,10 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_1","server":"cucshk4.debugex.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_2","server":"cmaisallin.debugspace.work","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_3","server":"cminit.debugspace.work","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_4","server":"cnrefhk2.standurl.xyz","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_5","server":"eduall.buzzline.org","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_6","server":"cminit.debugspace.work","port":559,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_7","server":"cnrefhk01.standurl.xyz","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_8","server":"cnrefhk01.standurl.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_9","server":"cucshk4.debugex.xyz","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_10","server":"eduall.buzzline.org","port":612,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
+  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_1","server":"cnrefhk01.standurl.xyz","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
+  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_2","server":"cnrefhk01.standurl.xyz","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
+  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_3","server":"cucshk4.debugex.xyz","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
+  - {"type":"ssr","name":"『㋊㉿ingS¹』香港★稳定_4","server":"eduall.buzzline.org","port":612,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"11314:antihos7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -34,12 +28,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,12 +38,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,12 +48,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -81,12 +57,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -96,12 +66,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -111,12 +75,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,12 +101,6 @@ proxy-groups:
       - 『㋊㉿ingS¹』香港★稳定_2
       - 『㋊㉿ingS¹』香港★稳定_3
       - 『㋊㉿ingS¹』香港★稳定_4
-      - 『㋊㉿ingS¹』香港★稳定_5
-      - 『㋊㉿ingS¹』香港★稳定_6
-      - 『㋊㉿ingS¹』香港★稳定_7
-      - 『㋊㉿ingS¹』香港★稳定_8
-      - 『㋊㉿ingS¹』香港★稳定_9
-      - 『㋊㉿ingS¹』香港★稳定_10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
