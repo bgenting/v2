@@ -1,3 +1,11 @@
+#
+#-------------------------------------------------------------#
+#  创建者：https://v2rayse.com
+#  创建时间：2022-11-18 12:08:55
+#  模版：ACL4SSR_Mini
+#  节点数量：15
+#-------------------------------------------------------------#
+#
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -15,7 +23,20 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_1","server":"54.251.73.154","port":41261,"password":"8b934f55-9c0f-4c59-8bb3-d65702946522","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_2","server":"54.251.73.154","port":41261,"password":"8407b0c3-dbaf-44b2-86c1-b27e856357e4","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_2","server":"54.251.73.154","port":14961,"password":"90e03fbd-6502-4180-af83-ff61f26a3517","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_3","server":"54.251.73.154","port":14961,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_4","server":"54.251.73.154","port":41261,"password":"8407b0c3-dbaf-44b2-86c1-b27e856357e4","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_5","server":"gzct.daodecloud.com","port":10694,"password":"90e03fbd-6502-4180-af83-ff61f26a3517","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_6","server":"54.251.73.154","port":41261,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_7","server":"54.251.73.154","port":14961,"password":"8407b0c3-dbaf-44b2-86c1-b27e856357e4","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_8","server":"gzct.daodecloud.com","port":10694,"password":"8407b0c3-dbaf-44b2-86c1-b27e856357e4","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_9","server":"54.251.73.154","port":41261,"password":"90e03fbd-6502-4180-af83-ff61f26a3517","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』香港_1","server":"gzct.daodecloud.com","port":36784,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』香港_2","server":"gzct.daodecloud.com","port":36784,"password":"8b934f55-9c0f-4c59-8bb3-d65702946522","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』香港_3","server":"gzct.daodecloud.com","port":10694,"password":"8b934f55-9c0f-4c59-8bb3-d65702946522","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』荷兰_1","server":"213.183.51.171","port":9026,"cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』荷兰_2","server":"213.183.51.171","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』台湾","server":"a-cm1.jsmmm.cyou","port":"39212","uuid":"ee8b274d-752d-33f4-9fef-e8a86e4c4cb8","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -24,6 +45,19 @@ proxy-groups:
       - DIRECT
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』新加坡_3
+      - 『㋊+㉿ingS¹』新加坡_4
+      - 『㋊+㉿ingS¹』新加坡_5
+      - 『㋊+㉿ingS¹』新加坡_6
+      - 『㋊+㉿ingS¹』新加坡_7
+      - 『㋊+㉿ingS¹』新加坡_8
+      - 『㋊+㉿ingS¹』新加坡_9
+      - 『㋊+㉿ingS¹』香港_1
+      - 『㋊+㉿ingS¹』香港_2
+      - 『㋊+㉿ingS¹』香港_3
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -32,6 +66,19 @@ proxy-groups:
     proxies:
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』新加坡_3
+      - 『㋊+㉿ingS¹』新加坡_4
+      - 『㋊+㉿ingS¹』新加坡_5
+      - 『㋊+㉿ingS¹』新加坡_6
+      - 『㋊+㉿ingS¹』新加坡_7
+      - 『㋊+㉿ingS¹』新加坡_8
+      - 『㋊+㉿ingS¹』新加坡_9
+      - 『㋊+㉿ingS¹』香港_1
+      - 『㋊+㉿ingS¹』香港_2
+      - 『㋊+㉿ingS¹』香港_3
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -51,6 +98,19 @@ proxy-groups:
       - ♻️ 自动选择
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』新加坡_3
+      - 『㋊+㉿ingS¹』新加坡_4
+      - 『㋊+㉿ingS¹』新加坡_5
+      - 『㋊+㉿ingS¹』新加坡_6
+      - 『㋊+㉿ingS¹』新加坡_7
+      - 『㋊+㉿ingS¹』新加坡_8
+      - 『㋊+㉿ingS¹』新加坡_9
+      - 『㋊+㉿ingS¹』香港_1
+      - 『㋊+㉿ingS¹』香港_2
+      - 『㋊+㉿ingS¹』香港_3
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3323,4 +3383,3 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
