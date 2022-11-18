@@ -17,6 +17,9 @@ proxies:
   - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_1","server":"54.251.73.154","port":14961,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
   - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_2","server":"54.251.73.154","port":41261,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
   - {"type":"trojan","name":"『㋊+㉿ingS¹』香港","server":"gzct.daodecloud.com","port":36784,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』荷兰_1","server":"213.183.51.171","port":9026,"cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』荷兰_2","server":"213.183.51.171","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』台湾","server":"a-cm1.jsmmm.cyou","port":"39212","uuid":"ee8b274d-752d-33f4-9fef-e8a86e4c4cb8","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,6 +29,9 @@ proxy-groups:
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
       - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,6 +41,9 @@ proxy-groups:
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
       - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -55,6 +64,9 @@ proxy-groups:
       - 『㋊+㉿ingS¹』新加坡_1
       - 『㋊+㉿ingS¹』新加坡_2
       - 『㋊+㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』荷兰_1
+      - 『㋊+㉿ingS¹』荷兰_2
+      - 『㋊㉿ingS¹』台湾
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
