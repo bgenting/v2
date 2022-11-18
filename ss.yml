@@ -1,11 +1,3 @@
-#
-#-------------------------------------------------------------#
-#  创建者：https://v2rayse.com
-#  创建时间：2022-11-18 12:19:41
-#  模版：ACL4SSR_Mini
-#  节点数量：11
-#-------------------------------------------------------------#
-#
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -22,51 +14,24 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_1","server":"103.177.32.251","port":443,"cipher":"chacha20-ietf-poly1305","password":"4af784ec15d1","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"tw600ss001.feijijiasu.club","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_2","server":"60.248.6.189","port":443,"cipher":"chacha20-ietf-poly1305","password":"9f164704f604","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"newreline004.kuainiaojs.info","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』新加坡","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202211000000000000000020","plugin":"obfs","plugin-opts":{"mode":"http","host":"securevpn.cc"}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_3","server":"103.177.33.202","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_4","server":"103.177.33.203","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_5","server":"103.177.33.204","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_6","server":"103.177.33.206","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』香港_1","server":"134.122.200.132","port":443,"cipher":"aes-256-gcm","password":"32ac0edbc0c5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mk1ghk001.fengchiline.xyz","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』香港_2","server":"134.122.200.131","port":443,"cipher":"aes-256-gcm","password":"32ac0edbc0c5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mk1ghk001.fengchiline.xyz","tls":true}}
   - {"type":"ss","name":"『㋊+㉿ingS¹』美国","server":"198.2.201.239","port":2465,"cipher":"chacha20-ietf-poly1305","password":"0873499deebb","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"testus1gline002renew.feijijiasu.club","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣_7","server":"103.177.33.205","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣","server":"103.177.33.205","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊+㉿ingS¹』台灣_1
-      - 『㋊+㉿ingS¹』台灣_2
-      - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』台灣_3
-      - 『㋊+㉿ingS¹』台灣_4
-      - 『㋊+㉿ingS¹』台灣_5
-      - 『㋊+㉿ingS¹』台灣_6
-      - 『㋊+㉿ingS¹』香港_1
-      - 『㋊+㉿ingS¹』香港_2
       - 『㋊+㉿ingS¹』美国
-      - 『㋊+㉿ingS¹』台灣_7
+      - 『㋊+㉿ingS¹』台灣
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊+㉿ingS¹』台灣_1
-      - 『㋊+㉿ingS¹』台灣_2
-      - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』台灣_3
-      - 『㋊+㉿ingS¹』台灣_4
-      - 『㋊+㉿ingS¹』台灣_5
-      - 『㋊+㉿ingS¹』台灣_6
-      - 『㋊+㉿ingS¹』香港_1
-      - 『㋊+㉿ingS¹』香港_2
       - 『㋊+㉿ingS¹』美国
-      - 『㋊+㉿ingS¹』台灣_7
+      - 『㋊+㉿ingS¹』台灣
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,17 +49,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊+㉿ingS¹』台灣_1
-      - 『㋊+㉿ingS¹』台灣_2
-      - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』台灣_3
-      - 『㋊+㉿ingS¹』台灣_4
-      - 『㋊+㉿ingS¹』台灣_5
-      - 『㋊+㉿ingS¹』台灣_6
-      - 『㋊+㉿ingS¹』香港_1
-      - 『㋊+㉿ingS¹』香港_2
       - 『㋊+㉿ingS¹』美国
-      - 『㋊+㉿ingS¹』台灣_7
+      - 『㋊+㉿ingS¹』台灣
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
