@@ -14,21 +14,27 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡","server":"54.251.73.154","port":41261,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_1","server":"54.251.73.154","port":14961,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_2","server":"54.251.73.154","port":41261,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』香港","server":"gzct.daodecloud.com","port":36784,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』新加坡_1
+      - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』新加坡_1
+      - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -46,7 +52,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』新加坡_1
+      - 『㋊+㉿ingS¹』新加坡_2
+      - 『㋊+㉿ingS¹』香港
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
