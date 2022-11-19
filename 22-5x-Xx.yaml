@@ -14,27 +14,78 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_1","server":"54.251.73.154","port":14961,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡_2","server":"54.251.73.154","port":41261,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』香港","server":"gzct.daodecloud.com","port":36784,"password":"df52e803-002f-4339-b8a4-ce572d35f907","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』法国_1","ws-opts":{"path":"/ray","headers":{"host":"fr2.cfcdn4.xyz"}},"server":"141.101.114.111","port":"443","uuid":"f33957e8-372e-4fba-99ed-f4db32cce9e5","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』法国_2","ws-opts":{"path":"/ray","headers":{"host":"fr2.cfcdn4.xyz"}},"server":"172.64.148.111","port":"443","uuid":"f33957e8-372e-4fba-99ed-f4db32cce9e5","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』印尼","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"141.101.114.120","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"66.212.20.3","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"128.14.140.254","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"141.101.114.20","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"141.101.114.200","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_5","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.152.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_6","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_7","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_8","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"198.41.212.100","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_10","ws-opts":{"path":"/VHONOFZ3","headers":{"host":"lg1.cfcdn2.xyz"}},"server":"141.101.114.100","port":"443","uuid":"267a9f38-40d8-4ed6-ab58-cafc67e9c933","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_11","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"141.101.114.120","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_12","ws-opts":{"path":"/VHONOFZ3","headers":{"host":"lg1.cfcdn2.xyz"}},"server":"141.101.115.100","port":"443","uuid":"267a9f38-40d8-4ed6-ab58-cafc67e9c933","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_13","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"141.101.115.120","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_14","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"141.101.115.136","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』美国_15","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"198.41.203.1","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡","server":"138.2.81.70","port":443,"password":"81d93f62-15a2-4994-adb9-0b5d906aac7e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』法国","server":"content-provider26.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊㉿ingS¹』法国_1
+      - 『㋊㉿ingS¹』法国_2
+      - 『㋊㉿ingS¹』印尼
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
+      - 『㋊㉿ingS¹』美国_8
+      - 『㋊㉿ingS¹』美国_9
+      - 『㋊㉿ingS¹』美国_10
+      - 『㋊㉿ingS¹』美国_11
+      - 『㋊㉿ingS¹』美国_12
+      - 『㋊㉿ingS¹』美国_13
+      - 『㋊㉿ingS¹』美国_14
+      - 『㋊㉿ingS¹』美国_15
+      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊㉿ingS¹』法国_1
+      - 『㋊㉿ingS¹』法国_2
+      - 『㋊㉿ingS¹』印尼
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
+      - 『㋊㉿ingS¹』美国_8
+      - 『㋊㉿ingS¹』美国_9
+      - 『㋊㉿ingS¹』美国_10
+      - 『㋊㉿ingS¹』美国_11
+      - 『㋊㉿ingS¹』美国_12
+      - 『㋊㉿ingS¹』美国_13
+      - 『㋊㉿ingS¹』美国_14
+      - 『㋊㉿ingS¹』美国_15
+      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -52,9 +103,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』香港
+      - 『㋊㉿ingS¹』法国_1
+      - 『㋊㉿ingS¹』法国_2
+      - 『㋊㉿ingS¹』印尼
+      - 『㋊㉿ingS¹』美国_1
+      - 『㋊㉿ingS¹』美国_2
+      - 『㋊㉿ingS¹』美国_3
+      - 『㋊㉿ingS¹』美国_4
+      - 『㋊㉿ingS¹』美国_5
+      - 『㋊㉿ingS¹』美国_6
+      - 『㋊㉿ingS¹』美国_7
+      - 『㋊㉿ingS¹』美国_8
+      - 『㋊㉿ingS¹』美国_9
+      - 『㋊㉿ingS¹』美国_10
+      - 『㋊㉿ingS¹』美国_11
+      - 『㋊㉿ingS¹』美国_12
+      - 『㋊㉿ingS¹』美国_13
+      - 『㋊㉿ingS¹』美国_14
+      - 『㋊㉿ingS¹』美国_15
+      - 『㋊+㉿ingS¹』新加坡
+      - 『㋊+㉿ingS¹』法国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
