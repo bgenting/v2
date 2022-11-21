@@ -14,14 +14,26 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ss","name":"『㋊+㉿ingS¹』美国","server":"198.2.201.239","port":2465,"cipher":"chacha20-ietf-poly1305","password":"0873499deebb","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"testus1gline002renew.feijijiasu.club","tls":true}}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣","server":"103.177.33.205","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"mktw1glines001.fengchiline.xyz","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺日本-用完失效༻\"","server":"h649960.waihuizhibiaowang.com","port":15443,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺俄罗斯-用完失效༻\"","server":"h217022.waihuizhibiaowang.com","port":15743,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺英国-用完失效༻\"","server":"h217022.waihuizhibiaowang.com","port":15143,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺香港-用完失效༻\"","server":"h745768.waihuizhibiaowang.com","port":15543,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺台灣-用完失效༻\"","server":"h745768.waihuizhibiaowang.com","port":15343,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺德国-用完失效༻\"","server":"h217022.waihuizhibiaowang.com","port":15743,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』美国","server":"198.2.201.239","port":2465,"cipher":"chacha20-ietf-poly1305","password":"0873499deebb","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"testus1gline002renew.feijijiasu.club"}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』台灣","server":"103.177.33.205","port":443,"cipher":"aes-256-gcm","password":"784895a5fc0a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"mktw1glines001.fengchiline.xyz"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 『㋊+㉿ingS¹』༺日本-用完失效༻"
+      - 『㋊+㉿ingS¹』༺俄罗斯-用完失效༻"
+      - 『㋊+㉿ingS¹』༺英国-用完失效༻"
+      - 『㋊+㉿ingS¹』༺香港-用完失效༻"
+      - 『㋊+㉿ingS¹』༺台灣-用完失效༻"
+      - 『㋊+㉿ingS¹』༺德国-用完失效༻"
       - 『㋊+㉿ingS¹』美国
       - 『㋊+㉿ingS¹』台灣
   - name: ♻️ 自动选择
@@ -30,6 +42,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 『㋊+㉿ingS¹』༺日本-用完失效༻"
+      - 『㋊+㉿ingS¹』༺俄罗斯-用完失效༻"
+      - 『㋊+㉿ingS¹』༺英国-用完失效༻"
+      - 『㋊+㉿ingS¹』༺香港-用完失效༻"
+      - 『㋊+㉿ingS¹』༺台灣-用完失效༻"
+      - 『㋊+㉿ingS¹』༺德国-用完失效༻"
       - 『㋊+㉿ingS¹』美国
       - 『㋊+㉿ingS¹』台灣
   - name: 🎯 全球直连
@@ -49,6 +67,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 『㋊+㉿ingS¹』༺日本-用完失效༻"
+      - 『㋊+㉿ingS¹』༺俄罗斯-用完失效༻"
+      - 『㋊+㉿ingS¹』༺英国-用完失效༻"
+      - 『㋊+㉿ingS¹』༺香港-用完失效༻"
+      - 『㋊+㉿ingS¹』༺台灣-用完失效༻"
+      - 『㋊+㉿ingS¹』༺德国-用完失效༻"
       - 『㋊+㉿ingS¹』美国
       - 『㋊+㉿ingS¹』台灣
 rules:
