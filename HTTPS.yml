@@ -14,16 +14,16 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」台湾","server":"h3816tw.strongpipe.live","port":20443,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」美国","server":"h961359.strongpipe.live","port":11245,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」美国","server":"h961684.strongpipe.live","port":11245,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」德国","server":"h961684.strongpipe.live","port":11745,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」德国","server":"h961359.strongpipe.live","port":11745,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」日本","server":"h961359.strongpipe.live","port":11445,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」日本","server":"h961684.strongpipe.live","port":11445,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」日本","server":"h890361.strongpipe.live","port":11445,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」香港","server":"h890361.strongpipe.live","port":11545,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
-  - {"type":"http","name":"「㋊ ㉿ingS♭³ 」香港","server":"h961359.strongpipe.live","port":11545,"username":dcf12c7e7d, "password":26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」台湾,server:h3816tw.strongpipe.live,port:20443,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」美国,server:h961359.strongpipe.live,port:11245,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」美国,server:h961684.strongpipe.live,port:11245,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」德国,server:h961684.strongpipe.live,port:11745,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」德国,server:h961359.strongpipe.live,port:11745,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」日本,server:h961359.strongpipe.live,port:11445,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」日本,server:h961684.strongpipe.live,port:11445,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」日本,server:h890361.strongpipe.live,port:11445,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」香港,server:h890361.strongpipe.live,port:11545,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
+  - {type:http,name:「㋊ ㉿ingS♭³ 」香港,server:h961359.strongpipe.live,port:11545,username:dcf12c7e7d, password:26bae9b023, tls: true, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -2100,7 +2100,7 @@ rules:
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
   - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
-  - DOMAIN-SUFFIX,1"password".com,🚀 节点选择
+  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
