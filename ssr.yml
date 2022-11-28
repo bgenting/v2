@@ -14,24 +14,21 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ssr","name":"『㋊㉿ingS¹』༺俄罗斯★稳定༻\"_1","server":"116.162.120.23","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ","protocol-param":"27445:jgjgjgjgjgjg"}
-  - {"type":"ssr","name":"『㋊㉿ingS¹』༺俄罗斯★稳定༻\"_2","server":"116.162.120.30","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"dC5tZS92cG5oYXQ","protocol-param":"27445:jgjgjgjgjgjg"}
+  - {"type":"ssr","name":"『㋊㉿ingS¹』美国★稳定","server":"38.143.0.74","port":40089,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"hdbgsvbnna"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_1
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_2
+      - 『㋊㉿ingS¹』美国★稳定
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_1
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_2
+      - 『㋊㉿ingS¹』美国★稳定
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,8 +46,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_1
-      - 『㋊㉿ingS¹』༺俄罗斯★稳定༻"_2
+      - 『㋊㉿ingS¹』美国★稳定
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1780,13 +1776,10 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -2651,7 +2644,6 @@ rules:
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
   - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
-  - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
   - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
   - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
   - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
