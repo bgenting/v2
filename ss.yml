@@ -15,9 +15,6 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"type":"trojan","name":"『㋊+㉿ingS¹』新加坡","server":"138.2.81.70","port":443,"password":"81d93f62-15a2-4994-adb9-0b5d906aac7e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"『㋊+㉿ingS¹』法国","server":"content-provider26.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』台湾","server":"14.29.124.168","port":24000,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』༺美国★稳定★专线༻\"","server":"hnt.cndns.shop","port":27765,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,9 +22,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』法国
-      - 『㋊+㉿ingS¹』台湾
-      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,9 +29,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』法国
-      - 『㋊+㉿ingS¹』台湾
-      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -56,9 +47,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 『㋊+㉿ingS¹』新加坡
-      - 『㋊+㉿ingS¹』法国
-      - 『㋊+㉿ingS¹』台湾
-      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
