@@ -14,21 +14,30 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ssr","name":"『㋊㉿ingS¹』美国★稳定","server":"38.143.0.74","port":40089,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"hdbgsvbnna"}
+  - {"type":"vmess","name":"『㋊㉿ingS¹』香港","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"167.179.32.53","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』日本","server":"trs16.bolab.net","port":22,"password":"40c89b10235c40321e7a3cef82b53a03","udp":true,"skip-cert-verify":true,"sni":"trs16.bolab.net"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』东京","server":"trs12.bolab.net","port":22,"password":"40c89b10235c40321e7a3cef82b53a03","udp":true,"skip-cert-verify":true,"sni":"trs12.bolab.net"}
+  - {"type":"trojan","name":"『㋊+㉿ingS¹』美国","server":"129.213.117.66","port":41106,"password":"Yaib2g1jy3","udp":true,"skip-cert-verify":true,"sni":"1sj.fengcj.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊㉿ingS¹』美国★稳定
+      - 『㋊㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』日本
+      - 『㋊+㉿ingS¹』东京
+      - 『㋊+㉿ingS¹』美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊㉿ingS¹』美国★稳定
+      - 『㋊㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』日本
+      - 『㋊+㉿ingS¹』东京
+      - 『㋊+㉿ingS¹』美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -46,7 +55,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊㉿ingS¹』美国★稳定
+      - 『㋊㉿ingS¹』香港
+      - 『㋊+㉿ingS¹』日本
+      - 『㋊+㉿ingS¹』东京
+      - 『㋊+㉿ingS¹』美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1776,10 +1788,13 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
+  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
+  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
+  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -2644,6 +2659,7 @@ rules:
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
   - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
   - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
   - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
   - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
