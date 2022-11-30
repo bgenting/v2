@@ -14,30 +14,45 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ss","name":"『㋊+㉿ingS¹』新加坡_1","server":"81.90.189.41","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』新加坡_2","server":"81.90.189.41","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』新加坡_3","server":"81.90.189.41","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"『㋊+㉿ingS¹』美国","server":"hnt.cndns.shop","port":27763,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺柏林★稳定༻\"_1","server":"hnt.cndns.shop","port":27761,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺柏林★稳定༻\"_2","server":"hnt.cndns.shop","port":27762,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺柏林★稳定༻\"_3","server":"hnt.cndns.shop","port":27763,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺柏林★稳定༻\"_4","server":"hnt.cndns.shop","port":27766,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺德國★稳定༻\"","server":"5.199.135.205","port":443,"cipher":"aes-256-gcm","password":"e211bff9ff1a","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"wxw1000mgmline001.aidunjiasu.co","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺土耳其★稳定༻\"_1","server":"188.132.173.179","port":443,"cipher":"aes-256-gcm","password":"41dcb986e9bf","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"wxw100mtr001.aidunjiasu.co","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺土耳其★稳定༻\"_2","server":"188.132.173.180","port":443,"cipher":"aes-256-gcm","password":"41dcb986e9bf","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"wxw100mtr001.aidunjiasu.co","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺土耳其★稳定༻\"_3","server":"188.132.173.181","port":443,"cipher":"aes-256-gcm","password":"41dcb986e9bf","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"wxw100mtr001.aidunjiasu.co","tls":true}}
+  - {"type":"ss","name":"『㋊+㉿ingS¹』༺美国★稳定★专线༻\"","server":"virmach.boomtlk.com","port":443,"cipher":"aes-256-gcm","password":"teluoka","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"virmach.boomtlk.com"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』新加坡_3
-      - 『㋊+㉿ingS¹』美国
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_4
+      - 『㋊+㉿ingS¹』༺德國★稳定༻"
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』新加坡_3
-      - 『㋊+㉿ingS¹』美国
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_4
+      - 『㋊+㉿ingS¹』༺德國★稳定༻"
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -55,10 +70,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊+㉿ingS¹』新加坡_1
-      - 『㋊+㉿ingS¹』新加坡_2
-      - 『㋊+㉿ingS¹』新加坡_3
-      - 『㋊+㉿ingS¹』美国
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺柏林★稳定༻"_4
+      - 『㋊+㉿ingS¹』༺德國★稳定༻"
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_1
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_2
+      - 『㋊+㉿ingS¹』༺土耳其★稳定༻"_3
+      - 『㋊+㉿ingS¹』༺美国★稳定★专线༻"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
