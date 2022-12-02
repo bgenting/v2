@@ -5,107 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 『㋋ ㉿ingS¹』英国, server: uk3.iranz.me, port: 443, type: vmess, uuid: 0c5e33e9-74fe-4435-9ec1-e8d2223ed16a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk3.iranz.me}, udp: true}
-  - {name: 『㋋ ㉿ingS¹』加州, server: ust-2.opensvr.net, port: 443, type: trojan, password: opentunnel.net-sweerhjjkk, sni: ust-2.opensvr.net, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』法兰西, server: 176.31.83.90, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』法兰西 2, server: 51.77.71.134, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』法兰西 3, server: 40.115.213.4, port: 443, type: trojan, password: 8078dd51-d4d9-4024-89df-50e358a00a54, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』英国 2, server: 111.45.22.139, port: 11901, type: vmess, uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』法国, server: content-provider12.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, sni: content-provider12.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』荷兰, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, sni: content-provider23.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』瑞士, server: www.liuyiyang19891222.tk, port: 443, type: vmess, uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.liuyiyang19891222.tk}, udp: true}
-  - {name: 『㋋ ㉿ingS¹』美国, server: 148.113.141.99, port: 443, type: trojan, password: HdsUZmsHQW, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』荷兰 2, server: content-provider24.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, sni: content-provider24.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』荷兰 3, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』东京, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』台北, server: 120.233.11.136, port: 9005, type: vmess, uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』加拿大, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-sdertyuijh, sni: cat-1.opensvr.net, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』加拿大 2, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-wsxderrt, sni: cat-1.opensvr.net, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』加拿大 3, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-erfghhj, sni: cat-1.opensvr.net, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』东京 2, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』以色列, server: 111.45.22.139, port: 11934, type: vmess, uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 『㋋ ㉿ingS¹』美国 2, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 4ce21a11-44fe-4814-a639-4b7caf501031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zhuyong.hucloud-dns.xyz}, udp: true}
-  - {name: 『㋋ ㉿ingS¹』台湾, server: 120.233.11.136, port: 9003, type: vmess, uuid: 3346872e-3104-3c5b-8f6f-4b809309fa8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋋ ㉿ingS¹』欧洲丶随机失效, server: 103.167.34.206, port: 443, type: trojan, password: 60d47bb6-47d1-45b1-b67b-4d236a4a5957, skip-cert-verify: true, udp: true}
+  - {name: 『㋋ ㉿ingS¹』新加坡丶随机失效, server: 138.2.83.217, port: 43863, type: vmess, uuid: ca984457-b017-46e5-d973-42a3c3fdc292, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [138.2.83.217]}}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』韩国丶随机失效, server: 150.230.249.15, port: 46842, type: vmess, uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [150.230.249.15]}}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』香港丶随机失效, server: 47.243.104.195, port: 58944, type: vmess, uuid: a0f25e25-9c5d-4d96-9051-5481c46e277d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.104.195]}}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』台湾丶随机失效, server: pr3.jymzffbquawl.com, port: 3025, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 58541:7dkbp8ujwpd, obfs-param: e059358541.microsoft.com, udp: true}
+  - {name: 『㋋ ㉿ingS¹』香港丶随机失效 2, server: bs2.jymzffbquawl.com, port: 3502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 58541:7dkbp8ujwpd, obfs-param: e059358541.microsoft.com, udp: true}
+  - {name: 『㋋ ㉿ingS¹』日本丶随机失效, server: bs3.jymzffbquawl.com, port: 4501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 58541:7dkbp8ujwpd, obfs-param: e059358541.microsoft.com, udp: true}
+  - {name: 『㋋ ㉿ingS¹』香港丶随机失效 3, server: initest08.initcloud.pro, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 32329:ff112233, obfs-param: "", udp: true}
+  - {name: 『㋋ ㉿ingS¹』新加坡丶随机失效 2, server: aws2.yydsdy.top, port: 20000, type: ss, cipher: aes-128-gcm, password: Rah5vQ2A7aaH2bMb0eAwtyAfwgunvZOWiB2n25WhGmp1, plugin: obfs, plugin-opts: {mode: http, host: aws2.yydsdy.top}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』中国丶随机失效, server: 1cnrelay.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 15339:SVIPTIZ8, obfs-param: Vmtaa2QxUXlTbGRqU0ZKV1ZrVTFUMVpyVmxkTlZteHpXa2hPYUdKVk5UQlVNV2gzWVZVeGMySXpaRlZTZWtaUVdrY3hTMVZu, udp: true}
+  - {name: 『㋋ ㉿ingS¹』澳大利亚丶随机失效, server: 52.65.55.29, port: 8081, type: vmess, uuid: 77481f21-6a28-40cb-ecbc-0213c085ef92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 52.65.55.29}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』中国丶随机失效 2, server: hnlt.817777.xyz, port: 11011, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22663:naiboob, obfs-param: VmpKMFUxZHRWbGRpUkZwV1YwZDRUMWxYZUhKbFZsSlpZWHBHYTFJd1dsbFdSelZ6WVZVd2QwNVVTbGhpVkZaVFdrWmFjbVZWT1ZsVlVR, udp: true}
+  - {name: 『㋋ ㉿ingS¹』韩国丶随机失效 2, server: huclouds.ml, port: 5505, type: vmess, uuid: 69801534-3870-4d14-9d07-6f65da593da4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: huclouds.ml}, udp: true}
+  - {name: 『㋋ ㉿ingS¹』俄罗斯丶随机失效, server: 95.163.243.235, port: 13936, type: vmess, uuid: eeca7f96-8255-453e-c000-46d0396e77a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 『㋋ ㉿ingS¹』韩国丶随机失效 3, server: cmaisallin.debugspace.work, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 15339:SVIPTIZ8, obfs-param: VFdwT2JWcHRVVE5OVkVWMVlsZHNhbU50T1hwaU1sb3dURzFPZG1KUg, udp: true}
+  - {name: 『㋋ ㉿ingS¹』新加坡丶随机失效 3, server: gzyd.120.817777.xyz, port: 11000, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22663:naiboob, obfs-param: V2tSWmVWbDZVWGxOYWxreVRYazFkR0ZYVG5saU0wNTJXbTVSZFZreU9YUQ, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,113 +104,95 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,27 +208,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋋ ㉿ingS¹』英国
-      - 『㋋ ㉿ingS¹』加州
-      - 『㋋ ㉿ingS¹』法兰西
-      - 『㋋ ㉿ingS¹』法兰西 2
-      - 『㋋ ㉿ingS¹』法兰西 3
-      - 『㋋ ㉿ingS¹』英国 2
-      - 『㋋ ㉿ingS¹』法国
-      - 『㋋ ㉿ingS¹』荷兰
-      - 『㋋ ㉿ingS¹』瑞士
-      - 『㋋ ㉿ingS¹』美国
-      - 『㋋ ㉿ingS¹』荷兰 2
-      - 『㋋ ㉿ingS¹』荷兰 3
-      - 『㋋ ㉿ingS¹』东京
-      - 『㋋ ㉿ingS¹』台北
-      - 『㋋ ㉿ingS¹』加拿大
-      - 『㋋ ㉿ingS¹』加拿大 2
-      - 『㋋ ㉿ingS¹』加拿大 3
-      - 『㋋ ㉿ingS¹』东京 2
-      - 『㋋ ㉿ingS¹』以色列
-      - 『㋋ ㉿ingS¹』美国 2
-      - 『㋋ ㉿ingS¹』台湾
+      - 『㋋ ㉿ingS¹』欧洲丶随机失效
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效
+      - 『㋋ ㉿ingS¹』台湾丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 2
+      - 『㋋ ㉿ingS¹』日本丶随机失效
+      - 『㋋ ㉿ingS¹』香港丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 2
+      - 『㋋ ㉿ingS¹』中国丶随机失效
+      - 『㋋ ㉿ingS¹』澳大利亚丶随机失效
+      - 『㋋ ㉿ingS¹』中国丶随机失效 2
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 2
+      - 『㋋ ㉿ingS¹』俄罗斯丶随机失效
+      - 『㋋ ㉿ingS¹』韩国丶随机失效 3
+      - 『㋋ ㉿ingS¹』新加坡丶随机失效 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
