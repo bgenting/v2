@@ -14,33 +14,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 1","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 2","server":"211.72.35.157","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 3","server":"211.72.35.157","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 4","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 5","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 6","server":"211.72.35.152","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 7","server":"60.249.3.226","port":3389,"password":"36fe28a331638747","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 8","server":"60.249.3.228","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 9","server":"60.249.3.226","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 10","server":"60.249.3.227","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 11","server":"60.249.3.226","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 12","server":"60.249.3.227","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 13","server":"60.249.3.228","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 14","server":"60.249.3.229","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 15","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 16","server":"211.72.35.152","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 17","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 18","server":"60.249.3.228","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 19","server":"60.249.3.226","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 20","server":"60.249.3.227","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 21","server":"211.72.35.152","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 22","server":"60.249.3.226","port":3389,"password":"36fe28a331638747","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 23","server":"60.249.3.227","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 24","server":"60.249.3.228","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 25","server":"60.249.3.229","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 26","server":"60.249.3.226","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 27","server":"60.249.3.228","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"🇭🇰『㋋ ㉿ingS¹』༺☆香港☆༻①","server":"180.101.193.226","port":10068,"cipher":"aes-256-cfb","password":"RsDk3peCSuo76B68"}
   - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 1","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 2","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
@@ -54,40 +27,12 @@ proxies:
   - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 10","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 11","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 12","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 13","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 1
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 2
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 3
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 4
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 5
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 6
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 7
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 8
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 9
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 10
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 11
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 12
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 13
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 14
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 15
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 16
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 17
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 18
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 19
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 20
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 21
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 22
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 23
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 24
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 25
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 26
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 27
       - 🇭🇰『㋋ ㉿ingS¹』༺☆香港☆༻①
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 1
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 2
@@ -101,40 +46,12 @@ proxy-groups:
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 10
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 11
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 12
-      - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate 204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 1
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 2
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 3
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 4
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 5
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 6
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 7
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 8
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 9
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 10
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 11
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 12
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 13
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 14
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 15
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 16
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 17
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 18
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 19
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 20
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 21
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 22
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 23
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 24
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 25
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 26
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 27
       - 🇭🇰『㋋ ㉿ingS¹』༺☆香港☆༻①
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 1
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 2
@@ -148,7 +65,6 @@ proxy-groups:
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 10
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 11
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 12
-      - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -166,33 +82,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 1
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 2
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 3
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 4
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 5
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 6
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 7
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 8
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 9
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 10
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 11
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 12
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 13
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 14
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 15
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 16
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 17
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 18
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 19
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 20
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 21
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 22
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 23
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 24
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 25
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 26
-      - 🇺🇸『㋋ ㉿ingS¹』༺☆美国☆༻① 27
       - 🇭🇰『㋋ ㉿ingS¹』༺☆香港☆༻①
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 1
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 2
@@ -206,7 +95,6 @@ proxy-groups:
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 10
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 11
       - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 12
-      - 🇳🇱『㋋ ㉿ingS¹』༺☆荷兰☆༻① 13
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
