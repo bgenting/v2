@@ -1,3 +1,11 @@
+#
+#-------------------------------------------------------------#
+#  创建者：https://v2rayse.com
+#  创建时间：2022-12-11 19:29:00
+#  模版：ACL4SSR_Mini
+#  节点数量：2
+#-------------------------------------------------------------#
+#
 mixed-port: 7890
 allow-lan: true
 mode: Rule
@@ -14,21 +22,24 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ssr","name":"『㋊㉿ingS¹』美国★稳定","server":"38.143.0.86","port":50015,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"vcfcvOIJbva"}
+  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』①༺☆不定时更新☆༻㊁","server":"154.9.204.15","port":40000,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"&^Afhcbznzvgtauqjmcn"}
+  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』②༺☆不定时更新☆༻㊁","server":"173.82.206.185","port":60000,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"bhwebdjewfwefs"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 『㋊㉿ingS¹』美国★稳定
+      - 🇹🇼『㋋㉿ingS¹』①༺☆不定时更新☆༻㊁
+      - 🇹🇼『㋋㉿ingS¹』②༺☆不定时更新☆༻㊁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 『㋊㉿ingS¹』美国★稳定
+      - 🇹🇼『㋋㉿ingS¹』①༺☆不定时更新☆༻㊁
+      - 🇹🇼『㋋㉿ingS¹』②༺☆不定时更新☆༻㊁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -46,7 +57,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 『㋊㉿ingS¹』美国★稳定
+      - 🇹🇼『㋋㉿ingS¹』①༺☆不定时更新☆༻㊁
+      - 🇹🇼『㋋㉿ingS¹』②༺☆不定时更新☆༻㊁
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
