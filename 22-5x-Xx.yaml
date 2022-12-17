@@ -5,67 +5,158 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"vfly3.win"}},"server":"104.16.227.166","port":"443","uuid":"f4ef14c4-d811-455c-a4c3-c63dfeffb0a6","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"51fly99.win"}},"server":"104.27.76.228","port":"443","uuid":"fefe2ff7-153c-41a8-aa04-e8d2e641505c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"51fly11.win"}},"server":"104.27.76.228","port":"443","uuid":"95e1bf19-3267-4869-caee-51c383eebe2e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"51vfly1.win"}},"server":"104.21.8.247","port":"443","uuid":"3f52e850-b697-4f61-c82c-6d1ca0e6d1b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"104.16.227.166"}},"server":"104.16.227.166","port":"443","uuid":"f4ef14c4-d811-455c-a4c3-c63dfeffb0a6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"104.27.76.228"}},"server":"104.27.76.228","port":"443","uuid":"fefe2ff7-153c-41a8-aa04-e8d2e641505c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋋㉿ingS¹』༺美国☆優選²☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"104.27.76.228"}},"server":"104.27.76.228","port":"443","uuid":"95e1bf19-3267-4869-caee-51c383eebe2e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"『㋋㉿ingS¹』༺美国☆優選³☆༻㊁","ws-opts":{"path":"/myblog","headers":{"host":"104.21.8.247"}},"server":"104.21.8.247","port":"443","uuid":"3f52e850-b697-4f61-c82c-6d1ca0e6d1b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"129.154.217.179","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1","server":"45.64.22.23","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true,"sni":"jgwcc1.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2","server":"45.64.22.23","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true,"sni":"jgwcc1.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3","server":"45.64.22.56","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true,"sni":"jgwcc3.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4","server":"45.64.22.55","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true,"sni":"jgwcc3.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5","server":"45.64.22.22","port":443,"password":"9c822f05-cfdc-479a-9534-60f3d4127435","udp":true,"skip-cert-verify":true,"sni":"jgwcc2.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6","server":"45.64.22.55","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true,"sni":"jgwcc1.gaox.ml"}
+  - {"type":"trojan","name":"🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7","server":"45.64.22.23","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true,"sni":"jgwcc1.gaox.ml"}
+  - {"type":"trojan","name":"🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1","server":"45.64.22.23","port":443,"password":"c09eb137-bf68-4658-84e0-102d94b74168","udp":true,"skip-cert-verify":true,"sni":"jgwdj4.gaox.ml"}
+  - {"type":"trojan","name":"🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2","server":"45.64.22.22","port":443,"password":"da777aae-defb-41d0-a183-2c27da2b4677","udp":true,"skip-cert-verify":true,"sni":"jgwdj3.gaox.ml"}
+  - {"type":"trojan","name":"🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①","server":"45.64.22.55","port":443,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","udp":true,"skip-cert-verify":true,"sni":"jgwdb3.gaox.ml"}
+  - {"type":"trojan","name":"🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1","server":"45.64.22.56","port":443,"password":"123456","udp":true,"skip-cert-verify":true,"sni":"trojan-ctb-sg01.globalssh.xyz"}
+  - {"type":"trojan","name":"🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2","server":"45.64.22.56","port":443,"password":"123456","udp":true,"skip-cert-verify":true,"sni":"trojan-ctb-sg02.globalssh.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +179,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
-      - 🇺🇸『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 『㋋㉿ingS¹』༺日本☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選¹☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選²☆༻㊁
+      - 『㋋㉿ingS¹』༺美国☆優選³☆༻㊁
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆匹兹堡☆༻①
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_1
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_2
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_3
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_4
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_5
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_6
+      - 🇰🇷『㋋+㉿ingS¹』༺韓國☆春川☆༻①_7
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_1
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆東京☆༻①_2
+      - 🇯🇵『㋋+㉿ingS¹』༺日本☆大阪☆༻①
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_1
+      - 🇸🇬『㋋+㉿ingS¹』༺新加坡☆新加坡☆༻①_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
