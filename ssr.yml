@@ -5,81 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1","server":"183.60.211.71","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2","server":"183.60.211.70","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3","server":"183.60.211.69","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4","server":"183.60.211.68","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5","server":"183.60.211.67","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
-  - {"type":"ssr","name":"🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6","server":"183.60.211.66","port":1112,"protocol":"auth_aes128_md5","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"di15PV","protocol-param":"210810:134711wan"}
+  - {"type":"ssr","name":"🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹","server":"173.82.186.25","port":50005,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"IOSwgAYTREask(&1UHYTiq'&%12afSSR"}
+  - {"type":"ssr","name":"🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹","server":"154.9.204.168","port":60000,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"PJnbsvgavtrcx"}
+  - {"type":"ssr","name":"🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹","server":"154.9.204.30","port":60000,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"Uyhsbjsabjank"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,12 +81,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_1
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_2
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_3
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_4
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_5
-      - 🇹🇼『㋋㉿ingS¹』༺台灣☆彰化☆༻①_6
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州A☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆弗吉尼亞州B☆༻♭¹
+      - 🇺🇸『㋋㉿ingS¹』༺美國☆洛杉磯A☆༻♭¹
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
