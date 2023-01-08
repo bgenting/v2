@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ","server":"oraclev2ray.wdwmt.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"E1u3UX7UsjCt","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","tls":true,"host":"oracleV2RAY.WdWmt.repl.co"}}
   - {"type":"ss","name":"「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ","server":"219.76.13.181","port":443,"cipher":"chacha20-ietf-poly1305","password":"188ec879fef8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"tw600ss002.feijijiasu.club","tls":true}}
   - {"type":"vmess","name":"「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ","ws-opts":{"path":"/vmess"},"server":"51.77.212.145","port":"80","uuid":"3e9cec54-c121-4584-b758-787388e2f792","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
@@ -14,7 +13,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: ♻️ 自动选择
@@ -23,7 +21,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: 🌍 国外媒体
@@ -32,7 +29,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: 📲 电报信息
@@ -40,7 +36,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: Ⓜ️ 微软服务
@@ -48,7 +43,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: 🍎 苹果服务
@@ -56,7 +50,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
   - name: 🎯 全球直连
@@ -81,7 +74,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇺🇸」『㋀ ㉿ingS²³』༺美國☆愛荷華☆༻シ
       - 「🇹🇼」『㋀ ㉿ingS²³』༺中國☆台灣☆༻シ
       - 「🇫🇷」『㋀ ㉿ingS²³』༺法國☆鲁贝☆༻シ
 rules:
