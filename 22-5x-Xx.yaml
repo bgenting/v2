@@ -5,255 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ, server: us80-3.sanfen001.pics, port: 80, type: vmess, uuid: b10abf21-761e-41bb-a45b-f07aea5101b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: us80-3.sanfen001.pics}}, udp: true}
-  - {name: 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ, server: 104.149.155.13, port: 443, type: trojan, password: 17c412d9-f283-483c-b095-72605fb2840e, sni: vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ, server: cu.subclsnet.com, port: 10046, type: vmess, uuid: 40cc1825-c52a-4438-8983-10aeb1cf3a47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ, server: us-02.legeth.tk, port: 80, type: vmess, uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-02.legeth.tk}}, udp: true}
-  - {name: 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ, server: v2.linux.im, port: 443, type: vmess, uuid: 599a2a1f-dc4f-3378-b4dc-3923e599257b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chinanet, headers: {Host: v2.linux.im}}, udp: true}
-  - {name: 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}, udp: true}
-  - {name: 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ, server: us-01.legeth.tk, port: 80, type: vmess, uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-01.legeth.tk}}, udp: true}
-  - {name: 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ, server: cft.hicoom.com, port: 443, type: vmess, uuid: 654f997b-5bea-4c82-9538-35ee57b6fd72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /654f997b-5bea-4c82-9538-35ee57b6fd72, headers: {Host: cft.hicoom.com}}, udp: true}
-  - {name: 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ, server: 24.199.119.135, port: 443, type: vmess, uuid: e6da31cb-6c97-4699-c412-124d5ab80856, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ, server: 136.175.178.176mgmg.xhtk.cc, port: 443, type: vmess, uuid: 23b3724b-3d90-2074-a5bf-09388a9806b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /veghvws, headers: {Host: 136.175.178.176mgmg.xhtk.cc}}, udp: true}
-  - {name: 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ, server: cvywfavasdc.cymlr.xyz, port: 443, type: vmess, uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ksebupo, headers: {Host: cvywfavasdc.cymlr.xyz}}, udp: true}
-  - {name: 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: 211f5876-8c89-4d97-9004-ff16acddd506, sni: uk1.trojanvh.xyz, skip-cert-verify: true, udp: true}
-  - {name: 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ, server: oplg1.zhujicn2.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
-  - {name: 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ, server: juzius.nmsl.pics, port: 443, type: vmess, uuid: 619db227-7616-409f-9ead-202ab41ff230, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: juzius.nmsl.pics}}, udp: true}
-  - {name: 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ, server: 91.238.104.159, port: 39078, type: vmess, uuid: 636fd9e4-6854-409c-9214-07ab36f63c75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 20.187.122.132, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /petalvws}, udp: true}
-  - {name: 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.120, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: b10abf21-761e-41bb-a45b-f07aea5101b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk3.sanfen001.pics}}, udp: true}
-  - {name: 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.120, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: hk12.sanfen001.pics, port: 2001, type: vmess, uuid: b10abf21-761e-41bb-a45b-f07aea5101b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk12.sanfen001.pics}}, udp: true}
-  - {name: 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ, server: 141.147.185.100, port: 19048, type: vmess, uuid: c1ac357d-3619-43ae-dbf5-d201a5a82b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ, server: jp1.sanfen001.pics, port: 443, type: vmess, uuid: b10abf21-761e-41bb-a45b-f07aea5101b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.sanfen001.pics}}, udp: true}
-  - {name: 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ, server: 141.147.181.219, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /roewesu}, udp: true}
-  - {name: 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ, server: vn-01.legeth.tk, port: 80, type: vmess, uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn-01.legeth.tk}}, udp: true}
-  - {name: 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ, server: 45.91.135.234, port: 23956, type: vmess, uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}, udp: true}
-  - {name: 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ, server: 176.32.35.22, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fr-unlimitxxx}, udp: true}
-  - {name: 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ, server: v140.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: v140.toddns.tk}}, udp: true}
-  - {name: 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 170.187.196.117, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
-  - {name: 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: sg1.sanfen001.pics, port: 2003, type: vmess, uuid: b10abf21-761e-41bb-a45b-f07aea5101b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cn, headers: {Host: sg1.sanfen001.pics}}, udp: true}
-  - {name: 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: sg-01.legeth.tk, port: 80, type: vmess, uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-01.legeth.tk}}, udp: true}
-  - {name: 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 43.159.45.221, port: 36618, type: vmess, uuid: 8cc5b072-dea6-45b8-f8de-eb00e6012421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 172.104.167.240, port: 7203, type: vmess, uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sg1}, udp: true}
-  - {name: 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 43.159.45.221, port: 36618, type: vmess, uuid: 8cc5b072-dea6-45b8-f8de-eb00e6012421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 43.159.45.221, port: 36618, type: vmess, uuid: 8cc5b072-dea6-45b8-f8de-eb00e6012421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: jdosg.nmsl.pics, port: 8443, type: vmess, uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jdosg.nmsl.pics}}, udp: true}
-  - {name: 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: 43.159.45.221, port: 36618, type: vmess, uuid: 8cc5b072-dea6-45b8-f8de-eb00e6012421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
-  - {name: 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}, udp: true}
-  - {name: 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au-01.legeth.tk, port: 80, type: vmess, uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au-01.legeth.tk}}, udp: true}
-  - {name: 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ, server: 45.76.114.115, port: 22199, type: vmess, uuid: 97f85dab-305c-4502-d084-63fc395172ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}, udp: true}
-  - {name: 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au.yangon.club, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au.yangon.club, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au.yangon.club, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au.yangon.club, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: 223.167.41.68, port: 63078, type: vmess, uuid: 17b0db9e-2c8a-3c36-a65c-48d7c5a66425, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: jp-amd2.018999.xyz, port: 443, type: vmess, uuid: a79f2127-3ba4-4af8-96d5-2db3a0e186a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a79f2127-3ba4-4af8-96d5-2db3a0e186a7, headers: {Host: jp-amd2.018999.xyz}}, udp: true}
+  - {name: 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ, server: kr-arm1.018999.xyz, port: 443, type: vmess, uuid: 5647df2e-bb0c-4c0c-ae03-2de1b494348d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5647df2e-bb0c-4c0c-ae03-2de1b494348d, headers: {Host: kr-arm1.018999.xyz}}, udp: true}
+  - {name: 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: trxjp.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ, server: sg-1.018999.xyz, port: 443, type: vmess, uuid: 384d38a9-c8e4-4a27-e49e-72454c798d85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /384d38a9-c8e4-4a27-e49e-72454c798d85, headers: {Host: sg-1.018999.xyz}}, udp: true}
+  - {name: 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: trxn.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ, server: au.yangon.club, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ, server: 51.195.210.169, port: 45221, type: vmess, uuid: 090c29e8-173b-4c69-c201-4cc583499b02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ, server: trld.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
+  - {name: 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ, server: trfg.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ, server: 45.85.118.87, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: iraniancp.cfd, network: ws, ws-opts: {path: /, headers: {Host: a3.iraniancp.cfd}}, udp: true}
+  - {name: 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
+  - {name: 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ, server: 130.162.32.137, port: 59630, type: vmess, uuid: 6347a935-60c0-4b4d-d2d9-2d3f3b73f970, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ, server: trhl.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ, server: 129.152.13.211, port: 37998, type: vmess, uuid: c6600f09-8615-4f1c-d607-f817dca64410, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5rtP40gj/, headers: {Host: v2ray.ibgfw.top}}, udp: true}
+  - {name: 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zhuyong.hucloud-dns.xyz, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
+  - {name: 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ, server: juziwagongus.nmsl.pics, port: 443, type: vmess, uuid: f9b399f5-6f02-4791-bce2-3d9507d4af87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: juziwagongus.nmsl.pics}}, udp: true}
+  - {name: 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ, server: trny.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ, server: 141.193.213.20, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/, headers: {Host: us-lb.sshkit.org}}, udp: true}
+  - {name: 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
+  - {name: 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ, server: 172.67.70.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ, server: get.tech, port: 80, type: vmess, uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shared, headers: {Host: lv.awsbest.com}}, udp: true}
+  - {name: 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ, server: 203.30.191.7, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
+  - {name: 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,271 +152,140 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -552,64 +301,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇺🇸」Ю⒈『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒉『㋀ ㉿ingS²³』༺美國☆沃爾納特☆༻シ
-      - 「🇺🇸」Ю⒊『㋀ ㉿ingS²³』༺美國☆弗裏蒙特☆༻シ
-      - 「🇺🇸」Ю⒋『㋀ ㉿ingS²³』༺美國☆切斯特☆༻シ
-      - 「🇺🇸」Ю⒌『㋀ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
-      - 「🇺🇸」Ю⒍『㋀ ㉿ingS²³』༺美國☆拉斯維加斯☆༻シ
-      - 「🇺🇸」Ю⒎『㋀ ㉿ingS²³』༺美國☆萊斯頓☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆波特蘭☆༻シ
-      - 「🇺🇸」Ю⒏『㋀ ㉿ingS²³』༺美國☆聖克拉拉☆༻シ
-      - 「🇺🇸」Ю⒐『㋀ ㉿ingS²³』༺美國☆奧爾巴尼☆༻シ
-      - 「🇺🇸」Ю⒑『㋀ ㉿ingS²³』༺美國☆聖何塞☆༻シ
-      - 「🇬🇧」Ю⒈『㋀ ㉿ingS²³』༺英國☆倫敦☆༻シ
-      - 「🇫🇷」Ю⒈『㋀ ㉿ingS²³』༺法國☆巴黎☆༻シ
-      - 「🇩🇪」Ю⒈『㋀ ㉿ingS²³』༺德國☆紐倫堡☆༻シ
-      - 「🇺🇦」Ю⒈『㋀ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
-      - 「🇨🇳」Ю⒈『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒉『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒊『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒋『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒌『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒍『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒎『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒏『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒐『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒑『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒒『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇨🇳」Ю⒓『㋀ ㉿ingS²³』༺中國☆香港☆༻シ
-      - 「🇯🇵」Ю⒈『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒉『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇯🇵」Ю⒊『㋀ ㉿ingS²³』༺日本☆東京☆༻シ
-      - 「🇻🇳」Ю⒈『㋀ ㉿ingS²³』༺越南☆河內☆༻シ
-      - 「🇹🇭」Ю⒈『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒉『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒊『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒋『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒌『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇹🇭」Ю⒍『㋀ ㉿ingS²³』༺泰國☆曼谷☆༻シ
-      - 「🇮🇳」⒈『㋀ ㉿ingS²³』༺印度☆孟買☆༻シ
-      - 「🇮🇩」Ю⒈『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇮🇩」Ю⒉『㋀ ㉿ingS²³』༺印尼☆爪哇☆༻シ
-      - 「🇸🇬」Ю⒈『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒉『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒊『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒋『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒌『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒍『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒎『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒏『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒐『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇸🇬」Ю⒑『㋀ ㉿ingS²³』༺新加坡☆獅城☆༻シ
-      - 「🇦🇺」Ю⒈『㋀ ㉿ingS²³』༺澳大利亞☆特魯加尼納☆༻シ
-      - 「🇦🇺」Ю⒉『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒊『㋀ ㉿ingS²³』༺澳大利亞☆亞歷山大☆༻シ
-      - 「🇦🇺」Ю⒋『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒌『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒍『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒎『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
-      - 「🇦🇺」Ю⒏『㋀ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇨🇳」壹⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇯🇵」壹⒈『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇰🇷」壹⒈『㋁ ㉿ingS²³』༺韓國☆首爾☆༻シ
+      - 「🇸🇬」壹⒈『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇸🇬」壹⒉『㋁ ㉿ingS²³』༺新加坡☆獅城☆༻シ
+      - 「🇦🇺」壹⒈『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇦🇺」壹⒉『㋁ ㉿ingS²³』༺澳大利亞☆悉尼☆༻シ
+      - 「🇬🇧」壹⒈『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇬🇧」壹⒉『㋁ ㉿ingS²³』༺英國☆倫敦☆༻シ
+      - 「🇫🇷」壹⒈『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇫🇷」壹⒉『㋁ ㉿ingS²³』༺法國☆巴黎☆༻シ
+      - 「🇩🇪」壹⒈『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒉『㋁ ㉿ingS²³』༺德國☆貢岑豪森☆༻シ
+      - 「🇩🇪」壹⒊『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇩🇪」壹⒋『㋁ ㉿ingS²³』༺德國☆法蘭克福☆༻シ
+      - 「🇳🇱」壹⒈『㋁ ㉿ingS²³』༺荷蘭☆阿姆斯特丹☆༻シ
+      - 「🇮🇹」壹⒈『㋁ ㉿ingS²³』༺意大利☆西齊亞諾☆༻シ
+      - 「🇦🇹」壹⒈『㋁ ㉿ingS²³』༺奥地利☆維也納༻シ
+      - 「🇺🇦」壹⒈『㋁ ㉿ingS²³』༺烏克蘭☆基輔☆༻シ
+      - 「🇺🇸」壹⒈『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒉『㋁ ㉿ingS²³』༺美國☆洛杉磯☆༻シ
+      - 「🇺🇸」壹⒊『㋁ ㉿ingS²³』༺美國☆北婆羅洲☆༻シ
+      - 「🇺🇸」壹⒋『㋁ ㉿ingS²³』༺美國☆弗吉尼亞☆༻シ
+      - 「🇺🇸」壹⒌『㋁ ㉿ingS²³』༺美國☆俄亥俄辛辛那提☆༻シ
+      - 「🇺🇸」壹⒍『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇺🇸」壹⒎『㋁ ㉿ingS²³』༺美國☆郝凱森☆༻シ
+      - 「🇺🇸」壹⒏『㋁ ㉿ingS²³』༺美國☆沃爾納特市☆༻シ
+      - 「🇿🇦」壹⒈『㋁ ㉿ingS²³』༺南非☆約翰尼斯堡☆༻シ
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
