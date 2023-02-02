@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h890361.strongpipe.live, port: 11545, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
 proxy-groups:
   - name: ❤️ 『㋁ ㉿ingS²³』
     type: select
