@@ -5,53 +5,269 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h890361.strongpipe.live, port: 11545, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ, server: h3816tw.strongpipe.live, port: 20443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true}
+  - {name: 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
+  - {name: 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true}
 proxy-groups:
   - name: ❤️ 『㋁ ㉿ingS²³』
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: 🌍 国外媒体
     type: select
     proxies:
       - ❤️ 『㋁ ㉿ingS²³』
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: 📲 电报信息
     type: select
     proxies:
       - ❤️ 『㋁ ㉿ingS²³』
       - 🎯 全球直连
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: ❤️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - ❤️ 『㋁ ㉿ingS²³』
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: 🍎 苹果服务
     type: select
     proxies:
       - ❤️ 『㋁ ㉿ingS²³』
       - 🎯 全球直连
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - ❤️ 『㋁ ㉿ingS²³』
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇨🇳」㎲⒈『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➍『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➎『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➏『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➐『㋁ ㉿ingS²³』༺中國☆香港☆༻シ
+      - 「🇨🇳」➊『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➋『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇨🇳」➌『㋁ ㉿ingS²³』༺中國☆台灣☆༻シ
+      - 「🇯🇵」➊『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➋『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➌『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➍『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➎『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇯🇵」➏『㋁ ㉿ingS²³』༺日本☆東京☆༻シ
+      - 「🇬🇧」➊『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇬🇧」➋『㋁ ㉿ingS²³』༺英国☆倫敦☆༻シ
+      - 「🇩🇪」➊『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➋『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➌『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇩🇪」➍『㋁ ㉿ingS²³』༺德國☆柏林☆༻シ
+      - 「🇺🇸」➊『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➋『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➌『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➍『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➎『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
+      - 「🇺🇸」➏『㋁ ㉿ingS²³』༺美國☆紐約☆༻シ
   - name: 🎯 全球直连
     type: select
     proxies:
