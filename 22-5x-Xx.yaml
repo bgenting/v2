@@ -12,195 +12,173 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
-  - {"name":"NET","type":"ss","server":"free.314156.xyz","port":44454,"password":"065969fd-0267-41a7-a5df-06c786117f01","cipher":"aes-128-gcm"}
-  - {"name":"台灣+01","type":"trojan","server":"223.111.115.208","port":61011,"udp":true,"password":"c67a6aaa-4953-4f18-8470-9cb95f98c5db","sni":"65-108-102-32.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"台灣+02","type":"trojan","server":"223.111.115.208","port":61012,"udp":true,"password":"c67a6aaa-4953-4f18-8470-9cb95f98c5db","sni":"65-108-102-32.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"加拿大[解锁]0.5+x","type":"ss","server":"01-ca01.xmss.vip","port":16615,"password":"9f2fb5b4-c1a4-4760-be78-6811c49b8046","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中继 台湾 04","type":"vmess","server":"hshsbsbsj.ty777.xyz","port":1794,"cipher":"auto","uuid":"d03038f3-b544-4d0a-b8e2-fa67523a76ed","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"台湾1|广港","type":"ss","server":"szzz.yuyan.online","port":30013,"password":"f39b89ed-e166-43f5-a02d-9fbd8e015c03","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港 家宽02","type":"vmess","server":"hshsbsbsj.ty777.xyz","port":1797,"cipher":"auto","uuid":"d03038f3-b544-4d0a-b8e2-fa67523a76ed","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港01|高速","type":"trojan","server":"awshk1-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"5d922216-6f50-44c6-af2c-e9ca65b3664a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"香港02|高速","type":"trojan","server":"awshk2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"5d922216-6f50-44c6-af2c-e9ca65b3664a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"香港03|高速","type":"trojan","server":"awshk3-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"5d922216-6f50-44c6-af2c-e9ca65b3664a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"香港05|高速","type":"trojan","server":"awshk5-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"5d922216-6f50-44c6-af2c-e9ca65b3664a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"香港2|广港","type":"ss","server":"szzz.yuyan.online","port":10005,"password":"f39b89ed-e166-43f5-a02d-9fbd8e015c03","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港7|广港","type":"ss","server":"szzz.yuyan.online","port":10003,"password":"f39b89ed-e166-43f5-a02d-9fbd8e015c03","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港HGC|防失联直连|1x","type":"trojan","server":"download1hgc.windowsupdate.lol","port":443,"udp":true,"password":"d2c435dd-f5d6-4b27-b2af-daddcf85b56c","sni":"dc3-download.windowsupdate1.com","skip-cert-verify":true}
-  - {"name":"香港HKT|防失联直连|1x","type":"trojan","server":"download2hkt.windowsupdate.lol","port":443,"udp":true,"password":"d2c435dd-f5d6-4b27-b2af-daddcf85b56c","sni":"dc3-download.windowsupdate1.com","skip-cert-verify":true}
-  - {"name":"印度[解锁]0.5x","type":"ss","server":"01-in01.xmss.vip","port":16609,"password":"9f2fb5b4-c1a4-4760-be78-6811c49b8046","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"JP+Free","type":"ss","server":"free.314156.xyz","port":44455,"password":"065969fd-0267-41a7-a5df-06c786117f01","cipher":"aes-128-gcm"}
-  - {"name":"荷兰2 | BT下载-0.1x","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"769c2da7-add3-42e8-a03c-07be9fcf483c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl2?ed=2048","headers":{"host":"nl2.yfjc.sbs"}}}
-  - {"name":"荷兰Eygelshoven+|+BT下载-0.1x","type":"trojan","server":"146.19.215.81","port":443,"udp":true,"password":"769c2da7-add3-42e8-a03c-07be9fcf483c","sni":"zaelot.cc","skip-cert-verify":true}
-  - {"name":"荷兰[解锁]0.5+x","type":"ss","server":"01-nl01.xmss.vip","port":16614,"password":"9f2fb5b4-c1a4-4760-be78-6811c49b8046","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国1号-0.1x","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"769c2da7-add3-42e8-a03c-07be9fcf483c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us1?ed=2048","headers":{"host":"us1.yfjc.sbs"}}}
-  - {"name":"美国2号-0.1x","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"769c2da7-add3-42e8-a03c-07be9fcf483c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us2?ed=2048","headers":{"host":"us2.yfjc.sbs"}}}
+  - {name: 「🇺🇸」㋁㉿ingS²³➀丶美國, server: t1.freegradely.xyz, port: 20022,type: ssr, protocol: auth_chain_a, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: dongtaiwang.com}
+  - {name: 「🇺🇸」㋁㉿ingS²³➁丶美國, server: 23.227.38.28, port: 443, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin,plugin-opts: { mode: websocket, host: s1.ssrfree5.xyz}, path: /, tls: true, skip-cert-verify: false, mux: true }
+  - {name: 🇨🇳 台湾超高速专线 01, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇨🇳 台湾超高速专线 02, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇨🇳 台湾超高速专线 03, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇭🇰 香港超高速专线 01, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇭🇰 香港超高速专线 02, server: gdyd.aikun.online, port: 38343, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇭🇰 香港超高速专线 03, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇭🇰 香港 01（三网优化）测试, server: s-hk01.aikun.online, port: 10000, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: s-hk01.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02（三网优化）测试, server: s-hk02.aikun.online, port: 10000, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: s-hk02.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 04（移动优化）测试, server: 120.241.255.250, port: 50407, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: 120.241.255.250, skip-cert-verify: true, udp: true}
+#  - {name: 🇭🇰 香港1丨2x计费, server: v21.gaowosiquanjia.top, port: 80, type: vmess, uuid: dcc43c72-b4ae-4c6d-9454-78650144f33c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+#  - {name: 🇭🇰 香港2丨2x计费, server: v22.gaowosiquanjia.top, port: 80, type: vmess, uuid: dcc43c72-b4ae-4c6d-9454-78650144f33c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇸🇬 新加坡超高速专线 02, server: gdyd.aikun.online, port: 27429, type: ss, cipher: aes-128-gcm, password: c6d8be6f-cf07-4c2e-b1be-da5fd49868b0, udp: true}
+  - {name: 🇳🇱 荷兰2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl2?ed=2048", headers: {Host: nl2.yfjc.sbs}}, udp: true}
+  - {"name":"荷兰Eygelshoven+|+BT-0.1x","type":"trojan","server":"146.19.215.81","port":443,"udp":true,"password":"769c2da7-add3-42e8-a03c-07be9fcf483c","sni":"zaelot.cc","skip-cert-verify":true}
+  - {name: 🇳🇱 荷兰 | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl?ed=2048", headers: {Host: nl.yfjc.sbs}}, udp: true}
+  - {name: 🇳🇱 荷兰2 | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl2?ed=2048", headers: {Host: nl2.yfjc.sbs}}, udp: true}
+  - {name: 🇳🇱 荷兰Eygelshoven | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}, udp: true}
+  - {name: 🇺🇸 美国1号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us1?ed=2048", headers: {Host: us1.yfjc.sbs}}, udp: true}
+  - {name: 🇺🇸 美国2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us2?ed=2048", headers: {Host: us2.yfjc.sbs}}, udp: true}
+  - {name: 🇺🇸 美国3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}, udp: true}
+  - {name: 🇭🇰 香港超高速专线 10 (电信优化), server: gzct.xn--dlq110j6ul.cc, port: 34281, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇯🇵 日本1, server: v31.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 日本2, server: v32.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 日本3, server: v33.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 日本超高速专线 01, server: gdyd.aikun.online, port: 11079, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇯🇵 日本超高速专线 02, server: gdyd.aikun.online, port: 11079, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇯🇵 日本超高速专线 03, server: gdyd.aikun.online, port: 11079, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇯🇵 日本超高速专线 06, server: gdyd.aikun.online, port: 27507, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇰🇷 韩国 01（电信优化）, server: gddx.aikun.online, port: 24388, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: gddx.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 02（电信优化）, server: gddx.aikun.online, port: 24388, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: gddx.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 03（电信优化）, server: gddx.aikun.online, port: 24388, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: gddx.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡  01（三网优化）测试, server: s-sg01.aikun.online, port: 10000, type: trojan, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, sni: s-sg01.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡超高速专线 01, server: gdyd.aikun.online, port: 27429, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇸🇬 新加坡超高速专线 03, server: gdyd.aikun.online, port: 27429, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇺🇸 美国超高速专线 01, server: gdyd.aikun.online, port: 19573, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇺🇸 美国超高速专线 03, server: gdyd.aikun.online, port: 19573, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
+  - {name: 🇭🇰 香港1丨2x计费, server: v21.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港2丨2x计费, server: v22.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇺🇸 美国1, server: v51.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {"type":"vmess","name":"德国9|0.2M/s","ws-opts":{"path":"/vmess","headers":{"host":"de-v.sshmax.xyz"}},"server":"de-v.sshmax.xyz","port":"80","uuid":"5668ff97-631f-4602-a13f-b56552c67abe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"中国143","server":"shnnb37f1.xz56bm2v8.lzmg3khpq.soabgo.com","port":"45000","uuid":"FF5D3BF5-1296-FB0A-4596-B3CD0C884200","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"中国74","server":"z80001.security-cloudfront-cdn.com","port":42833,"protocol":"origin","cipher":"aes-256-cfb","obfs":"http_simple","password":"YpX2opBbrfqJzzMs"}
+  - {"type":"vmess","name":"香港66","http-opts":{"path":["/"]},"server":"8.218.145.251","port":"52757","uuid":"451d0d8d-6e0b-403c-9fab-937a92f211e2","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港44","http-opts":{"path":["/"]},"server":"47.243.111.25","port":"31705","uuid":"d0fc2199-6bb4-4559-a7ec-48f3d728500d","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"trojan","name":"俄罗斯联邦+69","server":"insaneguo2333.top","port":443,"password":"1d0a80ca-0f96-4016-ac51-c284dedd28a1","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇭🇰 香港超高速专线 03
+#      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - 🇳🇱 荷兰2 | BT下载-0.1x
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+#      - 🇺🇸 美国3号-0.1x
+      - 「🇺🇸」㋁㉿ingS²³➀丶美國
+      - 「🇺🇸」㋁㉿ingS²³➁丶美國
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇨🇳 台湾超高速专线 03
+      - 🇭🇰 香港超高速专线 02
+      - 🇭🇰 香港超高速专线 03
+#      - 🇭🇰 香港 01（三网优化）测试
+#      - 🇭🇰 香港 02（三网优化）测试
+#      - 🇭🇰 香港 04（移动优化）测试
+#      - 🇭🇰 香港1丨2x计费
+#      - 🇭🇰 香港2丨2x计费
+#      - 🇸🇬 新加坡  01（三网优化）测试
+#      - 香港66
+#      - 德国9|0.2M/s
+      - 中国143
+      - 中国74
+#      - 🇯🇵 日本超高速专线 02
+#      - 🇯🇵 日本超高速专线 03
+#      - 🇯🇵 日本超高速专线 06
+#      - 🇰🇷 韩国 01（电信优化）
+#      - 🇰🇷 韩国 02（电信优化）
+#      - 🇰🇷 韩国 03（电信优化）
+      - 香港44
+      - 俄罗斯联邦+69
+#      - 🇺🇸 美国超高速专线 01
+#      - 🇺🇸 美国超高速专线 03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇨🇳 台湾超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇭🇰 香港超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇨🇳 台湾超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇭🇰 香港超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇨🇳 台湾超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,28 +201,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NET
-      - 台灣+01
-      - 台灣+02
-      - 加拿大[解锁]0.5+x
-      - 中继 台湾 04
-      - 台湾1|广港
-      - 香港 家宽02
-      - 香港01|高速
-      - 香港02|高速
-      - 香港03|高速
-      - 香港05|高速
-      - 香港2|广港
-      - 香港7|广港
-      - 香港HGC|防失联直连|1x
-      - 香港HKT|防失联直连|1x
-      - 印度[解锁]0.5x
-      - JP+Free
-      - 荷兰2 | BT下载-0.1x
-      - 荷兰Eygelshoven+|+BT下载-0.1x
-      - 荷兰[解锁]0.5+x
-      - 美国1号-0.1x
-      - 美国2号-0.1x
+      - 🇨🇳 台湾超高速专线 01
+      - 🇨🇳 台湾超高速专线 02
+      - 🇨🇳 台湾超高速专线 03
+      - 🇯🇵 日本超高速专线 01
+      - 🇸🇬 新加坡超高速专线 02
+      - 🇳🇱 荷兰2号-0.1x
+      - 荷兰Eygelshoven+|+BT-0.1x
+      - 🇺🇸 美国1号-0.1x
+      - 🇺🇸 美国2号-0.1x
+      - 🇺🇸 美国3号-0.1x
 
 rules:
 # 本地/局域网地址
