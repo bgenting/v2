@@ -14,7 +14,25 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 「🇺🇸」㋁㉿ingS²³➀丶美國, server: t1.freegradely.xyz, port: 20022,type: ssr, protocol: auth_chain_a, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: dongtaiwang.com}
-  - {name: 「🇺🇸」㋁㉿ingS²³➁丶美國, server: 23.227.38.28, port: 443, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin,plugin-opts: { mode: websocket, host: s1.ssrfree5.xyz}, path: /, tls: true, skip-cert-verify: false, mux: true }
+  - {name: 「🇺🇸」㋁㉿ingS²³➁丶美國, server: 23.227.38.28, port: 443, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin,plugin-opts: { mode: websocket, host: s1.ssrfree5.xyz}, path: /, tls: true, skip-cert-verify: false, mux: true}
+  - {name: 「🇺🇸」㋁㉿ingS²³➂丶美國, server: ss3.ssweb2.xyz, port: 20088, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin,plugin-opts: { mode: websocket, host: cloudfront.com}, path: /eID13, tls: true, skip-cert-verify: false, mux: 8, strategy: com.shadowsocks.strategy.ha}
+  - {name: 「🇺🇸」㋁㉿ingS²³➃丶美國, server: ss4.ssweb2.xyz, port: 12279, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin,plugin-opts: { mode: websocket, host: cloudfront.com}, path: /q6ORI, tls: true, skip-cert-verify: false, mux: 8, strategy: com.shadowsocks.strategy.ha}
+  - {"name":"「🇺🇸」㋁㉿ingS²³➄丶美國","type":"vmess","server":"203.30.188.189","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³➅丶美國","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³1-4丶美國","type":"vmess","server":"203.30.191.19","port":443,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³1-3丶美國","type":"vmess","server":"190.93.244.3","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³1-1丶美國","type":"vmess","server":"185.162.228.229","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³1-2丶美國","type":"vmess","server":"141.101.114.31","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³9丶美國","type":"vmess","server":"203.30.188.189","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³0丶美國","type":"vmess","server":"203.24.108.9","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³8丶美國","type":"vmess","server":"23.227.38.39","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³7丶美國","type":"vmess","server":"188.114.99.10","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³6丶美國","type":"vmess","server":"185.162.228.229","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³5丶美國","type":"vmess","server":"141.101.114.31","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³4丶美國","type":"vmess","server":"190.93.244.3","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³3丶美國","type":"vmess","server":"190.93.246.3","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³2丶美國","type":"vmess","server":"188.114.99.10","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
+  - {"name":"「🇺🇸」㋁㉿ingS²³1丶美國","type":"vmess","server":"23.227.38.39","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
   - {name: 🇨🇳 台湾超高速专线 01, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
   - {name: 🇨🇳 台湾超高速专线 02, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
   - {name: 🇨🇳 台湾超高速专线 03, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
@@ -35,6 +53,7 @@ proxies:
   - {name: 🇺🇸 美国1号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us1?ed=2048", headers: {Host: us1.yfjc.sbs}}, udp: true}
   - {name: 🇺🇸 美国2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us2?ed=2048", headers: {Host: us2.yfjc.sbs}}, udp: true}
   - {name: 🇺🇸 美国3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}, udp: true}
+  - {name: 🇺🇸 美国3号-0.1x 2, server: 148.59.74.154, port: 443, type: trojan, password: 3855b736-bf24-461f-b5b9-1d3f04484b37, sni: zaelot.cc, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港超高速专线 10 (电信优化), server: gzct.xn--dlq110j6ul.cc, port: 34281, type: ss, cipher: aes-128-gcm, password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3, udp: true}
   - {name: 🇯🇵 日本1, server: v31.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
   - {name: 🇯🇵 日本2, server: v32.gaowosiquanjia.top, port: 80, type: vmess, uuid: fceab4b1-5abd-4015-a165-aa694327b462, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
@@ -66,7 +85,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港超高速专线 03
+#      - 🇭🇰 香港超高速专线 03
 #      - 🇸🇬 新加坡超高速专线 02
       - 🇳🇱 荷兰2号-0.1x
       - 🇳🇱 荷兰 | BT下载-0.1x
@@ -74,14 +93,33 @@ proxy-groups:
       - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
       - 🇺🇸 美国1号-0.1x
       - 🇺🇸 美国2号-0.1x
-#      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国3号-0.1x
+      - 🇺🇸 美国3号-0.1x 2
       - 「🇺🇸」㋁㉿ingS²³➀丶美國
       - 「🇺🇸」㋁㉿ingS²³➁丶美國
-      - 🇨🇳 台湾超高速专线 01
-      - 🇨🇳 台湾超高速专线 02
-      - 🇨🇳 台湾超高速专线 03
-      - 🇭🇰 香港超高速专线 02
-      - 🇭🇰 香港超高速专线 03
+      - 「🇺🇸」㋁㉿ingS²³➂丶美國
+      - 「🇺🇸」㋁㉿ingS²³➃丶美國
+      - 「🇺🇸」㋁㉿ingS²³➄丶美國
+      - 「🇺🇸」㋁㉿ingS²³➅丶美國
+      - 「🇺🇸」㋁㉿ingS²³1-4丶美國
+      - 「🇺🇸」㋁㉿ingS²³1-3丶美國
+      - 「🇺🇸」㋁㉿ingS²³1-1丶美國
+      - 「🇺🇸」㋁㉿ingS²³1-2丶美國
+      - 「🇺🇸」㋁㉿ingS²³9丶美國
+      - 「🇺🇸」㋁㉿ingS²³0丶美國
+      - 「🇺🇸」㋁㉿ingS²³8丶美國
+      - 「🇺🇸」㋁㉿ingS²³7丶美國
+      - 「🇺🇸」㋁㉿ingS²³6丶美國
+      - 「🇺🇸」㋁㉿ingS²³5丶美國
+      - 「🇺🇸」㋁㉿ingS²³4丶美國
+      - 「🇺🇸」㋁㉿ingS²³3丶美國
+      - 「🇺🇸」㋁㉿ingS²³2丶美國
+      - 「🇺🇸」㋁㉿ingS²³1丶美國
+#      - 🇨🇳 台湾超高速专线 01
+#      - 🇨🇳 台湾超高速专线 02
+#      - 🇨🇳 台湾超高速专线 03
+#      - 🇭🇰 香港超高速专线 02
+#      - 🇭🇰 香港超高速专线 03
 #      - 🇭🇰 香港 01（三网优化）测试
 #      - 🇭🇰 香港 02（三网优化）测试
 #      - 🇭🇰 香港 04（移动优化）测试
@@ -90,8 +128,8 @@ proxy-groups:
 #      - 🇸🇬 新加坡  01（三网优化）测试
 #      - 香港66
 #      - 德国9|0.2M/s
-      - 中国143
-      - 中国74
+#      - 中国143
+#      - 中国74
 #      - 🇯🇵 日本超高速专线 02
 #      - 🇯🇵 日本超高速专线 03
 #      - 🇯🇵 日本超高速专线 06
