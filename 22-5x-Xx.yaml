@@ -37,6 +37,10 @@ proxies:
   - {name: 测试2, server: 18.141.208.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 测试3, server: 3.38.210.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 测试4, server: 97.64.28.52, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶1","type":"ssr","server":"ssr4.ssrfree7.xyz","port":11111,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
+  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶2","type":"ssr","server":"ssr1.ssrfree7.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
+  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶3","type":"ssr","server":"kr1.ssrfree8.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
+  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶4","type":"ssr","server":"ssr1.ssrfree8.xyz","port":11111,"password":"dongtaiwang.com","cipher":"dummy","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -77,6 +81,10 @@ proxy-groups:
       - 测试3
       - 测试4
 #      - 🇺🇸 𝙐𝙎₄
+      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶1
+      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶2
+      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶3
+      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶4
 
   - name: ♻️ 自动选择
     type: url-test
