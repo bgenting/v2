@@ -5,239 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"[🇸🇬]㋂㉿ingS²³_1","ws-opts":{"path":"/f28b93dc7/","headers":{"host":"www.jumpershao.top"}},"server":"www.jumpershao.top","port":"443","uuid":"ce3eb37c-3118-491e-8cf6-1a8056a781c5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"[🇨🇳]㋂㉿ingS²³_1","server":"36.138.193.128","port":11023,"cipher":"aes-256-gcm","password":"ll668668@"}
-  - {"type":"vmess","name":"[🇦🇶]㋂㉿ingS²³_1","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}},"server":"190.93.246.2","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"[🇨🇳]㋂㉿ingS²³_2","server":"1j8p01.abzoones.xyz","port":36811,"password":"8549378c-3b1c-4e50-a578-8d7797fc9389","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"[🇸🇬]㋂㉿ingS²³_2","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME"}
-  - {"type":"ss","name":"[🇰🇷]㋂㉿ingS²³_1","server":"13.124.9.229","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"ss","name":"[🇺🇸]㋂㉿ingS²³_1","server":"34.217.90.62","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vmess","name":"[🇺🇸]㋂㉿ingS²³_2","ws-opts":{"path":"/"},"server":"136.175.11.62","port":"443","uuid":"f89a1de0-bf2f-11ed-b033-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇨🇳]㋂㉿ingS²³_3","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"124.222.189.225","port":"80","uuid":"a8c9ad5b-1f58-4234-b5fe-a895bee9a047","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[🇦🇶]㋂㉿ingS²³_2","ws-opts":{"path":"/123","headers":{"host":"b.gguu.pp.ua"}},"server":"b.gguu.pp.ua","port":"443","uuid":"e959bcfa-500d-419a-b71d-e7fa2bf63969","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇦🇶]㋂㉿ingS²³_3","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}},"server":"www.udemy.com","port":"8080","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[🇦🇲]㋂㉿ingS²³","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"185.162.228.110","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇧🇿]㋂㉿ingS²³_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"203.30.191.20","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇧🇿]㋂㉿ingS²³_2","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.191.2","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇧🇿]㋂㉿ingS²³_3","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"203.30.191.6","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇨🇦]㋂㉿ingS²³_1","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.26","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇨🇦]㋂㉿ingS²³_2","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}},"server":"23.227.38.23","port":"443","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[🇨🇳]㋂㉿ingS²³_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"[🇸🇬]㋂㉿ingS²³_3","server":"sg.blowm1k.club","port":443,"password":"71964d62-9d17-45d7-ada5-2db8643dbe28","udp":true,"skip-cert-verify":true,"sni":"sg.blowm1k.club"}
-  - {"type":"trojan","name":"[🇺🇸]㋂㉿ingS²³_3","server":"rh.blowm1k.club","port":443,"password":"38c24a69-54b8-4b69-be5c-894d51d8354c","udp":true,"skip-cert-verify":true,"sni":"rh.blowm1k.club"}
-  - {"type":"trojan","name":"[🇰🇷]㋂㉿ingS²³_2","server":"blowm1k.club","port":443,"password":"e8801667-c3e3-49e5-ba65-b0f32c644590","udp":true,"skip-cert-verify":true,"sni":"blowm1k.club"}
-  - {"type":"trojan","name":"[🇲🇴]㋂㉿ingS²³","server":"45.64.22.56","port":443,"password":"123456","udp":true,"skip-cert-verify":true,"sni":"trojan-ctb-sg01.globalssh.xyz"}
-  - {"type":"trojan","name":"[🇨🇳]㋂㉿ingS²³_5","server":"hn.xiaohouzi.club","port":18443,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","udp":true,"skip-cert-verify":true,"sni":"hn.xiaohouzi.club"}
-  - {"type":"ssr","name":"[🇯🇵]㋂㉿ingS²³","server":"jp-am48-6.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"eAokbaDN6"}
-  - {"type":"ssr","name":"[🇨🇳]㋂㉿ingS²³_6","server":"14.29.124.168","port":24001,"protocol":"origin","cipher":"aes-128-cfb","obfs":"plain","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"[🇰🇷]3.35.219.165:443(amazonskr05)","server":"3.35.219.165","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"type":"vmess","name":"[🇦🇺]168.138.102.89:80(0792ca95-a0ba-4510-eab3-8ea03239c532)","ws-opts":{"path":"/"},"server":"168.138.102.89","port":"80","uuid":"0792ca95-a0ba-4510-eab3-8ea03239c532","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"[🇫🇷]t5.teslacdn2.live:443(af6a3685-c423-4579-bfea-784c453d5e23)","server":"t5.teslacdn2.live","port":443,"password":"af6a3685-c423-4579-bfea-784c453d5e23","udp":true,"skip-cert-verify":true}
-  - {name: 测试1, server: 13.212.109.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试2, server: 18.141.208.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试3, server: 3.38.210.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试4, server: 97.64.28.52, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶1","type":"ssr","server":"ssr4.ssrfree7.xyz","port":11111,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
-  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶2","type":"ssr","server":"ssr1.ssrfree7.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
-  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶3","type":"ssr","server":"kr1.ssrfree8.xyz","port":12345,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
-  - {"name":"「🇺🇸」㋂㉿ingS²³ 洛杉矶4","type":"ssr","server":"ssr1.ssrfree8.xyz","port":11111,"password":"dongtaiwang.com","cipher":"dummy","obfs":"tls1.2_ticket_auth","protocol":"auth_chain_a","group":"nodesCatch"}
-
+  - {"type":"vmess","name":"「🇭🇰」㋂㉿ingS²³➀丶香港丶VM","ws-opts":{"path":"/zh-cn/","headers":{"host":"hk80.af49c4e4c2ef.sanfen001.pics"}},"server":"hk80.af49c4e4c2ef.sanfen001.pics","port":"80","uuid":"29ac226e-493f-4c64-b244-103b13e6404b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"「🇭🇰」㋂㉿ingS²³➁丶香港丶VM","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}},"server":"hk80-\n2.af49c4e4c2ef.sanfen001.pics","port":"80","uuid":"1f1136af-9479-4851-aa8b-6ae7e6a4bd33","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"「🇺🇸」㋂㉿ingS²³➀丶美國丶VM","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"173.245.49.8","port":"443","uuid":"9a18cbb1-81d2-\n4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"「🇺🇸」㋂㉿ingS²³➁丶美國丶VM","ws-opts":{"path":"/huhublog","headers":{"host":"zhuyong.hucloud-dns.xyz"}},"server":"173.245.49.8","port":"443","uuid":"9a18cbb1-81d2-\n4720-9f09-46ea276b6ddb","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"「🇺🇸」㋂㉿ingS²³➂丶美國丶VM","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"contabo.cloudflare.quest"}},"server":"no.aries.ovh","port":"2052","uuid":"69899069-e222-4b02-9fbe-570338bd7e36","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"「🇫🇷」㋂㉿ingS²³➀丶法國丶VM","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"77.v2ray1.xyz"}},"server":"203.30.188.2","port":"443","uuid":"17b2a313-37a0-4945-a8e4-\ne63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '[🇸🇬]㋂㉿ingS²³_1'
-#      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-#      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-#      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-#      - '[🇨🇳]㋂㉿ingS²³_3'
-#      - '[🇦🇶]㋂㉿ingS²³_2'
-#      - '[🇦🇶]㋂㉿ingS²³_3'
-#      - '[🇦🇲]㋂㉿ingS²³'
-#      - '[🇧🇿]㋂㉿ingS²³_1'
-#      - '[🇧🇿]㋂㉿ingS²³_2'
-#      - '[🇧🇿]㋂㉿ingS²³_3'
-#      - '[🇨🇦]㋂㉿ingS²³_1'
-#      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-#      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
-      - '[🇰🇷]3.35.219.165:443(amazonskr05)'
-      - '[🇦🇺]168.138.102.89:80(0792ca95-a0ba-4510-eab3-8ea03239c532)'
-      - '[🇫🇷]t5.teslacdn2.live:443(af6a3685-c423-4579-bfea-784c453d5e23)'
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-#      - 🇺🇸 𝙐𝙎₄
-      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶1
-      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶2
-      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶3
-      - 「🇺🇸」㋂㉿ingS²³ 洛杉矶4
-
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,31 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '[🇸🇬]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_1'
-      - '[🇦🇶]㋂㉿ingS²³_1'
-      - '[🇨🇳]㋂㉿ingS²³_2'
-      - '[🇸🇬]㋂㉿ingS²³_2'
-      - '[🇰🇷]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_1'
-      - '[🇺🇸]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_3'
-      - '[🇦🇶]㋂㉿ingS²³_2'
-      - '[🇦🇶]㋂㉿ingS²³_3'
-      - '[🇦🇲]㋂㉿ingS²³'
-      - '[🇧🇿]㋂㉿ingS²³_1'
-      - '[🇧🇿]㋂㉿ingS²³_2'
-      - '[🇧🇿]㋂㉿ingS²³_3'
-      - '[🇨🇦]㋂㉿ingS²³_1'
-      - '[🇨🇦]㋂㉿ingS²³_2'
-      - '[🇨🇳]㋂㉿ingS²³_4'
-      - '[🇸🇬]㋂㉿ingS²³_3'
-      - '[🇺🇸]㋂㉿ingS²³_3'
-      - '[🇰🇷]㋂㉿ingS²³_2'
-      - '[🇲🇴]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_5'
-      - '[🇯🇵]㋂㉿ingS²³'
-      - '[🇨🇳]㋂㉿ingS²³_6'
+      - 「🇭🇰」㋂㉿ingS²³➀丶香港丶VM
+      - 「🇭🇰」㋂㉿ingS²³➁丶香港丶VM
+      - 「🇺🇸」㋂㉿ingS²³➀丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➁丶美國丶VM
+      - 「🇺🇸」㋂㉿ingS²³➂丶美國丶VM
+      - 「🇫🇷」㋂㉿ingS²³➀丶法國丶VM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
