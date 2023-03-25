@@ -6,19 +6,10 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
 #
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³加拿大-02, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³美国-03, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³美国-06, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³日本-01, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}, udp: true}
   - {name: 「🇬🇧」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐆𝐁丶𝐕𝐦, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 「🇧🇩」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐁𝐃丶𝐕𝐦, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
   - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐕𝐦, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 「🇬🇧」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐆𝐁丶𝐕𝐦, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {"name":"「🇷🇺」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶俄罗斯 [ V2 ]","type":"ss","server":"v2-node46.nodeinfo-t6z.com","port":13602,"password":"WSRwDm","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"mode":"tls","host":"hk2schcca4d11647.wns.windows.com"}}
-  - {"name":"「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶美國 [ V2 ]","type":"ss","server":"v2-node15.nodeinfo-t6z.com","port":7107,"password":"WSRwDm","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"mode":"tls","host":"hk2schcca4d11647.wns.windows.com"}}
-  - {"name":"「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶香港 [ V2 ]","type":"ss","server":"v2-node23.nodeinfo-m7w.com","port":13134,"password":"WSRwDm","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"mode":"tls","host":"hk2schcca4d11647.wns.windows.com"}}
-  - {"name":"「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶香港 [ V2 ]","type":"ss","server":"v2-node45.nodeinfo-t6z.com","port":13132,"password":"WSRwDm","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"mode":"tls","host":"hk2schcca4d11647.wns.windows.com"}}
-  - {"name":"「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶香港 [ V2 ]","type":"ss","server":"v2-node71.nodeinfo-t6z.com","port":13144,"password":"WSRwDm","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"mode":"tls","host":"hk2schcca4d11647.wns.windows.com"}}
 #
   - {name: 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 2001, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false}
   - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦, server: 0kxedm1x8q8lksmj17.xingbayun.buzz, port: 443, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false}
@@ -32,39 +23,6 @@ proxies:
   - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦, server: 0kxedm1x8q8lksmj18.xingbayun.buzz, port: 443, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, tls: false}
   - {name: 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏, server: h073906.waihuizhibiaowang.com, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true}
   - {name: 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏, server: h073906.waihuizhibiaowang.com, port: 11343, type: http, username: f9af186564, password: b99148441a, tls: true}
-#
-#
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦, server: vir.boomtlk.com, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦, server: 104.16.0.100, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦, server: 104.16.63.238, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦, server: 104.18.50.58, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦, server: 104.19.71.197, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦, server: 162.159.128.39, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦, server: 162.159.136.72, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: vir.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦, server: subnet.boomtlk.com, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦, server: 104.16.0.100, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦, server: 104.16.63.238, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦, server: 104.18.50.58, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦, server: 104.19.71.197, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦, server: 162.159.128.39, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-  - {name: 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦, server: 162.159.136.72, port: 443, type: vmess, uuid: 27ab584c-f459-4f87-84ca-cbaa712c5e3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: subnet.boomtlk.com}}, udp: true}
-#
-#
-  - {name: 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.svcline.com, path: /kpnzyxsj, tls: true, mux: true, skip-cert-verify: false}}
-  - {"type":"ss","name":"「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬","server":"virmach.boomtlk.com","port":443,"cipher":"aes-256-gcm","password":"teluoka","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/movies","tls":true,"host":"virmach.boomtlk.com"}}
-  - {"type":"ss","name":"「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬","server":"138.197.68.141","port":18352,"cipher":"2022-blake3-aes-256-gcm","password":"0VtqzZEzxRkBJ4tDhvO3t4YBOAa13ZszVOgvXdSuoepV"}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬, server: 13.215.177.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬, server: 13.212.38.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬, server: 18.143.187.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬, server: 3.1.50.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬, server: 54.169.23.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬, server: 13.213.17.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬, server: 13.213.55.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬, server: 13.213.17.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-#
-#
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣, server: 4.sg.cat77.cloud, port: 2255, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: 4.sg.cat77.cloud}
-  - {name: 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣, server: 5.sg.cat77.cloud, port: 5678, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, sni: 5.sg.cat77.cloud}
 #
 #
 proxy-groups:
@@ -92,43 +50,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
 #
@@ -157,44 +88,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
   - name: 🌍 国外媒体
@@ -222,44 +125,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
   - name: 📲 电报信息
@@ -286,44 +161,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
   - name: Ⓜ️ 微软服务
@@ -350,44 +197,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
   - name: 🍎 苹果服务
@@ -414,44 +233,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
   - name: 📢 谷歌FCM
@@ -479,43 +270,17 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
+#
 #
 #
 #
@@ -560,44 +325,16 @@ proxy-groups:
 #
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐇𝐓𝐏
       - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐇𝐓𝐏
-      - 「🇹🇼」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐓𝐖丶𝐒𝐬
-#      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝙐𝙎丶𝐒𝐬
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝙐𝙎丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➃丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➄丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➅丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➆丶𝐒𝐆丶𝐒𝐬
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐓𝐣
-      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐓𝐣
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ ⒎丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒈丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒉丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒊丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒋丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒌丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒍丶𝙐𝙎丶𝐕𝐦
-      - 「🇺🇸」㋂㉿𝐢𝐍𝐠𝐒²³ -⒎丶𝙐𝙎丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
-#      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
-#      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
-#      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
-#      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
-#
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐇𝐊丶𝐕𝐦
+      - 「🇭🇰」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐇𝐊丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐉𝐏丶𝐕𝐦
+      - 「🇯🇵」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐉𝐏丶𝐕𝐦
+      - 「🇰🇷」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐊𝐑丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ⓪丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➀丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➁丶𝐒𝐆丶𝐕𝐦
+      - 「🇸🇬」㋂㉿𝐢𝐍𝐠𝐒²³ ➂丶𝐒𝐆丶𝐕𝐦
 #
 #
 rules:
