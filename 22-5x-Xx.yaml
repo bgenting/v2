@@ -41,7 +41,7 @@ proxies:
 #
   - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.svcline.com, path: /kpnzyxsj, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬, server: virmach.boomtlk.com, port: 443, type: ss, cipher: aes-256-gcm, password: teluoka, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: virmach.boomtlk.com, path: /movies, tls: true, mux: true, skip-cert-verify: true}}
-  - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬, server: 138.197.68.141, port: 18352, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 0VtqzZEzxRkBJ4tDhvO3t4YBOAa13ZszVOgvXdSuoepV}
+#  - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬, server: 138.197.68.141, port: 18352, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 0VtqzZEzxRkBJ4tDhvO3t4YBOAa13ZszVOgvXdSuoepV}
   - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬, server: 23.227.38.28, port: 443, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: s1.ssrfree5.xyz, path: /8luDQ, tls: true, mux: 8, skip-cert-verify: true}}
   - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬, server: ss2.v2ray1.xyz, port: 15793, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: cloudfront.com, path: /FZHR2, tls: true, mux: 8, skip-cert-verify: true}}
   - {name: 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬, server: ss3.v2ray1.xyz, port: 15793, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: cloudfront.com, path: /FZHR2, tls: true, mux: 8, skip-cert-verify: true}}
@@ -76,7 +76,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -123,7 +123,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -170,7 +170,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -229,7 +229,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -280,7 +280,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -326,7 +326,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -373,7 +373,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
@@ -429,7 +429,7 @@ proxy-groups:
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝐇𝐊丶𝐇𝐓𝐏
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝐓𝐖丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒈丶𝙐𝙎丶𝐒𝐬
-      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
+#      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒉丶𝙐𝙎丶𝐒𝐬
       - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒊丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒋丶𝙐𝙎丶𝐒𝐬
 #      - 「㋂㉿𝐢𝐍𝐠𝐒²³」 ⒌丶𝙐𝙎丶𝐒𝐬
