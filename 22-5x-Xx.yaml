@@ -14,6 +14,14 @@ proxies:
 #
   - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」⒈丶𝐇𝐤丶𝐒𝐬, server: 45.64.22.9, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6761cfc32f06, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jyn36.gdskyhj.site, path: /xellqufoe, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」⒈丶𝐓𝐰丶𝐒𝐬, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.svcline.com, path: /kpnzyxsj, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒈丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt1.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt1.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒉丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt8.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt8.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒊丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt2.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt2.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒋丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt3.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt3.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒌丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt4.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt4.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒍丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt5.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt5.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒎丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt6.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt6.nabsk.com}}}
+  - {name: 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒏丶𝐃𝐞丶𝐕𝐋, type: vless, server: mt7.nabsk.com, port: 443, uuid: a61eb3a2-1adb-48cb-ab46-ce225769de16, tls: true, servername: mt1.nabsk.com, network : ws, ws-opts: { path: users?ed=2048, headers: { host: mt7.nabsk.com}}}
 #
 #
 proxy-groups:
@@ -28,6 +36,14 @@ proxy-groups:
       - 「㋃㉿𝐢𝐍𝐠𝐒²³」⒈丶𝙐𝙎丶𝐓𝐉
       - 「㋃㉿𝐢𝐍𝐠𝐒²³」⒈丶𝐇𝐤丶𝐒𝐬
       - 「㋃㉿𝐢𝐍𝐠𝐒²³」⒈丶𝐓𝐰丶𝐒𝐬
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒈丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒉丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒊丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒋丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒌丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒍丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒎丶𝐃𝐞丶𝐕𝐋
+      - 「㋃㉿𝐢𝐍𝐠𝐒²³」𝓐⒏丶𝐃𝐞丶𝐕𝐋
 #
 #
   - name: ♻️ 自动选择
