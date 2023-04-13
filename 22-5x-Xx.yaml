@@ -5,243 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 𝐍𝐥  ✈㏫, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6e9EtZ2dL}, udp: true}
-  - {name: 𝙐𝐬  ✈㏫, server: 142.4.126.56, port: 33302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 3, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 4, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 5, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 6, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 7, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 8, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 9, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 10, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 11, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 12, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 13, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 14, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 15, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 16, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 17, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 18, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 19, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 20, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp143-d2xddxxj, headers: {Host: v143.toddns.tk}}, udp: true}
-  - {name: 𝐍𝐥  ✈㏫ 2, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6e9EtZ2dL}, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 21, server: 142.4.126.56, port: 33302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 2 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 3 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 4 2, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 5 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 6 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 7 2, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 8 2, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 9 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 10 2, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 11 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 12 2, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 13 2, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 14 2, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 15 2, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 16 2, server: 192.74.243.41, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 17 2, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 18 2, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 19 2, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 20 2, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp143-d2xddxxj, headers: {Host: v143.toddns.tk}}, udp: true}
-  - {name: 𝐈𝐫  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
-  - {name: 𝐅𝐫  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: 𝐋𝐮  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: 𝐋𝐮  ✈㏫ 2, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: lsb-aries.heinu.cf}}, udp: true}
-  - {name: 𝙐𝐬  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
-  - {name: 𝐋𝐜  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nls.cloudflare.quest}}, udp: true}
-  - {name: 𝐓𝐡  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: 𝐁𝐲  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: pl.cloudflare.quest}}, udp: true}
-  - {name: 𝐄𝐞  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
-  - {name: 𝐍𝐥  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
-  - {name: 𝐊𝐫  ✈㏫ 1, server: cf.noaries.de, port: 2086, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: 𝐁𝐝  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
-  - {name: 𝐈𝐧  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jp143-d2xddxxj, headers: {Host: v143.toddns.tk}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: lsb-aries.heinu.cf}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nls.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: pl.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1, server: cf.noaries.de, port: 2086, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1, server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬, server: 131.186.21.62, port: 4433, type: ss, cipher: aes-256-gcm, password: yy595721, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫, server: 154.3.5.78, port: 40086, type: ssr, cipher: dummy, password: FrytrrocIOS*12ola, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫, server: 154.9.204.57, port: 40006, type: ssr, cipher: dummy, password: nhqbdsndwqjwqkor, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫, server: 154.9.204.123, port: 40004, type: ssr, cipher: dummy, password: ncxbchdada, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫, server: 154.17.30.20, port: 40000, type: ssr, cipher: dummy, password: asdbzhgyakmfasfdewdsnwqejkfw, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫, server: 173.82.186.25, port: 50006, type: ssr, cipher: dummy, password: IOSwgAYTREask(&1UHYTiq'&%12igsasamafSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,61 +148,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -325,182 +185,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -516,61 +292,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 𝐍𝐥  ✈㏫
-      - 𝙐𝐬  ✈㏫
-      - 𝙐𝐬  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 3
-      - 𝙐𝐬  ✈㏫ 4
-      - 𝙐𝐬  ✈㏫ 5
-      - 𝙐𝐬  ✈㏫ 6
-      - 𝙐𝐬  ✈㏫ 7
-      - 𝙐𝐬  ✈㏫ 8
-      - 𝙐𝐬  ✈㏫ 9
-      - 𝙐𝐬  ✈㏫ 10
-      - 𝙐𝐬  ✈㏫ 11
-      - 𝙐𝐬  ✈㏫ 12
-      - 𝙐𝐬  ✈㏫ 13
-      - 𝙐𝐬  ✈㏫ 14
-      - 𝙐𝐬  ✈㏫ 15
-      - 𝙐𝐬  ✈㏫ 16
-      - 𝙐𝐬  ✈㏫ 17
-      - 𝙐𝐬  ✈㏫ 18
-      - 𝙐𝐬  ✈㏫ 19
-      - 𝙐𝐬  ✈㏫ 20
-      - 𝐍𝐥  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 21
-      - 𝙐𝐬  ✈㏫ 2 2
-      - 𝙐𝐬  ✈㏫ 3 2
-      - 𝙐𝐬  ✈㏫ 4 2
-      - 𝙐𝐬  ✈㏫ 5 2
-      - 𝙐𝐬  ✈㏫ 6 2
-      - 𝙐𝐬  ✈㏫ 7 2
-      - 𝙐𝐬  ✈㏫ 8 2
-      - 𝙐𝐬  ✈㏫ 9 2
-      - 𝙐𝐬  ✈㏫ 10 2
-      - 𝙐𝐬  ✈㏫ 11 2
-      - 𝙐𝐬  ✈㏫ 12 2
-      - 𝙐𝐬  ✈㏫ 13 2
-      - 𝙐𝐬  ✈㏫ 14 2
-      - 𝙐𝐬  ✈㏫ 15 2
-      - 𝙐𝐬  ✈㏫ 16 2
-      - 𝙐𝐬  ✈㏫ 17 2
-      - 𝙐𝐬  ✈㏫ 18 2
-      - 𝙐𝐬  ✈㏫ 19 2
-      - 𝙐𝐬  ✈㏫ 20 2
-      - 𝐈𝐫  ✈㏫ 1
-      - 𝐅𝐫  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 1
-      - 𝐋𝐮  ✈㏫ 2
-      - 𝙐𝐬  ✈㏫ 1
-      - 𝐋𝐜  ✈㏫ 1
-      - 𝐓𝐡  ✈㏫ 1
-      - 𝐁𝐲  ✈㏫ 1
-      - 𝐄𝐞  ✈㏫ 1
-      - 𝐍𝐥  ✈㏫ 1
-      - 𝐊𝐫  ✈㏫ 1
-      - 𝐁𝐝  ✈㏫ 1
-      - 𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 3
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 4
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 5
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 6
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮  ✈㏫ 2
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐜  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐡  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐲  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐁𝐝  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧  ✈㏫ 1
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐲𝐍⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤⒈🎯㏬丶𝐒𝐬
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒈🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒊🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒋🎯㏬丶𝐒𝐬𝐫
+      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🎯㏬丶𝐒𝐬𝐫
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
