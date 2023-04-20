@@ -57,13 +57,6 @@ proxy-groups:
       - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒉🍃㏳丶𝐕𝐦𝐞𝐬𝐬
 #
 #
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒌🏠㏫丶𝐇𝐓𝐓𝐏
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬⒍🏠㏫丶𝐇𝐓𝐓𝐏
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛⒈🏠㏫丶𝐇𝐓𝐓𝐏
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛⒉🏠㏫丶𝐇𝐓𝐓𝐏
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²³」𝐑𝐮⒈🏠㏫丶𝐇𝐓𝐓𝐏
-#
-#
 rules:
     - 'DOMAIN,sub.sharecentre.online,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,🔰 节点选择'
