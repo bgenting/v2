@@ -125,8 +125,13 @@ dns:
 proxies:
 #
 #
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫, server: 8.218.67.54, port: 46950, type: ssr, cipher: dummy, password: 2345345f34, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫, server: 8.217.83.192, port: 49832, type: ssr, cipher: dummy, password: 872364t464, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫, server: 8.217.90.243, port: 53537, type: ssr, cipher: dummy, password: !<str> 234523523, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫, server: 8.217.90.243, port: 54402, type: ssr, cipher: dummy, password: 254243r44, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫, server: 8.217.88.237, port: 49436, type: ssr, cipher: dummy, password: 23423r33, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫, server: 154.9.204.153, port: 40089, type: ssr, cipher: dummy, password: anmadhsabvzaqwaeqnn, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫, server: 154.9.204.22, port: 60001, type: ssr, cipher: dummy, password: idsbaebbqidnabeqn, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 #
 #
 proxy-groups:
@@ -137,8 +142,13 @@ proxy-groups:
       - DIRECT
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: ♻️ 自动选择
@@ -149,8 +159,13 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: 🌍 国外媒体
@@ -161,8 +176,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: 📲 电报信息
@@ -172,8 +192,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: Ⓜ️ 微软服务
@@ -183,8 +208,13 @@ proxy-groups:
       - 🚀 节点选择
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: 🍎 苹果服务
@@ -194,8 +224,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
   - name: 📢 谷歌FCM
@@ -230,8 +265,13 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟯 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏺丶𝐒𝐬𝐫
 #
 #
 rules:
