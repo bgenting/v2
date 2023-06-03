@@ -2,110 +2,130 @@ mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
+#
+#
+hosts: ~
 dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: true
+  default-nameserver:
     - 223.5.5.5
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.example"
+    - "*.home.arpa"
+    - "*.invalid"
+    - "*.lan"
+    - "*.local"
+    - "*.localdomain"
+    - "*.localhost"
+    - "*.test"
+    - mesu.apple.com
+    - swscan.apple.com
+    - "*.router.asus.com"
+    - lens.l.google.com
+    - stun.l.google.com
+    - proxy.golang.org
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.ipv6.microsoft.com"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - time.*.apple.com
+    - time.*.com
+    - time.*.gov
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - time.*.edu.cn
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - speedtest.cros.wr.pvp.net
+    - "*.*.xboxlive.com"
+    - xbox.*.*.microsoft.com
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - "*.*.*.srv.nintendo.net"
+    - +.srv.nintendo.net
+    - "*.*.stun.playstation.net"
+    - +.stun.playstation.net
+    - +.stun.*.*.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*
+    - stun.*.*.*
+    - stun.*.*
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+  nameserver-policy:
+    dns.google: 8.8.8.8
+    dns.alidns.com: 223.5.5.5
+    doh.pub: 119.29.29.29
+    dns.twnic.tw: 101.101.101.101
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - 223.5.5.5
+  nameserver:
+    - tcp://223.5.5.5
+    - tcp://119.29.29.29
   fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - https://dns.xhrzg2017.xyz/dns-query
+    - https://dns.xhrzg2017.xyz/cdn
+    - https://doh.apad.pro/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - +.google.com
+      - +.facebook.com
+      - +.youtube.com
+      - +.githubusercontent.com
+      - +.googlevideo.com
+      - +.msftconnecttest.com
+      - +.msftncsi.com
+      - msftconnecttest.com
+      - msftncsi.com
+#
 #
 proxies:
 #
 #
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: assets.flareai.site, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: assets.flareai.site, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: assets.flareai.site, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: social.flareai.store, port: 11143, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏠丶𝐇𝐭𝐭𝐩, server: social.flareai.store, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟎 ㏠丶𝐇𝐭𝐭𝐩, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏠丶𝐇𝐭𝐭𝐩, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏠丶𝐇𝐭𝐭𝐩, server: h961359.waihuizhibiaowang.com, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟭 ㏠丶𝐇𝐭𝐭𝐩, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏠丶𝐇𝐭𝐭𝐩, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true}
-#
-#
-#  - {name: pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5}
-#  - {name: pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5}
-#  - {name: pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏴丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏴丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: op.yxjnode.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏴丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏬丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏬丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏩丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏩丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟎 ㏩丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞 𝟎 ㏩丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟎 ㏱丶𝐕𝐦𝐞𝐬𝐬, server: 192.203.230.65, port: 443, client-fingerprint: chrome, type: vmess, uuid: cf53bffc-d018-46a2-94ee-257e2d33326a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: jp1.hnokkdf.top, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏱丶𝐕𝐦𝐞𝐬𝐬, server: 142.4.112.17, port: 51091, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏬丶𝐒𝐬, server: fn300mtw039.feichuanjs.net, port: 443, type: ss, cipher: aes-256-gcm, password: 688e37bf067f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn300mtw039.feichuanjs.net, path: /koaaghww, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟯 ㏬丶𝐒𝐬, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟒 ㏠丶𝐒𝐬, server: 103.177.33.181, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟓 ㏠丶𝐒𝐬, server: 103.177.33.181, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏬丶𝐒𝐬, server: 216.52.183.243, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏬丶𝐒𝐬, server: 216.52.183.244, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏬丶𝐒𝐬, server: 216.52.183.245, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏬丶𝐒𝐬, server: 216.52.183.246, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧 𝟎 ㏠丶𝐒𝐬, server: 172.105.40.52, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 1196c1f1-ac69-4d3f-bbbb-722517323170, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟎 ㏠丶𝐒𝐬, server: 172.105.98.149, port: 2052, type: ss, cipher: chacha20-ietf-poly1305, password: 1196c1f1-ac69-4d3f-bbbb-722517323170, udp: true}
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫, server: 8.217.83.192, port: 49832, type: ssr, cipher: dummy, password: 872364t464, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫, server: 8.217.90.243, port: 53537, type: ssr, cipher: dummy, password: !<str> 234523523, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫, server: 8.217.88.237, port: 49436, type: ssr, cipher: dummy, password: 23423r33, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫, server: 154.9.204.153, port: 40089, type: ssr, cipher: dummy, password: anmadhsabvzaqwaeqnn, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟯 ㏺丶𝐒𝐬𝐫, server: 121.0.97.102, port: 10004, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟐 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: tw4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟑 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: kr2.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟒 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: kr1.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟓 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: kr3.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟔 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧, server: kr4.microsoft-orgwly.vip, port: 443, type: trojan, password: 29e6884b-59fe-4dae-a1d8-2572532d5ef4, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏱丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 148.59.74.143, port: 443, client-fingerprint: chrome, type: trojan, password: 3e49b072-4746-4e46-a256-233c3c7b52bf, tfo: false, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏠丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 163.123.192.154, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com}
-#
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 152.69.208.195, port: 18209, client-fingerprint: chrome, type: hysteria, auth_str: d50157, up: 10, down: 50, fast-open: false, protocol: udp, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 104.149.139.189, port: 34684, client-fingerprint: chrome, type: hysteria, auth_str: cg5j9lwpLA4MRIAqfgezBC7fRGcVstk0fJO2tJtTRuZTjAgr2m, up: 11, down: 55, fast-open: false, protocol: udp, sni: youku.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 104.149.155.29, port: 13150, client-fingerprint: chrome, type: hysteria, auth_str: BZsZtkDdcVqYq6UXqADVNLIrPIMCpBcAeYpspfJk1KJrVxgkxq, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.amazon.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.51, port: 42479, client-fingerprint: chrome, type: hysteria, auth_str: dongadlkdjafidjdfaodfadfdf, up: 11, down: 55, fast-open: false, protocol: udp, sni: wechat.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.90.251, port: 57058, client-fingerprint: chrome, type: hysteria, auth_str: kZhIP6IGCQqqvp9a3Ym7JnMHjH9OkpqfmiaPHJauCvrsTHqsE8, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 104.149.153.91, port: 10802, client-fingerprint: chrome, type: hysteria, auth_str: Ryr93NBZcQneXUrlB9MX6RR414GPrsgJLHcecA9X6z0sazuHVC, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 104.149.148.219, port: 34753, client-fingerprint: chrome, type: hysteria, auth_str: sWZ27pSm6mZb9MiFmde4dSNyBToBd02UTm2RgrZJfFDkhSSZWU, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.paypal.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟲 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 51.158.54.46, port: 49139, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.paypal.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟳 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.91.115, port: 18451, client-fingerprint: chrome, type: hysteria, auth_str: 3dfFiSw04wSzShODercubpxjOMoKV3zElm8e0QqD6pDR1Bvepg, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#
-#
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟓 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟒 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟭 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟐 ㏠丶𝐕𝐦𝐞𝐬𝐬, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 #
 #
 proxy-groups:
@@ -113,94 +133,10 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - REJECT
       - DIRECT
 #
 #
       - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟎 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟭 ㏠丶𝐇𝐭𝐭𝐩
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏠丶𝐇𝐭𝐭𝐩
-#
-#
-#      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-#      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-#      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏴丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏴丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏴丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏬丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏬丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟎 ㏩丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞 𝟎 ㏩丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏺丶𝐕𝐦𝐞𝐬𝐬
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏬丶𝐒𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟯 ㏬丶𝐒𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟒 ㏠丶𝐒𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟓 ㏠丶𝐒𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏬丶𝐒𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏬丶𝐒𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏬丶𝐒𝐬
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏬丶𝐒𝐬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧 𝟎 ㏠丶𝐒𝐬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟎 ㏠丶𝐒𝐬
-#
-#
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏺丶𝐒𝐬𝐫
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟮 ㏺丶𝐒𝐬𝐫
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟰 ㏺丶𝐒𝐬𝐫
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏺丶𝐒𝐬𝐫
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟯 ㏺丶𝐒𝐬𝐫
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟐 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟭 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟑 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟒 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟓 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐫 𝟔 ㏩丶𝐓𝐫𝐨𝐉𝐚𝐧
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏠丶𝐓𝐫𝐨𝐉𝐚𝐧
-#
-#
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟲 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟳 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#
-#
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏠丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏠丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟓 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟒 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐚 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐈𝐧 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐄𝐞 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟬 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟭 ㏠丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐂𝐧 𝟐 ㏠丶𝐕𝐦𝐞𝐬𝐬
 #
 #
   - name: ♻️ 自动选择
@@ -211,13 +147,7 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 🌍 国外媒体
@@ -226,17 +156,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - REJECT
-      - DIRECT
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 📲 电报信息
@@ -244,17 +166,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - REJECT
-      - DIRECT
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
 #
 #
   - name: Ⓜ️ 微软服务
@@ -262,17 +176,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - REJECT
-      - DIRECT
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 🍎 苹果服务
@@ -280,17 +186,17 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - REJECT
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
+#
+#
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
       - DIRECT
-#
-#
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 🚀 节点选择
+      - ♻️ 自动选择
 #
 #
   - name: 🎯 全球直连
@@ -315,17 +221,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - REJECT
-      - DIRECT
 #
 #
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐠 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟮 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟯 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏤丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏠丶𝐇𝐭𝐭𝐩
 #
 #
 rules:
