@@ -126,10 +126,6 @@ dns:
       - msftconnecttest.com
       - msftncsi.com
 tun:
-#  enable: true
-#  stack: system
-#  auto-route: true
-#  auto-detect-interface: true
   dns-hijack:
     - tcp://any:53
 #
