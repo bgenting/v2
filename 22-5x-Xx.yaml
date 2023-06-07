@@ -1,5 +1,3 @@
-#
-#
 mixed-port: 7890
 socks-port: 7891
 allow-lan: true
@@ -136,46 +134,30 @@ tun:
     - tcp://any:53
 #
 proxies:
-  - {name: us 公益节点 2 x0.5, server: bb.hk1997.pro, port: 1000, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
-  - {name: us 公益节点 3 x0.5, server: bb.hk1997.pro, port: 1001, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
-  - {name: us 公益节点 4 x0.5, server: bb.hk1997.pro, port: 1002, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jash-weh-peft-pseb-lous-jass, headers: {Host: bb.hk1997.pro}}, udp: true}
-  - {name: us 解锁 ChatGPT 1 x1.2, server: aa.hk1997.pro, port: 443, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hk1997-aimwp, headers: {Host: aa.hk1997.pro}}, udp: true}
-  - {name: us 解锁ChatGPT 2 x1.2, server: aa.hk1997.pro, port: 6000, type: vmess, uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hk1997-aimwp, headers: {Host: aa.hk1997.pro}}, udp: true}
-  - {name: RELAY-104.18.2.198-2812, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-  - {name: US-149.50.68.85-2358, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US-149.50.69.88-1882, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.31.16.41-2817, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 57c6b55e-d0dc-47de-ab85-0c17b79a3a86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d3QyW1VhYbXYnWiYkDe, headers: {Host: de10.irteh.fun}}, udp: true}
-  - {name: US-149.50.67.108-2356, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: JP-149.50.70.69-0096, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: JP-149.50.71.111-0095, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: JP-149.50.71.111-1875, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: SG-4.193.79.123-1379, server: in.stablize.top, port: 443, type: trojan, password: b88edfd4-23eb-4544-9bbc-a68914952905, skip-cert-verify: true, udp: true}
-  - {name: US-163.123.192.58-1066, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: RELAY-172.67.208.87-1076, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: GB-149.50.77.93-0808, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: GB-149.50.77.93-1878, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: NL-149.50.75.68-2304, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: NL-149.50.75.68-0255, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US-163.123.192.59-1069, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: JP-23.100.110.166-1373, server: kr.stablize.top, port: 443, type: trojan, password: b88edfd4-23eb-4544-9bbc-a68914952905, skip-cert-verify: true, udp: true}
-  - {name: US-149.50.69.88-0102, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: HK-149.50.73.181-0112, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: HK-149.50.73.181-1871, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: AU-149.50.66.83-1868, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: AU-149.50.66.83-0864, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: AU-149.50.83.69-1885, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US-149.50.68.85-0107, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: KR-125.141.31.98-13102, server: 125.141.31.98, port: 17754, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: US-149.50.67.108-0098, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.21.53.35-1073, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: JP-23.100.110.166-1865, server: usajs.stablize.top, port: 443, type: trojan, password: b88edfd4-23eb-4544-9bbc-a68914952905, skip-cert-verify: true, udp: true}
-  - {name: 94.23.116.190:443, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: AU-149.50.83.69-0110, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: RELAY-172.67.219.5-13108, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: RELAY-104.24.176.7-1338, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: JP-23.100.110.166-1378, server: usajs.stablize.top, port: 443, type: trojan, password: b88edfd4-23eb-4544-9bbc-a68914952905, skip-cert-verify: true, udp: true}
-  - {name: US-192.5.5.241-0508, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
-  - {name: US-38.64.138.145-8954, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+#
+#
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 57c6b55e-d0dc-47de-ab85-0c17b79a3a86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d3QyW1VhYbXYnWiYkDe, headers: {Host: de10.irteh.fun}}, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
+#
 #
 proxy-groups:
   - name: 🚀 节点选择
@@ -183,273 +165,183 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -472,46 +364,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - us 公益节点 2 x0.5
-      - us 公益节点 3 x0.5
-      - us 公益节点 4 x0.5
-      - us 解锁 ChatGPT 1 x1.2
-      - us 解锁ChatGPT 2 x1.2
-      - RELAY-104.18.2.198-2812
-      - US-149.50.68.85-2358
-      - US-149.50.69.88-1882
-      - RELAY-104.31.16.41-2817
-      - US-149.50.67.108-2356
-      - JP-149.50.70.69-0096
-      - JP-149.50.71.111-0095
-      - JP-149.50.71.111-1875
-      - SG-4.193.79.123-1379
-      - US-163.123.192.58-1066
-      - RELAY-172.67.208.87-1076
-      - GB-149.50.77.93-0808
-      - GB-149.50.77.93-1878
-      - NL-149.50.75.68-2304
-      - NL-149.50.75.68-0255
-      - US-163.123.192.59-1069
-      - JP-23.100.110.166-1373
-      - US-149.50.69.88-0102
-      - HK-149.50.73.181-0112
-      - HK-149.50.73.181-1871
-      - AU-149.50.66.83-1868
-      - AU-149.50.66.83-0864
-      - AU-149.50.83.69-1885
-      - US-149.50.68.85-0107
-      - KR-125.141.31.98-13102
-      - US-149.50.67.108-0098
-      - RELAY-104.21.53.35-1073
-      - JP-23.100.110.166-1865
-      - 94.23.116.190:443
-      - AU-149.50.83.69-0110
-      - RELAY-172.67.219.5-13108
-      - RELAY-104.24.176.7-1338
-      - JP-23.100.110.166-1378
-      - US-192.5.5.241-0508
-      - US-38.64.138.145-8954
+#
+#
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬
+#
+#
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
