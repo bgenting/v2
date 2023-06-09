@@ -142,33 +142,13 @@ proxies:
 #
 #
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐞 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 57c6b55e-d0dc-47de-ab85-0c17b79a3a86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d3QyW1VhYbXYnWiYkDe, headers: {Host: de10.irteh.fun}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐆𝐛 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐍𝐥 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟰 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟱 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟬 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐀𝐮 𝟭 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟔 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟕 ㏦丶𝐓𝐫𝐨𝐉𝐚𝐧, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟭 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟐 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟑 ㏦丶𝐕𝐦𝐞𝐬𝐬, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}, udp: true}
 #
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏧丶𝐒𝐬, server: 18.167.42.17, port: 28842, type: ss, cipher: aes-256-gcm, password: opAODj02jx, udp: true}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟭 ㏧丶𝐒𝐬, server: 18.166.208.81, port: 51551, type: ss, cipher: aes-256-gcm, password: z7LTp6Ia4n, udp: true}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏧丶𝐒𝐬, server: 103.177.33.180, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟬 ㏧丶𝐒𝐬, server: 216.52.183.243, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏧丶𝐓𝐫𝐨𝐉𝐚𝐧, server: hk6.microsoft-orgwly.vip, port: 10126, client-fingerprint: chrome, type: trojan, password: a0401757-bc2e-4ad4-8486-ac9e37119623, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐩 𝟬 ㏧丶𝐓𝐫𝐨𝐉𝐚𝐧, server: jp3.chuqiangtou.net, port: 4003, client-fingerprint: chrome, type: trojan, password: TJCfE7Mx2YcA8kX8zg, tfo: false, sni: jp3.chuqiangtou.net, skip-cert-verify: false}
 #
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝐋𝐮 𝟎 ㏨丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²³」𝙐𝐬 𝟎 ㏨丶𝐕𝐦𝐞𝐬𝐬, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
