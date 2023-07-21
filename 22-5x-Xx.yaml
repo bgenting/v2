@@ -155,7 +155,6 @@ proxies:
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐒𝐬𝐫, server: 154.9.204.54, port: 60000, type: ssr, cipher: dummy, password: 52*wentermethod, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 #
 #
-
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.129.2.6, port: 39381, client-fingerprint: chrome, type: hysteria, auth_str: 4ILI5uU7ipN4abcPFe3GVhgtDJyNBgBXFhzwCSi9SvU8vCLVt5, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
 #
 #
