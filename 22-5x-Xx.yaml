@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
 #  
-#                「㋅𝐊𝐢𝐍𝐠𝐒²³」㏮
+#                「㋅𝐊𝐢𝐍𝐠𝐒²³」㏴
 #  
 #  
 #-------------------------------------------------------------#
@@ -143,115 +143,19 @@ tun:
 proxies:
 #
 #
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩, server: cnvip.flareai.science, port: 11543, client-fingerprint: chrome, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩, server: cnvip.flareai.science, port: 11343, client-fingerprint: chrome, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏪丶𝐇𝐭𝐭𝐩, server: www.chrome-helper.cc, port: 21830, type: http, tls: true, skip-cert-verify: true}
+  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩, server: cnvip.flareai.science, port: 11543, client-fingerprint: chrome, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false}
+  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩, server: cnvip.flareai.science, port: 11343, client-fingerprint: chrome, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false}
+  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏪丶𝐇𝐭𝐭𝐩, server: www.chrome-helper.cc, port: 21830, type: http, tls: true, skip-cert-verify: true}
 #
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏮丶𝐕𝐋𝐞𝐬𝐬, server: 89.32.41.214, port: 53581, type: vless, uuid: 34dbe268-b8ec-4115-860e-a2f5fb968096, tls: false, servername: www.mfa.gov.ua, network: tcp, flow: xtls-rprx-vision, udp: true, skip-cert-verify: true}
 #
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: 18.144.167.220, port: 11744, type: vmess, uuid: 781b942a-65bd-4ac2-8f28-30f5c118fae5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp1.pqjc.buzz}}, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟭 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp2.pqjc.buzz}}, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟐 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟑 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp4.pqjc.buzz}}, udp: true}
-#
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」圣何塞 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 18.144.167.220, port: 11744, type: vmess, uuid: 781b942a-65bd-4ac2-8f28-30f5c118fae5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」奥斯陆 𝟎 ㏧丶𝐒𝐬, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」圣何塞 𝟭 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」荷兰 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.253.254, port: 2095, type: vmess, uuid: f25a0058-37be-4849-90b7-806d7cc8bf38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: sg.wyhkaa0.tk}}, udp: true}
-#
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: pqawszf.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, tfo: false, sni: us2.pqjc.site, skip-cert-verify: false}
 #
 #
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟐 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟑 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟰 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟱 ㏪丶𝐕𝐦𝐞𝐬𝐬, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-#
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐬𝐬, server: 103.177.33.180, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐬𝐬, server: 103.177.33.181, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟐 ㏪丶𝐬𝐬, server: 103.177.33.182, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟑 ㏪丶𝐬𝐬, server: 103.177.33.180, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
-#
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟰 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐒𝐬𝐫, server: 154.9.204.54, port: 60000, type: ssr, cipher: dummy, password: 52*wentermethod, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐒𝐬𝐫, server: 154.9.204.109, port: 50089, type: ssr, cipher: dummy, password: hdusijandsabwq, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐒𝐬𝐫, server: 154.9.204.54, port: 60000, type: ssr, cipher: dummy, password: 52*wentermethod, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
 #
 #
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 152.69.208.195, port: 18209, client-fingerprint: chrome, type: hysteria, auth_str: d50157, up: 10, down: 50, fast-open: false, protocol: udp, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: rn11.frankli998.top, port: 51987, client-fingerprint: chrome, type: hysteria, auth_str: svEx4oncztHdTcK65sxPJqaSQYDxZ0NhnJohYJbaCKfjWPMjW4, up: 11, down: 55, fast-open: false, protocol: udp, sni: rn11.frankli998.top, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.129.2.6, port: 39381, client-fingerprint: chrome, type: hysteria, auth_str: 4ILI5uU7ipN4abcPFe3GVhgtDJyNBgBXFhzwCSi9SvU8vCLVt5, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.140.168.116, port: 17605, client-fingerprint: chrome, type: hysteria, auth_str: ZyjUI9XMRg2wRJTCegMKklZq0BGxFqFzBYv7Mt2z3G8d41V27T, up: 11, down: 55, fast-open: false, protocol: udp, sni: cloudflare.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.51, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟑 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 108.181.23.83, port: 41606, client-fingerprint: chrome, type: hysteria, auth_str: KFGQB3TrwD4lQGufqgu3ZJJoceWf62ds9bwwVByZbJpw4pLSNe, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.90.251, port: 41592, client-fingerprint: chrome, type: hysteria, auth_str: sASVcZfY5PIajKYXdRgtYyQfj8CKSSGP4kYQ6Omxb8ADSXyXcn, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟱 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.144.2.120, port: 15664, client-fingerprint: chrome, type: hysteria, auth_str: PeYEmeEWVl3DrbPRShVE7U4s88iI6OI1ztNNKE8AA8QxJMxKZ8, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²³」欧洲 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 193.70.33.128, port: 16692, client-fingerprint: chrome, type: hysteria, auth_str: tkslonglivehysteria, protocol: udp, sni: w8.jiazf.com, skip-cert-verify: true, alpn: [h3]}
-#
-#
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"0717.kjkkk.pp.ua","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟭 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"199.15.76.35","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟐 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.0.100","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟑 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.63.238","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟰 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.50.58","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟱 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.71.197","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟔 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.128.39","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟕 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.136.72","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0717.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0717.kjkkk.pp.ua"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.0.100","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"140.238.13.162","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.63.238","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟑 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.50.58","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟰 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.71.197","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟱 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.128.39","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟔 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.136.72","port":80,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.0.100","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.63.238","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟑 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.50.58","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟰 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.71.197","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟱 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.128.39","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟔 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"162.159.136.72","port":2052,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"network":"ws","servername":"sg.sk531340-e7c.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.sk531340-e7c.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬","server":"140.238.13.162","port":80,"uuid":"f07aaa54-96b4-483f-9722-c1421730cfb8","skip-cert-verify":true,"udp":true,"network":"ws","servername":"mf.o0ltsnn.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mf.o0ltsnn.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」韩国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"129.154.199.251","port":2052,"uuid":"f07aaa54-96b4-483f-9722-c1421730cfb8","skip-cert-verify":true,"udp":true,"network":"ws","servername":"mf.o0ltsnn.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mf.o0ltsnn.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"172.64.135.146","port":2052,"uuid":"f07aaa54-96b4-483f-9722-c1421730cfb8","skip-cert-verify":true,"udp":true,"network":"ws","servername":"mf.o0ltsnn.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mf.o0ltsnn.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟕 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"172.64.135.147","port":2052,"uuid":"f07aaa54-96b4-483f-9722-c1421730cfb8","skip-cert-verify":true,"udp":true,"network":"ws","servername":"mf.o0ltsnn.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mf.o0ltsnn.workers.dev"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":2052,"uuid":"f07aaa54-96b4-483f-9722-c1421730cfb8","skip-cert-verify":true,"udp":true,"network":"ws","servername":"mf.o0ltsnn.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"mf.o0ltsnn.workers.dev"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"129.154.202.224","port":443,"uuid":"fb64d22c-16c8-42d2-bca2-81504ea60588","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"heoo2.jdssl.link","ws-opts":{"path":"/?ed=2048","headers":{"host":"heoo2.jdssl.link"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.16.0.100","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg.agenting.link","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.agenting.link"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」韩国 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":443,"uuid":"eeb0f11d-61cd-49a0-a917-b8a969d1f33a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg.agenting.link","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.agenting.link"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.161.210","port":80,"uuid":"ccdecf77-1e79-433e-a1f8-20db51eb868d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"q1.ejwsw.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"q1.ejwsw.workers.dev"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟭 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"129.154.202.224","port":2052,"uuid":"ccdecf77-1e79-433e-a1f8-20db51eb868d","skip-cert-verify":true,"udp":true,"network":"ws","servername":"q1.ejwsw.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"q1.ejwsw.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟐 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.161.210","port":2082,"uuid":"ccdecf77-1e79-433e-a1f8-20db51eb868d","skip-cert-verify":true,"udp":true,"network":"ws","servername":"q1.ejwsw.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"q1.ejwsw.workers.dev"}}}
-#  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟑 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"129.154.202.224","port":2086,"uuid":"ccdecf77-1e79-433e-a1f8-20db51eb868d","skip-cert-verify":true,"udp":true,""network":"ws","servername":"q1.ejwsw.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"q1.ejwsw.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.19.161.210","port":2095,"uuid":"ccdecf77-1e79-433e-a1f8-20db51eb868d","skip-cert-verify":true,"udp":true,"network":"ws","servername":"q1.ejwsw.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"q1.ejwsw.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":2052,"uuid":"b24d12b2-22f9-4415-9f0c-bfa2d7cf5388","skip-cert-verify":true,"udp":true,"network":"ws","servername":"leo.8gl2hast.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"leo.8gl2hast.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"129.154.210.82","port":2052,"uuid":"b24d12b2-22f9-4415-9f0c-bfa2d7cf5388","skip-cert-verify":true,"udp":true,"network":"ws","servername":"leo.8gl2hast.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"leo.8gl2hast.workers.dev"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.17.21.6","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"0724.kjkkk.pp.ua","ws-opts":{"path":"/?ed=2048","headers":{"host":"0724.kjkkk.pp.ua"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"usw-oveu.onrender.com","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usw-oveu.onrender.com","ws-opts":{"path":"/","headers":{"host":"usw-oveu.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟐 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.19.115","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usw-oveu.onrender.com","ws-opts":{"path":"/","headers":{"host":"usw-oveu.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟑 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usw-oveu.onrender.com","ws-opts":{"path":"/","headers":{"host":"usw-oveu.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」法兰克福 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"8.222.140.87","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"eu-gn7v.onrender.com","ws-opts":{"path":"/","headers":{"host":"eu-gn7v.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」法兰克福 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"eu-gn7v.onrender.com","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"eu-gn7v.onrender.com","ws-opts":{"path":"/","headers":{"host":"eu-gn7v.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」美东 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"use-24t8.onrender.com","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"use-24t8.onrender.com","ws-opts":{"path":"/","headers":{"host":"use-24t8.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」美东 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.19.115","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"use-24t8.onrender.com","ws-opts":{"path":"/","headers":{"host":"use-24t8.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"sg-yczq.onrender.com","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg-yczq.onrender.com","ws-opts":{"path":"/","headers":{"host":"sg-yczq.onrender.com"}}}
-  - {"type":"vless","name":"「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬","server":"104.18.19.115","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sg-yczq.onrender.com","ws-opts":{"path":"/","headers":{"host":"sg-yczq.onrender.com"}}}
 #
 #
 proxy-groups:
@@ -262,113 +166,19 @@ proxy-groups:
       - DIRECT
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏪丶𝐇𝐭𝐭𝐩
-#
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏮丶𝐕𝐋𝐞𝐬𝐬
-#
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟭 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟐 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟑 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」圣何塞 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」奥斯陆 𝟎 ㏧丶𝐒𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」圣何塞 𝟭 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」荷兰 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟐 ㏪丶𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟑 ㏪丶𝐬𝐬
-#
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」东京 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大阪 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟎 ㏪丶𝐇𝐭𝐭𝐩
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟐 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟑 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟰 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟱 ㏪丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟐 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟑 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟰 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐒𝐬𝐫
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟭 ㏪丶𝐒𝐬𝐫
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐦𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」圣何塞 𝟎 ㏧丶𝐕𝐦𝐞𝐬𝐬
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏪丶𝐒𝐬𝐫
+#
+#
       - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟑 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟱 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」欧洲 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#
-#
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟭 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟐 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟑 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟰 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟱 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟔 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟕 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟑 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟰 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟱 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟔 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟑 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟰 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟱 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟔 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」韩国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟕 ㏪丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」香港 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」韩国 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟭 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟐 ㏶丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟑 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟐 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」大漂亮 𝟑 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」法兰克福 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」法兰克福 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美东 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」美东 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟏 ㏶丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: ♻️ 自动选择
@@ -379,13 +189,8 @@ proxy-groups:
     proxies:
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 🌍 国外媒体
@@ -396,13 +201,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 📲 电报信息
@@ -412,13 +212,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
   - name: Ⓜ️ 微软服务
@@ -428,13 +223,8 @@ proxy-groups:
       - 🚀 节点选择
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 🍎 苹果服务
@@ -444,13 +234,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
   - name: 🎯 全球直连
@@ -477,13 +262,8 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
-#
-#
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」狮城 𝟰 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」漂亮 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」棒子 𝟎 ㏶丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐤 𝟬 ㏮丶𝐇𝐭𝐭𝐩
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐰 𝟬 ㏮丶𝐇𝐭𝐭𝐩
 #
 #
 rules:
