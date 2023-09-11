@@ -1,133 +1,13 @@
-mixed-port: 7890
-allow-lan: false
+port: 7890
+socks-port: 7891
+allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
-clash-for-android:
-    append-system-dns: false
-dns:
-  enable: true
-  listen: 127.0.0.1:53
-  default-nameserver: [223.5.5.5, 119.29.29.29]
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
-  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
-  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
-  fallback: [tls://101.101.101.101:853,https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: [+.google.com, +.facebook.com, +.twitter.com, +.youtube.com, +.xn--ngstr-lra8j.com, +.google.cn, +.googleapis.cn, +.googleapis.com, +.gvt1.com, +.paoluz.com, +.paoluz.link, +.paoluz.xyz, +.sodacity-funk.xyz, +.nloli.xyz,+.jsdelivr.net, +.proton.me]}
+external-controller: :9090
 proxies:
 #
 #
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬, server: 216.52.183.244, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬, server: 216.52.183.245, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬, server: 216.52.183.246, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬, server: 216.52.183.243, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬, server: 8.210.112.68, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐬𝐬, server: 103.177.33.189, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b0f52ff5be5b, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline005.chilines.club, path: /smabwqyo, tls: true, mux: true, skip-cert-verify: false}}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐬𝐬, server: 103.177.33.190, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b0f52ff5be5b, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline005.chilines.club, path: /smabwqyo, tls: true, mux: true, skip-cert-verify: false}}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏪丶𝐬𝐬, server: 183.232.170.32, port: 20014, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」日本 1 ㏪丶𝐬𝐬, server: 183.232.170.32, port: 30005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
   - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬, server: shct.pmxu.link, port: 16682, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho, tfo: false}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐒𝐬𝐫, server: iepl-zh.safetelescope.cc, port: 11803, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, tfo: false, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 285687:f0Lp5Kiqg4, obfs-param: ajax.microsoft.com}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」法国 𝟎 ㏪丶𝐒𝐬𝐫, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」法国 𝟭 ㏪丶𝐒𝐬𝐫, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: None, udp: true}
-#
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 185.22.153.195, port: 443, client-fingerprint: chrome, type: vless, uuid: 2c7e86af-9fa9-456c-a1a2-22fefa6cb2ca, tls: true, servername: osxapps.itunes.apple.com, network: tcp, reality-opts: {public-key: "jLzBerhjXZGmQRCEWFFuc8CCo6c4Zv03iWc0OxWMl0M"}, flow: xtls-rprx-vision, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 45.136.245.126, port: 443, client-fingerprint: chrome, type: vless, uuid: 85ff3407-fe83-4c32-9ed0-787ecc720db5, tls: true, servername: updates.cdn-apple.com, network: tcp, reality-opts: {public-key: "iyuVZulQDU-2txgZNn_iSv9qizc9UCw8FZqeL9pm7GA"}, flow: xtls-rprx-vision, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 45.145.72.227, port: 16011, client-fingerprint: chrome, type: vless, uuid: c891d2dd-352d-4e38-aec5-0cb454c12715, tls: true, servername: one-piece.com, network: tcp, reality-opts: {public-key: "xR3BwG1BWGWuRlHf8n3M1HPQeEV0FxATWuURzfCLkyE"}, flow: xtls-rprx-vision, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 167.160.90.252, port: 11483, client-fingerprint: chrome, type: vless, uuid: 56fdb92d-bcdb-42c0-977c-db62006867a3, tls: true, servername: swdist.apple.com, network: tcp, reality-opts: {public-key: "TKCydrD0Hz70hQAPI7iMXRqfZbvniPrEcCVi0BswhEU"}, flow: xtls-rprx-vision, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」新加坡 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 152.69.208.195, port: 18209, client-fingerprint: chrome, type: hysteria, auth_str: d50157, up: 10, down: 50, fast-open: false, protocol: udp, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: rn11.frankli998.top, port: 51987, client-fingerprint: chrome, type: hysteria, auth_str: svEx4oncztHdTcK65sxPJqaSQYDxZ0NhnJohYJbaCKfjWPMjW4, up: 11, down: 55, fast-open: false, protocol: udp, sni: rn11.frankli998.top, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 108.181.22.231, port: 37611, client-fingerprint: chrome, type: hysteria, auth_str: pm0AUcfosdAEE6GeXczt3ftQ8P4ZWefrXfEXOXrENOADGNnXgx, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.amazon.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.129.2.6, port: 12114, client-fingerprint: chrome, type: hysteria, auth_str: Bs3gtsiZFL96GHA6Gayttp0NA0kaVe8bmhWLRK8OYpmGfNvg3U, up: 11, down: 55, fast-open: false, protocol: udp, sni: qq.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 51.158.54.46, port: 49139, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.paypal.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.54, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟑 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 108.181.23.83, port: 22011, client-fingerprint: chrome, type: hysteria, auth_str: HKWhOnD9cW8OvzrnrdkNmrRsES1SEaFeWVOTy2k7oW2j5SHjJd, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.90.251, port: 41592, client-fingerprint: chrome, type: hysteria, auth_str: sASVcZfY5PIajKYXdRgtYyQfj8CKSSGP4kYQ6Omxb8ADSXyXcn, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟱 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 45.144.2.120, port: 32721, client-fingerprint: chrome, type: hysteria, auth_str: ybgSlsdfe8tI42fAhLp3J0ej8G08D3NIYBFQ16ZvvctUoxZUxD, up: 11, down: 55, fast-open: false, protocol: wechat-video, sni: microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟲 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 108.181.24.45, port: 45705, client-fingerprint: chrome, type: hysteria, auth_str: s9gPEwSmIg2wkTi28kz7zHWaE1FSMs2RtI0doiIJXMPi274FJB, up: 11, down: 55, fast-open: false, protocol: wechat-video, sni: wechat.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟳 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟴 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.91.115, port: 13928, client-fingerprint: chrome, type: hysteria, auth_str: BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3, up: 11, down: 55, fast-open: false, protocol: udp, sni: paypal.com, skip-cert-verify: true, alpn: [h3]}
-#
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇫🇷 0 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 51.158.54.46, port: 49139, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 1000, down: 1000, fast-open: false, sni: www.paypal.com, skip-cert-verify: true, alpn: [h3]}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 1 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 166.1.18.191, port: 16542, client-fingerprint: chrome, type: hysteria, auth_str: PidedzMQ9WgikepaWKUdAaC2hLDFqxK5z1Aw19dxAluufRwpll, up: 1000, down: 1000, fast-open: false, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 2 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 1000, down: 1000, fast-open: false, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3]}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 3 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.91.115, port: 13928, client-fingerprint: chrome, type: hysteria, auth_str: BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3, up: 1000, down: 1000, fast-open: false, sni: paypal.com, skip-cert-verify: true, alpn: [h3]}
-#
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」德国 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 162.159.195.44, port: 2408, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:87b9:541e:5a86:f602:2496, private-key: 4Mjxq6eYka/a0ugtLFIE8DSstC0rDu1Em12xI+4k1W4=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 162.159.195.247, port: 894, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:88dd:43dc:1877:77a:4e28, private-key: CB/B9nOoeeYmkUN7Q2l3CHd5H9kMHZ2FaIzys0iNUV4=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1420, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 188.114.97.150, port: 7152, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:81e9:8983:138f:d150:198f, private-key: 2M8VFgTVKEtTTNNPj90QPtkFC3jszaxHxwQBJy3R+EI=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1420, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 188.114.96.76, port: 7152, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:805f:e715:b070:2547:339a, private-key: EG+G39mv6htJqXyXeh9NeMJLNccQ6i7xwEf184A0vWI=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1420, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 188.114.96.177, port: 2371, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:845e:6741:264d:bf54:68f2, private-key: YGCcww7UOx/FqSMDfNQNJppJWqe4Bz/ozK+Ub7x9RUE=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 188.114.96.76, port: 7152, type: wireguard, udp: true, ip: 172.16.0.2, ipv6: 2606:4700:110:845e:6741:264d:bf54:68f2, private-key: YGCcww7UOx/FqSMDfNQNJppJWqe4Bz/ozK+Ub7x9RUE=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 188.114.98.179, port: 854, type: wireguard, udp: true, ip: 172.16.0.2, private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟐 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 162.159.192.169, port: 854, type: wireguard, udp: true, ip: 172.16.0.2, private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟑 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 162.159.195.247, port: 854, type: wireguard, udp: true, ip: 172.16.0.2, private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-  - {name:  「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟰 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝, server: 162.159.195.44, port: 854, type: wireguard, udp: true, ip: 172.16.0.2, private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, dns: [1.1.1.1], mtu: 1280, remote-dns-resolve: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 80, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 80, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 8080, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 8080, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 8880, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 8880, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 2052, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 2052, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 2086, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 2086, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 2095, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 2095, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.de, port: 2082, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.visa.fr, port: 2082, client-fingerprint: random, type: vless, uuid: ccdecf77-1e79-433e-a1f8-20db51eb868d, tls: false, tfo: false, servername: de.sk531340-e7c.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: de.sk531340-e7c.workers.dev}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.98.234, port: 80, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: vless.a68561918.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.a68561918.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.98.234, port: 80, client-fingerprint: random, type: vless, uuid: cf4abb66-ec43-494d-81fd-5e8068990615, tls: false, tfo: false, servername: shirui.hbbaby.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: shirui.hbbaby.top}}, udp: true}
-#
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐊 0 ㏶丶𝐕𝐋𝐞𝐬𝐬, server: 35.241.66.155, port: 2529, client-fingerprint: random, type: vless, uuid: 83571631-7ac0-44b3-b7ad-0efea97e1576, tfo: true, servername: 35.241.66.155, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless", headers: {Host: 35.241.66.155}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 162.159.58.34, port: 443, client-fingerprint: random, type: vless, uuid: cf4abb66-ec43-494d-81fd-5e8068990615, tls: true, tfo: true, servername: shirui.hbbaby.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: shirui.hbbaby.top}}, udp: true}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 23.227.39.152, port: 80, client-fingerprint: random, type: vless, uuid: 15dbad9a-00d4-4aa5-bbc7-c657c5c859b9, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 23.227.39.152, port: 8443, client-fingerprint: random, type: vless, uuid: cf4abb66-ec43-494d-81fd-5e8068990615, tls: true, tfo: true, servername: shirui.hbbaby.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: shirui.hbbaby.top}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 8.222.152.3, port: 8080, client-fingerprint: random, type: vless, uuid: d74d8e62-90c2-4fee-bcf3-d239956ee51a, tls: false, tfo: false, servername: jp.vps.wengmail.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.vps.wengmail.link}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.96.197, port: 8080, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.96.39, port: 8880, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server:  188.114.99.170, port: 8880, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.96.167, port: 2052, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.97.150, port: 2052, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 23.227.39.252, port: 2082, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 9 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.96.76, port: 2082, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 10 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.99.134, port: 2086, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 11 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.97.97, port: 2095, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 12 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 131.186.22.83, port: 2095, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐆 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 8.222.140.87, port: 2095, client-fingerprint: random, type: vless, uuid: 6c00e3f1-b0ec-425b-a5b8-3f786a50e402, tls: false, tfo: false, servername: 2222.bwvd9gh5-dcb.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2222.bwvd9gh5-dcb.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐑 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 8.222.152.3, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 12 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 140.238.10.178, port: 2095, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: vless.a68561918.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.a68561918.workers.dev}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 13 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 140.238.6.43, port: 2095, client-fingerprint: random, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: vless.a68561918.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.a68561918.workers.dev}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: realcm.skrspc.com, port: 29105, client-fingerprint: random, type: vless, uuid: 003d5850-42a6-4010-b4f1-31e8f7d6007f, tls: true, servername: www.airbnb.com, flow: xtls-rprx-vision, network: tcp, reality-opts: {public-key: hqvrFuyijjo0LRHAZfYor7Fw-DyWUGKs_G6hV-ZUwCM, short-id: dcd5ac91, udp: true}}
-#
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 0 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: dynamic-us1b.obfs.xyz, port: 443, type: vmess, uuid: 9e443e8b-713d-4719-b8cf-c19b6269c62d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 0 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 8.222.140.87, port: 443, type: vmess, uuid: 9e443e8b-713d-4719-b8cf-c19b6269c62d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-us1b.obfs.xyz}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」新加坡 0 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: dynamic-sg1b.obfs.xyz, port: 443, type: vmess, uuid: c46af494-1f4c-4a3a-b87c-993d3249bf10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」新加坡 0 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 131.186.22.83, port: 443, type: vmess, uuid: c46af494-1f4c-4a3a-b87c-993d3249bf10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 1 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.58.34, port: 443, type: vmess, uuid: 2c11a9f0-4ad0-11ee-b139-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /06vglj23, headers: {Host: us-23.0rd.net}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 2 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.58.34, port: 80, type: vmess, uuid: 2c11a9f0-4ad0-11ee-b139-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /06vglj23, headers: {Host: us-23.0rd.net}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 3 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.58.34, port: 443, type: vmess, uuid: eec21940-4ad0-11ee-b330-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8o7uwz3p, headers: {Host: us-23.0rd.net}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 4 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.58.34, port: 80, type: vmess, uuid: eec21940-4ad0-11ee-b330-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /8o7uwz3p, headers: {Host: us-23.0rd.net}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」欧洲 0 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 131.186.22.83, port: 443, type: vmess, uuid: 6e6334b0-4ad1-11ee-b533-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /x1htj95g, headers: {Host: eu-1.0rd.net}}, udp: true}
-#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」欧洲 1 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 131.186.22.83, port: 80, type: vmess, uuid: 6e6334b0-4ad1-11ee-b533-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /x1htj95g, headers: {Host: eu-1.0rd.net}}, udp: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇪🇸  1 ㏧丶𝐕𝐦𝐞𝐬𝐬, server: 162.159.60.89, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, servername: xby.daozhang.link, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}}
-#
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧, server: 60.248.114.188, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, network: ws, ws-opts: {path : /gateway/connect, headers: {host: TG.oeo12}}, skip-cert-verify: true, udp: true}
 #
 #
 proxy-groups:
@@ -137,98 +17,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬 
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟭 ㏪丶𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」日本 𝟎 ㏪丶𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」日本 1 ㏪丶𝐬𝐬
       - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
-#
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐒𝐬𝐫
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」法国 𝟎 ㏪丶𝐒𝐬𝐫
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」法国 𝟭 ㏪丶𝐒𝐬𝐫
-#
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐕𝐋𝐞𝐬𝐬
-#
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟎 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟐 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟑 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟱 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟲 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟳 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」洛杉矶 𝟴 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#
-      -  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇫🇷 0 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      -  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 1 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      -  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 2 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      -  「㋈𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 3 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-#
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟐 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」德国 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟎 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟭 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟐 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟑 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」☁️ 𝐂𝐅𝐖𝐚𝐫𝐩 𝟰 ㏶丶𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝
-#
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐃𝐄 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐅𝐑 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²³」𝐇𝐊 0 ㏶丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐉𝐏 12 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐆 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」𝐊𝐑 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 0 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」新加坡 0 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 1 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 2 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 3 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 4 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」欧洲 0 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」欧洲 1 ㏧丶𝐕𝐦𝐞𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇪🇸  1 ㏧丶𝐕𝐦𝐞𝐬𝐬
-#
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」台湾 𝟎 ㏪丶𝐓𝐫𝐨𝐉𝐚𝐧
 #
   - name: ♻️ 自动选择
     type: url-test
@@ -236,11 +25,7 @@ proxy-groups:
     interval: 300
     proxies:
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: 🎥 NETFLIX
     type: select
@@ -249,11 +34,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: ⛔️ 广告拦截
     type: select
@@ -274,11 +55,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: 🌏 国内媒体
     type: select
@@ -291,11 +68,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: 📲 电报信息
     type: select
@@ -303,11 +76,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: 🍎 苹果服务
     type: select
@@ -316,11 +85,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
   - name: 🎯 全球直连
     type: select
@@ -338,11 +103,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟎 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟭 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟐 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」纽约 𝟑 ㏪丶𝐬𝐬
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」香港 𝟎 ㏪丶𝐬𝐬
+      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
 #
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
