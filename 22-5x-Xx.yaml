@@ -80,7 +80,6 @@ dns:
 proxies:
   #
   #
-
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: vyos.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.246.99, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 198.41.212.157, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
@@ -92,7 +91,7 @@ proxies:
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 5165.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.17.64.0, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
  #
-  #
+ #
 proxy-groups:
   - name: 🚀 节点选择
     type: select
