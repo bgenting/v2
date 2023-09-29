@@ -78,20 +78,75 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  #
-  #
+#
+#
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: siri.pages.dev, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: buff.lookb.link, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: vyos.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.246.99, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: www.zgjmw.net, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 198.41.212.157, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.99.132, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 141.101.122.224, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.24.10.195, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.244.61, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 162.159.36.0, port: 2096, client-fingerprint: chrome, type: vless, uuid: d74d8e62-90c2-4fee-bcf3-d239956ee51a, tls: true, tfo: false, servername: jp.vps.wengmail.link, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.vps.wengmail.link}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 5165.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.17.64.0, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
- #
- #
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 541.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: e08ee595-f6ba-40b0-a07e-86beb5e16939, tls: true, tfo: false, servername: gothites.worldcupwinner2022.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: gothites.worldcupwinner2022.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.21.17.223, port: 443, client-fingerprint: chrome, type: vless, uuid: 53b2ce5a-798a-4e60-9284-d3794708d9e6, tls: true, tfo: false, servername: caseworks.butterfly-galaxy.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: caseworks.butterfly-galaxy.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.244.105, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.158.249, port: 443, client-fingerprint: chrome, type: vless, uuid: 9d27a2ad-cb24-4dd6-bbe8-c1a535d1544a, tls: true, tfo: false, servername: overnights.aurorainiceland.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: overnights.aurorainiceland.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 6654.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.244.0, port: 443, client-fingerprint: chrome, type: vless, uuid: 5f84c37f-f153-4abc-b634-859dc6bf90de, tls: true, tfo: false, servername: volatilizable.4kphotos.website, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: volatilizable.4kphotos.website}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.20.152.102, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.21.35.11, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.97.58, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 162.159.19.240, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: edtunnel-b6t.pages.dev, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 188.114.96.201, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/https://octohide.com/routertabrizm137.com/diamond_tm/t.me/azarbayjab1, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.156.243, port: 443, client-fingerprint: chrome, type: vless, uuid: a78a170d-4f18-45ef-b723-c77d7c235931, tls: true, tfo: false, servername: creviced.andromedagalaxy.website, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: creviced.andromedagalaxy.website}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.64.157.27, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.21.74.139, port: 443, client-fingerprint: chrome, type: vless, uuid: 55894b90-c29a-40e1-b2e1-9f038394d0d3, tls: true, tfo: false, servername: geminal.aurorainiceland.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: geminal.aurorainiceland.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 162.159.7.167, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.161.1, port: 443, client-fingerprint: chrome, type: vless, uuid: 5f84c37f-f153-4abc-b634-859dc6bf90de, tls: true, tfo: false, servername: volatilizable.4kphotos.website, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: volatilizable.4kphotos.website}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 162.159.128.101, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 173.245.49.40, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.152.188, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.27.7.9, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.27.197.203, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.99.131, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.22.32.30, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.221.143, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: e08ee595-f6ba-40b0-a07e-86beb5e16939, tls: true, tfo: false, servername: gothites.worldcupwinner2022.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: gothites.worldcupwinner2022.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: yx.piaosir.link, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 3g.haokying.top, port: 2053, client-fingerprint: chrome, type: vless, uuid: 6ebbc0ad-30a0-4b73-a443-ec5c0e1c2e44, tls: true, tfo: false, servername: vip3.futurevpn.fun, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vip3.futurevpn.fun}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.64.153.211, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 108.162.198.165, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.25.210.45, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.24.144.73, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.20.156.248, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 198.41.220.77, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.64.158.108, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.24.155.42, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 108.162.196.69, port: 443, client-fingerprint: chrome, type: vless, uuid: f1e0a0ab-6d80-4e78-b832-c71875d222a4, tls: true, tfo: false, servername: seargo.100896.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /usashare761i8, headers: {Host: seargo.100896.xyz}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: comeon.com, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}}
+#
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 190.93.245.252, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 198.41.214.86, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.69.191, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.64.92.189, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: auto.ccccdn.tk, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.67.101.160, port: 443, client-fingerprint: randomized, type: vless, uuid: 6f16a14c-8884-4170-aa09-0a0c7c0b976a, tls: true, tfo: false, servername: vcfwk.xpdbk.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vcfwk.xpdbk.com}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: comeon.com, port: 8880, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 172.64.150.217, port: 8880, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: 104.18.37.39, port: 8880, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇰🇷 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: us4.xixi444.top, port: 443, reality-opts: {public-key: MvLgS83kw_wzIsNMwxTQQFuH4OctdSOzBwsub8F5S0w, short-id: 38204118}, client-fingerprint: chrome, type: vless, uuid: 09747e35-83b0-4248-bcb2-5d9b21843203, tls: true, tfo: false, servername: m.media-amazon.com, flow: xtls-rprx-vision, skip-cert-verify: false}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇰🇷 1 ㏧丶𝐕𝐋𝐞𝐬𝐬, server: us4.xixi444.top, port: 443, reality-opts: {public-key: MvLgS83kw_wzIsNMwxTQQFuH4OctdSOzBwsub8F5S0w, short-id: 38204118}, client-fingerprint: chrome, type: vless, uuid: 09747e35-83b0-4248-bcb2-5d9b21843203, tls: true, tfo: false, servername: m.media-amazon.com, flow: xtls-rprx-vision, skip-cert-verify: false}
+#
+#
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -100,6 +155,8 @@ proxy-groups:
       - DIRECT
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -107,9 +164,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: ♻️ 自动选择
@@ -120,6 +227,8 @@ proxy-groups:
     proxies:
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -127,9 +236,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: 🌍 国外媒体
@@ -140,6 +299,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -147,9 +308,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: 📲 电报信息
@@ -159,6 +370,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -166,10 +379,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: Ⓜ️ 微软服务
@@ -179,6 +441,8 @@ proxy-groups:
       - 🚀 节点选择
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -186,9 +450,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: 🍎 苹果服务
@@ -198,6 +512,8 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -205,9 +521,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
   - name: 🎯 全球直连
@@ -234,6 +600,8 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 0 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
@@ -241,9 +609,59 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 TW 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 狮城 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 Us 11 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝐉𝐏 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 7 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 8 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 9 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 HK 10 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 4 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 5 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 6 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 1 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 2 ㏧丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇹🇼 3 ㏧丶𝐕𝐋𝐞𝐬𝐬
 #
 #
 rules:
