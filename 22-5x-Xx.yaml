@@ -181,9 +181,9 @@ proxies:
 #
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇺🇸 1 ㏧丶𝐬𝐬, server: 135.148.67.88, port: 2087, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a9dIXhPA🇺🇸DCKUPU, tfo: false}
 #
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 10194, type: hysteria2,  password: 87dc8c2e, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 48152, type: hysteria2,  password: 8eb5dcd9, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 10194, type: hysteria2,  password: 87dc8c2e, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 48152, type: hysteria2,  password: 8eb5dcd9, sni: www.bing.com, skip-cert-verify: true}
 #  - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku48.xyz, port: 50411, type: hysteria2,  password: abab0600, sni: www.bing.com, skip-cert-verify: true}
 #
   - {name: 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: www.dtku46.xyz, port: 11223, client-fingerprint: chrome, type: hysteria, auth_str: mqoE9qSoyMFa, up: 100, down: 100, fast-open: false, sni: www.dtku46.xyz, skip-cert-verify: true, alpn: [h3]}
@@ -294,9 +294,9 @@ proxy-groups:
 #
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 🇺🇸 1 ㏧丶𝐬𝐬
 #
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #
       - 「㋈𝐊𝐢𝐍𝐠𝐒²³」美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
