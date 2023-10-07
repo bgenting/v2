@@ -151,12 +151,12 @@ proxies:
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐓𝐮𝐢𝐜, server: tuic3.dtku47.xyz, port: 12255, type: tuic,  password: dongtaiwang, uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐓𝐮𝐢𝐜, server: sing2.dtku47.xyz, port: 55667, type: tuic,  password: dongtaiwang, uuid: 2dca51f2-8968-479b-b086-4a62269f3f37, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
 #
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 217.69.9.125, port: 443, type: hysteria2,  password: y0qochAspE+u-HLfrip-, sni: Google.com, skip-cert-verify: true, obfs: salamander, obfs-password: 2pU!&Brls!0exuP+!4so, alpn: [h3]}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 260583400e012341bf5000162311.ikuan.dev, port: 9330, type: hysteria2,  password: hmvod, sni: hmovd.com.hk, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 217.69.9.125, port: 443, type: hysteria2,  password: y0qochAspE+u-HLfrip-, sni: Google.com, skip-cert-verify: true, obfs: salamander, obfs-password: 2pU!&Brls!0exuP+!4so, alpn: [h3]}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 260583400e012341bf5000162311.ikuan.dev, port: 9330, type: hysteria2,  password: hmvod, sni: hmovd.com.hk, skip-cert-verify: true}
 #
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 10194, type: hysteria2,  password: 87dc8c2e, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 17965, type: hysteria2,  password: 4f58555f, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 10194, type: hysteria2,  password: 87dc8c2e, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 17965, type: hysteria2,  password: 4f58555f, sni: www.bing.com, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku48.xyz, port: 50411, type: hysteria2,  password: abab0600, sni: www.bing.com, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www2.dtku49.xyz, port: 54406, type: hysteria2,  password: ebcbb37b, sni: www.bing.com, skip-cert-verify: true}
 #
@@ -243,12 +243,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐓𝐮𝐢𝐜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐓𝐮𝐢𝐜
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟰 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #
@@ -267,10 +267,13 @@ proxy-groups:
     tolerance: 50
     proxies:
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
   - name: 🌍 国外媒体
     type: select
@@ -279,10 +282,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
   - name: 📲 电报信息
     type: select
@@ -290,10 +296,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
   - name: Ⓜ️ 微软服务
     type: select
@@ -301,10 +310,13 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
   - name: 🍎 苹果服务
     type: select
@@ -312,10 +324,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
   - name: 🎯 全球直连
     type: select
@@ -340,10 +355,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
 #
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 法国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟭 ㏩丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇺🇸 𝟎 ㏪丶𝐒𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇭🇰 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟎 ㏪丶𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」🇯🇵 𝟭 ㏪丶𝐬𝐬
 #
 rules:
 # 本地/局域网地址
