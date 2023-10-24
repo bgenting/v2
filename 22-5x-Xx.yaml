@@ -43,10 +43,10 @@ dns:
     - '*.ntp.org.cn'
     - +.pool.ntp.org
     - time1.cloud.tencent.com
-    - +.m🇺🇸ic.163.com
+    - +.music.163.com
     - '*.126.net'
-    - m🇺🇸icapi.taihe.com
-    - m🇺🇸ic.taihe.com
+    - musicapi.taihe.com
+    - music.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
     - '*.kuwo.cn'
@@ -54,11 +54,11 @@ dns:
     - api.joox.com
     - joox.com
     - +.y.qq.com
-    - +.m🇺🇸ic.tc.qq.com
-    - aqqm🇺🇸ic.tc.qq.com
-    - +.stream.qqm🇺🇸ic.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
     - '*.xiami.com'
-    - +.m🇺🇸ic.migu.cn
+    - +.music.migu.cn
     - +.srv.nintendo.net
     - +.stun.playstation.net
     - xbox.*.microsoft.com
@@ -80,26 +80,156 @@ dns:
 proxies:
 #
 #
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟬, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, tfo: false, servername: free.sw.moh539.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: free.sw.moh539.link}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟭, server: tv.icook.tw, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "yqwbsnzdh21493americanexpress.com/en-us/business/blueprint/business-line-of-credit/?refid=amex_p2_sem_nb_p2-loc-gdn-inmarket_ad30_inc|eaiaiqobchmimumjsnz_gamvrzhpcb1q9grxeaeyasaaegjhxfd_bwe", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟮, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 25e536a5-499d-464e-baac-de3ac36c682e, tls: true, tfo: false, servername: watashi.free.ca.mnhacker.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: watashi.free.ca.mnhacker.eu.org}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟯, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟰, server: cfip.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟱, server: cfip.gay, port: 8443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://passport.8338.hk/sc/udomain/login?_ga=2.242359242.995021333.1694767696-894906061.1694767696", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴, server: cfip.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://liapp.lockincomp.com/liapp-learn-more?utm_term=", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵, server: cfip.gay, port: 8880, client-fingerprint: chrome, type: vless, uuid: b89cde70-916f-4754-9061-4ac3b0bff4fe, tls: false, tfo: false, servername: lith.kurdshop.store, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lith.kurdshop.store}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: b8d69d3f-af68-43b8-ad06-8ad9995675d6, tls: true, tfo: false, servername: ssv2ray7.mostafago.tk, skip-cert-verify: true, network: ws, ws-opts: {path: /vless/mosifilterchi, headers: {Host: ssv2ray7.mostafago.tk}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙, server: tv.icook.tw, port: 2083, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛, server: cfip.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜, server: tv.icook.tw, port: 2083, client-fingerprint: chrome, type: vless, uuid: 629b8cdf-caf2-4a4e-b9cd-39e088b292c6, tls: true, tfo: false, servername: port1.futuremm1.store, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: port1.futuremm1.store}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞, server: cfip.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟠, server: cfip.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟡, server: cfip.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: b0138d55-a493-4dc3-9932-c6f0391707c1, tls: true, tfo: false, servername: edge.020770.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048", headers: {Host: edge.020770.xyz}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟬, server: 158.180.73.201, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, tfo: false, servername: free.sw.moh539.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: free.sw.moh539.link}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟬, server: cdn.ahdark.gay, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, tfo: false, servername: free.sw.moh539.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: free.sw.moh539.link}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟭, server: 158.180.95.52, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "yqwbsnzdh21493americanexpress.com/en-us/business/blueprint/business-line-of-credit/?refid=amex_p2_sem_nb_p2-loc-gdn-inmarket_ad30_inc|eaiaiqobchmimumjsnz_gamvrzhpcb1q9grxeaeyasaaegjhxfd_bwe", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟮, server: skk.moe, port: 443, client-fingerprint: chrome, type: vless, uuid: 25e536a5-499d-464e-baac-de3ac36c682e, tls: true, tfo: false, servername: watashi.free.ca.mnhacker.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: watashi.free.ca.mnhacker.eu.org}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟮, server: 158.180.67.192, port: 443, client-fingerprint: chrome, type: vless, uuid: 25e536a5-499d-464e-baac-de3ac36c682e, tls: true, tfo: false, servername: watashi.free.ca.mnhacker.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: watashi.free.ca.mnhacker.eu.org}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟯, server: tv.icook.tw, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟯, server: 158.180.95.52, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟰, server: hkgsdz.66666654.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟰, server: 158.180.72.106, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟱, server: 443.cf.bestl.de, port: 8443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://passport.8338.hk/sc/udomain/login?_ga=2.242359242.995021333.1694767696-894906061.1694767696", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟱, server: 158.180.72.106, port: 8443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://passport.8338.hk/sc/udomain/login?_ga=2.242359242.995021333.1694767696-894906061.1694767696", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲, server: speedtypingonline.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲, server: 158.180.83.144, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳, server: cdn1.cachexy.cf, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳, server: 158.180.91.128, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴, server: 443.cf.bestl.de, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://liapp.lockincomp.com/liapp-learn-more?utm_term=", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙, server: chinalace.org, port: 2083, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙, server: 158.180.73.201, port: 2083, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚, server: 158.180.84.151, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛, server: 158.180.88.31, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜, server: cfip.gay, port: 2083, client-fingerprint: chrome, type: vless, uuid: 629b8cdf-caf2-4a4e-b9cd-39e088b292c6, tls: true, tfo: false, servername: port1.futuremm1.store, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: port1.futuremm1.store}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝, server: linego.com.tw, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞, server: blog.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟, server: singapore.mfa.ee, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟠, server: beijing.mfa.ee, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝, server: linego.com.tw, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞, server: tv.icook.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟, server: kingsz.hpc.tw, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟠, server: cdn.ahdark.gay, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟡, server: notion.19510272.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: b0138d55-a493-4dc3-9932-c6f0391707c1, tls: true, tfo: false, servername: edge.020770.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048", headers: {Host: edge.020770.xyz}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟡, server: 158.180.66.248, port: 443, client-fingerprint: chrome, type: vless, uuid: b0138d55-a493-4dc3-9932-c6f0391707c1, tls: true, tfo: false, servername: edge.020770.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048", headers: {Host: edge.020770.xyz}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇹🇼丶 𝟘, server: notion.19510272.xyz, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.🇭🇰/sc/c🇺🇸tomer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇹🇼丶 𝟘, server: 158.180.68.135, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.🇭🇰/sc/c🇺🇸tomer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 2, server: download.yunzhongzhuan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 1fbd7633-8800-4de0-87fb-c656017f4099, tls: true, tfo: false, servername: aurora.nextgentechnews.com, skip-cert-verify: true, network: ws, ws-opts: {path: /nimws, headers: {Host: aurora.nextgentechnews.com}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 3, server: xray1.freeh1.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/https://octohide.com/routertabrizm137.com/diamond_tm/t.me/azarbayjab1, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 3, server: 158.180.66.96, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/@azarbayjab1/https://octohide.com/routertabrizm137.com/diamond_tm/t.me/azarbayjab1, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 4, server: amstd.shabijichang.com, port: 2096, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 4, server: 158.180.66.96, port: 2096, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 5, server: amstd.shabijichang.com, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 5, server: 43.134.116.17, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 6, server: amstd.shabijichang.com, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, tfo: false, servername: free.sw.moh539.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: free.sw.moh539.link}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 6, server: 124.156.202.172, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, tfo: false, servername: free.sw.moh539.link, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: free.sw.moh539.link}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 7, server: amstd.shabijichang.com, port: 2083, client-fingerprint: chrome, type: vless, uuid: b3c67462-87f5-442e-8cdc-fc298e397815, tls: true, tfo: false, servername: vip1.futurevpn.fun, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vip1.futurevpn.fun}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 7, server: cgenting.my.to, port: 2083, client-fingerprint: chrome, type: vless, uuid: b3c67462-87f5-442e-8cdc-fc298e397815, tls: true, tfo: false, servername: vip1.futurevpn.fun, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vip1.futurevpn.fun}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 8, server: de1.rtacg.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 8, server: 2052.cf.bestl.de, port: 2053, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 10, server: amstd.shabijichang.com, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 10, server: 43.156.181.203, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 11, server: jsg1.jsjc.sbs, port: 443, client-fingerprint: chrome, type: vless, uuid: 5f84c37f-f153-4abc-b634-859dc6bf90de, tls: true, tfo: false, servername: volatilizable.4kphotos.website, skip-cert-verify: true, network: ws, ws-opts: {path: /nimws, headers: {Host: volatilizable.4kphotos.website}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 14, server: edge.020770.xyz, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 14, server: cdn-ip.tgbird.top, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 15, server: 0x687531hu1.havenabank.de, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 15, server: cgenting.my.to, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 16, server: jp08a.nttkk.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 17, server: xray1.freegradely.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 18, server: jp08a.nttkk.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 15, server: jsg1.jsjc.sbs, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 16, server: jus2.jsjc.sbs, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 17, server: jus3.jsjc.sbs, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 18, server: jsg1.jsjc.sbs, port: 8443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 19, server: vowelquran18.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 19, server: jp08a.nttkk.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 21, server: samfisher.hpc.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶, server: de1.rtacg.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 5f84c37f-f153-4abc-b634-859dc6bf90de, tls: true, tfo: false, servername: volatilizable.4kphotos.website, skip-cert-verify: true, network: ws, ws-opts: {path: /nimws, headers: {Host: volatilizable.4kphotos.website}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 2, server: jp.wlhacker.lol, port: 443, client-fingerprint: chrome, type: vless, uuid: 5dc23bba-0e31-4016-895f-517ce4b7ccc0, tls: true, tfo: false, servername: glassiest.toptechnonews.com, skip-cert-verify: true, network: ws, ws-opts: {path: /nimws, headers: {Host: glassiest.toptechnonews.com}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 3, server: ru03.nttkk.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 6a81765b-c396-41fc-82eb-8e80a5328f72, tls: true, tfo: false, servername: hated.thenorthernlights.website, skip-cert-verify: true, network: ws, ws-opts: {path: /nimws, headers: {Host: hated.thenorthernlights.website}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 4, server: us02.nttkk.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 6, server: 3254.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 7, server: 172.67.178.12, port: 80, client-fingerprint: chrome, type: vless, uuid: 27c5483f-17f4-48ae-9a04-def53d88440d, tls: false, tfo: false, servername: de1.rtacg.com, skip-cert-verify: true, network: ws, ws-opts: {path: /safe/, headers: {Host: de1.rtacg.com}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 8, server: 172.67.229.179, port: 80, client-fingerprint: chrome, type: vless, uuid: b7c27529-24fd-482f-fbfb-26bfe4574fc9, tls: false, tfo: false, servername: BiZ.SHokR.dE, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: BiZ.SHokR.dE}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 8, server: us01.nttkk.com, port: 80, client-fingerprint: chrome, type: vless, uuid: b7c27529-24fd-482f-fbfb-26bfe4574fc9, tls: false, tfo: false, servername: BiZ.SHokR.dE, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: BiZ.SHokR.dE}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 9, server: 443.cf.bestl.de, port: 31508, client-fingerprint: chrome, type: vless, uuid: 51d8b6fb-3efe-4513-b515-0f36491ef6fc, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 10, server: finhertz.kurdbazar.online, port: 1518, client-fingerprint: chrome, type: vless, uuid: df1d2c83-d865-4afb-b18a-224e82e8a372, tls: false, tfo: false, servername: finhertz.kurdbazar.online, skip-cert-verify: true, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 11, server: 443.cf.bestl.de, port: 2082, client-fingerprint: chrome, type: vless, uuid: 0a45fb6b-77af-48b3-ab7d-8404d5ad5ccb, tls: false, tfo: false, servername: amstd.shabijichang.com, skip-cert-verify: true, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶, server: cf.yx.alue.link, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 2, server: cgenting.us.to, port: 2087, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 3, server: cf.13d7s.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 4, server: yydsys.top, port: 2096, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 5, server: vp6.top, port: 443, client-fingerprint: chrome, type: vless, uuid: b0138d55-a493-4dc3-9932-c6f0391707c1, tls: true, tfo: false, servername: edge.020770.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048", headers: {Host: edge.020770.xyz}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶, server: 3254.outline-vpn.cloud, port: 2096, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 2, server: amstd.shabijichang.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 3, server: amstd.shabijichang.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 4, server: 542.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 5, server: 172.66.47.174, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 6, server: 5165.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 7, server: 986join.outline-vpn.cloud, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶, server: 64.110.64.167, port: 2096, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 2, server: 64.110.86.224, port: 8443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 3, server: 140.83.49.5, port: 2087, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 4, server: 140.238.37.239, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 5, server: 172.66.47.174, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 6, server: xray1.freegradely.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 7, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟘, server: 64.110.91.92, port: 2087, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "https://www.udomain.hk/sc/customer/case-study?_gl=1*1hsw0bx*_ga*mtewmje1mze2mc4xnjkyotixntu2*_ga_4n38ns1xjw*mty5ndi0mzgxmi40ljaumty5ndi0mzgxmi4wljauma..", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟙, server: 172.67.139.111, port: 2053, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟚, server: 64.110.98.42, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟛, server: 64.110.85.255, port: 2087, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 0, server: cn2023.kingss.serv00.net, port: 54786, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: false, tfo: false, servername: cn2023.kingss.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn2023.kingss.serv00.net}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 1, server: eu.genting.serv00.net, port: 56666, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: eu.genting.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.genting.serv00.net}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 2, server: eu.xiaoxin.serv00.net, port: 28469, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: eu.xiaoxin.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.xiaoxin.serv00.net}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 3, server: cn.samf1340r.serv00.net, port: 63650, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: cn.samf1340r.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.samf1340r.serv00.net}}, udp: true}
+#
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇫🇷丶 𝟬, server: 80.cf.bestl.de, port: 443, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: true, servername: inches-mini-theft-fleet.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: {path: /argo-vless?ed=2048, headers: { Host: inches-mini-theft-fleet.trycloudflare.com}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐦𝐞𝐬𝐬🌍㏬丶🇫🇷丶 𝟬, server: 443.cf.bestl.de, port: 443, client-fingerprint: chrome, type: vmess, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, alterId: 0, cipher: none, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /argo-vmess?ed=2048, headers: {Host: inches-mini-theft-fleet.trycloudflare.com}}, udp: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐫𝐨𝐉𝐚𝐧🌍㏬丶🇫🇷丶 𝟬, server: 443.cf.bestl.de, port: 443, client-fingerprint: chrome, type: trojan, password: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, udp: true, tls: true, sni: inches-mini-theft-fleet.trycloudflare.com, skip-cert-verify: false, network: ws, ws-opts: { path: /argo-trojan?ed=2048, headers: { Host: inches-mini-theft-fleet.trycloudflare.com } } }
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐬🌍㏬丶🇫🇷丶 𝟬, server: 443.cf.bestl.de, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, plugin: v2ray-plugin, plugin-opts: { mode: websocket, host: inches-mini-theft-fleet.trycloudflare.com, path: /argo-shadowsocks?ed=2048, tls: true, skip-cert-verify: false, mux: false } }
+#
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐦𝐞𝐬𝐬🌍㏪丶🇺🇸丶 3, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 073360d9-72cb-4ba5-9a40-8ac6cd918356, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}, udp: true}
+#
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 英国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: ukak001.wusiba.xyz, port: 34255, client-fingerprint: chrome, type: hysteria, auth_str: a8bf03, up: 10, down: 300, fast-open: false, protocol: udp, sni: ukak001.wusiba.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
+#
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 165.140.8.78, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: us1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 38.6.226.207, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: us2.xjichang.buzz, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.114.90.239, port: 4433, type: hysteria2,  password: 123456, sni: new.sharecentre.online, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 俄罗斯 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 185.22.153.30, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: ru1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.242.12.218, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 8.217.79.236, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk2.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.76.36.51, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk3.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.76.32.103, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk4.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: taiwan.xjichang.buzz, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: taiwan.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.245.89.115, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: sg1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 8.219.185.25, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: sg2.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 8.209.218.21, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: jp1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 18.179.46.143, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: jp2.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.245.11.90, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: jp2.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 13.125.142.120, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: kr1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 巴西 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 38.6.226.240, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: br01.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 德国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 45.142.112.26, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: de1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 以色列 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 45.142.112.30, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: il1.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 土耳其 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 45.142.112.26, port: 28888, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: turkey01.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 墨西哥 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 165.140.8.78, port: 17777, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: mx01.xjichang.buzz, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 阿根廷 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 38.6.226.169, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: ar01.xjichang.buzz, skip-cert-verify: true}
+#
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 167.160.91.115, port: 13928, client-fingerprint: chrome, type: hysteria, auth_str: BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3, up: 11, down: 55, fast-open: false, protocol: udp, sni: paypal.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 51.158.54.46, port: 11926, client-fingerprint: chrome, type: hysteria, auth_str: Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs, up: 11, down: 55, fast-open: false, protocol: udp, sni: youku.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.24.7, port: 30682, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 51443, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 46728, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku48.xyz, port: 56411, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www2.dtku49.xyz, port: 54406, type: hysteria2,  password: ebcbb37b, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku46.xyz, port: 60626, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, servername: xray1.freegradely.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 45.150.165.79, port: 25678, reality-opts: {public-key: sJsSZcA2DyAHDTcoe8Utbz9JaXJPMVmtHmiXxWmcExc}, client-fingerprint: chrome, type: vless, uuid: 34f36b97-1fb7-41f3-8db4-912cc69e724a, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐓𝐮𝐢𝐜, server: tuic3.dtku47.xyz, port: 12255, type: tuic,  password: dongtaiwang, uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐓𝐮𝐢𝐜, server: sing2.dtku47.xyz, port: 55667, type: tuic,  password: dongtaiwang, uuid: 2dca51f2-8968-479b-b086-4a62269f3f37, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
 #
 #
 proxy-groups:
@@ -119,17 +249,110 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟠
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟡
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇹🇼丶 𝟘
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 2
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 3
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 4
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 5
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 6
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 7
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 8
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 10
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 11
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 14
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 15
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 16
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 17
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 18
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 19
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏪丶🇺🇸丶 21
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 2
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 3
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 4
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 6
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 7
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 8
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 9
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 10
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🎯㏪丶🇺🇸丶 11
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 2
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 3
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 4
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈㏪丶🇺🇸丶 5
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 2
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 3
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 4
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 5
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 6
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🚀㏪丶🇯🇵丶 7
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟘
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟙
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟚
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬♻️㏪丶🇺🇸丶 𝟛
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 0
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 1
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 2
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 3
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇫🇷丶 𝟬
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐦𝐞𝐬𝐬🌍㏬丶🇫🇷丶 𝟬
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐓𝐫𝐨𝐉𝐚𝐧🌍㏬丶🇫🇷丶 𝟬
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐒𝐬🌍㏬丶🇫🇷丶 𝟬
+#
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐦𝐞𝐬𝐬🌍㏪丶🇺🇸丶 3
+#
+#
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 英国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+#
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 俄罗斯 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 新加坡 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 日本 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 韩国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 巴西 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 德国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 以色列 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 土耳其 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 墨西哥 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 阿根廷 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐓𝐮𝐢𝐜
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐓𝐮𝐢𝐜
 #
 #
   - name: ♻️ 自动选择
@@ -149,12 +372,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
@@ -179,12 +402,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
@@ -208,12 +431,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
@@ -237,12 +460,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
@@ -266,12 +489,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
@@ -312,12 +535,12 @@ proxy-groups:
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟲
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟳
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟴
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇭🇰丶 𝟵
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟘
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟙
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟚
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟛
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟜
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟝
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟞
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬丶㏪丶🇺🇸丶 𝟟
