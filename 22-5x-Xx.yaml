@@ -195,7 +195,7 @@ proxies:
 #
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 165.140.8.78, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: us1.xjichang.buzz, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 38.6.226.207, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: us2.xjichang.buzz, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.114.90.239, port: 4433, type: hysteria2,  password: 123456, sni: new.sharecentre.online, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.114.90.239, port: 4433, type: hysteria2,  password: 123456, sni: new.sharecentre.online, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 俄罗斯 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 185.22.153.30, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: ru1.xjichang.buzz, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 47.242.12.218, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk1.xjichang.buzz, skip-cert-verify: true}
 #  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 8.217.79.236, port: 45565, type: hysteria2,  password: 16b19122-476d-4fa8-937c-d9746b98a22f, sni: hk2.xjichang.buzz, skip-cert-verify: true}
@@ -219,13 +219,13 @@ proxies:
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 173.234.25.52, port: 20164, client-fingerprint: chrome, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, protocol: udp, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚, server: 51.158.54.46, port: 11926, client-fingerprint: chrome, type: hysteria, auth_str: Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs, up: 11, down: 55, fast-open: false, protocol: udp, sni: youku.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.24.7, port: 30682, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 51443, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 46728, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku48.xyz, port: 56411, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www2.dtku49.xyz, port: 54406, type: hysteria2,  password: ebcbb37b, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku46.xyz, port: 60626, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.24.7, port: 30682, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.205, port: 51443, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 108.181.22.155, port: 46728, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: 167.160.90.252, port: 60930, type: hysteria2,  password: fc4488ef, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku48.xyz, port: 56411, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www2.dtku49.xyz, port: 54406, type: hysteria2,  password: ebcbb37b, sni: www.bing.com, skip-cert-verify: true}
+#  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮, server: www.dtku46.xyz, port: 60626, type: hysteria2,  password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, servername: xray1.freegradely.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}, udp: true}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬, server: 45.150.165.79, port: 25678, reality-opts: {public-key: sJsSZcA2DyAHDTcoe8Utbz9JaXJPMVmtHmiXxWmcExc}, client-fingerprint: chrome, type: vless, uuid: 34f36b97-1fb7-41f3-8db4-912cc69e724a, tls: true, tfo: false, servername: itunes.apple.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐓𝐮𝐢𝐜, server: tuic3.dtku47.xyz, port: 12255, type: tuic,  password: dongtaiwang, uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
@@ -317,7 +317,7 @@ proxy-groups:
 #
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 加拿大 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 俄罗斯 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 香港 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
@@ -338,16 +338,16 @@ proxy-groups:
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 阿根廷 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 #
 #      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟯 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟬 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟭 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
+#      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯台湾 𝟮 ㏪丶𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮
 
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟬 ㏪丶𝐕𝐋𝐞𝐬𝐬
       - 「㋉𝐊𝐢𝐍𝐠𝐒²³」 𝚯美国 𝟭 ㏪丶𝐕𝐋𝐞𝐬𝐬
