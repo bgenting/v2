@@ -78,10 +78,6 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1, server: 154.194.2.202, port: 2052, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2, server: ::ffff:154.194.2.206, port: 2052, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3, server: skk.moe, port: 8880, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4, server: 154.194.2.206, port: 2052, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶, server: skk.moe, port: 8880, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2, server: 0000:0000:0000:0000:0000:ffff:9ac2:02ca, port: 2052, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: false, client-fingerprint: chrome, tfo: false, servername: tw.lilu531323.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/79a571fb-4fd2-4b37-8596-1b7d9728bb5c?ed=2048", headers: {Host: tw.lilu531323.workers.dev}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3, server: ::ffff:154.194.2.202, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
@@ -95,7 +91,7 @@ proxies:
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 11, server: hk7.hhhhh.fn-node.site, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 12, server: cfip.201043.xyz, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 13, server: hk13.hhhhh.fn-node.site, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
-  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 14, server: tw03.nttkk.com, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
+#  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 14, server: tw03.nttkk.com, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 15, server: jp03.nttkk.com, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 16, server: jp05.nttkk.com, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 17, server: 0000:0000:0000:0000:0000:ffff:9ac2:02ca, port: 443, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: true, client-fingerprint: chrome, tfo: false, servername: edga.temptemps.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: edga.temptemps.top}}, udp: true}
@@ -134,10 +130,6 @@ proxy-groups:
       - DIRECT
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -192,10 +184,6 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -250,10 +238,6 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -307,10 +291,6 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -364,10 +344,6 @@ proxy-groups:
       - 🚀 节点选择
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -421,10 +397,6 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
@@ -495,10 +467,6 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 2
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 3
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬✈ ㏬丶🇹🇼丶 4
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 2
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 3
