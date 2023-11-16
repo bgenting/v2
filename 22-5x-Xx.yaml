@@ -16,6 +16,12 @@ dns:
     - tls://dns.google:853
 proxies:
 #
+  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏩丶🇹🇼丶 22, server: skk.moe, port: 80, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: false, client-fingerprint: random, tfo: false, servername: cf.bgenting.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: cf.bgenting.workers.dev}}, udp: true}
+  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 23, server: ip.skk.moe, port: 2052, type: vless, uuid: 0cfbf1fb-c792-4c1f-b626-1780572a63ff, tls: false, client-fingerprint: chrome, tfo: false, servername: meto.samfisher.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/vless/0cfbf1fb-c792-4c1f-b626-1780572a63ff?ed=2048", headers: {Host: meto.samfisher.workers.dev}}, udp: true}
+  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 24, server: 172.64.153.211, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 25, server: cf1.openxai.link, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 26, server: cf2.openxai.link, port: 443, client-fingerprint: chrome, type: vless, uuid: 884f9b2c-f0c5-44dd-a68e-3e39ce93bb39, tls: true, tfo: false, servername: cf-wkrs-pages-vless-aoy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca, headers: {Host: cf-wkrs-pages-vless-aoy.pages.dev}}, udp: true}
+#
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝚯𝐓𝐮𝐢𝐜 ㏩丶🇺🇸 𝟭 丶, server: tuic3.dtku47.xyz, port: 12255, type: tuic,  password: dongtaiwang, uuid: ed6a538a-6e66-4f21-a769-4b389bb2f3ab, udp-relay-mode: native, congestion_control: bbr, alpn: [h3]}
 #
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏩丶🇯🇵丶, server: 47.74.42.111, port: 2087, type: vless, uuid: a5634409-3a7c-4865-aea6-6e49b18904f7, tls: true, client-fingerprint: chrome, tfo: false, servername: jp3.vlessx.us, skip-cert-verify: false, network: ws, ws-opts: {path: "/@v2ray_god = a5634409-3a7c-4865-aea6-6e49b18904f7?ed=2048", headers: {Host: jp3.vlessx.us}}}
@@ -40,6 +46,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连     
+#
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏩丶🇹🇼丶 22
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 23
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 24
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 25
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝐕𝐋𝐞𝐬𝐬 ㏨丶🇹🇼丶 26 
 #
       - 「㋊𝐊𝐢𝐍𝐠𝐒²³」𝚯𝐓𝐮𝐢𝐜 ㏩丶🇺🇸 𝟭 丶
 #
