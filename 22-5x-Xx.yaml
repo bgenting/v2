@@ -81,6 +81,7 @@ proxies:
 #
 #
   - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇲🇩丶 0, server: 192.121.87.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+#
   - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 𝟘, server: wireguard00.ydns.eu, port: 7559, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128", private-key: "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1408, remote-dns-resolve: true}
 #
 #
