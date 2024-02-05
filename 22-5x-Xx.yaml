@@ -7,16 +7,11 @@ dns:
   listen: 0.0.0.0:1053
   ipv6: true
   default-nameserver:
-    - 119.29.29.29
     - 223.5.5.5
     - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
     - '*.lan'
     - '*.linksys.com'
     - '*.linksyssmartwifi.com'
@@ -48,10 +43,10 @@ dns:
     - '*.ntp.org.cn'
     - +.pool.ntp.org
     - time1.cloud.tencent.com
-    - +.music.163.com
+    - +.m🇺🇸ic.163.com
     - '*.126.net'
-    - musicapi.taihe.com
-    - music.taihe.com
+    - m🇺🇸icapi.taihe.com
+    - m🇺🇸ic.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
     - '*.kuwo.cn'
@@ -59,11 +54,11 @@ dns:
     - api.joox.com
     - joox.com
     - +.y.qq.com
-    - +.music.tc.qq.com
-    - aqqmusic.tc.qq.com
-    - +.stream.qqmusic.qq.com
+    - +.m🇺🇸ic.tc.qq.com
+    - aqqm🇺🇸ic.tc.qq.com
+    - +.stream.qqm🇺🇸ic.qq.com
     - '*.xiami.com'
-    - +.music.migu.cn
+    - +.m🇺🇸ic.migu.cn
     - +.srv.nintendo.net
     - +.stun.playstation.net
     - xbox.*.microsoft.com
@@ -81,445 +76,104 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-##
-##
+
 proxies:
-##
-##
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 9, server: 47.236.87.206, port: 443, client-fingerprint: randomized, type: vless, uuid: 17827e23-b484-4573-92ae-6fc42ff96240, tls: true, tfo: false, skip-cert-verify: false, servername: test1.bigbao.live, network: ws, ws-opts: {path: "/fuck_yes?ed=2048", headers: {Host: test1.bigbao.live}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 10, server: 47.236.87.206, port: 443, client-fingerprint: randomized, type: vless, uuid: 987908fe-fa0a-42fa-a98e-85146da7b2d6, tls: true, tfo: false, skip-cert-verify: false, servername: kxsw3k.168668520.xyz, network: ws, ws-opts: {path: "/fuck_yes?ed=2048", headers: {Host: kxsw3k.168668520.xyz}}}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇺🇸丶 10, server: 104.16.102.207, port: 2052, client-fingerprint: randomized, type: vless, uuid: 17827e23-b484-4573-92ae-6fc42ff96240, tls: false, tfo: false, skip-cert-verify: false, servername: test1.bigbao.live, network: ws, ws-opts: {path: "/fuck_yes?ed=2048", headers: {Host: test1.bigbao.live}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 11, server: 2083.super5.eu.org.ydns.eu, port: 2052, type: vless, uuid: 198ddd48-dcef-4024-97a0-833c91577872, tls: false, tfo: false, skip-cert-verify: true, servername: ppp.qianbosudio2020.workers.dev, network: ws, ws-opts: {path: "/fuck_yes?ed=2048", headers: {Host: ppp.qianbosudio2020.workers.dev}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12, server: speed.ansh.cfd, port: 443, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12, server: achk.cloudflarest.link, port: 443, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13, server: acjp.cloudflarest.link, port: 2083, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 51a8f9e0-10e3-4e57-8d30-564c6b670b50, tls: true, tfo: false, skip-cert-verify: true, servername: xy.bes.cloudns.org, network: ws, ws-opts: {path: fuck_yes, headers: {Host: xy.bes.cloudns.org}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14, server: acus.cloudflarest.link, port: 2087, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 15, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 16, server: 95.179.210.105, port: 39643, type: vless, uuid: 748d5157-1108-450d-8f23-9edc396c3678, tls: false, tfo: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fuck_yes]}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 17, server: 193.123.241.149, port: 17385, type: vless, uuid: ca8692b7-8f6f-4346-a916-c1e9798ab91b, tls: true, tfo: false, skip-cert-verify: true, servername: freenodes.repe.gay, network: ws, ws-opts: {path: fuck_yes, headers: {Host: freenodes.repe.gay}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 18, server: 47.74.6.55, port: 2087, type: vless, uuid: 73b6dbd5-a27a-4c76-9ad1-42a82380dddb, tls: true, tfo: false, skip-cert-verify: true, servername: ed.ariesver.online, network: ws, ws-opts: {path: fuck_yes, headers: {Host: ed.ariesver.online}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 19, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 7fd7c15d-95cd-4f5c-bf59-f21e5eb27580, tls: true, tfo: false, skip-cert-verify: true, servername: 3k.dabee.top, network: ws, ws-opts: {path: fuck_yes, headers: {Host: 3k.dabee.top}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 20, server: cfcdn1.pubg.lol, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: baipiao1.curly-train.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca, headers: {Host: baipiao1.curly-train.pages.dev}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 20, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏬丶🇯🇵丶 22, server: 104.21.3.167, port: 443, client-fingerprint: chrome, type: vless, uuid: c688395a-b36b-4071-974b-bc91ac2ad2c4, tls: true, tfo: false, servername: edtunnel-b6t.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /vless/c688395a-b36b-4071-974b-bc91ac2ad2c4, headers: {Host: edtunnel-b6t.pages.dev}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 3, server: ip2.topsir.eu.org, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 4, server: cf.13d7s.site, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 5, server: vp6.top, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 3, server: 104.26.4.90, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 4, server: 104.16.102.207, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 5, server: acus.cloudflarest.link, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 6, server: 162.159.141.56, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 7, server: jpbb.sectigo.pp.ua, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇹🇼丶 8, server: japan.com, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 9, server: ru02.nttkk.com, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: 2345.eeekkk.jp.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/2345.eeekkk.jp.eu.org?ed=2048", headers: {Host: 2345.eeekkk.jp.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 10, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, client-fingerprint: randomized, tfo: false, servername: cnnch.eeekkk.ch.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cnnch.eeekkk.ch.eu.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 11, server: 2083.super5.eu.org.ydns.eu, port: 443, type: vless, uuid: 14ddd817-a070-4f7e-b31d-535523702b25, tls: true, client-fingerprint: randomized, tfo: false, servername: cs.agenting.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/cs.agenting.cloudns.biz?ed=2048", headers: {Host: cs.agenting.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 12, server: jp.wuyue.free.hr.ydns.eu, port: 443, type: vless, uuid: 14ddd817-a070-4f7e-b31d-535523702b25, tls: true, client-fingerprint: randomized, tfo: false, servername: cs.agenting.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/cs.agenting.cloudns.biz?ed=2048", headers: {Host: cs.agenting.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 13, server: cf.178820225.xyz, port: 443, type: vless, uuid: 14ddd817-a070-4f7e-b31d-535523702b25, tls: true, client-fingerprint: randomized, tfo: false, servername: cs.agenting.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/cs.agenting.cloudns.biz?ed=2048", headers: {Host: cs.agenting.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 14, server: 104.16.250.250, port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 14, server: 104.26.4.90, port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 14, server: 47.236.121.7, port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 15, server: 104.26.5.60, port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 15, server: 2jp2.pqjc.buzz, port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 16, server: "2jp4.pqjc.buzz", port: 443, client-fingerprint: chrome, type: vless, uuid: 79a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: tw.roripi.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?tw.roripi.cloudns.biz?ed=2048", headers: {Host: tw.roripi.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 17, server: 47.236.121.7, port: 443, client-fingerprint: chrome, type: vless, uuid: 80a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: cf-12-21.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?cf-12-21.kocivox819.cloudns.biz?ed=2048", headers: {Host: cf-12-21.kocivox819.cloudns.biz}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 17, server: "199.15.76.35", port: 443, client-fingerprint: chrome, type: vless, uuid: 80a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: cf-12-21.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?cf-12-21.kocivox819.cloudns.biz?ed=2048", headers: {Host: cf-12-21.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 18, server: 104.21.80.120, port: 443, client-fingerprint: chrome, type: vless, uuid: 80a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: cf-12-21.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?cf-12-21.kocivox819.cloudns.biz?ed=2048", headers: {Host: cf-12-21.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 18, server: "172.67.180.134", port: 443, client-fingerprint: chrome, type: vless, uuid: 80a571fb-4fd2-4b37-8596-1b7d9728bb5c, tls: true, tfo: false, servername: cf-12-21.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?cf-12-21.kocivox819.cloudns.biz?ed=2048", headers: {Host: cf-12-21.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 19, server: 1.achen.link, port: 443, client-fingerprint: randomized, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: sg.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: sg.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 19, server: 47.236.121.7, port: 443, client-fingerprint: randomized, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: sg.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: sg.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 20, server: www.coor.fi, port: 443, client-fingerprint: randomized, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: sg.kocivox819.cloudns.biz, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: sg.kocivox819.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 21, server: cloudflare.cfgo.cc, port: 443, client-fingerprint: randomized, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: jp.bafake9344.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: jp.bafake9344.cloudns.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 22, server: jp1.jjjjj.fn-node.site, port: 443, client-fingerprint: randomized, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: 13.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 13.acb819.cloudns.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 23, server: japan.com, port: 8443, client-fingerprint: random, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: 13.0.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 13.0.acb819.cloudns.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 24, server: 2083.super5.eu.org.ydns.eu, port: 8443, client-fingerprint: random, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: 13.0.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 13.0.acb819.cloudns.org}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 25, server: 104.26.4.90, port: 8443, client-fingerprint: random, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: 13.0.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 13.0.acb819.cloudns.org}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 25, server: jp.cloudflarest.link, port: 8443, client-fingerprint: random, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: true, tfo: false, servername: 13.0.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 13.0.acb819.cloudns.org}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 26, server: 199.15.76.35, port: 443, type: vless, uuid: 48332bd1-46b9-4ec4-975f-4dfb0ce40445, tls: true, tfo: false, skip-cert-verify: true, servername: jp.tvbs.cloudns.biz, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: jp.tvbs.cloudns.biz}}, udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 26, server: 47.236.121.7, port: 443, type: vless, uuid: 48332bd1-46b9-4ec4-975f-4dfb0ce40445, tls: true, tfo: false, skip-cert-verify: true, servername: 0.agenting.dedyn.io, network: ws, ws-opts: {path: "/@v2ray_god = 0000:0000:0000:0000:0000:ffff:9ac2:02ca", headers: {Host: 0.agenting.dedyn.io}}, udp: true}
-##
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇩🇪丶 26, server: 199.15.76.35, port: 443, type: vless, uuid: 48332bd1-46b9-4ec4-975f-4dfb0ce40445, tls: true, tfo: false, skip-cert-verify: true, servername: de.agenting.dedyn.io, network: ws, ws-opts: {path: "/vls?ed=2048", headers: {Host: de.agenting.dedyn.io}}, udp: true}
-##
-##
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 𝟘, server: agenting.co.uk, port: 51467, client-fingerprint: chrome, type: vless, uuid: 38332bd1-36b9-4ec3-975f-4dfb0ce30445, tls: false, tfo: false, servername: agenting.co.uk, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: agenting.co.uk}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 0, server: cn2023.kingss.serv00.net, port: 54786, client-fingerprint: chrome, type: vless, uuid: f23f2f26-99e5-44bb-bb5b-19de97c1d6d4, tls: false, tfo: false, servername: cn2023.kingss.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn2023.kingss.serv00.net}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 1, server: eu.genting.serv00.net, port: 56666, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: eu.genting.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.genting.serv00.net}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 2, server: eu.xiaoxin.serv00.net, port: 28469, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: eu.xiaoxin.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu.xiaoxin.serv00.net}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 3, server: cn.samf1340r.serv00.net, port: 63650, client-fingerprint: chrome, type: vless, uuid: 79be33ae-793d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: cn.samf1340r.serv00.net, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.samf1340r.serv00.net}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 0, server: 985.acb819.cloudns.org, port: 443, client-fingerprint: chrome, type: vless, uuid: 38332bd136b94ec3975f4dfb0ce30445, tls: true, tfo: false, servername: 985.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 985.acb819.cloudns.org}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 1, server: 199.15.76.35, port: 443, client-fingerprint: chrome, type: vless, uuid: 38332bd136b94ec3975f4dfb0ce30445, tls: true, tfo: false, servername: 985.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 985.acb819.cloudns.org}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 2, server: 146.56.180.83, port: 443, client-fingerprint: chrome, type: vless, uuid: 38332bd136b94ec3975f4dfb0ce30445, tls: true, tfo: false, servername: 985.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 985.acb819.cloudns.org}}, udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 3, server: 47.236.121.7, port: 443, client-fingerprint: chrome, type: vless, uuid: 38332bd136b94ec3975f4dfb0ce30445, tls: true, tfo: false, servername: 985.acb819.cloudns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 985.acb819.cloudns.org}}, udp: true}
-##
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇭🇰丶 0, server: 8.217.53.93, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 0, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇭🇰丶 1, server: a3ca.e2s.buzz, port: 36999, type: ss, cipher: aes-256-gcm, password: 47c97380-6525-46ca-88ef-d23866fc904c, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇭🇰丶 0, server: 112.28.208.14, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇭🇰丶 1, server: 183.240.232.94, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 0, server: tiananmen.19890604.day, port: 10801, type: trojan, password: ce76291d-57ec-4b83-aaba-9f5acee29ab7, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
-##
-##
-  - {name: "「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝗠𝐞𝐬𝐬 ㏢丶🇺🇸丶 0", server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f5c180eb-fbce-49ac-9029-482eca9385c0, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: xray1.freeh1.xyz, network: ws, ws-opts: {path: /gzogws, headers: {Host: xray1.freeh1.xyz}}, udp: true}
-##
-##
-## wireguard00.ydns.eu  wireguard01.ydns.eu wireguard02.ydns.eu
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01, server: 188.114.97.41, port: 8886, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128", private-key: "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1408, remote-dns-resolve: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02, server: 188.114.96.70, port: 7152, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128", private-key: "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1408, remote-dns-resolve: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03, server: 188.114.96.158, port: 7559, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128", private-key: "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1408, remote-dns-resolve: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04, server: 188.114.96.141, port: 2408, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8c7a:9a47:94c9:4acd:cf42/128", private-key: "SFfLfPIifw3m7Iwq0mHSkWRge40A6OFifu+iXs6ein8=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1280, remote-dns-resolve: true, reserved: 5z9N}
-##
-##
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0, server: 51.158.54.46, port: 55396, type: hysteria, auth_str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: youku.com, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0, server: 167.160.90.251, port: 48089, type: hysteria, auth_str: dongtaiwang.com, up: 50, down: 80, fast-open: false, sni: 167.160.90.251, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1, server: 173.234.25.52, port: 20164, type: hysteria, auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F, up: 11, down: 55, fast-open: false, sni: www.microsoft.com, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 2, server: 108.181.22.213, port: 52284, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 50, down: 80, fast-open: false, sni: 108.181.22.213, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 3, server: 108.181.22.155, port: 19721, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 50, down: 80, fast-open: false, sni: 108.181.22.155, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 4, server: 104.234.70.41, port: 57153, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 50, down: 80, fast-open: false, sni: 104.234.70.41, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇹🇼丶 0, server: www2.dtku48.xyz, port: 22334, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 50, down: 80, fast-open: false, skip-cert-verify: true, alpn: [h3], udp: true}
-#  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0, server: 64.110.25.11, port: 33337, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: false}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1, server: 167.160.91.115, port: 41189, type: hysteria, auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF, auth-str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF, up: 11, down: 55, fast-open: false, sni: www.amazon.cn, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 2, server: 173.234.25.52, port: 30072, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 3, server: 108.181.22.239, port: 39967, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 5, server: 104.234.70.6, port: 16117, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 50, down: 80, fast-open: false, sni: 104.234.70.6, skip-cert-verify: true, alpn: [h3], udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 6, server: 167.160.91.115, port: 41189, client-fingerprint: chrome, type: hysteria, auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF, up: 11, down: 55, fast-open: false, sni: www.amazon.cn, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 7, server: 108.181.22.239, port: 39967, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇹🇼丶 0, server: www.dtku50.xyz, port: 28877, client-fingerprint: chrome, type: hysteria, auth_str: y6Sf5xTFyNx5, up: 1000, down: 1000, fast-open: false, sni: www.dtku50.xyz, skip-cert-verify: true, alpn: [h3], udp: true}
-##
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0, server: 108.181.22.155, port: 27710, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1, server: 167.160.90.252, port: 63530, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 0, server: 51.158.54.46, port: 44550, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0, server: 45.150.165.84, port: 33440, type: hysteria2, password: d017e316-82cb-441c-8eea-7b5e9de64a20, auth: d017e316-82cb-441c-8eea-7b5e9de64a20, skip-cert-verify: true, obfs: salamander, obfs-password: d017e316-82cb-441c-8eea-7b5e9de64a20}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1, server: 64.110.25.11, port: 33337, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 2, server: 108.181.24.77, port: 43656, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 1, server: 62.210.101.0, port: 52465, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 2, server: 62.210.103.0, port: 52465, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 2, server: 45.145.72.212, port: 23520, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: bing.com, skip-cert-verify: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 3, server: 108.181.22.155, port: 27710, type: hysteria2, up: 0, down: 0, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-##
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0, server: dongtaiwang3.com, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, client-fingerprint: chrome, tfo: false, servername: xray1.freegradely.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1, server: dongtaiwang3.com, port: 443, type: vless, uuid: f5c180eb-fbce-49ac-9029-482eca9385c0, tls: true, client-fingerprint: chrome, tfo: false, servername: xray1.freeh1.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /gzogws, headers: {Host: xray1.freeh1.xyz}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇨🇦丶 0, server: dongtaiwang3.com, port: 443, type: vless, uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075, tls: true, tfo: false, skip-cert-verify: true, servername: v2ray3.freegradely.xyz, network: ws, ws-opts: {path: /bqbows, headers: {Host: v2ray3.freegradely.xyz}}, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1, server: cloudflare.cfgo.cc, port: 443, type: vless, uuid: 0773256c-d020-436d-afea-6eee7cb6c872, tls: true, tfo: false, skip-cert-verify: true, servername: xray1.freegradely.xyz, network: ws, ws-opts: {path: /bodhws, headers: {Host: xray1.freegradely.xyz}}, udp: true}
-##
-##
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐓𝐮𝐢𝐜 ㏹丶🇺🇸  丶 0, server: 64.110.25.10, port: 11227, type: tuic,  password: dongtaiwang.com, uuid: 764b539f-2d3c-4772-9731-5ebf6984af98, udp-relay-mode: native, sni: bing.com, congestion_control: bbr, alpn: [h3], skip-cert-verify: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐓𝐮𝐢𝐜 ㏹丶🇺🇸  丶 1, server: 64.110.25.10, port: 11227, type: tuic,  password: dongtaiwang.com, uuid: 764b539f-2d3c-4772-9731-5ebf6984af98, udp-relay-mode: native, sni: bing.com, congestion_control: bbr, alpn: [h3], skip-cert-verify: true}
-##
-##
-##  - {"name":" 🇹🇼_台湾_112","type":"ss","server":"ty12.twty.dynu.net","port":4303,"password":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","cipher":"chacha20-ietf-poly1305"}
-##  - {"name":" 🇹🇼_台湾_113","type":"ss","server":"ty11.twty.dynu.net","port":2203,"password":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","cipher":"chacha20-ietf-poly1305"}
-##  - {"name":" 🇹🇼_台湾_114","type":"ss","server":"ty12.twty.dynu.net","port":4303,"password":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","cipher":"chacha20-ietf-poly1305"}
-##  - {"name":" 🇹🇼_台湾_115","type":"ss","server":"ty11.twty.dynu.net","port":2203,"password":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","cipher":"chacha20-ietf-poly1305"}
-##  - {"name":" 🇹🇼_台湾_116","type":"vmess","server":"nb22.ntbq.dynu.net","port":12002,"cipher":"auto","uuid":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-##  - {"name":" 🇹🇼_台湾_117","type":"ss","server":"ty11.twty.dynu.net","port":2203,"password":"4c698ff1-ab96-4ce3-8c3a-e23ced87b441","cipher":"chacha20-ietf-poly1305"}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇫🇷丶 0, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇯🇵丶 0, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇯🇵丶 1, server: 13.230.96.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 0, server: c001.panda003.net, port: 53243, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 1, server: p141.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 2, server: p221.panda001.net, port: 34642, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 3, server: p228.panda004.net, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 4, server: p232.panda004.net, port: 4398, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 5, server: p233.panda004.net, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 6, server: p234.panda004.net, port: 56906, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 7, server: ad.cutecloud.link, port: 33567, type: ss, cipher: chacha20-ietf-poly1305, password: 56633687-3c35-4bae-9a15-efff8eb67f98, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇲🇩丶 0, server: 192.121.87.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 0, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 1, server: 217.30.10.68, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 2, server: 217.30.10.68, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 3, server: 217.30.10.68, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 0, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk02.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 1, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 2, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: my02.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇺🇸丶 0, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk04.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇯🇵丶 0, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk01.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇯🇵丶 1, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: my01.trojanyyds.xyz, skip-cert-verify: false}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎊 ㏢丶🇰🇷丶 0, server: kr-seoul-oracle-b0566e.ip1.shop, port: 34752, type: vless, uuid: 10a6816f-1ef0-45de-9787-e052df47e429, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: polEzhe3SnWXJm0gMIlBzLGIqZZlPVctSbmLoqQKRA0, short-id: 3cc8}, servername: images.apple.com, client-fingerprint: chrome, network: tcp}
-##  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇺🇸丶 0, server: cf.178820225.xyz, port: 80, type: vmess, uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /66hh, headers: {Host: mg3h.jz-kj.top}}}
-##
-##
+#
+#
+  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12, server: speed.ansh.cfd, port: 443, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
+  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13, server: speed.ansh.cfd, port: 2083, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
+  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14, server: speed.ansh.cfd, port: 2087, type: vless, uuid: 60813b9d-aa0e-4a5c-88b8-ed231058e82a, tls: true, tfo: false, skip-cert-verify: true, servername: pages.20230619.love, network: ws, ws-opts: {path: fuck_yes, headers: {Host: pages.20230619.love}}, udp: true}
+#
+  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0, server: wireguard00.ydns.eu, port: 7559, type: wireguard, udp: true, ip: "172.16.0.2/32", ipv6: "2606:4700:110:8f0a:fcdb:db2f:3b3:4d49/128", private-key: "GAl2z55U2UzNU5FG+LW3kowK+BA/WGMi1dWYwx20pWk=", public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", dns: ["1.1.1.1"], mtu: 1408, remote-dns-resolve: true}
+#
+#
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-##
-##
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 9
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 10
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇸🇬丶 11
+#
+#
       - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
       - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 15
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 16
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 17
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 18
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 19
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 20
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏬丶🇯🇵丶 22
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 3
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 4
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 5
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 6
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 7
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇹🇼丶 8
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 9
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 10
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 11
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 12
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 13
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 14
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 14
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 14
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 15
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 15
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇺🇸丶 16
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 17
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 17
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 18
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 18
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 19
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 19
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 20
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 21
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇸🇬丶 22
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 23
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 24
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇭🇰丶 25
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇯🇵丶 26
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬⛔️ ㏢丶🇩🇪丶 26
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇭🇰丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇭🇰丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇭🇰丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇭🇰丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 0
-##
-##
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 𝟘
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 1
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 2
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🌍㏬丶🇵🇱丶 3
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 2
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 3
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 4
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇹🇼丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 2
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 3
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 5
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 6
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 7
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇹🇼丶 0      
-##
-##
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 2
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 1
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇫🇷丶 2      
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 2
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 3
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇨🇦丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝗠𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐓𝐮𝐢𝐜 ㏹丶🇺🇸  丶 0
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇫🇷丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇯🇵丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇯🇵丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 2
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 3
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 4
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 5
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 6
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇰🇷丶 7
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇲🇩丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 2
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬🎊 ㏢丶🇵🇱丶 3
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇭🇰丶 2
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇯🇵丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🎊 ㏢丶🇯🇵丶 1
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎊 ㏢丶🇰🇷丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝗠𝐞𝐬𝐬🎊 ㏢丶🇺🇸丶 0
-##
-##
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -542,27 +196,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 01
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 02
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 03
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝🚄 ㏢丶🇺🇸丶 04
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇫🇷丶 0
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 0
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚𝟮 ㏹丶🇺🇸丶 1
-##
-##
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 0
-##      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏹丶🇺🇸丶 1
-##
-##
+#
+#
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 12
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 13
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」𝐕𝐋𝐞𝐬𝐬🎥 ㏢丶🇭🇰丶 14
+#
+      - 「㋋𝐊𝐢𝐍𝐠𝐒²³」⛔️𝐖𝐢𝐫𝐞𝐠𝐮𝐚𝐫𝐝 ㏢丶🇺🇸丶 0
+#
+#
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
