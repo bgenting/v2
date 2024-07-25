@@ -6,8 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
 #
-
-#
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0, server: 45.150.165.121, port: 7885, reality-opts: {public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8, short-id: 40cb281a}, client-fingerprint: chrome, type: vless, uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2, tls: true, tfo: false, servername: www.yahoo.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 1, server: 62.210.100.235, port: 23357, reality-opts: {public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M, short-id: 0b4badde}, client-fingerprint: chrome, type: vless, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, tls: true, tfo: false, servername: www.yahoo.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
   - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇫🇷丶 0, server: 62.210.101.0, port: 23357, reality-opts: {public-key: U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M, short-id: 0b4badde}, client-fingerprint: chrome, type: vless, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, tls: true, tfo: false, servername: www.yahoo.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
