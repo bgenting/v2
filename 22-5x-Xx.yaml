@@ -17,48 +17,11 @@ proxies:
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2, server: 91.149.239.23, port: 12345, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, sni: bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com}
 #
 #
+  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0, server: 45.150.165.121, port: 7885, reality-opts: {public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8, short-id: 40cb281a}, client-fingerprint: chrome, type: vless, uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2, tls: true, tfo: false, servername: www.yahoo.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0, server: 46.29.166.206, port: 400, type: vless, uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI}, servername: www.paypal.com, client-fingerprint: chrome, network: tcp}
+#
+#
   - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0, server: 91.149.239.23, port: 34567, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=", plugin: shadow-tls, plugin-opts: {host: nijigen-works.jp, password: "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=", version: 3}}
-#
-#
-  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🌏 ㏢丶🇹🇼丶 0 𝗮, server: japan.com, port: 8443, client-fingerprint: chrome, type: trojan, password: onezyh, sni: now-pages-sub.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub.pages.dev}}, udp: true}
-  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🌏 ㏢丶🇹🇼丶 1 𝗮, server: icook.tw, port: 8443, client-fingerprint: chrome, type: trojan, password: 1234567890tr, sni: tr.aica.cf, skip-cert-verify: true, udp: true, network: ws, tls: false, tfo: false}
-#
-#
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇯🇵丶日本丶🇯🇵, server: tv.icook.tw, port: 8443, client-fingerprint: random, type: vless, uuid: 84bcad42-e38b-452e-94db-709de4dd3092, tls: true, servername: serv00s09.nbxxxxxx.us.kg, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: serv00s09.nbxxxxxx.us.kg}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇦🇺丶澳大利亚丶🇦🇺, server: 104.19.37.125, port: 8443, client-fingerprint: random, type: vless, uuid: 84bcad42-e38b-452e-94db-709de4dd3092, tls: true, servername: serv00s09.nbxxxxxx.us.kg, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: serv00s09.nbxxxxxx.us.kg}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸, server: 104.19.50.68, port: 8443, client-fingerprint: random, type: vless, uuid: 84bcad42-e38b-452e-94db-709de4dd3092, tls: true, servername: serv00s09.nbxxxxxx.us.kg, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: serv00s09.nbxxxxxx.us.kg}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲, server: 104.19.34.51, port: 8443, client-fingerprint: random, type: vless, uuid: 84bcad42-e38b-452e-94db-709de4dd3092, tls: true, servername: serv00s09.nbxxxxxx.us.kg, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: serv00s09.nbxxxxxx.us.kg}}}
-#
-#
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸, server: bestip.2024921.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 89c13786-25aa-4520-b2e7-12cd60fb5202, tls: true, servername: codesphereus01.freeargo.eu.org, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: codesphereus01.freeargo.eu.org}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲, server: bestip.2024921.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 3f3e7b76-bebb-4e44-941b-a7594d6e761e, tls: true, servername: herokus.vps-jdkz.gq, network: ws, ws-opts: {path: "/vless?ed=2048", headers: {Host: herokus.vps-jdkz.gq}}}
-#
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇲丶美国丶, server: 167.253.152.116, port: 23238, client-fingerprint: chrome, type: hysteria2, password: 22614cabeff918e3, auth: 22614cabeff918e3, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇲丶美国丶🇺🇲, server: 167.253.152.235, port: 20801, client-fingerprint: chrome, type: hysteria2, password: 364e8db7a2d57e32, auth: 364e8db7a2d57e32, sni: www.bing.com, skip-cert-verify: true}
-#
-#
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸, server: 156.238.254.230, port: 54603, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, client-fingerprint: chrome, type: vless, uuid: f141fae0-9e0a-4298-d4e8-5f301adf6c38, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸丶无限量, server: 156.238.254.230, port: 56606, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, client-fingerprint: chrome, type: vless, uuid: f141fae0-9e0a-4298-d4e8-5f301adf6c38, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲, server: 104.16.64.0, port: 443, type: vless, uuid: 1634a231-a4fd-4dee-8fc9-756eabaee4f7, tls: true, servername: t-1.syjd.xyz, network: ws, ws-opts: {path: "/vless_ws/test/1?ed=2048", headers: {Host: t-1.syjd.xyz}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇨🇳丶旺角丶🇭🇰, server: myanmar.visa.com, port: 443, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇭🇰丶西贡丶🇭🇰, server: us9-cdn.tomimg.ggff.net, port: 443, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇭🇰丶中環丶🇭🇰, server: 219.77.65.212, port: 23555, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶纽约丶🇺🇲, server: cdn-yx.syjd.xyz, port: 8443, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶旧金山丶🇺🇲, server: cfcncu6.marisalnc.com, port: 8443, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶凤凰城丶🇺🇲, server: us9-cdn.tomimg.ggff.net, port: 8443, client-fingerprint: random, type: vless, uuid: 6c0397ec-b008-4114-981e-58560b0ffc5f, tls: true, servername: flashing.flashing6666.ggff.net, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: flashing.flashing6666.ggff.net}}}    
-#
-#
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇺🇲丶亚特兰大丶🇺🇲, server: us9-cdn.tomimg.ggff.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 1634a231-a4fd-4dee-8fc9-756eabaee4f7, tls: true, servername: t-1.syjd.xyz, network: ws, ws-opts: {path: "/vless_ws/test/1?ed=2048", headers: {Host: t-1.syjd.xyz}}}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇭🇰丶九龍城丶🇭🇰, server: 8.218.103.220, port: 21808, reality-opts: {public-key: 1lqW4F3ZtkgOLXQzbMRZkF0m1cA4g0RgHuSPiHTqnEA, short-id: b020c7f8}, client-fingerprint: chrome, type: vless, uuid: 9bcb56f8-ba52-4003-b62d-b84d0e1f490d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, network: tcp}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇸🇬丶樟宜丶🇸🇬, server: 13.213.45.189, port: 29557, reality-opts: {public-key: F6SftDud0FoLhIHUkighTBC1iUBVz4-6ZXIuLSjlm0Y, short-id: 248897ad}, client-fingerprint: chrome, type: vless, uuid: f6cc30cf-80b0-4a1b-8404-2e8c89b9d124, tls: true, flow: xtls-rprx-vision, servername: www.yahoo.com, network: tcp}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇸🇬丶樟宜丶🇸🇬, server: 13.213.45.189, port: 12814, client-fingerprint: chrome, type: hysteria2, password: f6cc30cf-80b0-4a1b-8404-2e8c89b9d124, auth: f6cc30cf-80b0-4a1b-8404-2e8c89b9d124, sni: www.bing.com, skip-cert-verify: true}
-#
-#
-  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼, server: 45.150.242.232, port: 4445, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, servername: vless.ifx.us.kg, network: ws, ws-opts: {path: "/?ed=13450k=king", headers: {Host: vless.ifx.us.kg}}}
-  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇰🇷丶首尔丶🇰🇷, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, servername: vless.ifx.us.kg, network: ws, ws-opts: {path: "/?ed=13450k=king", headers: {Host: vless.ifx.us.kg}}}
-#
-#
-  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰, server: 8.217.119.158, port: 587, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojans.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojans.trevely.us.kg}}}
 #
 #
 proxy-groups:
@@ -74,50 +37,14 @@ proxy-groups:
 #
       - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
       - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2     
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
 #
       - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
-#
-#
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🌏 ㏢丶🇹🇼丶 0 𝗮
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁴」𝐓𝐫𝐨𝐉𝐚𝐧🌏 ㏢丶🇹🇼丶 1 𝗮
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇯🇵丶日本丶🇯🇵
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇦🇺丶澳大利亚丶🇦🇺
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇲丶美国丶
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍇𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇲丶美国丶🇺🇲
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸丶无限量      
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶美国丶🇺🇲
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇨🇳丶旺角丶🇭🇰
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇭🇰丶西贡丶🇭🇰
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇭🇰丶中環丶🇭🇰
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶纽约丶🇺🇲
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶旧金山丶🇺🇲
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍌𝐕𝐋𝐞𝐬𝐬 🇺🇲丶凤凰城丶🇺🇲           
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇺🇲丶亚特兰大丶🇺🇲
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇭🇰丶九龍城丶🇭🇰
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐕𝐋𝐞𝐬𝐬 🇸🇬丶樟宜丶🇸🇬
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」™️🍒𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇸🇬丶樟宜丶🇸🇬
-#
-#
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇰🇷丶首尔丶🇰🇷
-#
-#
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
 #
 #
   - name: ♻️ 自动选择
@@ -127,7 +54,19 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🎥 NETFLIX
@@ -138,7 +77,19 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: ⛔️ 广告拦截
@@ -161,7 +112,19 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🌏 国内媒体
@@ -176,7 +139,19 @@ proxy-groups:
       - 🔰 节点选择
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 📲 电报信息
@@ -186,7 +161,19 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🍎 苹果服务
@@ -197,7 +184,19 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🎯 全球直连
@@ -217,7 +216,19 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 2
+#
+#
+      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐕𝐋𝐞𝐬𝐬 ㏢丶🇺🇸丶 0
+#
+#
+      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
 rules:
@@ -10459,3 +10470,4 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
