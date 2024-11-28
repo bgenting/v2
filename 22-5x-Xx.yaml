@@ -17,9 +17,6 @@ proxies:
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎, server: 195.154.217.220, port: 41934, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com}
 #
 #
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0, server: 91.149.239.23, port: 34567, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=", plugin: shadow-tls, plugin-opts: {host: nijigen-works.jp, password: "YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=", version: 3}}
-#
-#
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -34,9 +31,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 纽约
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: ♻️ 自动选择
@@ -54,9 +48,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
-#
-#
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -71,9 +62,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 纽约
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: ⛔️ 广告拦截
@@ -104,9 +92,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
-#
-#
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -127,9 +112,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
-#
-#
   - name: 📲 电报信息
     type: select
     proxies:
@@ -143,9 +125,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 纽约
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🍎 苹果服务
@@ -162,9 +141,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 纽约
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
   - name: 🎯 全球直连
@@ -190,9 +166,6 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 纽约
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
-#
-#
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 ㏢丶🇺🇸丶 0
 #
 #
 rules:
