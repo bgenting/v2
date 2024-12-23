@@ -12,34 +12,9 @@ proxies:
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿, server: 46.17.41.189, port: 50717, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
 #
 #
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0, server: 195.154.200.178, port: 10312, client-fingerprint: chrome, type: hysteria, auth_str: "", auth-str: "", up: 11, down: 55, sni: bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com}
-  - {name: 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1, server: 46.17.43.223, port: 64907, type: hysteria, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密, server: 208.87.243.151, port: 38670, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎, server: 195.154.217.220, port: 41934, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: bing.com, skip-cert-verify: true, alpn: [h3], obfs: dongtaiwang.com}
   - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多, server: 195.154.184.5, port: 22787, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, sni: bing.com, skip-cert-verify: true, alpn: [h3]}
-#
-#
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐭𝐭𝐩 🇭🇰丶香港丶🇭🇰, type: http, server: hk9.ftq.ink, port: 4000, tls: true }
-#
-#
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇹🇼丶澎湖丶🇹🇼, server: fastly.net, port: 80, client-fingerprint: chrome, type: vless, uuid: d85346a9-ba7b-5c83-8c84-c3d54e42e9d1, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: PABLOO-MOSTAFA.COM}}}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇯🇵丶大阪丶🇯🇵, server: 188.245.215.46, port: 19984, client-fingerprint: chrome, type: vless, uuid: 13e15bfe-73f7-4bfe-a386-136451137fc3, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [Telewebion.com]}}}
-#
-#
-  - {name: 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼, server: cc-amd2.jxvps.us.kg, port: 27922, reality-opts: {public-key: 9kiwAzpDodSbd10Ejju4HuhWVGN_PpqQVQp7kqhbmhY}, client-fingerprint: chrome, type: vless, uuid: 81f66d1d-c19d-482f-fbb2-55e9c0eed5f8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: microsoft.com, network: tcp}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇭🇰丶尖沙咀丶🇭🇰, server: ling.sam.us.kg, port: 56505, reality-opts: {public-key: 8heJsujCl6jkwsawgHWJcuIDm7sxDxbDTpePXSiBmCY, short-id: ca}, client-fingerprint: chrome, type: vless, uuid: bca3c83e-8a8e-401e-9663-0b3f734c8e15, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: tesla.com, network: tcp}
-#
-#
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶凤凰城丶🇺🇸, server: 65.21.206.30, port: 45527, client-fingerprint: chrome, type: hysteria2, password: bc97f674-c578-4940-9234-0a1da46041b9, auth: bc97f674-c578-4940-9234-0a1da46041b9, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶拉斯维加斯丶🇺🇸, server: 66.135.11.68, port: 443, client-fingerprint: chrome, type: hysteria2, password: 4e9ee29b39a28277, auth: 4e9ee29b39a28277, sni: 66.135.11.68, skip-cert-verify: true, obfs: salamander, obfs-password: 13f7ba5f}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇩🇪丶柏林丶🇩🇪, server: 65.21.206.30, port: 45527, client-fingerprint: chrome, type: hysteria2, password: bc97f674-c578-4940-9234-0a1da46041b9, auth: bc97f674-c578-4940-9234-0a1da46041b9, sni: www.bing.com, skip-cert-verify: true}
-#
-#
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸, server: 141.148.158.99, port: 25980, reality-opts: {public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM}, client-fingerprint: chrome, type: vless, uuid: 18f52185-1f53-4981-e70e-758db1a060f5, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: blog.api.www.cloudflare.com, network: tcp}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪, server: 188.245.215.46, port: 19984, client-fingerprint: chrome, type: vless, uuid: 13e15bfe-73f7-4bfe-a386-136451137fc3, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [Telewebion.com]}}}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷, server: 172.67.164.232, port: 443, client-fingerprint: chrome, type: vmess, uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 33.bycf.us.kg, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: 33.bycf.us.kg}}}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸, server: nb_ae7a7.kaiqsz.com, port: 59861, client-fingerprint: chrome, type: trojan, password: 7ade5dc8-b002-4b26-b855-c5c319ce9c12, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
-  - {name: 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸, server: 218.93.206.203, port: 10960, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dSI+ldfo6zd7gxeQjIaWcQ==, tfo: false}
 #
 #
 proxy-groups:
@@ -53,34 +28,9 @@ proxy-groups:
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
 #
 #
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 0
-      - 「㋉𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 1
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
       - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
-#
-#
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐭𝐭𝐩 🇭🇰丶香港丶🇭🇰
-#
-#
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇹🇼丶澎湖丶🇹🇼
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍏𝐕𝐋𝐞𝐬𝐬 🇯🇵丶大阪丶🇯🇵
-#
-#
-      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍅𝐕𝐋𝐞𝐬𝐬 🇭🇰丶尖沙咀丶🇭🇰
-#
-#
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶凤凰城丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶拉斯维加斯丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍹𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇩🇪丶柏林丶🇩🇪
-#
-#
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
 #
 #
   - name: ♻️ 自动选择
@@ -90,11 +40,12 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
   - name: 🎥 NETFLIX
@@ -105,11 +56,12 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
   - name: ⛔️ 广告拦截
@@ -132,11 +84,12 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
   - name: 🌏 国内媒体
@@ -151,11 +104,12 @@ proxy-groups:
       - 🔰 节点选择
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多黎
 #
 #
   - name: 📲 电报信息
@@ -165,11 +119,12 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
   - name: 🍎 苹果服务
@@ -180,11 +135,12 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
   - name: 🎯 全球直连
@@ -204,11 +160,12 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德国丶🇩🇪
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐕𝗠𝐞𝐬𝐬 🇫🇷丶法国丶🇫🇷
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝐓𝐫𝐨𝐉𝐚𝐧 🇺🇸丶美国丶🇺🇸
-      - 「㋋𝐊𝐢𝐍𝐠𝐒²⁴」™️🍀𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶美国丶🇺🇸
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 华盛顿
+#
+#   
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 巴黎
+      - 「㋊𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 波爾多
 #
 #
 rules:
