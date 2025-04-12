@@ -9,7 +9,7 @@ external-controller: :9090
 proxies:
 #
 #
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 莫斯科, server: 46.17.41.217, port: 64816, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
+  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 莫斯科, server: 46.17.41.217, port: 64816, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
 #
 #
 proxy-groups:
