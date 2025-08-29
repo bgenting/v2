@@ -39,7 +39,7 @@ proxies:
   - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐓𝐮𝐢𝐜 ㏢🇫🇷丶奥利, server: 62.210.10.113, port: 33998, client-fingerprint: chrome, type: tuic, password: dongtaiwang.com, uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8, sni: bing.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: bbr}
 #
 #
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北, server: tw.399403.xyz, port: 8443, type: anytls, password: dongtaiwang.com, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, skip-cert-verify: true, alpn: ["h2", "http/1.1"]}
+#  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北, server: tw.399403.xyz, port: 8443, type: anytls, password: dongtaiwang.com, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, skip-cert-verify: true, alpn: ["h2", "http/1.1"]}
 #
 #
   - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿🌌𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶成田丶🇯🇵, server: 38.180.28.163, port: 8443, type: trojan, password: "o?]VX)l2Tw|leEn)", ip-version: ipv4, network: ws, tfo: true, mptcp: true, ws-opts : {path: "/trBmRStigXkuumXpOU/MTU4LjEwMS42NS4xNTUsMTY4LjEzOC4yMDEuMCwxMzIuMjI2LjEuMjI3LDE0NC4yNC44My4zOSwxNTIuNjkuMjM0LjIwNywxMjkuMTU0LjUwLjE1OQ==", headers: {Host: "bqb.agenting.dpdns.org"}, max-early-data: 2560, early-data-header-name: Sec-WebSocket-Protocol}, sni: "Bqb.AgeNtinG.DpdnS.Org", alpn: ["http/1.1"], client-fingerprint: random, skip-cert-verify: false}
@@ -205,7 +205,7 @@ proxy-groups:
       - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐓𝐮𝐢𝐜 ㏢🇫🇷丶奥利
 #
 #
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北
+#      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北
 #
 #
 #      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇭🇰丶九龍丶🇭🇰
@@ -10789,3 +10789,4 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
