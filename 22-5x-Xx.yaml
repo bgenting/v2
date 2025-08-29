@@ -9,11 +9,6 @@ external-controller: :9090
 proxies:
 #
 #
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇫🇷丶 巴黎, server: 51.159.111.32, port: 5355, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 洛杉磯, server: 108.181.22.213, port: 15167, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇫🇷丶 西岛, server: 51.159.111.32, port: 5355, client-fingerprint: chrome, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: true}
-#
-#
   - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯, server: 108.181.24.77, port: 37872, type: hysteria, auth_str: dongtaiwang.com, tag: dongtaiwang.com, up: 11, down: 55, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯, server: 208.87.243.151, port: 38845, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南, server: 51.159.226.1, port: 49003, type: hysteria, auth_str: dongtaiwang.com, tag: dongtaiwang.com, up: 11, down: 55, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
@@ -21,133 +16,6 @@ proxies:
   - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利, server: 62.210.10.113, port: 13767, type: hysteria, auth_str: dongtaiwang.com, tag: dongtaiwang.com, up: 11, down: 55, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区, server: 51.159.111.32, port: 23880, type: hysteria, auth_str: dongtaiwang.com, tag: dongtaiwang.com, up: 11, down: 55, sni: bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹, server: 109.104.153.91, port: 37519, ports: 10000-20000, mport: 10000-20000, type: hysteria, auth_str: dongtaiwang.com, tag: dongtaiwang.com, up: 11, down: 55, sni: apple.com, skip-cert-verify: true, alpn: [h3]}
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬 🇷🇺丶 莫斯科, server: 62.210.25.13, port: 11111, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬𝐫 🇫🇷丶伊夫里, server: dongtaiwang5.com, port: 35000, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬𝐫 🇳🇱丶阿姆斯特丹, server: dongtaiwang5.com, port: 35000, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐕𝐋𝐞𝐬𝐬 🇫🇷丶伊夫里, server: 212.129.5.242, port: 55866, reality-opts: {public-key: "wj5rtBzhRsju4lciRg02M3SKfBJyP0wKMRM93yHj-h0", short-id: "100cf71a" }, client-fingerprint: chrome, type: vless, uuid: ade83fd4-5fe3-4862-8edf-be9eeb182435, tls: true, flow: xtls-rprx-vision, skip-cert-verify: false, servername: www.yahoo.com, network: tcp}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐕𝗠𝐞𝐬𝐬 🇫🇷丶伊夫里, server: 195.154.40.247, port: 39604, type: vmess, uuid: ade83fd4-5fe3-4862-8edf-be9eeb182435, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: www.bing.com}}}
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐓𝐮𝐢𝐜 ㏢🇫🇷丶奥利, server: 62.210.10.113, port: 33998, client-fingerprint: chrome, type: tuic, password: dongtaiwang.com, uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8, sni: bing.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 15000, udp-relay-mode: native, congestion-controller: bbr}
-#
-#
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北, server: tw.399403.xyz, port: 8443, type: anytls, password: dongtaiwang.com, udp: true, idle-session-check-interval: 30, idle-session-timeout: 30, min-idle-session: 0, skip-cert-verify: true, alpn: ["h2", "http/1.1"]}
-#
-#
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿🌌𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶成田丶🇯🇵, server: 38.180.28.163, port: 8443, type: trojan, password: "o?]VX)l2Tw|leEn)", ip-version: ipv4, network: ws, tfo: true, mptcp: true, ws-opts : {path: "/trBmRStigXkuumXpOU/MTU4LjEwMS42NS4xNTUsMTY4LjEzOC4yMDEuMCwxMzIuMjI2LjEuMjI3LDE0NC4yNC44My4zOSwxNTIuNjkuMjM0LjIwNywxMjkuMTU0LjUwLjE1OQ==", headers: {Host: "bqb.agenting.dpdns.org"}, max-early-data: 2560, early-data-header-name: Sec-WebSocket-Protocol}, sni: "Bqb.AgeNtinG.DpdnS.Org", alpn: ["http/1.1"], client-fingerprint: random, skip-cert-verify: false}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿🌌𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶新北丶🇹🇼, server: 220.135.202.250, port: 81, type: trojan, password: "o?]VX)l2Tw|leEn)", ip-version: ipv4, network: ws, tfo: true, mptcp: true, ws-opts : {path: "/tr0AdFCpn6l1TvMem4/MTU4LjEwMS42NS4xNTUsMTY4LjEzOC4yMDEuMCwxMzIuMjI2LjEuMjI3LDE0NC4yNC44My4zOSwxNTIuNjkuMjM0LjIwNywxMjkuMTU0LjUwLjE1OQ==", headers: {Host: "bqb.agenting.dpdns.org"}, max-early-data: 2560, early-data-header-name: Sec-WebSocket-Protocol}, sni: "BqB.agENTiNG.DPdnS.ORg", alpn: ["http/1.1"], client-fingerprint: random, skip-cert-verify: false}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰, server: xxxxxxxx.tk.cdn.cloudflare.net, port: 443, type: trojan, password: qw6698, sni: sdgsd.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: sdgsd.pages.dev}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶新界丶🇭🇰, server: url.zzzzzz.hidns.vip, port: 8443, type: trojan, password: qw6698, sni: sdgsd.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: sdgsd.pages.dev}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶台北丶🇹🇼, server: 114.34.202.224, port: 10004, type: trojan, password: qw6698, sni: sdgsd.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: sdgsd.pages.dev}}}
-#
-#
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸, server: 104.18.114.1, port: 443, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸, server: 104.18.114.2, port: 443, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸, server: 104.18.114.3, port: 443, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼, server: 114.34.202.224, port: 10004, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼, server: 104.18.114.4, port: 443, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷, server: 106.255.89.151, port: 50000, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇰🇷丶京畿道丶🇰🇷, server: 121.168.144.41, port: 50000, client-fingerprint: random, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: hk.laoyoutiao.link}}}
-#
-#
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐓𝐫𝐨𝐉𝐚𝐧 🇰🇷丶京畿道丶🇰🇷, server: 221.151.212.249, port: 50000, type: trojan, password: qw6698, sni: sdgsd.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: sdgsd.pages.dev}}}
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇹🇼丶台北丶🇹🇼, type: http, server: hkre3-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true }
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇮🇳丶印度丶🇮🇳, type: http, server: uscera1-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true }
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇹🇼丶台南丶🇹🇼, type: http, server: tw2-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true }
-  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇺🇸丶紐約丶🇺🇸, type: http, server: uscera2-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true }
-#
-#
-#  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇯🇵丶大阪丶🇯🇵, server: jp3.dexlos.com, port: 5307, ports: 5000-6000, mport: 5000-6000, client-fingerprint: chrome, type: hysteria2, password: D9BE3463-2E55-4694-9212-D4B3D7F9ED67, auth: D9BE3463-2E55-4694-9212-D4B3D7F9ED67, skip-cert-verify: false}
-#
-#
-  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇺🇸丶加州丶🇺🇸, server: v5.heduian.link, port: 30805, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-  - {name: 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇳🇱丶梅珀尔丶🇳🇱, server: v30.heduian.link, port: 30830, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-#
-#
-#  - {name: 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇯🇵丶大阪丶🇯🇵, server: jp3.dexlos.com, port: 5307, ports: 5000-6000, mport: 5000-6000, client-fingerprint: chrome, type: hysteria2, password: D9BE3463-2E55-4694-9212-D4B3D7F9ED67, auth: D9BE3463-2E55-4694-9212-D4B3D7F9ED67, skip-cert-verify: false}
-#
-#
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇫🇷丶伊夫里丶🇫🇷, server: fr1a-20250420.88888009.xyz, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, tls: false, cipher: auto, network: ws, ws-opts: {path: /windows, headers: {Host: fr1a-20250420.88888009.xyz}, v2ray-http-upgrade: true, v2ray-http-upgrade-fast-open: true}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇷🇺丶莫斯科丶🇷🇺, server: ru1a-20250420.88888009.xyz, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, tls: false, cipher: auto, network: ws, ws-opts: {path: /windows, headers: {Host: ru1a-20250420.88888009.xyz}, v2ray-http-upgrade: true, v2ray-http-upgrade-fast-open: true}}
-  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇺🇸丶弗吉尼亚丶🇺🇸, server: us2a-20250420.88888009.xyz, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, tls: false, cipher: auto, network: ws, ws-opts: {path: /windows, headers: {Host: us2a-20250420.88888009.xyz}, v2ray-http-upgrade: true, v2ray-http-upgrade-fast-open: true}}
-#
-#
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️🟣𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇭🇰丶尖沙咀丶🇭🇰, server: 103.103.245.158, port: 636, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /cauejypbltqt, tls: true, mux: true, skip-cert-verify: false}}
-#
-#
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸, server: 172.64.229.107, port: 443, client-fingerprint: chrome, type: vless, uuid: 0aef6523-d56f-4894-bf8b-08963104ec07, tls: true, tfo: false, skip-cert-verify: false, servername: bQB.AGentiNg.dpdNs.oRg, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: bQB.AGentiNg.dpdNs.oRg}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶弗吉尼丶🇺🇸, server: 162.159.22.239, port: 443, client-fingerprint: chrome, type: vless, uuid: 0aef6523-d56f-4894-bf8b-08963104ec07, tls: true, tfo: false, skip-cert-verify: false, servername: bQB.AGentiNg.dpdNs.oRg, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: bQB.AGentiNg.dpdNs.oRg}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶圣何塞丶🇺🇸, server: 104.18.182.47, port: 443, client-fingerprint: chrome, type: vless, uuid: 0aef6523-d56f-4894-bf8b-08963104ec07, tls: true, tfo: false, skip-cert-verify: false, servername: bQB.AGentiNg.dpdNs.oRg, network: ws, ws-opts: {path: "/?ed=0601c653", headers: {Host: bQB.AGentiNg.dpdNs.oRg}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵, server: privasi.najah.biz.id, port: 443, client-fingerprint: chrome, type: vless, uuid: 0fbf4f81-2598-4b6a-a623-0ead4cb9efa8, tls: true, tfo: false, skip-cert-verify: false, servername: privasi.najah.biz.id, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP91.194.160.45-8443, headers: {Host: privasi.najah.biz.id}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷, server: privasi.najah.biz.id, port: 443, client-fingerprint: chrome, type: vless, uuid: 0fbf4f81-2598-4b6a-a623-0ead4cb9efa8, tls: true, tfo: false, skip-cert-verify: false, servername: privasi.najah.biz.id, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP59.5.53.119-20315, headers: {Host: privasi.najah.biz.id}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇹🇼, server: privasi.najah.biz.id, port: 443, client-fingerprint: chrome, type: vless, uuid: 0fbf4f81-2598-4b6a-a623-0ead4cb9efa8, tls: true, tfo: false, skip-cert-verify: false, servername: privasi.najah.biz.id, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP141.11.87.111-8080, headers: {Host: privasi.najah.biz.id}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵, server: 91.194.160.45, port: 8443, client-fingerprint: chrome, type: vless, uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb, tls: true, servername: jd.chenchuanjin.sbs, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP0601c653, headers: {Host: jd.chenchuanjin.sbs}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷, server: 175.193.18.219, port: 50000, client-fingerprint: chrome, type: vless, uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb, tls: true, servername: jd.chenchuanjin.sbs, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP0601c653, headers: {Host: jd.chenchuanjin.sbs}}}
-#//  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇹🇼, server: 118.163.37.32, port: 81, client-fingerprint: chrome, type: vless, uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb, tls: true, servername: jd.chenchuanjin.sbs, network: ws, ws-opts: {path: /Free-CF-Proxy-EUROP0601c653, headers: {Host: jd.chenchuanjin.sbs}}}
-#
-#
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇸🇬丶狮城丶🇸🇬, server: 210.87.111.224, port: 56875, reality-opts: {public-key: QKXJbu4xmPWa2mwrXdgIpmqHHyVKkEz2prt6UDKvlFo, short-id: "f117a7051766" }, client-fingerprint: chrome, type: vless, uuid: 90ad2ed3-6919-45f9-be3b-bc55ee6b38e1, tls: true, servername: tesla.com, network: tcp}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵, server: 168.138.193.174, port: 11959, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶中坜丶🇹🇼, server: 141.11.86.94, port: 18333, client-fingerprint: chrome, type: vless, uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa, tls: true, tfo: false, skip-cert-verify: true, servername: barayeiranmahsang.sabzipolobamahi.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: barayeiranmahsang.sabzipolobamahi.dpdns.org}}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇹🇼, server: 118.163.37.32, port: 81, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇭🇰丶新界丶🇭🇰, server: url.zzzzzz.hidns.vip, port: 8443, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-#
-#
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇺🇸, server: www.visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇺🇸, server: www.visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇺🇸, server: www.visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: 3f238800-9ac3-4e08-953e-8253fa2f94ff, tls: true, tfo: false, skip-cert-verify: true, servername: luo66.dpdns.org, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: luo66.dpdns.org}}}
-#
-#
-  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇸🇬丶新加坡丶🇸🇬, server: 210.87.111.224, port: 56875, reality-opts: {public-key: QKXJbu4xmPWa2mwrXdgIpmqHHyVKkEz2prt6UDKvlFo, short-id: "f117a7051766" }, client-fingerprint: chrome, type: vless, uuid: 90ad2ed3-6919-45f9-be3b-bc55ee6b38e1, tls: true, tfo: false, skip-cert-verify: true, servername: tesla.com, network: tcp}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷, server: 211.253.196.188, port: 30021, client-fingerprint: chrome, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: true, tfo: false, skip-cert-verify: true, servername: cf.d3z.net, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: cf.d3z.net}}}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶京畿道丶🇰🇷, server: 175.208.202.41, port: 20583, client-fingerprint: chrome, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: true, tfo: false, skip-cert-verify: true, servername: yg.bantony199.top, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: yg.bantony199.top}}}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶防失联丶🇰🇷, server: 119.201.102.153, port: 50000, client-fingerprint: chrome, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: true, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: /Free-CF-IP-0601c653, headers: {Host: hk.laoyoutiao.link}}}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵, server: v6.heduian.link, port: 30806, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶拉斯维加斯丶🇺🇸, server: tk.hzlt.tkddns.xyz, port: 22643, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {"path":"/","headers":{"Host":"zxjp-c.tkong.cc"}},"servername":"zxjp-c.tkong.cc"}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶拉斯维加斯丶🇺🇸, server: v30.heduian.link, port: 30830, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶亚特兰大丶🇺🇸, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶亚特兰大丶🇺🇸, server: v5.heduian.link, port: 30805, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶深圳丶🇨🇳, server: jsm.cm.xiaomi-api.xyz, port: 39111, client-fingerprint: chrome, type: vmess, uuid: c3ff91fb-6263-3eec-ad45-2fc5843d2a98, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶江门丶🇨🇳, server: jsm.cm.xiaomi-api.xyz, port: 39112, client-fingerprint: chrome, type: vmess, uuid: c3ff91fb-6263-3eec-ad45-2fc5843d2a98, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶深圳丶🇨🇳, server: 120.232.17.9, port: 45269, client-fingerprint: chrome, type: vmess, uuid: 3bb7e826-6bc8-43ec-a22b-c65d8f30c4e5, alterId: 0, cipher: auto, tls: false}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰, server: 112.65.92.20, port: 45211, client-fingerprint: chrome, type: vmess, uuid: 3bb7e826-6bc8-43ec-a22b-c65d8f30c4e5, alterId: 0, cipher: auto, tls: false}
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰, server: 120.232.153.40, port: 43292, client-fingerprint: chrome, type: vmess, uuid: 3bb7e826-6bc8-43ec-a22b-c65d8f30c4e5, alterId: 0, cipher: auto, tls: false}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, servername: ocbc.com, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇳🇱丶莱利斯塔德丶🇳🇱, server: v30.heduian.link, port: 30830, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶北伯根丶🇺🇸, server: v32.heduian.link, port: 30832, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
-#
-#
-#  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇹🇼丶新北丶🇹🇼, server: url.zzzzzz.hidns.vip, port: 443, client-fingerprint: chrome, type: ss, cipher: none, password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1, tfo: false}
-#  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇯🇵丶東京丶🇯🇵, server: 168.138.193.174, port: 11959, client-fingerprint: chrome, type: ss, cipher: none, password: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1, tfo: false}
-#
-#
-#  - {name: 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶长沙湾丶🇭🇰, server: dozo01.flztjc.top, port: 8313, client-fingerprint: chrome, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: hk-13-568.flztjc.net, skip-cert-verify: true}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶新北丶🇹🇼, server: 141.11.86.94, port: 18333, client-fingerprint: chrome, type: trojan, password: bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb, sni: url.zzzzzz.hidns.vip, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-CF-Proxy-TW2, headers: {Host: url.zzzzzz.hidns.vip}}}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶中坜丶🇹🇼, server: url.zzzzzz.hidns.vip, port: 443, client-fingerprint: chrome, type: trojan, password: bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb, sni: url.zzzzzz.hidns.vip, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-CF-Proxy-TW5, headers: {Host: url.zzzzzz.hidns.vip}}}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶東京丶🇯🇵, server: 168.138.193.174, port: 11959, client-fingerprint: chrome, type: trojan, password: bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb, sni: url.zzzzzz.hidns.vip, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-CF-Proxy-TW2, headers: {Host: url.zzzzzz.hidns.vip}}}
-  - {name: 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇸🇬丶狮城丶🇸🇬, server: 185.81.28.95, port: 30503, client-fingerprint: chrome, type: trojan, password: bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb, sni: url.zzzzzz.hidns.vip, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-CF-Proxy-SG5, headers: {Host: url.zzzzzz.hidns.vip}}}
-#
-#
-  - {name: 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶新界丶🇭🇰, server: 118.107.245.20, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/170733132233, headers: {Host: www.16452063.xyz}}}
-#
-#
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶新界丶🇭🇰, server: 2206.237.12.75, port: 1080, type: socks5, username: admin, password: admin, tls: false}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶九龍丶🇭🇰, server: 206.237.13.66, port: 1080, type: socks5, username: admin, password: admin, tls: false}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶中西區丶🇭🇰, server: 206.237.13.157, port: 1080, type: socks5, username: admin, password: admin, tls: false}
-#  - {name: 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶尖沙咀丶🇭🇰, server: 206.237.12.94, port: 1080, type: socks5, username: admin, password: admin, tls: false}
 #
 #
 proxy-groups:
@@ -159,265 +27,13 @@ proxy-groups:
 #      - ⛔️ 广告拦截
 #
 #
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇫🇷丶 巴黎
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 莫斯科
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇳🇱丶 阿姆斯特丹
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 莫斯科
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇫🇷丶 巴黎
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇺🇸丶 洛杉磯
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 莫斯科
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇫🇷丶 西岛
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 ㏢丶🇷🇺丶 俄罗斯
-#
-#
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 舊金山
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 迈阿密
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 华盛顿
       - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
       - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇷🇺丶 莫斯科
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇷🇺丶 莫斯科
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
       - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
       - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
       - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
       - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
       - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇷🇺丶 俄罗斯
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐭𝐭𝐩 ㏢丶🇺🇸丶 舊金山
-#
-#
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬 🇷🇺丶 莫斯科
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬𝐫 🇫🇷丶伊夫里
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐒𝐬𝐫 🇳🇱丶阿姆斯特丹
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐕𝐋𝐞𝐬𝐬 🇫🇷丶伊夫里
-#
-#
-#     - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐕𝗠𝐞𝐬𝐬 🇫🇷丶伊夫里
-#
-#
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐓𝐮𝐢𝐜 ㏢🇫🇷丶奥利
-#
-#
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝗔𝗻𝘆𝘁𝗹𝘀 ㏢丶🇹🇼丶台北
-#
-#
-#      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇭🇰丶九龍丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇯🇵丶成田丶🇯🇵
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇫🇷丶 奧奈叢林丶🇫🇷
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷塞丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇩🇪丶德赖艾希丶🇩🇪
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷塞丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌹𝐕𝐋𝐞𝐬𝐬 🇺🇸丶水牛城丶🇺🇸
-#
-#
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿🌌𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶成田丶🇯🇵
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿🌌𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶新北丶🇹🇼
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶新界丶🇭🇰
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶台北丶🇹🇼
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶香港丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶葵青区丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇲🇾丶槟城丶🇲🇾
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️🌿𝐓𝐫𝐨𝐉𝐚𝐧 🇬🇧丶伦敦丶🇬🇧
-#
-#
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇰🇷丶京畿道丶🇰🇷         
-#
-#
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶九龍丶🇭🇰
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶尖沙咀丶🇭🇰
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐓𝐫𝐨𝐉𝐚𝐧 🇰🇷丶京畿道丶🇰🇷
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐕𝗠𝐞𝐬𝐬 🇷🇺丶莫斯科丶🇷🇺
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐕𝗠𝐞𝐬𝐬 🇰🇷丶京畿道丶🇰🇷
-#
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐇𝐭𝐭𝐩 🇯🇵丶東京丶🇯🇵
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇹🇼丶台北丶🇹🇼
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐇𝐭𝐭𝐩 🇵🇱丶華沙丶🇵🇱
-#
-#
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇮🇳丶印度丶🇮🇳
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇯🇵丶東京丶🇯🇵
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇭🇰丶尖沙咀丶🇭🇰
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇺🇸丶紐約丶🇺🇸
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇹🇼丶台南丶🇹🇼
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐭𝐭𝐩 🇦🇺丶悉尼丶🇦🇺
-#
-#
-#      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️💧𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇯🇵丶大阪丶🇯🇵
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇯🇵丶大阪丶🇯🇵
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇯🇵丶北海道丶🇯🇵
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇩🇪丶耶拿丶🇩🇪
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇩🇪丶莱比锡丶🇩🇪
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝐋𝐞𝐬𝐬 🇯🇵丶長崎丶🇯🇵
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐓𝐫𝐨𝐉𝐚𝐧 🇰🇷丶忠清道丶🇰🇷
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶東京丶🇯🇵
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇹🇭丶曼谷丶🇹🇭
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇺🇸丶加州丶🇺🇸
-      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇳🇱丶梅珀尔丶🇳🇱
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐕𝗠𝐞𝐬𝐬 🇭🇰丶西區丶🇭🇰
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇸🇬丶狮城丶🇸🇬
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇬🇧丶倫敦丶🇬🇧
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️💻𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇨🇦丶旺市丶🇨🇦
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️💻𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇨🇦丶安大略丶🇨🇦
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💻𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶紐約丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💻𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶費城丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️💻𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶華盛頓丶🇺🇸
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇹🇼丶台北丶🇹🇼
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇭🇰丶九龍丶🇭🇰
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇯🇵丶大阪丶🇯🇵
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇹🇼丶台中丶🇹🇼
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇭🇰丶葵青區丶🇭🇰
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️🌌𝐕𝐋𝐞𝐬𝐬 🇮🇳丶德里丶🇮🇳
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇺🇸丶達拉斯丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶芝加哥丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶華盛頓丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶新泽西丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇫🇷丶巴黎丶🇫🇷
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇫🇷丶里昂丶🇫🇷
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇫🇷丶马赛丶🇫🇷
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇫🇷丶尼斯丶🇫🇷
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️🌌𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇫🇷丶伊夫里丶🇫🇷
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇷🇺丶莫斯科丶🇷🇺    
-      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇺🇸丶弗吉尼亚丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝗠𝐞𝐬𝐬 🇭🇰丶九龍丶🇭🇰
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️🌌𝐕𝗠𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶葵青區丶🇭🇰
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶葵青區丶🇭🇰
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇯🇵丶大阪丶🇯🇵
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶佛罗里达丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇸🇬丶狮城丶🇸🇬
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️🌌𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶弗吉尼丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇱🇹丶维尔纽斯丶🇱🇹
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇺🇸丶新泽西丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇺🇸丶弗吉尼丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇺🇸丶帕特森丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⬇️𝐕𝐋𝐞𝐬𝐬 🇺🇸丶特伦顿丶🇺🇸
-#
-#
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇹🇼丶高雄丶🇹🇼
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇭🇰丶九龍丶🇭🇰
-#      - 「㋃𝐊𝐢𝐍𝐠𝐒²⁵」™️🪐𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇭🇰丶尖沙咀丶🇭🇰
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️🟣𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇭🇰丶尖沙咀丶🇭🇰
-#
-#
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶弗吉尼丶🇺🇸
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐕𝐋𝐞𝐬𝐬 🇺🇸丶圣何塞丶🇺🇸
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷
-#//      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇹🇼
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶中坜丶🇹🇼
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇹🇼
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇸🇬丶狮城丶🇸🇬
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇭🇰丶新界丶🇭🇰
-#
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇯🇵丶東京丶🇺🇸
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇺🇸
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇼丶新北丶🇺🇸
-#
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇺🇸丶俄勒冈丶🇺🇸
-      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇸🇬丶新加坡丶🇸🇬
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇻🇳丶 河內丶🇻🇳
-#      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇭🇰丶 防失联丶🇭🇰
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶忠清道丶🇰🇷
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶京畿道丶🇰🇷
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇰🇷丶防失联丶🇰🇷
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇵🇱丶華沙丶🇵🇱
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝐋𝐞𝐬𝐬 🇹🇷丶伊斯坦布尔丶🇹🇷
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇯🇵丶東京丶🇯🇵
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶拉斯维加斯丶🇺🇸
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶亚特兰大丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶深圳丶🇨🇳
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶江门丶🇨🇳
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇨🇳丶深圳丶🇨🇳
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶中西區丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇳🇱丶莱利斯塔德丶🇳🇱
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶北伯根丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇰🇷丶首尔丶🇰🇷
-      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇭🇰丶新界丶🇭🇰
-#      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇹🇼丶彰化丶🇹🇼
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶洛杉矶丶🇺🇸
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇺🇸丶圣何塞丶🇺🇸
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐕𝗠𝐞𝐬𝐬 🇮🇹丶罗马丶🇮🇹
-#
-#
-#      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇹🇼丶新北丶🇹🇼
-#      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇯🇵丶東京丶🇯🇵
-#
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇭🇰丶长沙湾丶🇭🇰
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶新北丶🇹🇼
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇹🇼丶中坜丶🇹🇼
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇯🇵丶東京丶🇯🇵
-      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐓𝐫𝐨𝐉𝐚𝐧 🇸🇬丶狮城丶🇸🇬
-#
-#      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪🌌𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶弗吉尼亚丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶芝加哥丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶北伯根丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇱🇮丶列支敦士登丶🇱🇮
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇺🇸丶拉斯维加斯丶🇺🇸
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇨🇦丶安大略丶🇨🇦
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇨🇦丶多伦多丶🇨🇦
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇹🇼丶桃园丶🇹🇼
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇭🇰丶九龍丶🇭🇰
-#      - 「㋆𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚2 🇯🇵丶東京丶🇯🇵
-#
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁵」™️⚪𝗦𝗵𝗮𝗱𝗼𝘄𝐬𝗼𝗰𝗸𝐬 🇷🇺丶 莫斯科丶🇷🇺
-#
-#
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶新界丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶九龍丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶中西區丶🇭🇰
-#      - 「㋅𝐊𝐢𝐍𝐠𝐒²⁴」💦𝗦𝗼𝗰𝗸𝘀5 ㏢丶🇭🇰丶尖沙咀丶🇭🇰
 #
 #
   - name: ♻️ 自动选择
@@ -427,11 +43,13 @@ proxy-groups:
     proxies:
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: 🎥 NETFLIX
@@ -442,11 +60,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: ⛔️ 广告拦截
@@ -469,11 +89,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: 🌏 国内媒体
@@ -488,11 +110,13 @@ proxy-groups:
       - 🔰 节点选择
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: 📲 电报信息
@@ -502,11 +126,13 @@ proxy-groups:
       - 🎯 全球直连
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: 🍎 苹果服务
@@ -517,11 +143,13 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
   - name: 🎯 全球直连
@@ -543,11 +171,13 @@ proxy-groups:
       - ♻️ 自动选择
 #
 #
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶達拉斯丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶聖荷西丶🇺🇸
-      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇺🇸丶舊金山丶🇺🇸
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶桃園丶🇹🇼
-      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」™️🌳𝐕𝐋𝐞𝐬𝐬 🇹🇼丶高雄丶🇹🇼 
+      - 「㋁𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 洛杉磯      
+      - 「㋀𝐊𝐢𝐍𝐠𝐒²⁴」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇺🇸丶 拉斯维加斯
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 越南
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇻🇳丶 河內
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 奥利
+      - 「㋄𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇫🇷丶 西区
+      - 「㋇𝐊𝐢𝐍𝐠𝐒²⁵」🦅𝐇𝐲𝐬𝐭𝐞𝐫𝐢𝐚 ㏢丶🇳🇱丶 阿姆斯特丹
 #
 #
 rules:
@@ -10789,5 +10419,6 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
